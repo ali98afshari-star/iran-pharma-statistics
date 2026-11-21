@@ -46,6 +46,8 @@
     <button type="button" class="main-tab active" data-tab="annual" role="tab" aria-selected="true">سالانه</button>
     <button type="button" class="main-tab" data-tab="monthly" role="tab" aria-selected="false">ماهانه</button>
     <button type="button" class="main-tab" data-tab="province" role="tab" aria-selected="false">به تفکیک استان</button>
+    <button type="button" class="main-tab" data-tab="distributor" role="tab" aria-selected="false">توزیع‌کننده</button>
+    <button type="button" class="main-tab" data-tab="manufacturer" role="tab" aria-selected="false">تولیدکننده</button>
   </nav>
 
   <!-- ============ TAB: ANNUAL ============ -->
@@ -174,6 +176,72 @@
     <p class="note" id="prov-note"></p>
   </section>
 
+  <!-- ============ TAB: DISTRIBUTOR ============ -->
+  <section id="panel-distributor" class="tab-panel" role="tabpanel" aria-label="توزیع‌کننده" hidden>
+    <h2>فروش به تفکیک توزیع‌کننده</h2>
+    <p class="desc">سهم هر شرکت پخش از فروش داروی کشور. روی هر ردیف بزنید تا پرفروش‌ترین ژنریک‌ها و برندهای آن توزیع‌کننده را ببینید.</p>
+    <div class="controls">
+      <div class="tabs" role="tablist" aria-label="سال">
+        <button type="button" class="tab active" data-dist-year="1404">سال ۱۴۰۴</button>
+        <button type="button" class="tab" data-dist-year="1405">نیمهٔ اول ۱۴۰۵</button>
+      </div>
+      <div class="tabs" role="tablist" aria-label="مرتب‌سازی">
+        <button type="button" class="tab active" data-dist-sort="value">بر اساس ارزش</button>
+        <button type="button" class="tab" data-dist-sort="units">بر اساس واحد فروش</button>
+      </div>
+    </div>
+    <div class="cards" id="dist-cards"></div>
+    <div class="search-box">
+      <input type="search" id="dist-query" placeholder="جست‌وجوی توزیع‌کننده…" aria-label="جست‌وجوی توزیع‌کننده">
+      <span id="dist-count" class="muted"></span>
+    </div>
+    <h3>نمودار توزیع‌کننده‌ها (بر اساس ارزش مصرف‌کننده)</h3>
+    <div class="chart-box">
+      <svg id="dist-chart" viewBox="0 0 960 560" role="img" aria-label="نمودار فروش توزیع‌کننده‌ها"></svg>
+    </div>
+    <div class="table-wrap">
+      <table id="dist-table" class="sortable">
+        <thead><tr><th data-sort="rank">#</th><th data-sort="distributor">نام</th><th data-sort="units">واحد فروش (عدد)</th><th data-sort="value_consumer">ارزش مصرف‌کننده (میلیارد تومان)</th><th data-sort="value_distributor">ارزش توزیع‌کننده (میلیارد تومان)</th><th data-sort="share">سهم ارزشی</th><th data-sort="distinct_generic_codes">کد ژنریک یکتا</th><th data-sort="distinct_brands">برند یکتا</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">منبع: فایل‌های ماهانهٔ ملی سالنامه‌های رسمی (برش استانی برش متفاوتی است و با این ارقام ترکیب نمی‌شود). در هیچ‌یک از دو سال ردیف بدون نام توزیع‌کننده وجود نداشت.</p>
+    <div id="dist-detail" class="detail" hidden></div>
+  </section>
+
+  <!-- ============ TAB: MANUFACTURER ============ -->
+  <section id="panel-manufacturer" class="tab-panel" role="tabpanel" aria-label="تولیدکننده" hidden>
+    <h2>فروش به تفکیک تولیدکننده</h2>
+    <p class="desc">سهم هر تولیدکننده از فروش داروی کشور. روی هر ردیف بزنید تا پرفروش‌ترین ژنریک‌ها و برندهای آن تولیدکننده را ببینید.</p>
+    <div class="controls">
+      <div class="tabs" role="tablist" aria-label="سال">
+        <button type="button" class="tab active" data-manuf-year="1404">سال ۱۴۰۴</button>
+        <button type="button" class="tab" data-manuf-year="1405">نیمهٔ اول ۱۴۰۵</button>
+      </div>
+      <div class="tabs" role="tablist" aria-label="مرتب‌سازی">
+        <button type="button" class="tab active" data-manuf-sort="value">بر اساس ارزش</button>
+        <button type="button" class="tab" data-manuf-sort="units">بر اساس واحد فروش</button>
+      </div>
+    </div>
+    <div class="cards" id="manuf-cards"></div>
+    <div class="search-box">
+      <input type="search" id="manuf-query" placeholder="جست‌وجوی تولیدکننده…" aria-label="جست‌وجوی تولیدکننده">
+      <span id="manuf-count" class="muted"></span>
+    </div>
+    <h3>نمودار تولیدکننده‌ها (بر اساس ارزش مصرف‌کننده)</h3>
+    <div class="chart-box">
+      <svg id="manuf-chart" viewBox="0 0 960 560" role="img" aria-label="نمودار فروش تولیدکننده‌ها"></svg>
+    </div>
+    <div class="table-wrap">
+      <table id="manuf-table" class="sortable">
+        <thead><tr><th data-sort="rank">#</th><th data-sort="manufacturer">نام</th><th data-sort="units">واحد فروش (عدد)</th><th data-sort="value_consumer">ارزش مصرف‌کننده (میلیارد تومان)</th><th data-sort="value_distributor">ارزش توزیع‌کننده (میلیارد تومان)</th><th data-sort="share">سهم ارزشی</th><th data-sort="distinct_generic_codes">کد ژنریک یکتا</th><th data-sort="distinct_brands">برند یکتا</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">منبع: فایل‌های ماهانهٔ ملی سالنامه‌های رسمی (برش استانی برش متفاوتی است و با این ارقام ترکیب نمی‌شود). ردیف‌های بدون نام تولیدکننده زیر «نامشخص» گروه‌بندی شده‌اند.</p>
+    <div id="manuf-detail" class="detail" hidden></div>
+  </section>
+
   <!-- ============ CAVEATS (always visible) ============ -->
   <section id="caveats" aria-labelledby="cav-h">
     <h2 id="cav-h">نکته‌های مهم</h2>
@@ -193,7 +261,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <p>منبع داده: سالنامه‌های رسمی سازمان غذا و داروی ایران (Iran Food and Drug Administration) — فایل‌های Excel سالنامه در پوشهٔ amarnameh درایو. جزئیات منابع و روش استخراج: <a href="https://github.com/ali98afshari-star/iran-pharma-statistics/blob/main/data/SOURCES.md">data/SOURCES.md</a></p>
-    <p>داده‌های این داشبورد از فایل <code>data.json</code> همین پوشه خوانده می‌شوند. مجوز: MIT.</p>
+    <p>داده‌های این داشبورد از فایل <code>data.json</code> همین پوشه خوانده می‌شوند. کپی‌رایت © ۲۰۲۶ علی افشاری — تمامی حقوق محفوظ است.</p>
   </div>
 </footer>
 
