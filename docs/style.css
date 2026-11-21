@@ -111,7 +111,7 @@ code { direction: ltr; unicode-bidi: embed; background: #efefec; padding: 0 4px;
   font-family: inherit; font-size: 1.05rem; font-weight: 700; cursor: pointer;
   border: 1px solid var(--accent); background: var(--surface); color: var(--accent);
   border-radius: 10px 10px 0 0; border-bottom: none;
-  padding: 10px 20px; min-height: 48px; flex: 1;
+  padding: 10px 20px; min-height: 48px; flex: 1; min-width: 0;
 }
 .main-tab.active { background: var(--accent); color: #fff; }
 .tab-panel { margin-top: 4px; }
@@ -126,14 +126,16 @@ code { direction: ltr; unicode-bidi: embed; background: #efefec; padding: 0 4px;
   border-radius: 999px; padding: 1px 10px;
 }
 .tag.warn-tag { color: var(--warn-text); background: var(--warn-bg); border-color: var(--warn-border); }
-.cards { display: grid; grid-template-columns: 1fr; gap: 12px; }
+/* KPI cards are ALWAYS side by side: 2 columns even on a 360px phone,
+   3 columns from 640px. (A single stacked column was the v3.1 complaint.) */
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .card {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 14px 16px; box-shadow: var(--shadow);
+  padding: 14px 16px; box-shadow: var(--shadow); min-width: 0;
 }
-.card .label { font-size: 0.9rem; color: var(--muted); }
-.card .value { font-size: 1.3rem; font-weight: 800; direction: ltr; text-align: right; line-height: 1.5; }
-.card .sub { font-size: 0.85rem; color: var(--muted); }
+.card .label { font-size: 0.9rem; color: var(--muted); overflow-wrap: anywhere; }
+.card .value { font-size: 1.3rem; font-weight: 800; direction: ltr; text-align: right; line-height: 1.5; overflow-wrap: anywhere; }
+.card .sub { font-size: 0.85rem; color: var(--muted); overflow-wrap: anywhere; }
 
 /* ---------- controls, tabs, tables ---------- */
 .controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
@@ -153,10 +155,13 @@ select {
 .table-wrap {
   overflow-x: auto; background: var(--surface); border: 1px solid var(--border);
   border-radius: var(--radius); margin-top: 12px; box-shadow: var(--shadow);
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch; max-width: 100%;
 }
 table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
 th, td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: right; white-space: nowrap; }
+/* name cells may wrap (long Latin/Persian names) so wide tables stay
+   usable on a phone instead of forcing a huge horizontal scroll */
+td.cell-name, th.cell-name { white-space: normal; min-width: 130px; max-width: 280px; overflow-wrap: anywhere; }
 th { background: var(--accent-soft); font-weight: 700; }
 table.sortable th[data-sort] { cursor: pointer; user-select: none; }
 table.sortable th[data-sort]:hover { background: #d3e6dd; }
@@ -173,27 +178,65 @@ tbody tr.selected { background: var(--accent-soft); }
   border-radius: var(--radius); padding: 12px; box-shadow: var(--shadow);
 }
 .chart-box svg { width: 100%; height: auto; display: block; }
+/* The monthly bar+line SVG has 18 month labels; below ~720px of width its
+   text would shrink unreadably, so let it scroll horizontally instead. */
+.chart-box.chart-scroll { overflow-x: auto; }
+.chart-box.chart-scroll svg { min-width: 720px; }
+.mini-chart { overflow-x: auto; }
+.mini-chart svg { min-width: 560px; }
 .legend { display: flex; gap: 20px; flex-wrap: wrap; font-size: 0.9rem; color: var(--muted); margin-top: 6px; }
 .swatch { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: middle; margin-left: 4px; }
 .swatch.bar { background: var(--bar); }
 .swatch.line { background: var(--line); height: 4px; margin-top: 5px; }
 
-/* ---------- search + detail ---------- */
+/* ---------- HTML name bar charts (province / distributor / manufacturer) ----------
+   HTML bars (not SVG): the text stays at real size on a phone instead of
+   shrinking with a 960-wide viewBox. Name on top, value beside it, track
+   below — renders cleanly at 360px and on desktop. */
+.name-bars {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; gap: 10px;
+}
+.name-bar-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; align-items: baseline; }
+.name-bar-row .nb-name { font-size: 0.92rem; overflow-wrap: anywhere; min-width: 0; }
+.name-bar-row .nb-val { direction: ltr; font-variant-numeric: tabular-nums; font-size: 0.9rem; color: var(--muted); white-space: nowrap; }
+.name-bar-row .nb-track { grid-column: 1 / -1; background: #ececea; border-radius: 4px; height: 14px; overflow: hidden; }
+.name-bar-row .nb-fill { display: block; height: 100%; background: var(--bar); border-radius: 4px; }
+
+/* ---------- search + modal detail ---------- */
 .search-box { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .search-box input {
   font-family: inherit; font-size: 1rem; padding: 10px 12px; border: 1px solid var(--border);
   border-radius: 8px; min-width: 0; flex: 1; max-width: 520px; direction: ltr; text-align: right;
 }
-.detail {
-  background: var(--surface); border: 1px solid var(--accent); border-radius: var(--radius);
-  padding: 16px; margin-top: 14px; box-shadow: var(--shadow);
+/* Detail opens as a modal popup (overlay + centered dialog), not inline. */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(20, 30, 25, 0.55);
+  display: flex; overflow-y: auto; padding: 5vh 12px;
 }
-.detail h3 { margin: 0 0 8px; font-size: 1.15rem; }
-.detail h4 { margin: 16px 0 8px; font-size: 1rem; }
-.detail dl { display: grid; grid-template-columns: auto 1fr; gap: 2px 16px; margin: 0; }
-.detail dt { font-weight: 700; }
-.detail dd { margin: 0; direction: ltr; text-align: right; }
-.detail .mini-chart { margin-top: 8px; }
+.modal-overlay[hidden] { display: none; }
+body.modal-open { overflow: hidden; }
+.modal {
+  position: relative; margin: auto; width: 100%; max-width: 880px;
+  background: var(--surface); border-radius: var(--radius);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
+  padding: 20px; max-height: 90vh; overflow-y: auto;
+}
+.modal-close {
+  position: absolute; top: 10px; left: 10px;
+  font-family: inherit; font-size: 1.5rem; line-height: 1; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface-soft); color: var(--text);
+  border-radius: 50%; width: 40px; height: 40px; min-height: 40px; padding: 0;
+}
+.modal-close:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+.modal h3 { margin: 0 0 8px; font-size: 1.15rem; padding-left: 44px; overflow-wrap: anywhere; }
+.modal h4 { margin: 16px 0 8px; font-size: 1rem; }
+.modal dl { display: grid; grid-template-columns: auto 1fr; gap: 2px 16px; margin: 0; }
+.modal dt { font-weight: 700; }
+.modal dd { margin: 0; direction: ltr; text-align: right; overflow-wrap: anywhere; }
+.modal .mini-chart { margin-top: 8px; }
 
 /* ---------- ATC bars ---------- */
 .atc-bars { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
@@ -211,12 +254,12 @@ tbody tr.selected { background: var(--accent-soft); }
 
 /* ---------- responsive ---------- */
 @media (min-width: 640px) {
-  .cards { grid-template-columns: repeat(2, 1fr); }
+  .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .site-header h1 { font-size: 1.8rem; }
 }
 @media (min-width: 900px) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
   .year-groups { grid-template-columns: 1fr 1fr; }
+  #month-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .main-tab { flex: 0 1 auto; min-width: 180px; }
 }
 @media (min-width: 1280px) {
@@ -225,11 +268,16 @@ tbody tr.selected { background: var(--accent-soft); }
 @media (max-width: 640px) {
   body { font-size: 15px; }
   .site-header h1 { font-size: 1.3rem; }
-  .card .value { font-size: 1.15rem; }
+  .card { padding: 10px 12px; }
+  .card .label { font-size: 0.85rem; }
+  .card .value { font-size: 1.05rem; }
   .atc-row { grid-template-columns: 70px 1fr 64px; }
-  .main-tab { font-size: 0.98rem; padding: 10px 8px; }
+  .main-tabs { flex-wrap: wrap; }
+  .main-tab { flex: 1 1 30%; font-size: 0.95rem; padding: 10px 6px; }
   .ask-row { flex-direction: column; }
   .btn-primary { width: 100%; }
-  .detail dl { grid-template-columns: 1fr; gap: 0; }
-  .detail dd { margin-bottom: 6px; }
+  .modal { padding: 16px 12px; }
+  .modal dl { grid-template-columns: 1fr; gap: 0; }
+  .modal dd { margin-bottom: 6px; }
+  td.cell-name, th.cell-name { min-width: 110px; max-width: 200px; }
 }

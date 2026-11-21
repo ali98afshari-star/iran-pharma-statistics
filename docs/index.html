@@ -110,7 +110,7 @@
   <section id="panel-monthly" class="tab-panel" role="tabpanel" aria-label="ماهانه" hidden>
     <h2>روند ماهانهٔ بازار دارو</h2>
     <p class="desc">واحد فروش (میلیارد عدد) و ارزش مصرف‌کننده (هزار میلیارد تومان) برای ماه‌های فروردین ۱۴۰۴ تا شهریور ۱۴۰۵.</p>
-    <div class="chart-box">
+    <div class="chart-box chart-scroll">
       <svg id="monthly-chart" viewBox="0 0 960 380" role="img" aria-label="نمودار روند ماهانه"></svg>
       <div class="legend">
         <span><i class="swatch bar"></i> ارزش مصرف‌کننده (هزار میلیارد تومان)</span>
@@ -146,7 +146,6 @@
         <tbody><tr><td colspan="7" class="muted">برای دیدن نتایج، عبارتی را جست‌وجو کنید.</td></tr></tbody>
       </table>
     </div>
-    <div id="drug-detail" class="detail" hidden></div>
   </section>
 
   <!-- ============ TAB: PROVINCE ============ -->
@@ -164,9 +163,7 @@
     </div>
     <div class="cards" id="prov-cards"></div>
     <h3>نمودار استان‌ها (بر اساس ارزش مصرف‌کننده)</h3>
-    <div class="chart-box">
-      <svg id="prov-chart" viewBox="0 0 960 560" role="img" aria-label="نمودار فروش استانی"></svg>
-    </div>
+    <div class="name-bars" id="prov-chart" role="img" aria-label="نمودار فروش استانی"></div>
     <div class="table-wrap">
       <table id="prov-table" class="sortable">
         <thead><tr><th data-sort="rank">#</th><th data-sort="province">استان</th><th data-sort="units">واحد فروش (عدد)</th><th data-sort="value_consumer">ارزش مصرف‌کننده (میلیارد تومان)</th><th data-sort="share">سهم ارزشی استان</th></tr></thead>
@@ -196,17 +193,14 @@
       <span id="dist-count" class="muted"></span>
     </div>
     <h3>نمودار توزیع‌کننده‌ها (بر اساس ارزش مصرف‌کننده)</h3>
-    <div class="chart-box">
-      <svg id="dist-chart" viewBox="0 0 960 560" role="img" aria-label="نمودار فروش توزیع‌کننده‌ها"></svg>
-    </div>
+    <div class="name-bars" id="dist-chart" role="img" aria-label="نمودار فروش توزیع‌کننده‌ها"></div>
     <div class="table-wrap">
       <table id="dist-table" class="sortable">
-        <thead><tr><th data-sort="rank">#</th><th data-sort="distributor">نام</th><th data-sort="units">واحد فروش (عدد)</th><th data-sort="value_consumer">ارزش مصرف‌کننده (میلیارد تومان)</th><th data-sort="value_distributor">ارزش توزیع‌کننده (میلیارد تومان)</th><th data-sort="share">سهم ارزشی</th><th data-sort="distinct_generic_codes">کد ژنریک یکتا</th><th data-sort="distinct_brands">برند یکتا</th></tr></thead>
+        <thead><tr><th data-sort="rank">#</th><th data-sort="distributor">نام</th><th data-sort="top_manufacturer">تولیدکنندهٔ اصلی</th><th data-sort="units">واحد فروش (عدد)</th><th data-sort="value_consumer">ارزش مصرف‌کننده (میلیارد تومان)</th><th data-sort="value_distributor">ارزش توزیع‌کننده (میلیارد تومان)</th><th data-sort="share">سهم ارزشی</th><th data-sort="distinct_generic_codes">کد ژنریک یکتا</th><th data-sort="distinct_brands">برند یکتا</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
-    <p class="note">منبع: فایل‌های ماهانهٔ ملی سالنامه‌های رسمی (برش استانی برش متفاوتی است و با این ارقام ترکیب نمی‌شود). در هیچ‌یک از دو سال ردیف بدون نام توزیع‌کننده وجود نداشت.</p>
-    <div id="dist-detail" class="detail" hidden></div>
+    <p class="note">منبع: فایل‌های ماهانهٔ ملی سالنامه‌های رسمی (برش استانی برش متفاوتی است و با این ارقام ترکیب نمی‌شود). در هیچ‌یک از دو سال ردیف بدون نام توزیع‌کننده وجود نداشت. «تولیدکنندهٔ اصلی» تولیدکننده‌ای است که بیشترین ارزش را برای آن توزیع‌کننده دارد؛ عدد داخل پرانتز تعداد شرکت‌های تولیدکننده‌ای است که آن توزیع‌کننده با آن‌ها کار می‌کند.</p>
   </section>
 
   <!-- ============ TAB: MANUFACTURER ============ -->
@@ -229,17 +223,14 @@
       <span id="manuf-count" class="muted"></span>
     </div>
     <h3>نمودار تولیدکننده‌ها (بر اساس ارزش مصرف‌کننده)</h3>
-    <div class="chart-box">
-      <svg id="manuf-chart" viewBox="0 0 960 560" role="img" aria-label="نمودار فروش تولیدکننده‌ها"></svg>
-    </div>
+    <div class="name-bars" id="manuf-chart" role="img" aria-label="نمودار فروش تولیدکننده‌ها"></div>
     <div class="table-wrap">
       <table id="manuf-table" class="sortable">
-        <thead><tr><th data-sort="rank">#</th><th data-sort="manufacturer">نام</th><th data-sort="units">واحد فروش (عدد)</th><th data-sort="value_consumer">ارزش مصرف‌کننده (میلیارد تومان)</th><th data-sort="value_distributor">ارزش توزیع‌کننده (میلیارد تومان)</th><th data-sort="share">سهم ارزشی</th><th data-sort="distinct_generic_codes">کد ژنریک یکتا</th><th data-sort="distinct_brands">برند یکتا</th></tr></thead>
+        <thead><tr><th data-sort="rank">#</th><th data-sort="manufacturer">نام</th><th data-sort="top_distributor">توزیع‌کنندهٔ اصلی</th><th data-sort="units">واحد فروش (عدد)</th><th data-sort="value_consumer">ارزش مصرف‌کننده (میلیارد تومان)</th><th data-sort="value_distributor">ارزش توزیع‌کننده (میلیارد تومان)</th><th data-sort="share">سهم ارزشی</th><th data-sort="distinct_generic_codes">کد ژنریک یکتا</th><th data-sort="distinct_brands">برند یکتا</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
-    <p class="note">منبع: فایل‌های ماهانهٔ ملی سالنامه‌های رسمی (برش استانی برش متفاوتی است و با این ارقام ترکیب نمی‌شود). ردیف‌های بدون نام تولیدکننده زیر «نامشخص» گروه‌بندی شده‌اند.</p>
-    <div id="manuf-detail" class="detail" hidden></div>
+    <p class="note">منبع: فایل‌های ماهانهٔ ملی سالنامه‌های رسمی (برش استانی برش متفاوتی است و با این ارقام ترکیب نمی‌شود). ردیف‌های بدون نام تولیدکننده زیر «نامشخص» گروه‌بندی شده‌اند. «توزیع‌کنندهٔ اصلی» توزیع‌کننده‌ای است که بیشترین ارزش را برای آن تولیدکننده دارد؛ عدد داخل پرانتز تعداد شرکت‌های پخشی است که آن تولیدکننده با آن‌ها کار می‌کند.</p>
   </section>
 
   <!-- ============ CAVEATS (always visible) ============ -->
@@ -266,5 +257,13 @@
 </footer>
 
 <script src="./app.js"></script>
+
+<!-- ============ DETAIL MODAL ============ -->
+<div id="modal-overlay" class="modal-overlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-label="جزئیات">
+    <button type="button" class="modal-close" id="modal-close" aria-label="بستن">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
 </body>
 </html>

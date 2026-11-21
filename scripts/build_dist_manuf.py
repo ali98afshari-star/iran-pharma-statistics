@@ -10,7 +10,12 @@ Outputs:
   data/aggregates/distributor_year.parquet
   data/aggregates/manufacturer_year.parquet
   docs/data.json gains keys: distributor_year, manufacturer_year, dist_manuf_meta
-    (compact arrays: top generics/brands per item are [name, units, value_consumer])
+    (compact arrays: top generics/brands per item are
+    [name, units, value_consumer, top_counterpart, counterpart_count];
+    each row also carries top_manufacturer/top_manufacturer_count
+    (distributor rows) or top_distributor/top_distributor_count
+    (manufacturer rows) — the counterpart company with the largest value
+    for that row and how many distinct counterpart companies it works with)
 
 Blank handling: blank distributor/manufacturer rows go into a «نامشخص» bucket
 so per-year totals still reconcile exactly with market_year_totals.
@@ -66,18 +71,37 @@ def manufacturer_fa_map():
     return mapping
 
 
-def top_lists(group, name_col, n=5):
-    """Top-n by value_consumer within one (year, key) group."""
+def top_lists(group, name_col, counterpart_col, n=5):
+    """Top-n by value_consumer within one (year, key) group.
+
+    Each entry is [name, units, value_consumer, top_counterpart, counterpart_count]
+    where top_counterpart is the counterpart company (manufacturer for a
+    distributor row, distributor for a manufacturer row) with the largest
+    value_consumer for that generic/brand, and counterpart_count is how many
+    distinct counterpart companies carry it in this group."""
     g = group.groupby(name_col).agg(units=("units", "sum"), value_consumer=("value_consumer", "sum"))
     g = g[g["value_consumer"] > 0].sort_values("value_consumer", ascending=False).head(n)
-    return [[str(idx), int(r.units), int(r.value_consumer)] for idx, r in g.iterrows()]
+    out = []
+    for idx, r in g.iterrows():
+        sub = group[group[name_col] == idx]
+        c = sub.groupby(counterpart_col)["value_consumer"].sum()
+        top_c = c.idxmax() if len(c) else None
+        out.append([str(idx), int(r.units), int(r.value_consumer),
+                    str(top_c) if top_c is not None else None,
+                    int(sub[counterpart_col].nunique())])
+    return out
 
 
 def build(df, key_col, fa_map=None):
     rows = []
     df = df.copy()
     df[key_col] = df[key_col].fillna("").astype(str).str.strip().replace("", UNKNOWN)
+    counterpart_col = "manufacturer" if key_col == "distributor" else "distributor"
+    df[counterpart_col] = df[counterpart_col].fillna("").astype(str).str.strip().replace("", UNKNOWN)
     for (year, key), group in df.groupby(["year", key_col]):
+        # top counterpart company overall for this row (by value_consumer)
+        csum = group.groupby(counterpart_col)["value_consumer"].sum()
+        top_counterpart = csum.idxmax() if len(csum) else UNKNOWN
         rec = {
             "year": int(year),
             key_col: key,
@@ -88,8 +112,10 @@ def build(df, key_col, fa_map=None):
             "packages": int(group["packages"].sum()),
             "distinct_generic_codes": int(group["generic_code"].nunique()),
             "distinct_brands": int(group["brand_latin"].nunique()),
-            "top_generics": top_lists(group, "generic_name"),
-            "top_brands": top_lists(group, "brand_latin"),
+            "top_" + counterpart_col: str(top_counterpart),
+            "top_" + counterpart_col + "_count": int(group[counterpart_col].nunique()),
+            "top_generics": top_lists(group, "generic_name", counterpart_col),
+            "top_brands": top_lists(group, "brand_latin", counterpart_col),
         }
         if fa_map is not None:
             rec["manufacturer_fa"] = fa_map.get(key)
@@ -155,7 +181,8 @@ def main():
         "distributors_unique": n_dist,
         "manufacturers_unique": n_manuf,
         "manufacturers_without_fa_name_year_rows": no_fa,
-        "top_lists": "top 5 generics and top 5 brands per (year, name), by value_consumer, as [name, units, value_consumer]",
+        "top_lists": "top 5 generics and top 5 brands per (year, name), by value_consumer, as [name, units, value_consumer, top_counterpart, counterpart_count] — top_counterpart is the counterpart company (manufacturer for a distributor row, distributor for a manufacturer row) with the largest value for that generic/brand, counterpart_count is how many distinct counterpart companies carry it",
+        "top_counterpart_columns": "each row also carries top_manufacturer + top_manufacturer_count (distributor rows) or top_distributor + top_distributor_count (manufacturer rows): the counterpart company with the largest value_consumer for that row and how many distinct counterpart companies it works with",
     }
     with open(DATA_JSON, "w", encoding="utf-8") as f:
         json.dump(catalog, f, ensure_ascii=False, allow_nan=False)

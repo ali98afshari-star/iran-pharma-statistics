@@ -155,6 +155,24 @@ function submitAi() {
   askAi(q);
 }
 
+/* ================= DETAIL MODAL ================= */
+/* Details open as a modal popup (overlay + centered dialog), never inline.
+   Closes via the × button, a click on the backdrop, or Escape. */
+function openModal(html) {
+  const overlay = $('#modal-overlay');
+  $('#modal-body').innerHTML = html;
+  overlay.hidden = false;
+  document.body.classList.add('modal-open');
+  $('#modal-close').focus();
+}
+function closeModal() {
+  const overlay = $('#modal-overlay');
+  if (overlay.hidden) return;
+  overlay.hidden = true;
+  document.body.classList.remove('modal-open');
+  $('#modal-body').innerHTML = '';
+}
+
 /* ================= TABS ================= */
 function switchTab(name) {
   $$('.main-tab').forEach((b) => {
@@ -258,7 +276,7 @@ function renderYearCards() {
 
 function topRowHtml(total) {
   return (r, i) =>
-    '<tr><td class="num">' + (i + 1) + '</td><td>' + escapeHtml(r.generic_name) + '</td>' +
+    '<tr><td class="num">' + (i + 1) + '</td><td class="cell-name">' + escapeHtml(r.generic_name) + '</td>' +
     '<td class="num">' + escapeHtml(String(r.generic_code)) + '</td>' +
     '<td class="num">' + fmt(r.units) + '</td>' +
     '<td class="num">' + fmtDec(bnToman(r.value_consumer), 2) + '</td>' +
@@ -453,7 +471,7 @@ const FA_MONTHS = ['', 'فروردین', 'اردیبهشت', 'خرداد', 'تی
 
 function searchRowHtml(d) {
   return '<tr class="clickable" data-code="' + escapeHtml(String(d.generic_code)) + '">' +
-    '<td>' + escapeHtml(d.generic_name) + '</td>' +
+    '<td class="cell-name">' + escapeHtml(d.generic_name) + '</td>' +
     '<td class="num">' + escapeHtml(String(d.generic_code)) + '</td>' +
     '<td class="num">' + escapeHtml(d.atc || '—') + '</td>' +
     '<td class="num">' + fmt(d.units_1404) + '</td>' +
@@ -465,7 +483,7 @@ function searchRowHtml(d) {
 function doSearch() {
   const q = $('#drug-query').value.trim().toLowerCase();
   const tb = $('#search-table tbody');
-  $('#drug-detail').hidden = true;
+  closeModal();
   if (!q) {
     tb.innerHTML = '<tr><td colspan="7" class="muted">برای دیدن نتایج، عبارتی را جست‌وجو کنید.</td></tr>';
     $('#search-count').textContent = '';
@@ -510,8 +528,7 @@ function showDrugDetail(code) {
       '</tbody></table></div>';
   }
 
-  const panel = $('#drug-detail');
-  panel.innerHTML =
+  const html =
     '<h3>' + escapeHtml(d.generic_name) + '</h3>' +
     '<dl>' +
     '<dt>کد ژنریک:</dt><dd>' + escapeHtml(String(d.generic_code)) + '</dd>' +
@@ -540,10 +557,8 @@ function showDrugDetail(code) {
       : '') +
     '<p class="note">میانگین قیمت = ارزش تقسیم بر واحد فروش (موزون با ترکیب فروش). ماه بدون ردیف یعنی در آن ماه فروشی برای این دارو ثبت نشده است.</p>' +
     brandTable('1404', 'پرفروش‌ترین برندها — سال ۱۴۰۴') +
-    brandTable('1405', 'پرفروش‌ترین برندها — نیمهٔ اول ۱۴۰۵') +
-    '<p><button type="button" class="tab" id="drug-close">بستن جزئیات</button></p>';
-  panel.hidden = false;
-  $('#drug-close').addEventListener('click', () => { panel.hidden = true; });
+    brandTable('1405', 'پرفروش‌ترین برندها — نیمهٔ اول ۱۴۰۵');
+  openModal(html);
   if (monthly.length) {
     drawBarLineChart($('#drug-chart'), monthly.map((r) => ({
       label: FA_MONTHS[r[1]],
@@ -554,7 +569,6 @@ function showDrugDetail(code) {
         fmtDec(bnToman(r[3]), 2) + ' میلیارد تومان، واحد ' + fmt(r[2]),
     })), { W: 960, H: 300 });
   }
-  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
 /* ================= PROVINCE TAB ================= */
@@ -577,33 +591,27 @@ function renderProvinceWarning() {
     vdiff('m01') + '، شهریور ' + vdiff('m06') + '، اسفند ' + vdiff('m12') + '.';
 }
 
-/* Generic horizontal bar chart for named rows (value_consumer desc).
-   getName(r) returns the label; the full name is kept in the <title>. */
-function drawNameBarChart(svg, rows, getName, H) {
-  const W = 960, Hh = H || 600, L = 10, R = 130, T = 8, B = 8;
-  const iw = W - L - R;
-  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + Hh);
-  svg.innerHTML = '';
-  if (!rows.length) return;
+/* Generic horizontal bar chart for named rows (value_consumer desc) as
+   HTML bars (not SVG): text stays at real size on a phone instead of
+   shrinking with a 960-wide viewBox. getName(r) returns the label; the
+   full name + numbers are kept in the title attribute. */
+function drawNameBarChart(container, rows, getName) {
+  if (!rows.length) { container.innerHTML = ''; return; }
   const maxV = Math.max.apply(null, rows.map((r) => r.value_consumer));
-  const slot = (Hh - T - B) / rows.length;
-  const bh = Math.min(13, slot - 5);
-  rows.forEach((r, i) => {
-    const y = T + slot * i + (slot - bh) / 2;
-    const w = maxV ? iw * r.value_consumer / maxV : 0;
+  container.innerHTML = rows.map((r) => {
     const name = getName(r);
-    const label = name.length > 30 ? name.slice(0, 29) + '…' : name;
-    const bar = svgEl('rect', { x: L, y: y, width: Math.max(w, 1), height: bh, fill: '#0b5e4b', rx: 2 });
-    bar.appendChild(svgTitle(name + ': ارزش ' + fmtDec(bnToman(r.value_consumer), 2) +
-      ' میلیارد تومان، واحد ' + fmt(r.units)));
-    svg.appendChild(bar);
-    svg.appendChild(svgText(L + w + 6, y + bh - 1, fmtDec(bnToman(r.value_consumer), 1), 'start', 11));
-    svg.appendChild(svgText(W - 8, y + bh - 1, label, 'end', 11));
-  });
+    const share = maxV ? r.value_consumer / maxV : 0;
+    return '<div class="name-bar-row" title="' + escapeHtml(name + ': ارزش ' +
+      fmtDec(bnToman(r.value_consumer), 2) + ' میلیارد تومان، واحد ' + fmt(r.units)) + '">' +
+      '<span class="nb-name">' + escapeHtml(name) + '</span>' +
+      '<span class="nb-val">' + fmtDec(bnToman(r.value_consumer), 1) + '</span>' +
+      '<span class="nb-track"><span class="nb-fill" style="width:' + fmtDec(share * 100, 1) + '%"></span></span>' +
+      '</div>';
+  }).join('');
 }
 
-function drawProvChart(svg, rows) {
-  drawNameBarChart(svg, rows, (r) => r.province);
+function drawProvChart(container, rows) {
+  drawNameBarChart(container, rows, (r) => r.province);
 }
 
 function renderProvinces() {
@@ -644,9 +652,35 @@ function manufName(r) {
   return r.manufacturer_fa ? r.manufacturer + ' (' + r.manufacturer_fa + ')' : r.manufacturer;
 }
 
+/* Persian name for a manufacturer given its Latin name (looked up in the
+   manufacturer_year rows); null when the yearbook gives none. */
+let MANUF_FA = null;
+function manufFa(latin) {
+  if (!MANUF_FA) {
+    MANUF_FA = new Map();
+    DATA.manufacturer_year.forEach((r) => {
+      if (r.manufacturer_fa && !MANUF_FA.has(r.manufacturer)) MANUF_FA.set(r.manufacturer, r.manufacturer_fa);
+    });
+  }
+  return MANUF_FA.get(latin) || null;
+}
+function manufDisplay(latin) {
+  const fa = manufFa(latin);
+  return fa ? latin + ' (' + fa + ')' : latin;
+}
+
+/* Counterpart cell: top counterpart company by value + how many distinct
+   counterpart companies the row works with ("از N شرکت"). */
+function counterpartCell(name, count) {
+  if (!name) return '<td class="cell-name">—</td>';
+  return '<td class="cell-name">' + escapeHtml(name) +
+    (count > 1 ? ' <span class="muted">(از ' + fmt(count) + ' شرکت)</span>' : '') + '</td>';
+}
+
 function distRowHtml(r, i) {
   return '<tr class="clickable" data-name="' + escapeHtml(r.distributor) + '">' +
-    '<td class="num">' + (i + 1) + '</td><td>' + escapeHtml(r.distributor) + '</td>' +
+    '<td class="num">' + (i + 1) + '</td><td class="cell-name">' + escapeHtml(r.distributor) + '</td>' +
+    counterpartCell(manufDisplay(r.top_manufacturer), r.top_manufacturer_count) +
     '<td class="num">' + fmt(r.units) + '</td>' +
     '<td class="num">' + fmtDec(bnToman(r.value_consumer), 2) + '</td>' +
     '<td class="num">' + fmtDec(bnToman(r.value_distributor), 2) + '</td>' +
@@ -657,7 +691,8 @@ function distRowHtml(r, i) {
 
 function manufRowHtml(r, i) {
   return '<tr class="clickable" data-name="' + escapeHtml(r.manufacturer) + '">' +
-    '<td class="num">' + (i + 1) + '</td><td>' + escapeHtml(manufName(r)) + '</td>' +
+    '<td class="num">' + (i + 1) + '</td><td class="cell-name">' + escapeHtml(manufName(r)) + '</td>' +
+    counterpartCell(r.top_distributor, r.top_distributor_count) +
     '<td class="num">' + fmt(r.units) + '</td>' +
     '<td class="num">' + fmtDec(bnToman(r.value_consumer), 2) + '</td>' +
     '<td class="num">' + fmtDec(bnToman(r.value_distributor), 2) + '</td>' +
@@ -679,7 +714,7 @@ function renderDistributors() {
     (top1
       ? yearCard('توزیع‌کنندهٔ اول از نظر ارزش', escapeHtml(top1.distributor), 'سهم ارزشی: ' + pct(top1.value_consumer / total) + ' — ارزش ' + fmtDec(bnToman(top1.value_consumer), 1) + ' میلیارد تومان')
       : '');
-  drawNameBarChart($('#dist-chart'), yearRows.slice(0, 20), (r) => r.distributor, 560);
+  drawNameBarChart($('#dist-chart'), yearRows.slice(0, 20), (r) => r.distributor);
   const q = $('#dist-query').value.trim().toLowerCase();
   let rows = yearRows;
   if (q) rows = yearRows.filter((r) => r.distributor.toLowerCase().includes(q));
@@ -691,9 +726,9 @@ function renderDistributors() {
   const shown = q ? tableRows.slice(0, 50) : tableRows;
   $('#dist-table tbody').innerHTML = shown.map(distRowHtml).join('') +
     (q && tableRows.length > 50
-      ? '<tr><td colspan="8" class="muted">فقط ۵۰ نتیجهٔ اول نمایش داده شد؛ جست‌وجو را دقیق‌تر کنید.</td></tr>'
+      ? '<tr><td colspan="9" class="muted">فقط ۵۰ نتیجهٔ اول نمایش داده شد؛ جست‌وجو را دقیق‌تر کنید.</td></tr>'
       : '');
-  $('#dist-detail').hidden = true;
+  closeModal();
 }
 
 function renderManufacturers() {
@@ -709,7 +744,7 @@ function renderManufacturers() {
     (top1
       ? yearCard('تولیدکنندهٔ اول از نظر ارزش', escapeHtml(manufName(top1)), 'سهم ارزشی: ' + pct(top1.value_consumer / total) + ' — ارزش ' + fmtDec(bnToman(top1.value_consumer), 1) + ' میلیارد تومان')
       : '');
-  drawNameBarChart($('#manuf-chart'), yearRows.slice(0, 20), (r) => r.manufacturer, 560);
+  drawNameBarChart($('#manuf-chart'), yearRows.slice(0, 20), (r) => r.manufacturer);
   const q = $('#manuf-query').value.trim().toLowerCase();
   let rows = yearRows;
   if (q) {
@@ -725,20 +760,31 @@ function renderManufacturers() {
   const shown = q ? tableRows.slice(0, 50) : tableRows;
   $('#manuf-table tbody').innerHTML = shown.map(manufRowHtml).join('') +
     (q && tableRows.length > 50
-      ? '<tr><td colspan="8" class="muted">فقط ۵۰ نتیجهٔ اول نمایش داده شد؛ جست‌وجو را دقیق‌تر کنید.</td></tr>'
+      ? '<tr><td colspan="9" class="muted">فقط ۵۰ نتیجهٔ اول نمایش داده شد؛ جست‌وجو را دقیق‌تر کنید.</td></tr>'
       : '');
-  $('#manuf-detail').hidden = true;
+  closeModal();
 }
 
 /* Small top-5 table for a distributor/manufacturer detail panel.
-   list: [[name, units, value_consumer]] */
-function topListTable(list, emptyMsg) {
+   list: [[name, units, value_consumer, top_counterpart, counterpart_count]]
+   (older 3-element entries still render, with '—' for the counterpart).
+   counterpartLabel: header for the counterpart-company column, e.g.
+   'تولیدکننده' in a distributor detail, 'توزیع‌کننده' in a manufacturer
+   detail; omit it for tables without a counterpart (drug brands).
+   counterpartIsManuf: true when the counterpart is a manufacturer (so its
+   Persian name is shown when the yearbook gives one). */
+function topListTable(list, emptyMsg, counterpartLabel, counterpartIsManuf) {
   if (!list || !list.length) return '<p class="muted">' + emptyMsg + '</p>';
   return '<div class="table-wrap"><table><thead><tr>' +
-    '<th>#</th><th>نام</th><th>واحد فروش (عدد)</th>' +
+    '<th>#</th><th>نام</th>' +
+    (counterpartLabel ? '<th>' + counterpartLabel + '</th>' : '') +
+    '<th>واحد فروش (عدد)</th>' +
     '<th>ارزش (میلیارد تومان)</th><th>میانگین قیمت هر واحد (ریال)</th></tr></thead><tbody>' +
     list.map((g, i) =>
-      '<tr><td class="num">' + (i + 1) + '</td><td>' + escapeHtml(g[0]) + '</td>' +
+      '<tr><td class="num">' + (i + 1) + '</td><td class="cell-name">' + escapeHtml(g[0]) + '</td>' +
+      (counterpartLabel
+        ? counterpartCell(g.length > 3 && g[3] ? (counterpartIsManuf ? manufDisplay(g[3]) : g[3]) : null, g[4])
+        : '') +
       '<td class="num">' + fmt(g[1]) + '</td>' +
       '<td class="num">' + fmtDec(bnToman(g[2]), 2) + '</td>' +
       '<td class="num">' + (g[1] ? fmt(Math.round(g[2] / g[1])) : '—') + '</td></tr>').join('') +
@@ -754,9 +800,7 @@ function showNameDetail(kind, name, year) {
   const total = marketTotal(year).value_consumer;
   const avg = r.units ? r.value_consumer / r.units : null;
   const displayName = isDist ? r.distributor : manufName(r);
-  const panel = isDist ? $('#dist-detail') : $('#manuf-detail');
-  const closeId = isDist ? 'dist-close' : 'manuf-close';
-  panel.innerHTML =
+  const html =
     '<h3>' + escapeHtml(displayName) + '</h3>' +
     '<dl>' +
     '<dt>دوره:</dt><dd>' + yearLabelFa(year) + '</dd>' +
@@ -771,14 +815,11 @@ function showNameDetail(kind, name, year) {
     '<dt>سهم ارزشی از کل بازار:</dt><dd>' + pct(r.value_consumer / total) + '</dd>' +
     '</dl>' +
     '<h4>پرفروش‌ترین ژنریک‌ها</h4>' +
-    topListTable(r.top_generics, 'ژنریکی ثبت نشده است.') +
+    topListTable(r.top_generics, 'ژنریکی ثبت نشده است.', isDist ? 'تولیدکننده' : 'توزیع‌کننده', isDist) +
     '<h4>پرفروش‌ترین برندها</h4>' +
-    topListTable(r.top_brands, 'برندی ثبت نشده است.') +
-    '<p class="note">میانگین قیمت = ارزش تقسیم بر واحد فروش (موزون با ترکیب فروش). سهم ارزشی نسبت به کل ارزش مصرف‌کنندهٔ ' + yearLabelFa(year) + ' محاسبه شده است.</p>' +
-    '<p><button type="button" class="tab" id="' + closeId + '">بستن جزئیات</button></p>';
-  panel.hidden = false;
-  $('#' + closeId).addEventListener('click', () => { panel.hidden = true; });
-  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    topListTable(r.top_brands, 'برندی ثبت نشده است.', isDist ? 'تولیدکننده' : 'توزیع‌کننده', isDist) +
+    '<p class="note">میانگین قیمت = ارزش تقسیم بر واحد فروش (موزون با ترکیب فروش). سهم ارزشی نسبت به کل ارزش مصرف‌کنندهٔ ' + yearLabelFa(year) + ' محاسبه شده است. ستون «' + (isDist ? 'تولیدکننده' : 'توزیع‌کننده') + '» شرکت طرف مقابل با بیشترین ارزش برای آن قلم است؛ عدد داخل پرانتز تعداد شرکت‌های طرف مقابل آن قلم است.</p>';
+  openModal(html);
 }
 
 function showDistDetail(name, year) { showNameDetail('dist', name, year); }
@@ -787,6 +828,14 @@ function showManufDetail(name, year) { showNameDetail('manuf', name, year); }
 /* ================= INIT ================= */
 document.addEventListener('DOMContentLoaded', () => {
   load();
+  /* detail modal: close via the × button, a click on the backdrop, or Escape */
+  $('#modal-close').addEventListener('click', closeModal);
+  $('#modal-overlay').addEventListener('click', (e) => {
+    if (e.target === e.currentTarget) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
   /* AI */
   $('#ai-send').addEventListener('click', submitAi);
   $('#ai-input').addEventListener('keydown', (e) => { if (e.key === 'Enter') submitAi(); });
