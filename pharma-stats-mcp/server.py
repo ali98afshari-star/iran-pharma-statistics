@@ -11,8 +11,11 @@ Data & caveats (enforced by every tool below; see data/SOURCES.md):
     consumer value, ~1.0% of the year and 2.1% of its units) that are in
     the yearly total but in NO month. Monthly sums for 1404 are therefore
     below the yearly total.
-  * ATC is blank for 46.2% of 1404 rows / 51.7% of 1405 rows (54.3% of
-    1404 consumer VALUE). ATC breakdowns never sum to the market total.
+  * ATC was blank for 46.2% of 1404 rows / 51.7% of 1405 rows in the RAW
+    files; in the aggregates it was completed via a generic_code -> ATC
+    map (scripts/fix_atc.py, zero conflicts) to 18.9% / 19.9% of rows
+    (16.5% / 20.5% of consumer value). 743 generics still have no ATC
+    anywhere. ATC breakdowns never sum to the market total.
   * Province files (1404, months 1/6/12 only) do NOT reconcile with the
     national monthly totals (m01 -20.2% units, m06 +5.6%, m12 -18.5%).
     Different cuts — never sum or compare them with national totals.
@@ -42,6 +45,7 @@ mcp = FastMCP("Iran-Pharma-Stats")
 REPO_ROOT = Path(__file__).resolve().parent.parent
 AGG_DIR = REPO_ROOT / "data" / "aggregates"
 STATS_PATH = REPO_ROOT / "data" / "stats.json"
+REPORT_PATH = REPO_ROOT / "data" / "atc_fix_report.json"
 
 CURRENCY_NOTE = "All money values are in Rial. Toman = Rial / 10."
 H1_WARNING = (
@@ -56,9 +60,12 @@ MONTH_BLANK_NOTE = (
     "are below the yearly total."
 )
 ATC_WARNING = (
-    "ATC code is blank for 46.2% of 1404 rows / 51.7% of 1405 rows "
-    "(54.3% of 1404 consumer value). ATC-based totals UNDERSTATE the "
-    "market; use generic_code for market totals."
+    "ATC code is blank for 18.9% of 1404 aggregate rows / 19.9% of 1405 "
+    "rows (16.5% / 20.5% of consumer value) after completion from the "
+    "generic_code -> ATC map (scripts/fix_atc.py, zero conflicts); the raw "
+    "files were 46.2% / 51.7% blank. 743 generics still have no ATC "
+    "anywhere. ATC-based totals UNDERSTATE the market; use generic_code "
+    "for market totals."
 )
 PROVINCE_WARNING = (
     "Province files do NOT reconcile with national monthly totals "
@@ -617,6 +624,21 @@ def data_coverage() -> str:
             "1405": f"{stats['yearbook_1405_monthly']['blank_atc_share']:.1%} of rows",
         }
         coverage["month_blank_rows_1404"] = stats["yearbook_1404_monthly"]["month_blank_rows"]
+    except Exception:
+        pass
+    try:
+        # Post-fix aggregate shares (raw-file shares above are unchanged).
+        rep = json.loads(REPORT_PATH.read_text(encoding="utf-8"))
+        coverage["blank_atc_after_fix"] = {
+            "1404": f"{rep['after']['1404']['blank_rows_pct']:.1%} of aggregate rows "
+                    f"({rep['after']['1404']['blank_value_pct']:.1%} of consumer value)",
+            "1405": f"{rep['after']['1405']['blank_rows_pct']:.1%} of aggregate rows "
+                    f"({rep['after']['1405']['blank_value_pct']:.1%} of consumer value)",
+            "rows_filled": rep["rows_filled"],
+            "conflicts": rep["conflict_count"],
+            "generics_still_blank": rep["generics_still_blank_count"],
+            "method": "generic_code -> ATC map, scripts/fix_atc.py",
+        }
     except Exception:
         pass
     return _result(coverage)
