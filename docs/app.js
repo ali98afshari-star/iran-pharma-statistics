@@ -96,7 +96,8 @@ function buildAiContext() {
   if (fix) {
     lines.push('سهم ارزش بدون کد ATC پس از تکمیل: ۱۴۰۴ برابر ' +
       pct(fix.after['1404'].blank_value_pct) + ' و نیمهٔ اول ۱۴۰۵ برابر ' +
-      pct(fix.after['1405'].blank_value_pct) + ' است؛ ۷۴۳ ژنریک هنوز در هیچ ردیفی ATC ندارند.');
+      pct(fix.after['1405'].blank_value_pct) + ' است؛ ' + fmt(fix.generics_still_blank_count) +
+      ' ژنریک هنوز در هیچ ردیفی ATC ندارند.');
   }
   lines.push('واحد فروش یعنی تعداد واحد (قرص/آمپول)، نه بسته. همهٔ مبالغ به ریال‌اند؛ تومان = ریال تقسیم بر ۱۰.');
   return lines.join('\n');

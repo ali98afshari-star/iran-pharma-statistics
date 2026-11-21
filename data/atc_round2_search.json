@@ -1,0 +1,5917 @@
+{
+  "found_by_generic_name": [],
+  "found_by_latin_list": [
+    {
+      "generic_code": "1009",
+      "names": [
+        "PIMOZIDE"
+      ],
+      "atc": "N05AG02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1015",
+      "names": [
+        "PIRACETAM"
+      ],
+      "atc": "N06BX03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1028",
+      "names": [
+        "POTASSIUM CITRATE"
+      ],
+      "atc": "A12BA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "10484",
+      "names": [
+        "EPINEPHRINE"
+      ],
+      "atc": "C01CA24",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "10635",
+      "names": [
+        "OXYCODONE HYDROCHLORIDE"
+      ],
+      "atc": "N02AA05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1100",
+      "names": [
+        "RIFAMPICIN"
+      ],
+      "atc": "J04AB02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "11504",
+      "names": [
+        "ALBUMIN (HUMAN)"
+      ],
+      "atc": "B05AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "11725",
+      "names": [
+        "NITROFURANTOIN"
+      ],
+      "atc": "J01XE01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "11867",
+      "names": [
+        "CISPLATIN"
+      ],
+      "atc": "L01XA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "12036",
+      "names": [
+        "URSODEOXYCHOLIC ACID"
+      ],
+      "atc": "A05AA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "12112",
+      "names": [
+        "LEVODOPA / CARBIDOPA / ENTACAPONE"
+      ],
+      "atc": "N04BA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1261",
+      "names": [
+        "TRIMIPRAMINE (AS MALEATE)"
+      ],
+      "atc": "N06AA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "12847",
+      "names": [
+        "LENALIDOMIDE"
+      ],
+      "atc": "L04AX04",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "13898",
+      "names": [
+        "OXYMETAZOLINE HYDROCHLORIDE"
+      ],
+      "atc": "S01GA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "14528",
+      "names": [
+        "FLUOROURACIL"
+      ],
+      "atc": "L01BC02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "14710",
+      "names": [
+        "CALCITRIOL"
+      ],
+      "atc": "A11CC04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "14887",
+      "names": [
+        "ERLOTINIB (AS HYDROCHLORIDE)"
+      ],
+      "atc": "L01XE03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "15449",
+      "names": [
+        "MIDODRINE HYDROCHLORIDE"
+      ],
+      "atc": "C01CA17",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1575",
+      "names": [
+        "LORAZEPAM"
+      ],
+      "atc": "N05BA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "16506",
+      "names": [
+        "BUDESONIDE / FORMOTEROL FUMARATE"
+      ],
+      "atc": "R03AK07",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "16686",
+      "names": [
+        "BETHANECHOL CHLORIDE"
+      ],
+      "atc": "N07AB02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "17",
+      "names": [
+        "ACITRETIN"
+      ],
+      "atc": "D05BB02",
+      "sources": [
+        "proc_1404_prov_m12"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1719",
+      "names": [
+        "NALTREXONE HYDROCHLORIDE"
+      ],
+      "atc": "N07BB04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "17416",
+      "names": [
+        "ACETAMINOPHEN / CAFFEINE / ASA"
+      ],
+      "atc": "N02BE51",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "17461",
+      "names": [
+        "URSODEOXYCHOLIC ACID"
+      ],
+      "atc": "A05AA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1755",
+      "names": [
+        "MYCOPHENOLATE MOFETIL"
+      ],
+      "atc": "L04AA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "17746",
+      "names": [
+        "OSELTAMIVIR (AS PHOSPHATE)"
+      ],
+      "atc": "J05AH02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1812",
+      "names": [
+        "NITROGLYCERIN"
+      ],
+      "atc": "C01DA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "18193",
+      "names": [
+        "LENALIDOMIDE"
+      ],
+      "atc": "L04AX04",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "18649",
+      "names": [
+        "INSULIN BIPHASIC ISOPHANE"
+      ],
+      "atc": "A10AB30",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1869",
+      "names": [
+        "RISPERIDONE"
+      ],
+      "atc": "N05AX08",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "18934",
+      "names": [
+        "ETOPOSIDE"
+      ],
+      "atc": "L01CB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "18964",
+      "names": [
+        "OXYCODONE HYDROCHLORIDE"
+      ],
+      "atc": "N02AA05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "19472",
+      "names": [
+        "CYPROHEPTADINE HYDROCHLORIDE"
+      ],
+      "atc": "R06AX02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "1956",
+      "names": [
+        "DEFEROXAMINE MESYLATE"
+      ],
+      "atc": "V03AC01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "19781",
+      "names": [
+        "OXYCODONE HYDROCHLORIDE"
+      ],
+      "atc": "N02AA05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "19877",
+      "names": [
+        "INSULIN ISOPHANE"
+      ],
+      "atc": "A10AE01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "20184",
+      "names": [
+        "SALMETEROL (AS XINAFOATE) / FLUTICASONE PROPIONATE"
+      ],
+      "atc": "R03AK06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2106",
+      "names": [
+        "TRANEXAMIC ACID"
+      ],
+      "atc": "B02AA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2135",
+      "names": [
+        "GEMCITABINE (AS HYDROCHLORIDE)"
+      ],
+      "atc": "L01BC05",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2148",
+      "names": [
+        "IPRATROPIUM BROMIDE / SALBUTAMOL (AS SULFATE)"
+      ],
+      "atc": "R03AL02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2158",
+      "names": [
+        "METHOTREXATE SODIUM"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "21719",
+      "names": [
+        "SILVER SULFADIAZINE"
+      ],
+      "atc": "D06BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2184",
+      "names": [
+        "REMIFENTANIL (AS HYDROCHLORIDE)"
+      ],
+      "atc": "N01AH06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "21850",
+      "names": [
+        "THALIDOMIDE"
+      ],
+      "atc": "L04AX02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "21978",
+      "names": [
+        "IBUPROFEN (AS LYSINE)"
+      ],
+      "atc": "M01AE01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "220",
+      "names": [
+        "L-CARNITINE"
+      ],
+      "atc": "A16AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2237",
+      "names": [
+        "DIAZEPAM"
+      ],
+      "atc": "N05BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2247",
+      "names": [
+        "DIAZEPAM"
+      ],
+      "atc": "N05BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2250",
+      "names": [
+        "CIPROFLOXACIN (AS LACTATE)"
+      ],
+      "atc": "J01MA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "22925",
+      "names": [
+        "DIMETHYL FUMARATE"
+      ],
+      "atc": "N07XX09",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2316",
+      "names": [
+        "BUPIVACAINE HYDROCHLORIDE"
+      ],
+      "atc": "N01BB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2371",
+      "names": [
+        "ANTITHYMOCYTE IMMUNOGLOBULIN"
+      ],
+      "atc": "L04AA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "2534",
+      "names": [
+        "PROGESTERONE"
+      ],
+      "atc": "G03DA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "305",
+      "names": [
+        "CLADRIBINE"
+      ],
+      "atc": "L01BB04",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "307",
+      "names": [
+        "CLEMASTINE"
+      ],
+      "atc": "R06AA04",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "332",
+      "names": [
+        "CLOXACILLIN (AS SODIUM)"
+      ],
+      "atc": "J01CF02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "3800",
+      "names": [
+        "BUPRENORPHINE (AS HYDROCHLORIDE)"
+      ],
+      "atc": "N07BC01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "384",
+      "names": [
+        "DAUNORUBICIN (AS HYDROCHLORIDE)"
+      ],
+      "atc": "L01DB02",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "4486",
+      "names": [
+        "EPOETIN"
+      ],
+      "atc": "B03XA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "466",
+      "names": [
+        "DOBUTAMINE (AS HYDROCHLORIDE)"
+      ],
+      "atc": "C01CA07",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "4757",
+      "names": [
+        "IODIXANOL"
+      ],
+      "atc": "V08AB09",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50029",
+      "names": [
+        "COLISTIMETHATE SODIUM"
+      ],
+      "atc": "J01XB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50088",
+      "names": [
+        "RISPERIDONE"
+      ],
+      "atc": "N05AX08",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50266",
+      "names": [
+        "HYDROCHLOROTHIAZIDE"
+      ],
+      "atc": "C03AA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50294",
+      "names": [
+        "GEMCITABINE HYDROCHLORIDE"
+      ],
+      "atc": "L01BC05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50295",
+      "names": [
+        "GEMCITABINE HYDROCHLORIDE"
+      ],
+      "atc": "L01BC05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50341",
+      "names": [
+        "ACETAMINOPHEN / CHLORPHENIRAMINE / DEXTROMETHORPHAN / PHENYLEPHRINE"
+      ],
+      "atc": "R05X",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50378",
+      "names": [
+        "ACETAMINOPHEN / CHLORPHENIRAMINE / DEXTROMETHORPHAN / PHENYLEPHRINE"
+      ],
+      "atc": "R05X",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50393",
+      "names": [
+        "OLANZAPINE"
+      ],
+      "atc": "N05AH03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50402",
+      "names": [
+        "CLINDAMYCIN (AS PHOSPHATE) / CLOTRIMAZOLE"
+      ],
+      "atc": "G01A",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50426",
+      "names": [
+        "MESALAZINE"
+      ],
+      "atc": "A07EC02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50510",
+      "names": [
+        "MEPIVACAINE HYDROCHLORIDE"
+      ],
+      "atc": "N01BB03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50684",
+      "names": [
+        "METHYLPHENIDATE HYDROCHLORIDE"
+      ],
+      "atc": "N06BA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50685",
+      "names": [
+        "METHYLPHENIDATE HYDROCHLORIDE"
+      ],
+      "atc": "N06BA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50686",
+      "names": [
+        "METHYLPHENIDATE HYDROCHLORIDE"
+      ],
+      "atc": "N06BA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50710",
+      "names": [
+        "MYCOPHENOLATE MOFETIL"
+      ],
+      "atc": "L04AA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50886",
+      "names": [
+        "DASATINIB"
+      ],
+      "atc": "L01XE06",
+      "sources": [
+        "proc_1404_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50929",
+      "names": [
+        "BUDESONIDE / FORMOTEROL FUMARATE"
+      ],
+      "atc": "R03AK07",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "50996",
+      "names": [
+        "RISPERIDONE"
+      ],
+      "atc": "N05AX08",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51105",
+      "names": [
+        "DICLOFENAC POTASSIUM"
+      ],
+      "atc": "M01AB05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51380",
+      "names": [
+        "MEMANTINE HYDROCHLORIDE"
+      ],
+      "atc": "N06D",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51462",
+      "names": [
+        "IFOSFAMIDE"
+      ],
+      "atc": "L01AA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51479",
+      "names": [
+        "LENALIDOMIDE"
+      ],
+      "atc": "L04AX04",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51518",
+      "names": [
+        "OMEPRAZOLE"
+      ],
+      "atc": "A02BC01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51520",
+      "names": [
+        "OSELTAMIVIR (AS PHOSPHATE)"
+      ],
+      "atc": "J05AH02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51644",
+      "names": [
+        "MEMANTINE HYDROCHLORIDE"
+      ],
+      "atc": "N06D",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51816",
+      "names": [
+        "SODIUM TETRADECYL SULFATE"
+      ],
+      "atc": "C05BB04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51851",
+      "names": [
+        "HEPARIN SODIUM"
+      ],
+      "atc": "B01AB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51882",
+      "names": [
+        "NITROFURANTOIN"
+      ],
+      "atc": "J01XE01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51895",
+      "names": [
+        "L-CARNITINE"
+      ],
+      "atc": "A16AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51901",
+      "names": [
+        "POTASSIUM CITRATE"
+      ],
+      "atc": "A12BA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51953",
+      "names": [
+        "DEFERASIROX"
+      ],
+      "atc": "V03AC03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51954",
+      "names": [
+        "DEFERASIROX"
+      ],
+      "atc": "V03AC03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51979",
+      "names": [
+        "IMATINIB (AS MESYLATE)"
+      ],
+      "atc": "L01XE01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "51981",
+      "names": [
+        "PIRACETAM"
+      ],
+      "atc": "N06BX03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "520",
+      "names": [
+        "ETOPOSIDE"
+      ],
+      "atc": "L01CB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52006",
+      "names": [
+        "LABETALOL HYDROCHLORIDE"
+      ],
+      "atc": "C07AG01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52009",
+      "names": [
+        "TROPICAMIDE"
+      ],
+      "atc": "S01FA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52028",
+      "names": [
+        "LEVETIRACETAM"
+      ],
+      "atc": "N03AX14",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52044",
+      "names": [
+        "DEXMEDETOMIDINE (AS HYDROCHLORIDE)"
+      ],
+      "atc": "N05CM18",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52073",
+      "names": [
+        "ROCURONIUM BROMIDE"
+      ],
+      "atc": "M03AC09",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52075",
+      "names": [
+        "LACTULOSE"
+      ],
+      "atc": "A06AD11",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52086",
+      "names": [
+        "ONDANSETRON (AS HYDROCHLORIDE)"
+      ],
+      "atc": "A04AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52087",
+      "names": [
+        "TICAGRELOR"
+      ],
+      "atc": "B01AC24",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52097",
+      "names": [
+        "METHOTREXATE"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52098",
+      "names": [
+        "METHOTREXATE"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52099",
+      "names": [
+        "METHOTREXATE"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52100",
+      "names": [
+        "METHOTREXATE"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52109",
+      "names": [
+        "LIDOCAINE"
+      ],
+      "atc": "D04AB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52123",
+      "names": [
+        "METHOTREXATE"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52224",
+      "names": [
+        "CO-AMOXICLAV"
+      ],
+      "atc": "J01CR02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52236",
+      "names": [
+        "MESALAZINE"
+      ],
+      "atc": "A07EC02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52264",
+      "names": [
+        "EPOETIN"
+      ],
+      "atc": "B03XA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52265",
+      "names": [
+        "PROGESTERONE"
+      ],
+      "atc": "G03DA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52273",
+      "names": [
+        "ACETAMINOPHEN / DIPHENHYDRAMINE / PHENYLEPHRINE"
+      ],
+      "atc": "R05X",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52274",
+      "names": [
+        "ACETAMINOPHEN / DIPHENHYDRAMINE / PHENYLEPHRINE"
+      ],
+      "atc": "R05X",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52286",
+      "names": [
+        "PROSTAGLANDIN E1 (ALPROSTADIL)"
+      ],
+      "atc": "C01EA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52310",
+      "names": [
+        "LEVOTHYROXINE SODIUM"
+      ],
+      "atc": "H03AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52318",
+      "names": [
+        "METHOCARBAMOL"
+      ],
+      "atc": "M03BA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52320",
+      "names": [
+        "LISDEXAMFETAMINE MESILATE"
+      ],
+      "atc": "N06BA12",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52321",
+      "names": [
+        "LISDEXAMFETAMINE MESILATE"
+      ],
+      "atc": "N06BA12",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52351",
+      "names": [
+        "DIAZOXIDE"
+      ],
+      "atc": "V03AH01",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52367",
+      "names": [
+        "EDARAVONE"
+      ],
+      "atc": "N07XX",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52404",
+      "names": [
+        "CYTARABINE"
+      ],
+      "atc": "L01BC01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52422",
+      "names": [
+        "GLIMEPIRIDE"
+      ],
+      "atc": "A10BB12",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52440",
+      "names": [
+        "BUDESONIDE / FORMOTEROL FUMARATE"
+      ],
+      "atc": "R03AK07",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52445",
+      "names": [
+        "CHLORAMPHENICOL"
+      ],
+      "atc": "S01AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52467",
+      "names": [
+        "VITAMIN K1 (PHYTOMENADIONE)"
+      ],
+      "atc": "B02BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52469",
+      "names": [
+        "SIMETHICONE (DIMETHICONE ACTIVATED)"
+      ],
+      "atc": "A07D",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52474",
+      "names": [
+        "DOXYCYCLINE (AS HYCLATE)"
+      ],
+      "atc": "J01AA02",
+      "sources": [
+        "proc_1404_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52478",
+      "names": [
+        "HYDRALAZINE HYDROCHLORIDE"
+      ],
+      "atc": "C02DB02",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52530",
+      "names": [
+        "HEPARIN SODIUM"
+      ],
+      "atc": "B01AB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52540",
+      "names": [
+        "DASATINIB"
+      ],
+      "atc": "L01XE06",
+      "sources": [
+        "proc_1404_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52663",
+      "names": [
+        "IPRATROPIUM BROMIDE"
+      ],
+      "atc": "R03BB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52671",
+      "names": [
+        "DESONIDE"
+      ],
+      "atc": "D07AB08",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52696",
+      "names": [
+        "SIMETHICONE (DIMETHICONE ACTIVATED)"
+      ],
+      "atc": "A07D",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52706",
+      "names": [
+        "TOCILIZUMAB"
+      ],
+      "atc": "L04AC07",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52712",
+      "names": [
+        "SERTACONAZOLE NITRATE"
+      ],
+      "atc": "D01AC14",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52714",
+      "names": [
+        "METHOTREXATE"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52718",
+      "names": [
+        "EPINEPHRINE"
+      ],
+      "atc": "C01CA24",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52727",
+      "names": [
+        "POTASSIUM CITRATE"
+      ],
+      "atc": "A12BA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52742",
+      "names": [
+        "POSACONAZOLE"
+      ],
+      "atc": "J02AC04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52757",
+      "names": [
+        "ESOMEPRAZOLE (AS MAGNESIUM)"
+      ],
+      "atc": "A02BC05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52761",
+      "names": [
+        "SITAGLIPTIN (AS PHOSPHATE) / METFORMIN HYDROCHLORIDE"
+      ],
+      "atc": "A10BD07",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52768",
+      "names": [
+        "VITAMIN K1 (PHYTOMENADIONE)"
+      ],
+      "atc": "B02BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52780",
+      "names": [
+        "HEPARIN SODIUM"
+      ],
+      "atc": "B01AB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52781",
+      "names": [
+        "BIMATOPROST"
+      ],
+      "atc": "S01EE03",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52801",
+      "names": [
+        "CIPROFLOXACIN (AS LACTATE)"
+      ],
+      "atc": "J01MA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52802",
+      "names": [
+        "CO-AMOXICLAV"
+      ],
+      "atc": "J01CR02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52811",
+      "names": [
+        "CYPROHEPTADINE HYDROCHLORIDE"
+      ],
+      "atc": "R06AX02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52817",
+      "names": [
+        "MINOXIDIL"
+      ],
+      "atc": "D11AX01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52818",
+      "names": [
+        "MINOXIDIL"
+      ],
+      "atc": "D11AX01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52820",
+      "names": [
+        "FLUOXETINE (AS HYDROCHLORIDE)"
+      ],
+      "atc": "N06AB03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52824",
+      "names": [
+        "METHOTREXATE"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52853",
+      "names": [
+        "BUDESONIDE / FORMOTEROL FUMARATE"
+      ],
+      "atc": "R03AK07",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52859",
+      "names": [
+        "FAMOTIDINE"
+      ],
+      "atc": "A02BA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52871",
+      "names": [
+        "ATORVASTATIN (AS CALCIUM)"
+      ],
+      "atc": "C10AA05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52876",
+      "names": [
+        "URSODEOXYCHOLIC ACID"
+      ],
+      "atc": "A05AA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52880",
+      "names": [
+        "COAGULATION FACTOR VIII (RECOMBINANT)"
+      ],
+      "atc": "B02BD02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52885",
+      "names": [
+        "MESALAZINE"
+      ],
+      "atc": "A07EC02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52892",
+      "names": [
+        "ALPRAZOLAM"
+      ],
+      "atc": "N05BA12",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52908",
+      "names": [
+        "FEXOFENADINE HYDROCHLORIDE"
+      ],
+      "atc": "R06AX26",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52921",
+      "names": [
+        "METFORMIN HYDROCHLORIDE"
+      ],
+      "atc": "A10BA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52936",
+      "names": [
+        "CALCIUM FOLINATE"
+      ],
+      "atc": "V03AF03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52940",
+      "names": [
+        "METFORMIN HYDROCHLORIDE / LINAGLIPTIN"
+      ],
+      "atc": "A10BD11",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52941",
+      "names": [
+        "METFORMIN HYDROCHLORIDE / LINAGLIPTIN"
+      ],
+      "atc": "A10BD11",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52955",
+      "names": [
+        "LIDOCAINE"
+      ],
+      "atc": "D04AB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52958",
+      "names": [
+        "CLADRIBINE"
+      ],
+      "atc": "L01BB04",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "52990",
+      "names": [
+        "DESLORATADINE"
+      ],
+      "atc": "R06AX27",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53000",
+      "names": [
+        "FAMOTIDINE"
+      ],
+      "atc": "A02BA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53011",
+      "names": [
+        "FAMOTIDINE"
+      ],
+      "atc": "A02BA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53019",
+      "names": [
+        "PILOCARPINE HYDROCHLORIDE"
+      ],
+      "atc": "S01EB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53025",
+      "names": [
+        "ACETAMINOPHEN / CAFFEINE / IBUPROFEN"
+      ],
+      "atc": "N02BE71",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53041",
+      "names": [
+        "FUROSEMIDE"
+      ],
+      "atc": "C03CA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53048",
+      "names": [
+        "ISOFLURANE"
+      ],
+      "atc": "N01AB06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53049",
+      "names": [
+        "MEFENAMIC ACID"
+      ],
+      "atc": "M01AG01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53058",
+      "names": [
+        "CLOBETASOL PROPIONATE"
+      ],
+      "atc": "D07AD01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53063",
+      "names": [
+        "FLUOXETINE (AS HYDROCHLORIDE)"
+      ],
+      "atc": "N06AB03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53064",
+      "names": [
+        "FLUOXETINE (AS HYDROCHLORIDE)"
+      ],
+      "atc": "N06AB03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53065",
+      "names": [
+        "MEMANTINE HYDROCHLORIDE"
+      ],
+      "atc": "N06D",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53066",
+      "names": [
+        "MEMANTINE HYDROCHLORIDE"
+      ],
+      "atc": "N06D",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53087",
+      "names": [
+        "PROPRANOLOL HYDROCHLORIDE"
+      ],
+      "atc": "C07AA05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53088",
+      "names": [
+        "PHENOBARBITAL"
+      ],
+      "atc": "N03AA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53089",
+      "names": [
+        "LEVODOPA / BENSERAZIDE"
+      ],
+      "atc": "N04BA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53093",
+      "names": [
+        "CLOBETASOL PROPIONATE"
+      ],
+      "atc": "D07AD01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53095",
+      "names": [
+        "DONEPEZIL HYDROCHLORIDE"
+      ],
+      "atc": "N06DA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53129",
+      "names": [
+        "LEVODOPA / BENSERAZIDE"
+      ],
+      "atc": "N04BA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53130",
+      "names": [
+        "ZOLPIDEM TARTRATE"
+      ],
+      "atc": "N05CF02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53135",
+      "names": [
+        "RISPERIDONE"
+      ],
+      "atc": "N05AX08",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53142",
+      "names": [
+        "COAGULATION FACTOR VIII (RECOMBINANT)"
+      ],
+      "atc": "B02BD02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53144",
+      "names": [
+        "PERMETHRIN"
+      ],
+      "atc": "P03AC04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53153",
+      "names": [
+        "SODIUM BICARBONATE"
+      ],
+      "atc": "B05XA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53171",
+      "names": [
+        "TOFACITINIB (AS CITRATE)"
+      ],
+      "atc": "L04AA29",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53192",
+      "names": [
+        "ALENDRONATE (AS SODIUM)"
+      ],
+      "atc": "M05BA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53227",
+      "names": [
+        "DORZOLAMIDE (AS HYDROCHLORIDE) / TIMOLOL (AS MALEATE)"
+      ],
+      "atc": "S01ED51",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53228",
+      "names": [
+        "MYCOPHENOLATE MOFETIL"
+      ],
+      "atc": "L04AA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53232",
+      "names": [
+        "AMOXICILLIN"
+      ],
+      "atc": "J01CA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53249",
+      "names": [
+        "MINOXIDIL"
+      ],
+      "atc": "D11AX01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53272",
+      "names": [
+        "POTASSIUM CHLORIDE"
+      ],
+      "atc": "A12BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53281",
+      "names": [
+        "MIDODRINE HYDROCHLORIDE"
+      ],
+      "atc": "C01CA17",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53286",
+      "names": [
+        "ACETAMINOPHEN / CAFFEINE"
+      ],
+      "atc": "N02BE51",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53308",
+      "names": [
+        "LACOSAMIDE"
+      ],
+      "atc": "N03AX18",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53315",
+      "names": [
+        "ESOMEPRAZOLE (AS MAGNESIUM)"
+      ],
+      "atc": "A02BC05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53316",
+      "names": [
+        "AZELASTINE HYDROCHLORIDE"
+      ],
+      "atc": "R01AC03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53323",
+      "names": [
+        "OCTREOTIDE (AS ACETATE)"
+      ],
+      "atc": "H01CB02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53324",
+      "names": [
+        "OCTREOTIDE (AS ACETATE)"
+      ],
+      "atc": "H01CB02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53326",
+      "names": [
+        "ONDANSETRON"
+      ],
+      "atc": "A04AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53328",
+      "names": [
+        "SOMATROPIN"
+      ],
+      "atc": "H01AC01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53334",
+      "names": [
+        "BORTEZOMIB"
+      ],
+      "atc": "L01XX32",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53342",
+      "names": [
+        "CLOBAZAM"
+      ],
+      "atc": "N05BA09",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53346",
+      "names": [
+        "METHADONE HYDROCHLORIDE"
+      ],
+      "atc": "N07BC02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53351",
+      "names": [
+        "FERRIC CARBOXYMALTOSE"
+      ],
+      "atc": "B03AC",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53361",
+      "names": [
+        "CELECOXIB"
+      ],
+      "atc": "M01AH01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53363",
+      "names": [
+        "PERMETHRIN"
+      ],
+      "atc": "P03AC04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53364",
+      "names": [
+        "CONJUGATED ESTROGENS"
+      ],
+      "atc": "G03CA57",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53368",
+      "names": [
+        "PILOCARPINE HYDROCHLORIDE"
+      ],
+      "atc": "S01EB01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53382",
+      "names": [
+        "SODIUM POLYSTYRENE SULFONATE"
+      ],
+      "atc": "V03AE01",
+      "sources": [
+        "proc_1404_prov_m06"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53388",
+      "names": [
+        "PRIMIDONE"
+      ],
+      "atc": "N03AA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53397",
+      "names": [
+        "PRIMIDONE"
+      ],
+      "atc": "N03AA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53416",
+      "names": [
+        "NITROGLYCERIN"
+      ],
+      "atc": "C01DA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53424",
+      "names": [
+        "OXYMETAZOLINE HYDROCHLORIDE"
+      ],
+      "atc": "S01GA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53425",
+      "names": [
+        "OMEPRAZOLE"
+      ],
+      "atc": "A02BC01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53426",
+      "names": [
+        "BIMATOPROST"
+      ],
+      "atc": "S01EE03",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53473",
+      "names": [
+        "ESOMEPRAZOLE"
+      ],
+      "atc": "A02BC05",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53486",
+      "names": [
+        "METHOTREXATE"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53489",
+      "names": [
+        "NAPROXEN"
+      ],
+      "atc": "M01AE02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53520",
+      "names": [
+        "BUDESONIDE / FORMOTEROL FUMARATE"
+      ],
+      "atc": "R03AK07",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53533",
+      "names": [
+        "SOMATROPIN"
+      ],
+      "atc": "H01AC01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53542",
+      "names": [
+        "SODIUM BICARBONATE"
+      ],
+      "atc": "B05XA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53558",
+      "names": [
+        "TERBINAFINE"
+      ],
+      "atc": "D01AE15",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53583",
+      "names": [
+        "AZITHROMYCIN"
+      ],
+      "atc": "J01FA10",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53595",
+      "names": [
+        "LEVETIRACETAM"
+      ],
+      "atc": "N03AX14",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53596",
+      "names": [
+        "LEVETIRACETAM"
+      ],
+      "atc": "N03AX14",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53601",
+      "names": [
+        "FAMOTIDINE"
+      ],
+      "atc": "A02BA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53609",
+      "names": [
+        "VITAMIN B6"
+      ],
+      "atc": "A11HA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53622",
+      "names": [
+        "NAPROXEN"
+      ],
+      "atc": "M01AE02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53624",
+      "names": [
+        "ALENDRONATE (AS SODIUM)"
+      ],
+      "atc": "M05BA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53659",
+      "names": [
+        "HEMODIALYSIS CONCENTRATED II ACIDIC"
+      ],
+      "atc": "B05ZA",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53661",
+      "names": [
+        "OSELTAMIVIR (AS PHOSPHATE)"
+      ],
+      "atc": "J05AH02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53671",
+      "names": [
+        "KETAMINE (AS HYDROCHLORIDE)"
+      ],
+      "atc": "N01AX03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "53679",
+      "names": [
+        "METHYLPREDNISOLONE (AS SODIUM SUCCINATE)"
+      ],
+      "atc": "H02AB04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "569",
+      "names": [
+        "FURAZOLIDONE"
+      ],
+      "atc": "G01AX06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "5883",
+      "names": [
+        "ZOLEDRONIC ACID"
+      ],
+      "atc": "M05BA08",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "631",
+      "names": [
+        "HYDRALAZINE HYDROCHLORIDE"
+      ],
+      "atc": "C02DB02",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "633",
+      "names": [
+        "HYDRALAZINE HYDROCHLORIDE"
+      ],
+      "atc": "C02DB02",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "634",
+      "names": [
+        "HYDRALAZINE HYDROCHLORIDE"
+      ],
+      "atc": "C02DB02",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "641",
+      "names": [
+        "HYDROCORTISONE"
+      ],
+      "atc": "H02AB09",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "6888",
+      "names": [
+        "ALBUMIN (HUMAN)"
+      ],
+      "atc": "B05AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "6939",
+      "names": [
+        "AMPICILLIN / SULBACTAM"
+      ],
+      "atc": "J01CR01",
+      "sources": [
+        "proc_1404_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "699",
+      "names": [
+        "IOHEXOL"
+      ],
+      "atc": "V08AB02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "738",
+      "names": [
+        "CALCIUM FOLINATE"
+      ],
+      "atc": "V03AF03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "7384",
+      "names": [
+        "TEMOZOLOMIDE"
+      ],
+      "atc": "L01AX03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "764",
+      "names": [
+        "LISINOPRIL"
+      ],
+      "atc": "C09AA03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "7938",
+      "names": [
+        "LEVOTHYROXINE SODIUM"
+      ],
+      "atc": "H03AA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "7991",
+      "names": [
+        "METHYLPHENIDATE HYDROCHLORIDE"
+      ],
+      "atc": "N06BA04",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "849",
+      "names": [
+        "MEXILETINE"
+      ],
+      "atc": "C01BB02",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "855",
+      "names": [
+        "MINOXIDIL"
+      ],
+      "atc": "D11AX01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "8581",
+      "names": [
+        "BIMATOPROST"
+      ],
+      "atc": "S01EE03",
+      "sources": [
+        "proc_1404_prov_m01"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "8613",
+      "names": [
+        "DASATINIB"
+      ],
+      "atc": "L01XE06",
+      "sources": [
+        "proc_1404_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "8699",
+      "names": [
+        "EPHEDRINE HYDROCHLORIDE"
+      ],
+      "atc": "R03CA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "8777",
+      "names": [
+        "PROSTAGLANDIN E1 (ALPROSTADIL)"
+      ],
+      "atc": "C01EA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "905",
+      "names": [
+        "NIMODIPINE"
+      ],
+      "atc": "C08CA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "910",
+      "names": [
+        "NITROGLYCERIN"
+      ],
+      "atc": "C01DA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "914",
+      "names": [
+        "NITROGLYCERIN"
+      ],
+      "atc": "C01DA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "9431",
+      "names": [
+        "METHOTREXATE SODIUM"
+      ],
+      "atc": "L01BA01",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "9572",
+      "names": [
+        "CALCIUM FOLINATE"
+      ],
+      "atc": "V03AF03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "9604",
+      "names": [
+        "VORICONAZOLE"
+      ],
+      "atc": "J02AC03",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "9805",
+      "names": [
+        "BETAINE"
+      ],
+      "atc": "A16AA06",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    },
+    {
+      "generic_code": "982",
+      "names": [
+        "PHENOBARBITAL"
+      ],
+      "atc": "N03AA02",
+      "sources": [
+        "proc_1405_monthly"
+      ],
+      "tier": "generic_latin_list"
+    }
+  ],
+  "ambiguous": [
+    {
+      "generic_code": "12928",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N02BE01",
+        "N02BE71"
+      ]
+    },
+    {
+      "generic_code": "13957",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "R05CB01",
+        "V03AB23"
+      ]
+    },
+    {
+      "generic_code": "1635",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "R01AA04",
+        "S01GA55"
+      ]
+    },
+    {
+      "generic_code": "17679",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N02BE01",
+        "N02BE71"
+      ]
+    },
+    {
+      "generic_code": "18133",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N02BE01",
+        "N02BE71"
+      ]
+    },
+    {
+      "generic_code": "19899",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "C01EB16",
+        "M01AE01",
+        "M02AA13"
+      ]
+    },
+    {
+      "generic_code": "19930",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "M01AB05",
+        "M02AA15",
+        "S01BC03"
+      ]
+    },
+    {
+      "generic_code": "51335",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "J01GB03",
+        "S01AA11",
+        "S03AA06"
+      ]
+    },
+    {
+      "generic_code": "52149",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "R01AD08",
+        "R03BA05"
+      ]
+    },
+    {
+      "generic_code": "52196",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N02BE01",
+        "N02BE71"
+      ]
+    },
+    {
+      "generic_code": "52299",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "R06AX17",
+        "S01"
+      ]
+    },
+    {
+      "generic_code": "52378",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "B05CB01",
+        "B05XA03",
+        "R01AX",
+        "S01XA03"
+      ]
+    },
+    {
+      "generic_code": "52435",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "J01MA02",
+        "S01AE03"
+      ]
+    },
+    {
+      "generic_code": "52480",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "C01EB16",
+        "M01AE01",
+        "M02AA13"
+      ]
+    },
+    {
+      "generic_code": "52755",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "C01EB16",
+        "M01AE01",
+        "M02AA13"
+      ]
+    },
+    {
+      "generic_code": "52756",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "C01EB16",
+        "M01AE01",
+        "M02AA13"
+      ]
+    },
+    {
+      "generic_code": "52792",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N02BE01",
+        "N02BE71"
+      ]
+    },
+    {
+      "generic_code": "52793",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "B05CB01",
+        "B05XA03",
+        "R01AX",
+        "S01XA03"
+      ]
+    },
+    {
+      "generic_code": "52797",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "R05CB01",
+        "V03AB23"
+      ]
+    },
+    {
+      "generic_code": "52798",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "R05CB01",
+        "V03AB23"
+      ]
+    },
+    {
+      "generic_code": "52816",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N02BE01",
+        "N02BE71"
+      ]
+    },
+    {
+      "generic_code": "52889",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "G04BE",
+        "G04BE08"
+      ]
+    },
+    {
+      "generic_code": "52985",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "C01EB16",
+        "M01AE01",
+        "M02AA13"
+      ]
+    },
+    {
+      "generic_code": "52986",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "C01EB16",
+        "M01AE01",
+        "M02AA13"
+      ]
+    },
+    {
+      "generic_code": "53031",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "D10AD04",
+        "D10BA01"
+      ]
+    },
+    {
+      "generic_code": "53050",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "M01AB05",
+        "M02AA15",
+        "S01BC03"
+      ]
+    },
+    {
+      "generic_code": "53061",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "A07EA06",
+        "R01AD05",
+        "R03BA02"
+      ]
+    },
+    {
+      "generic_code": "53098",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "D06BB03",
+        "J05AB01",
+        "S01AD03"
+      ]
+    },
+    {
+      "generic_code": "53152",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "C01BB01",
+        "D04AB01"
+      ]
+    },
+    {
+      "generic_code": "53200",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "D06BB03",
+        "J05AB01",
+        "S01AD03"
+      ]
+    },
+    {
+      "generic_code": "53229",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "B05CB01",
+        "B05XA03",
+        "R01AX",
+        "S01XA03"
+      ]
+    },
+    {
+      "generic_code": "53238",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N02BE01",
+        "N02BE71"
+      ]
+    },
+    {
+      "generic_code": "53246",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "B05CB01",
+        "B05XA03",
+        "R01AX",
+        "S01XA03"
+      ]
+    },
+    {
+      "generic_code": "53379",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "D01AE15",
+        "D01BA02"
+      ]
+    },
+    {
+      "generic_code": "53380",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "M01AB05",
+        "M02AA15",
+        "S01BC03"
+      ]
+    },
+    {
+      "generic_code": "53406",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "J01MA02",
+        "S01AE03"
+      ]
+    },
+    {
+      "generic_code": "53457",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N03AG",
+        "N03AG01"
+      ]
+    },
+    {
+      "generic_code": "53593",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "D10AF01",
+        "G01AA10",
+        "J01FF01"
+      ]
+    },
+    {
+      "generic_code": "8601",
+      "tier": "generic_latin_list",
+      "candidate_atcs": [
+        "N03AG",
+        "N03AG01"
+      ]
+    }
+  ],
+  "not_found": [
+    {
+      "generic_code": "10058",
+      "names": [
+        "LEFLUNOMIDE TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "101",
+      "names": [
+        "APOMORPHINE HYDROCHLORIDE INJECTION PARENTERAL 10 MG/1ML 3 ML"
+      ]
+    },
+    {
+      "generic_code": "1023",
+      "names": [
+        "POLYMYXIN B INJECTION PARENTERAL 500000 U"
+      ]
+    },
+    {
+      "generic_code": "1054",
+      "names": [
+        "PROCAINAMIDE HYDROCHLORIDE INJECTION PARENTERAL 100 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "1055",
+      "names": [
+        "PROCARBAZINE (AS HYDROCHLORIDE) CAPSULE ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "1083",
+      "names": [
+        "PYRIMETHAMINE TABLET ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "1088",
+      "names": [
+        "QUINIDINE SULFATE TABLET ORAL 200 MG"
+      ]
+    },
+    {
+      "generic_code": "11416",
+      "names": [
+        "RANIBIZUMAB INJECTION, SOLUTION PARENTERAL 10 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "11506",
+      "names": [
+        "DIGOXIN SPECIFIC ANTIBODY INJECTION PARENTERAL 40 MG"
+      ]
+    },
+    {
+      "generic_code": "1158",
+      "names": [
+        "SODIUM THIOSULFATE INJECTION PARENTERAL 250 MG/1ML 50 ML"
+      ]
+    },
+    {
+      "generic_code": "11607",
+      "names": [
+        "MYCOPHENOLIC ACID TABLET, DELAYED RELEASE ORAL 360 MG"
+      ]
+    },
+    {
+      "generic_code": "1166",
+      "names": [
+        "SPECTINOMYCIN INJECTION, POWDER, FOR SOLUTION PARENTERAL 2 G"
+      ]
+    },
+    {
+      "generic_code": "11756",
+      "names": [
+        "ACETYLCYSTEINE / ASCORBIC ACID POWDER ORAL 600 MG/75 MG"
+      ]
+    },
+    {
+      "generic_code": "1183",
+      "names": [
+        "SULFADIAZINE TABLET ORAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "11908",
+      "names": [
+        "FOMEPIZOLE INJECTION PARENTERAL 1 G/1ML 1.5 ML"
+      ]
+    },
+    {
+      "generic_code": "12102",
+      "names": [
+        "RASBURICASE INJECTION, POWDER, FOR SOLUTION PARENTERAL 1.5 MG"
+      ]
+    },
+    {
+      "generic_code": "1220",
+      "names": [
+        "THIORIDAZINE HYDROCHLORIDE TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "1221",
+      "names": [
+        "THIORIDAZINE HYDROCHLORIDE TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "1222",
+      "names": [
+        "THIORIDAZINE HYDROCHLORIDE TABLET ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "12280",
+      "names": [
+        "LEVOFLOXACIN HEMIHYDRATE SOLUTION, DROPS OPHTHALMIC 0.5 % 0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "12292",
+      "names": [
+        "ALGLUCOSIDASE ALFA INJECTION, POWDER, FOR SOLUTION PARENTERAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "1241",
+      "names": [
+        "TRANYLCYPROMINE TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "12534",
+      "names": [
+        "NATALIZUMAB INJECTION, SOLUTION, CONCENTRATE PARENTERAL 20 MG/1ML 15 ML"
+      ]
+    },
+    {
+      "generic_code": "12550",
+      "names": [
+        "GALSULFASE INJECTION PARENTERAL 1 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "1257",
+      "names": [
+        "TRIFLURIDINE SOLUTION, DROPS OPHTHALMIC 1 % 5 ML"
+      ]
+    },
+    {
+      "generic_code": "1270",
+      "names": [
+        "UROFOLLITROPIN INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION INTRAMUSCULAR 75 [IU]"
+      ]
+    },
+    {
+      "generic_code": "1282",
+      "names": [
+        "VIGABATRIN TABLET ORAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "1283",
+      "names": [
+        "VINBLASTINE SULFATE INJECTION, POWDER, FOR SOLUTION PARENTERAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "12837",
+      "names": [
+        "INSULIN DETEMIR INJECTION, SOLUTION PARENTERAL 100 [IU]/1ML 3 ML"
+      ]
+    },
+    {
+      "generic_code": "1329",
+      "names": [
+        "DOXAPRAM HYDROCHLORIDE INJECTION PARENTERAL 20 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "1338",
+      "names": [
+        "DESMOPRESSIN (AS ACETATE) INJECTION PARENTERAL 4 UG/1ML"
+      ]
+    },
+    {
+      "generic_code": "13583",
+      "names": [
+        "DABIGATRAN ETEXILATE (AS MESYLATE) CAPSULE ORAL 110 MG"
+      ]
+    },
+    {
+      "generic_code": "13710",
+      "names": [
+        "ADULT COLD PREPARATIONS (4-11) CAPSULE, LIQUID FILLED ORAL 325 MG/2 MG/5 MG"
+      ]
+    },
+    {
+      "generic_code": "13879",
+      "names": [
+        "PACLITAXEL (ALBUMIN BAND) NANO INJECTION, POWDER, FOR SUSPENSION PARENTERAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "1388",
+      "names": [
+        "AMYL NITRITE INHALANT RESPIRATORY 0.3 ML 0.3 ML"
+      ]
+    },
+    {
+      "generic_code": "13980",
+      "names": [
+        "RANOLAZINE TABLET, EXTENDED RELEASE ORAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "14202",
+      "names": [
+        "MULTIVITAMIN INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION PARENTERAL 0.25 MG/0.36 MG/0.4 MG/0.5 UG/4 MG/1.5 MG/6 UG/10 MG/40 UG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "1453",
+      "names": [
+        "CYSTEAMINE (AS BITARTRATE) CAPSULE ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "1485",
+      "names": [
+        "EDETATE CALCIUM DISODIUM INJECTION PARENTERAL 50 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "15281",
+      "names": [
+        "INDOCYANINE GREEN INJECTION, POWDER, FOR SOLUTION PARENTERAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "1545",
+      "names": [
+        "INTERFERON ALFA-2B INJECTION PARENTERAL 3000000 U 1 ML"
+      ]
+    },
+    {
+      "generic_code": "1558",
+      "names": [
+        "ISOPROTERENOL HYDROCHLORIDE INJECTION PARENTERAL 0.2 MG/1ML"
+      ]
+    },
+    {
+      "generic_code": "15691",
+      "names": [
+        "CETUXIMAB INJECTION PARENTERAL 5 MG/1ML 20 ML"
+      ]
+    },
+    {
+      "generic_code": "15893",
+      "names": [
+        "MINOCYCLINE (AS HYDROCHLORIDE) CAPSULE ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "16153",
+      "names": [
+        "THYROTROPIN ALFA INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION PARENTERAL 0.9 MG"
+      ]
+    },
+    {
+      "generic_code": "1620",
+      "names": [
+        "NOREPINEPHRINE (AS BITARTRATE) INJECTION, SOLUTION, CONCENTRATE PARENTERAL 1 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "1679",
+      "names": [
+        "SODIUM NITRITE INJECTION PARENTERAL 30 MG/1ML"
+      ]
+    },
+    {
+      "generic_code": "16870",
+      "names": [
+        "LEVONORGESTREL TABLET ORAL 1.5 MG"
+      ]
+    },
+    {
+      "generic_code": "16889",
+      "names": [
+        "BERACTANT INJECTION, SUSPENSION ENDOTRACHEAL 25 MG/1ML 4 ML"
+      ]
+    },
+    {
+      "generic_code": "17011",
+      "names": [
+        "IVABRADINE (AS HYDROCHLORIDE) TABLET ORAL 5 MG"
+      ]
+    },
+    {
+      "generic_code": "17672",
+      "names": [
+        "GEMIFLOXACIN (AS MESILATE) TABLET ORAL 320 MG"
+      ]
+    },
+    {
+      "generic_code": "1777",
+      "names": [
+        "PROPAFENONE HYDROCHLORIDE TABLET ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "1778",
+      "names": [
+        "PROPAFENONE HYDROCHLORIDE TABLET ORAL 300 MG"
+      ]
+    },
+    {
+      "generic_code": "17803",
+      "names": [
+        "AZITHROMYCIN DIHYDRATE SOLUTION, DROPS OPHTHALMIC 1 % 2.5 ML"
+      ]
+    },
+    {
+      "generic_code": "18006",
+      "names": [
+        "ANAKINRA INJECTION, SOLUTION PARENTERAL 150 MG/1 ML 0.67 ML"
+      ]
+    },
+    {
+      "generic_code": "18233",
+      "names": [
+        "FAMOTIDINE / CALCIUM CARBONATE / MAGNESIUM HYDROXIDE TABLET, CHEWABLE ORAL 10 MG/800 MG/165 MG"
+      ]
+    },
+    {
+      "generic_code": "1836",
+      "names": [
+        "ADENOSINE INJECTION PARENTERAL 3 MG/1ML 2 ML"
+      ]
+    },
+    {
+      "generic_code": "18626",
+      "names": [
+        "LEVOFLOXACIN HEMIHYDRATE SOLUTION, DROPS OPHTHALMIC 0.5 % 5 ML"
+      ]
+    },
+    {
+      "generic_code": "1894",
+      "names": [
+        "ZAFIRLUKAST TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "19051",
+      "names": [
+        "PERITONEAL DIALYSIS IV ICODEXTRINE BASED SOLUTION INTRAPERITONEAL 7.5 G/100ML 2 L"
+      ]
+    },
+    {
+      "generic_code": "1934",
+      "names": [
+        "SODIUM BENZOATE INJECTION PARENTERAL 200 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "19438",
+      "names": [
+        "DABIGATRAN ETEXILATE (AS MESYLATE) CAPSULE ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "2002",
+      "names": [
+        "ROPINIROLE (AS HYDROCHLORIDE) TABLET ORAL 1 MG"
+      ]
+    },
+    {
+      "generic_code": "20306",
+      "names": [
+        "INSULIN ASPART INJECTION, SOLUTION PARENTERAL 100 [IU]/1ML 3 ML"
+      ]
+    },
+    {
+      "generic_code": "2081",
+      "names": [
+        "PIPERACILLIN (AS SODIUM) / TAZOBACTAM (AS SODIUM) INJECTION, POWDER, FOR SOLUTION PARENTERAL 2 G/0.25 G"
+      ]
+    },
+    {
+      "generic_code": "21373",
+      "names": [
+        "ADULT COLD PREPARATIONS (3-7) TABLET ORAL 500 MG/25 MG"
+      ]
+    },
+    {
+      "generic_code": "2153",
+      "names": [
+        "MELPHALAN (AS HYDROCHLORIDE) INJECTION, POWDER, FOR SOLUTION PARENTERAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "219",
+      "names": [
+        "CARMUSTINE INJECTION, POWDER, FOR SOLUTION PARENTERAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "2194",
+      "names": [
+        "VINCRISTINE SULFATE INJECTION PARENTERAL 1 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "2236",
+      "names": [
+        "DEXTROAMPHETAMINE SULFATE TABLET ORAL 5 MG"
+      ]
+    },
+    {
+      "generic_code": "22412",
+      "names": [
+        "PLERIXAFOR INJECTION PARENTERAL 20 MG/1ML 1.2 ML"
+      ]
+    },
+    {
+      "generic_code": "2248",
+      "names": [
+        "SODIUM BENZOATE TABLET ORAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "22558",
+      "names": [
+        "ENZALUTAMIDE CAPSULE, LIQUID FILLED ORAL 40 MG"
+      ]
+    },
+    {
+      "generic_code": "2256",
+      "names": [
+        "DIPHTHERIA TOXOID / TETANUS TOXOID / PERTUSSIS VACCINE INJECTION, SUSPENSION PARENTERAL 1 {DOSE} 0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "22698",
+      "names": [
+        "TERIFLUNOMIDE TABLET ORAL 14 MG"
+      ]
+    },
+    {
+      "generic_code": "2280",
+      "names": [
+        "OXCARBAZEPINE TABLET ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "22858",
+      "names": [
+        "PAZOPANIB (AS HYDROCHLORIDE) TABLET ORAL 200 MG"
+      ]
+    },
+    {
+      "generic_code": "22891",
+      "names": [
+        "AMPHOTERICIN B NANOLIPOSOMAL GEL TOPICAL 0.4 % 15 G"
+      ]
+    },
+    {
+      "generic_code": "23161",
+      "names": [
+        "REGORAFENIB TABLET ORAL 40 MG"
+      ]
+    },
+    {
+      "generic_code": "23169",
+      "names": [
+        "TIGECYCLINE INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION PARENTERAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "23470",
+      "names": [
+        "LEDIPASVIR / SOFOSBUVIR TABLET ORAL 90 MG/400 MG"
+      ]
+    },
+    {
+      "generic_code": "2372",
+      "names": [
+        "BERACTANT INJECTION, SUSPENSION ENDOTRACHEAL 25 MG/1ML 8 ML"
+      ]
+    },
+    {
+      "generic_code": "2397",
+      "names": [
+        "SODIUM ACID PHOSPHATE (PHOSPHATE SODIUM) TABLET, EFFERVESCENT ORAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "23986",
+      "names": [
+        "PERTUZUMAB INJECTION, SOLUTION, CONCENTRATE PARENTERAL 30 MG/1ML 14 ML"
+      ]
+    },
+    {
+      "generic_code": "24097",
+      "names": [
+        "PIRFENIDONE TABLET ORAL 200 MG"
+      ]
+    },
+    {
+      "generic_code": "2414",
+      "names": [
+        "CALCIUM DOBESILATE CAPSULE ORAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "2441",
+      "names": [
+        "LEVONORGESTREL TABLET ORAL 750 UG"
+      ]
+    },
+    {
+      "generic_code": "2447",
+      "names": [
+        "OXCARBAZEPINE TABLET ORAL 300 MG"
+      ]
+    },
+    {
+      "generic_code": "24484",
+      "names": [
+        "PAZOPANIB (AS HYDROCHLORIDE) TABLET ORAL 400 MG"
+      ]
+    },
+    {
+      "generic_code": "25268",
+      "names": [
+        "PEMBROLIZUMAB INJECTION, SOLUTION PARENTERAL 25 MG/1ML 4 ML"
+      ]
+    },
+    {
+      "generic_code": "25308",
+      "names": [
+        "ELOSULFASE ALFA INJECTION, SOLUTION, CONCENTRATE PARENTERAL 1 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "271",
+      "names": [
+        "CHLOROQUINE (AS PHOSPHATE) TABLET ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "280",
+      "names": [
+        "CHLORTHALIDONE TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "3005",
+      "names": [
+        "ESTRADIOL (AS HEMIHYDRATE) TABLET VAGINAL 10 UG"
+      ]
+    },
+    {
+      "generic_code": "368",
+      "names": [
+        "CYCLOPHOSPHAMIDE INJECTION, POWDER, FOR SOLUTION PARENTERAL 200 MG"
+      ]
+    },
+    {
+      "generic_code": "369",
+      "names": [
+        "CYCLOPHOSPHAMIDE TABLET ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "370",
+      "names": [
+        "CYCLOPHOSPHAMIDE INJECTION, POWDER, FOR SOLUTION PARENTERAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "379",
+      "names": [
+        "DANAZOL CAPSULE ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "380",
+      "names": [
+        "DANAZOL CAPSULE ORAL 200 MG"
+      ]
+    },
+    {
+      "generic_code": "382",
+      "names": [
+        "DANTROLENE SODIUM INJECTION, POWDER, FOR SOLUTION PARENTERAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "383",
+      "names": [
+        "DAPSONE TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "388",
+      "names": [
+        "DESIPRAMINE HYDROCHLORIDE TABLET ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "3894",
+      "names": [
+        "PIPERACILLIN (AS SODIUM) / TAZOBACTAM (AS SODIUM) INJECTION, POWDER, FOR SOLUTION PARENTERAL 4 G/0.5 G"
+      ]
+    },
+    {
+      "generic_code": "4000",
+      "names": [
+        "SEVELAMER HYDROCHLORIDE TABLET ORAL 800 MG"
+      ]
+    },
+    {
+      "generic_code": "450",
+      "names": [
+        "DIMETHYL SULFOXIDE SOLUTION PARENTERAL 50 % 50 ML"
+      ]
+    },
+    {
+      "generic_code": "4768",
+      "names": [
+        "VALGANCICLOVIR (AS HYDROCHLORIDE) TABLET ORAL 450 MG"
+      ]
+    },
+    {
+      "generic_code": "50003",
+      "names": [
+        "DACLATASVIR / SOFOSBUVIR TABLET ORAL 60 MG/400 MG"
+      ]
+    },
+    {
+      "generic_code": "50047",
+      "names": [
+        "NOREPINEPHRINE (AS BITARTRATE) INJECTION, SOLUTION, CONCENTRATE PARENTERAL 1 MG/1ML 4 ML"
+      ]
+    },
+    {
+      "generic_code": "50061",
+      "names": [
+        "FLUPENTHIXOL DECANOATE INJECTION PARENTERAL 20 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "50075",
+      "names": [
+        "EDETATE CALCIUM DISODIUM INJECTION PARENTERAL 200 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "50079",
+      "names": [
+        "DIMERCAPROL INJECTION PARENTERAL 50 MG/1ML 2 ML"
+      ]
+    },
+    {
+      "generic_code": "50202",
+      "names": [
+        "PEGINTERFERON ALFA-2A INJECTION PARENTERAL 360 UG/1ML 0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "50244",
+      "names": [
+        "DISOPYRAMIDE CAPSULE ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "50342",
+      "names": [
+        "ADULT COLD PREPARATIONS (1-2) TABLET ORAL 325 MG/5 MG"
+      ]
+    },
+    {
+      "generic_code": "50348",
+      "names": [
+        "ADULT COLD PREPARATIONS (4-2) TABLET ORAL 650 MG/10 MG/4 MG"
+      ]
+    },
+    {
+      "generic_code": "50575",
+      "names": [
+        "INSULIN ASPART INJECTION, SUSPENSION PARENTERAL 100 [IU]/1ML 3 ML"
+      ]
+    },
+    {
+      "generic_code": "50702",
+      "names": [
+        "SACUBITRIL / VALSARTAN TABLET ORAL 24 MG/26 MG"
+      ]
+    },
+    {
+      "generic_code": "50712",
+      "names": [
+        "PALBOCICLIB CAPSULE ORAL 125 MG"
+      ]
+    },
+    {
+      "generic_code": "50720",
+      "names": [
+        "CORIFOLLITROPIN ALFA INJECTION, SOLUTION PARENTERAL 300 UG/1ML 0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "50751",
+      "names": [
+        "PIRFENIDONE CAPSULE ORAL 267 MG"
+      ]
+    },
+    {
+      "generic_code": "50758",
+      "names": [
+        "LENVATINIB (AS MESILATE) CAPSULE ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "50769",
+      "names": [
+        "IBRUTINIB CAPSULE ORAL 140 MG"
+      ]
+    },
+    {
+      "generic_code": "50776",
+      "names": [
+        "VALGANCICLOVIR (AS HYDROCHLORIDE) POWDER, FOR SOLUTION ORAL 50 MG/1ML 12 G"
+      ]
+    },
+    {
+      "generic_code": "508",
+      "names": [
+        "ETHAMBUTOL HYDROCHLORIDE TABLET ORAL 400 MG"
+      ]
+    },
+    {
+      "generic_code": "50822",
+      "names": [
+        "FOLLITROPIN BETA INJECTION, SOLUTION PARENTERAL 833 [IU]/1ML 0.72 ML"
+      ]
+    },
+    {
+      "generic_code": "50823",
+      "names": [
+        "FOLLITROPIN BETA INJECTION, SOLUTION PARENTERAL 833 [IU]/1ML 1.08 ML"
+      ]
+    },
+    {
+      "generic_code": "50833",
+      "names": [
+        "LINACLOTIDE CAPSULE ORAL 145 UG"
+      ]
+    },
+    {
+      "generic_code": "50837",
+      "names": [
+        "C1-ESTRASE INHIBITOR INJECTION, POWDER, FOR SOLUTION PARENTERAL 500 [IU]"
+      ]
+    },
+    {
+      "generic_code": "50838",
+      "names": [
+        "CYCLOPENTOLATE HYDROCHLORIDE SOLUTION OPHTHALMIC 1 % 5 ML"
+      ]
+    },
+    {
+      "generic_code": "50841",
+      "names": [
+        "BRENTUXIMAB VEDOTIN INJECTION, POWDER, FOR SOLUTION PARENTERAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "50882",
+      "names": [
+        "TRASTUZUMAB EMTANSINE INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION PARENTERAL 160 MG"
+      ]
+    },
+    {
+      "generic_code": "50884",
+      "names": [
+        "NIVOLUMAB INJECTION, SOLUTION, CONCENTRATE PARENTERAL 10 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "50891",
+      "names": [
+        "LENVATINIB (AS MESILATE) CAPSULE ORAL 4 MG"
+      ]
+    },
+    {
+      "generic_code": "50902",
+      "names": [
+        "IVERMECTIN CREAM TOPICAL 1 % 15 G"
+      ]
+    },
+    {
+      "generic_code": "50910",
+      "names": [
+        "OSIMERTINIB (AS MESYLATE) TABLET ORAL 40 MG"
+      ]
+    },
+    {
+      "generic_code": "50911",
+      "names": [
+        "OSIMERTINIB (AS MESYLATE) TABLET ORAL 80 MG"
+      ]
+    },
+    {
+      "generic_code": "50964",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / VALSARTAN / HYDROCHLOROTHIAZIDE TABLET ORAL 10 MG/160 MG/12.5 MG"
+      ]
+    },
+    {
+      "generic_code": "50966",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / VALSARTAN / HYDROCHLOROTHIAZIDE TABLET ORAL 5 MG/160 MG/12.5 MG"
+      ]
+    },
+    {
+      "generic_code": "50986",
+      "names": [
+        "TRASTUZUMAB EMTANSINE INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION PARENTERAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "51000",
+      "names": [
+        "ELTROMBOPAG (AS OLAMINE) TABLET ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "51001",
+      "names": [
+        "ELTROMBOPAG (AS OLAMINE) TABLET ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "51005",
+      "names": [
+        "SACUBITRIL / VALSARTAN TABLET ORAL 49 MG/51 MG"
+      ]
+    },
+    {
+      "generic_code": "51204",
+      "names": [
+        "MIRABEGRON TABLET, EXTENDED RELEASE ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "51252",
+      "names": [
+        "CHARCOAL ACTIVATED SUSPENSION ORAL 200 MG/1ML 250 ML"
+      ]
+    },
+    {
+      "generic_code": "51370",
+      "names": [
+        "DANTROLENE SODIUM CAPSULE ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "51371",
+      "names": [
+        "DAPSONE GEL TOPICAL 5 % 30 G"
+      ]
+    },
+    {
+      "generic_code": "514",
+      "names": [
+        "ETHOSUXIMIDE CAPSULE ORAL 250 MG"
+      ]
+    },
+    {
+      "generic_code": "51421",
+      "names": [
+        "TRACE METAL COMBINATION (2-3) INJECTION PARENTERAL 540 UG/1050 UG/19.79 UG/102.3 UG/17.29 UG/16.6 UG/5.33 UG/210 UG/4.85 UG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "51459",
+      "names": [
+        "NINTEDANIB ESILATE CAPSULE, LIQUID FILLED ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "51473",
+      "names": [
+        "IVERMECTIN TABLET ORAL 6 MG"
+      ]
+    },
+    {
+      "generic_code": "51492",
+      "names": [
+        "SODIUM PICOSULFATE SOLUTION, DROPS ORAL 7.5 MG/1ML 15 ML"
+      ]
+    },
+    {
+      "generic_code": "51673",
+      "names": [
+        "SILVER SULFADIAZINE / EGF CREAM TOPICAL 1 %/0.001 % 15 G"
+      ]
+    },
+    {
+      "generic_code": "51777",
+      "names": [
+        "NALTREXONE INJECTION, POWDER, FOR SUSPENSION, EXTENDED RELEASE PARENTERAL 380 MG"
+      ]
+    },
+    {
+      "generic_code": "51899",
+      "names": [
+        "HYDROXOCOBALAMIN INJECTION PARENTERAL 5 MG/1ML 2 ML"
+      ]
+    },
+    {
+      "generic_code": "51925",
+      "names": [
+        "FUSIDIC ACID CREAM TOPICAL 2 % 15 G"
+      ]
+    },
+    {
+      "generic_code": "51973",
+      "names": [
+        "APOMORPHINE HYDROCHLORIDE INJECTION PARENTERAL 5 MG/1ML 20 ML"
+      ]
+    },
+    {
+      "generic_code": "51986",
+      "names": [
+        "IRBESARTAN TABLET ORAL 300 MG"
+      ]
+    },
+    {
+      "generic_code": "51991",
+      "names": [
+        "LIDOCAINE / CHLORHEXIDINE GEL TOPICAL 2 %/0.05 % 12.5 G"
+      ]
+    },
+    {
+      "generic_code": "52014",
+      "names": [
+        "FLUOCINOLONE / HYDROQUINONE / TRETINOIN CREAM TOPICAL 0.01 %/4 %/0.05 % 15 G"
+      ]
+    },
+    {
+      "generic_code": "52020",
+      "names": [
+        "THIOTEPA INJECTION, POWDER, FOR SOLUTION PARENTERAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "52031",
+      "names": [
+        "INDAPAMIDE TABLET ORAL 2.5 MG"
+      ]
+    },
+    {
+      "generic_code": "52096",
+      "names": [
+        "IVERMECTIN LOTION TOPICAL 0.5 % 120 G"
+      ]
+    },
+    {
+      "generic_code": "52154",
+      "names": [
+        "SALBUTAMOL / BECLOMETHASONE DIPROPIONATE AEROSOL, SPRAY RESPIRATORY 100 UG/50 UG/1{DOSE} 200 {PUFF}"
+      ]
+    },
+    {
+      "generic_code": "52167",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "52172",
+      "names": [
+        "OCRELIZUMAB INJECTION, SOLUTION, CONCENTRATE PARENTERAL 30 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "52186",
+      "names": [
+        "VENETOCLAX TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "52201",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) TABLET ORAL 5 MG"
+      ]
+    },
+    {
+      "generic_code": "52204",
+      "names": [
+        "OMEPRAZOLE (AS SODIUM) INJECTION, POWDER, FOR SOLUTION PARENTERAL 40 MG"
+      ]
+    },
+    {
+      "generic_code": "52234",
+      "names": [
+        "SACUBITRIL / VALSARTAN TABLET ORAL 97 MG/103 MG"
+      ]
+    },
+    {
+      "generic_code": "52259",
+      "names": [
+        "SODIUM THIOSULFATE INJECTION PARENTERAL 250 MG/1ML 100 ML"
+      ]
+    },
+    {
+      "generic_code": "52317",
+      "names": [
+        "TOBRAMYCIN / LOTEPREDNOL SUSPENSION, DROPS OPHTHALMIC 0.3 %/0.5 % 5 ML"
+      ]
+    },
+    {
+      "generic_code": "52319",
+      "names": [
+        "TRIENTINE HYDROCHLORIDE CAPSULE ORAL 250 MG"
+      ]
+    },
+    {
+      "generic_code": "52328",
+      "names": [
+        "AZELASTINE HYDROCHLORIDE / FLUTICASONE PROPIONATE SPRAY, METERED NASAL 137 UG/50 UG/1 {PUFF} 120 {DOSE}"
+      ]
+    },
+    {
+      "generic_code": "52360",
+      "names": [
+        "COPPER SULFATE / ZINC SULFATE LOTION TOPICAL 1 G/1.5 G/100ML"
+      ]
+    },
+    {
+      "generic_code": "52363",
+      "names": [
+        "NIVOLUMAB INJECTION, SOLUTION, CONCENTRATE PARENTERAL 10 MG/1ML 4 ML"
+      ]
+    },
+    {
+      "generic_code": "52416",
+      "names": [
+        "ADULT COLD PREPARATIONS (4-12) POWDER, FOR SOLUTION ORAL 650 MG/10 MG/25 MG"
+      ]
+    },
+    {
+      "generic_code": "52417",
+      "names": [
+        "ADULT COLD PREPARATIONS (1-4) POWDER, FOR SOLUTION ORAL 650 MG/10 MG"
+      ]
+    },
+    {
+      "generic_code": "52419",
+      "names": [
+        "ADULT COLD PREPARATIONS (5-4) POWDER, FOR SOLUTION ORAL 650 MG/20 MG/10 MG"
+      ]
+    },
+    {
+      "generic_code": "52426",
+      "names": [
+        "FOSCARNET SODIUM INJECTION, SOLUTION PARENTERAL 24 MG/1ML 250 ML"
+      ]
+    },
+    {
+      "generic_code": "52504",
+      "names": [
+        "PEGASPARGASE INJECTION, SOLUTION PARENTERAL 750 [IU]/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "52508",
+      "names": [
+        "LINACLOTIDE CAPSULE ORAL 290 UG"
+      ]
+    },
+    {
+      "generic_code": "52547",
+      "names": [
+        "CEFTAZIDIME / AVIBACTAM (AS SODIUM) INJECTION, POWDER PARENTERAL 2 G/0.5 G"
+      ]
+    },
+    {
+      "generic_code": "52620",
+      "names": [
+        "ETHOSUXIMIDE SYRUP ORAL 250 MG/5ML 200 ML"
+      ]
+    },
+    {
+      "generic_code": "52628",
+      "names": [
+        "DARATUMUMAB INJECTION, SOLUTION, CONCENTRATE PARENTERAL 20 MG/1ML 20 ML"
+      ]
+    },
+    {
+      "generic_code": "52631",
+      "names": [
+        "VINBLASTINE SULFATE INJECTION, SOLUTION PARENTERAL 1 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "52662",
+      "names": [
+        "ACETAMINOPHEN / IBUPROFEN TABLET ORAL 500 MG/200 MG"
+      ]
+    },
+    {
+      "generic_code": "52700",
+      "names": [
+        "IBRUTINIB TABLET ORAL 140 MG"
+      ]
+    },
+    {
+      "generic_code": "52709",
+      "names": [
+        "NERATINIB (AS MALEATE) TABLET ORAL 40 MG"
+      ]
+    },
+    {
+      "generic_code": "52711",
+      "names": [
+        "BLINATUMOMAB INJECTION, POWDER, FOR SOLUTION PARENTERAL 38.5 UG"
+      ]
+    },
+    {
+      "generic_code": "52722",
+      "names": [
+        "PALBOCICLIB CAPSULE ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "52723",
+      "names": [
+        "PALBOCICLIB CAPSULE ORAL 75 MG"
+      ]
+    },
+    {
+      "generic_code": "52728",
+      "names": [
+        "OLAPARIB TABLET ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "52730",
+      "names": [
+        "BISOPROLOL FUMARATE / HYDROCHLOROTHIAZIDE TABLET ORAL 2.5 MG/6.25 MG"
+      ]
+    },
+    {
+      "generic_code": "52731",
+      "names": [
+        "BISOPROLOL FUMARATE / HYDROCHLOROTHIAZIDE TABLET ORAL 5 MG/6.25 MG"
+      ]
+    },
+    {
+      "generic_code": "52732",
+      "names": [
+        "BISOPROLOL FUMARATE / HYDROCHLOROTHIAZIDE TABLET ORAL 10 MG/6.25 MG"
+      ]
+    },
+    {
+      "generic_code": "52733",
+      "names": [
+        "BISOPROLOL FUMARATE / HYDROCHLOROTHIAZIDE TABLET ORAL 5 MG/12.5 MG"
+      ]
+    },
+    {
+      "generic_code": "52734",
+      "names": [
+        "BISOPROLOL FUMARATE / HYDROCHLOROTHIAZIDE TABLET ORAL 10 MG/25 MG"
+      ]
+    },
+    {
+      "generic_code": "52735",
+      "names": [
+        "ALECTINIB (AS HYDROCHLORIDE) CAPSULE ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "52765",
+      "names": [
+        "GELATIN MODIFIED (2) INJECTION PARENTERAL 4 % 500 ML"
+      ]
+    },
+    {
+      "generic_code": "52815",
+      "names": [
+        "CLOTRIMAZOLE / HYDROCORTISONE (AS ACETATE) CREAM TOPICAL 1 %/1 % 30 G"
+      ]
+    },
+    {
+      "generic_code": "52829",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / BISOPROLOL FUMARATE TABLET ORAL 5 MG/5 MG"
+      ]
+    },
+    {
+      "generic_code": "52830",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / BISOPROLOL FUMARATE TABLET ORAL 5 MG/10 MG"
+      ]
+    },
+    {
+      "generic_code": "52831",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / BISOPROLOL FUMARATE TABLET ORAL 10 MG/5 MG"
+      ]
+    },
+    {
+      "generic_code": "52832",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / BISOPROLOL FUMARATE TABLET ORAL 10 MG/10 MG"
+      ]
+    },
+    {
+      "generic_code": "52835",
+      "names": [
+        "ATEZOLIZUMAB INJECTION, SOLUTION, CONCENTRATE INTRAVENOUS 60 MG/1ML 20 ML"
+      ]
+    },
+    {
+      "generic_code": "52839",
+      "names": [
+        "EMPAGLIFLOZIN / LINAGLIPTIN / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 5 MG/2.5 MG/1000 MG"
+      ]
+    },
+    {
+      "generic_code": "52840",
+      "names": [
+        "EMPAGLIFLOZIN / LINAGLIPTIN / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 10 MG/5 MG/1000 MG"
+      ]
+    },
+    {
+      "generic_code": "52841",
+      "names": [
+        "EMPAGLIFLOZIN / LINAGLIPTIN / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 12.5 MG/2.5 MG/1000 MG"
+      ]
+    },
+    {
+      "generic_code": "52842",
+      "names": [
+        "EMPAGLIFLOZIN / LINAGLIPTIN / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 25 MG/5 MG/1000 MG"
+      ]
+    },
+    {
+      "generic_code": "52844",
+      "names": [
+        "BARICITINIB TABLET ORAL 2 MG"
+      ]
+    },
+    {
+      "generic_code": "52845",
+      "names": [
+        "BARICITINIB TABLET ORAL 4 MG"
+      ]
+    },
+    {
+      "generic_code": "52851",
+      "names": [
+        "PIRFENIDONE TABLET ORAL 801 MG"
+      ]
+    },
+    {
+      "generic_code": "52855",
+      "names": [
+        "SOLIFENACIN SUCCINATE / TAMSULOSIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 6 MG/0.4 MG"
+      ]
+    },
+    {
+      "generic_code": "52862",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 2.5 MG/1000 MG"
+      ]
+    },
+    {
+      "generic_code": "52863",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 5 MG/1000 MG"
+      ]
+    },
+    {
+      "generic_code": "52864",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 5 MG/500 MG"
+      ]
+    },
+    {
+      "generic_code": "52865",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 10 MG/500 MG"
+      ]
+    },
+    {
+      "generic_code": "52866",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) / METFORMIN HYDROCHLORIDE TABLET, EXTENDED RELEASE ORAL 10 MG/1000 MG"
+      ]
+    },
+    {
+      "generic_code": "52877",
+      "names": [
+        "DEXTROMETHORPHAN / GUAIFENESIN / PHENYLEPHRINE SYRUP ORAL 10 MG/100 MG/5 MG/5ML 200 ML"
+      ]
+    },
+    {
+      "generic_code": "52899",
+      "names": [
+        "SODIUM PICOSULFATE / MAGNESIUM OXIDE / CITRIC ACID POWDER, FOR SOLUTION ORAL 10 MG/3.5 G/12 G"
+      ]
+    },
+    {
+      "generic_code": "52902",
+      "names": [
+        "IBUPROFEN / OXYCODONE HYDROCHLORIDE TABLET ORAL 400 MG/5 MG"
+      ]
+    },
+    {
+      "generic_code": "52917",
+      "names": [
+        "INSULIN DEGLUDEC INJECTION, SOLUTION PARENTERAL 100 [IU]/1ML 3 ML"
+      ]
+    },
+    {
+      "generic_code": "52918",
+      "names": [
+        "INSULIN DEGLUDEC / INSULIN ASPART INJECTION, SOLUTION PARENTERAL 70 [IU]/30 [IU]/1ML 3 ML"
+      ]
+    },
+    {
+      "generic_code": "52919",
+      "names": [
+        "ABEMACICLIB TABLET ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "52920",
+      "names": [
+        "RISDIPLAM POWDER, FOR SOLUTION ORAL 0.75 MG/1ML 80 ML"
+      ]
+    },
+    {
+      "generic_code": "52925",
+      "names": [
+        "POLYETHYLENE GLYCOL - ELECTROLYTE SOLUTION ORAL 13.125 G/0.3508 G/0.1786 G/0.0502 G/25ML 200 ML"
+      ]
+    },
+    {
+      "generic_code": "52945",
+      "names": [
+        "IRBESARTAN TABLET ORAL 150 MG"
+      ]
+    },
+    {
+      "generic_code": "52947",
+      "names": [
+        "EMICIZUMAB INJECTION, SOLUTION PARENTERAL 30 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "52948",
+      "names": [
+        "EMICIZUMAB INJECTION, SOLUTION PARENTERAL 150 MG/1ML 0.4 ML"
+      ]
+    },
+    {
+      "generic_code": "52949",
+      "names": [
+        "EMICIZUMAB INJECTION, SOLUTION PARENTERAL 150 MG/1ML 0.7 ML"
+      ]
+    },
+    {
+      "generic_code": "52950",
+      "names": [
+        "EMICIZUMAB INJECTION, SOLUTION PARENTERAL 150 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "52952",
+      "names": [
+        "PIRFENIDONE TABLET ORAL 267 MG"
+      ]
+    },
+    {
+      "generic_code": "52954",
+      "names": [
+        "VEDOLIZUMAB INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION PARENTERAL 300 MG"
+      ]
+    },
+    {
+      "generic_code": "52991",
+      "names": [
+        "IBRUTINIB TABLET ORAL 280 MG"
+      ]
+    },
+    {
+      "generic_code": "52992",
+      "names": [
+        "IBRUTINIB TABLET ORAL 420 MG"
+      ]
+    },
+    {
+      "generic_code": "52993",
+      "names": [
+        "IBRUTINIB TABLET ORAL 560 MG"
+      ]
+    },
+    {
+      "generic_code": "52998",
+      "names": [
+        "NUSINERSEN (AS SODIUM) INJECTION, SOLUTION PARENTERAL 2.4 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "53006",
+      "names": [
+        "TELMISARTAN TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "53007",
+      "names": [
+        "TELMISARTAN TABLET ORAL 40 MG"
+      ]
+    },
+    {
+      "generic_code": "53008",
+      "names": [
+        "TELMISARTAN TABLET ORAL 80 MG"
+      ]
+    },
+    {
+      "generic_code": "53012",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) / METFORMIN HYDROCHLORIDE TABLET ORAL 5 MG/850 MG"
+      ]
+    },
+    {
+      "generic_code": "53013",
+      "names": [
+        "DAPAGLIFLOZIN (AS PROPANEDIOL) / METFORMIN HYDROCHLORIDE TABLET ORAL 5 MG/1000 MG"
+      ]
+    },
+    {
+      "generic_code": "53016",
+      "names": [
+        "RANOLAZINE TABLET, EXTENDED RELEASE ORAL 1000 MG"
+      ]
+    },
+    {
+      "generic_code": "53018",
+      "names": [
+        "MINOCYCLINE (AS HYDROCHLORIDE) CAPSULE ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53020",
+      "names": [
+        "INFLUENZA VACCINE, RECOMBINANT, TETRAVALENT INJECTION PARENTERAL 1 {DOSE} 0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "53038",
+      "names": [
+        "IBUPROFEN / METHOCARBAMOL TABLET ORAL 200 MG/500 MG"
+      ]
+    },
+    {
+      "generic_code": "53051",
+      "names": [
+        "PRALIDOXIME IODIDE INJECTION, SOLUTION PARENTERAL 25 MG/1 ML 20 ML"
+      ]
+    },
+    {
+      "generic_code": "53067",
+      "names": [
+        "LIPID INFUSION 10% (2) INJECTION, SOLUTION INTRAVENOUS 100 MG/22 MG/12 MG/1ML 500 ML"
+      ]
+    },
+    {
+      "generic_code": "53090",
+      "names": [
+        "TRASTUZUMAB DERUXTECAN INJECTION, POWDER, FOR SOLUTION PARENTERAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53096",
+      "names": [
+        "OMALIZUMAB INJECTION, SOLUTION PARENTERAL 150 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "53111",
+      "names": [
+        "IMIQUIMOD CREAM TOPICAL 5 % 7.5 G"
+      ]
+    },
+    {
+      "generic_code": "53115",
+      "names": [
+        "NIVOLUMAB INJECTION, SOLUTION, CONCENTRATE PARENTERAL 10 MG/1ML 24 ML"
+      ]
+    },
+    {
+      "generic_code": "53117",
+      "names": [
+        "ENZALUTAMIDE TABLET ORAL 40 MG"
+      ]
+    },
+    {
+      "generic_code": "53118",
+      "names": [
+        "ENZALUTAMIDE TABLET ORAL 80 MG"
+      ]
+    },
+    {
+      "generic_code": "53120",
+      "names": [
+        "OMEPRAZOLE / SODIUM BICARBONATE POWDER, FOR SUSPENSION ORAL 20 MG/1680 MG"
+      ]
+    },
+    {
+      "generic_code": "53121",
+      "names": [
+        "OMEPRAZOLE / SODIUM BICARBONATE POWDER, FOR SUSPENSION ORAL 40 MG/1680 MG"
+      ]
+    },
+    {
+      "generic_code": "53132",
+      "names": [
+        "INSULIN GLARGINE / LIXISENATIDE INJECTION PARENTERAL 100 [IU]/50 UG/1ML 3 ML"
+      ]
+    },
+    {
+      "generic_code": "53133",
+      "names": [
+        "INSULIN GLARGINE / LIXISENATIDE INJECTION PARENTERAL 100 [IU]/33 UG/1ML 3 ML"
+      ]
+    },
+    {
+      "generic_code": "53134",
+      "names": [
+        "DURVALUMAB INJECTION PARENTERAL 50 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "53136",
+      "names": [
+        "USTEKINUMAB INJECTION, SOLUTION PARENTERAL 90 MG/1ML 0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "53137",
+      "names": [
+        "USTEKINUMAB INJECTION, SOLUTION, CONCENTRATE PARENTERAL 5 MG/1ML 26 ML"
+      ]
+    },
+    {
+      "generic_code": "53138",
+      "names": [
+        "USTEKINUMAB INJECTION, SOLUTION PARENTERAL 90 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "53139",
+      "names": [
+        "IBUPROFEN / FAMOTIDINE TABLET ORAL 800 MG/26.6 MG"
+      ]
+    },
+    {
+      "generic_code": "53140",
+      "names": [
+        "GUSELKUMAB INJECTION, SOLUTION PARENTERAL 100 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "53157",
+      "names": [
+        "SIPONIMOD TABLET ORAL 0.25 MG"
+      ]
+    },
+    {
+      "generic_code": "53158",
+      "names": [
+        "SIPONIMOD TABLET ORAL 1 MG"
+      ]
+    },
+    {
+      "generic_code": "53159",
+      "names": [
+        "SIPONIMOD TABLET ORAL 2 MG"
+      ]
+    },
+    {
+      "generic_code": "53163",
+      "names": [
+        "MIRABEGRON TABLET, EXTENDED RELEASE ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "53167",
+      "names": [
+        "MINOCYCLINE (AS HYDROCHLORIDE) TABLET ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "53168",
+      "names": [
+        "MINOCYCLINE (AS HYDROCHLORIDE) TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53173",
+      "names": [
+        "TELMISARTAN / HYDROCHLOROTHIAZIDE TABLET ORAL 40 MG/12.5 MG"
+      ]
+    },
+    {
+      "generic_code": "53174",
+      "names": [
+        "TELMISARTAN / HYDROCHLOROTHIAZIDE TABLET ORAL 80 MG/12.5 MG"
+      ]
+    },
+    {
+      "generic_code": "53175",
+      "names": [
+        "TELMISARTAN / HYDROCHLOROTHIAZIDE TABLET ORAL 80 MG/25 MG"
+      ]
+    },
+    {
+      "generic_code": "53176",
+      "names": [
+        "OLAPARIB TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53177",
+      "names": [
+        "BUDESONIDE / FORMOTEROL FUMARATE / GLYCOPYRRONIUM BROMIDE INHALANT RESPIRATORY 160 UG/5 UG/9 UG/1{DOSE} 120 {DOSE}"
+      ]
+    },
+    {
+      "generic_code": "53205",
+      "names": [
+        "RAMIPRIL CAPSULE ORAL 5 MG"
+      ]
+    },
+    {
+      "generic_code": "53206",
+      "names": [
+        "RAMIPRIL CAPSULE ORAL 2.5 MG"
+      ]
+    },
+    {
+      "generic_code": "53212",
+      "names": [
+        "NOREPINEPHRINE (AS BITARTRATE) INJECTION, SOLUTION, CONCENTRATE PARENTERAL 0.5 MG/1ML 4 ML"
+      ]
+    },
+    {
+      "generic_code": "53213",
+      "names": [
+        "NOREPINEPHRINE (AS BITARTRATE) INJECTION, SOLUTION, CONCENTRATE PARENTERAL 0.5 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "53218",
+      "names": [
+        "ABEMACICLIB TABLET ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "53219",
+      "names": [
+        "ABEMACICLIB TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53220",
+      "names": [
+        "ABEMACICLIB TABLET ORAL 200 MG"
+      ]
+    },
+    {
+      "generic_code": "53224",
+      "names": [
+        "SUMATRIPTAN SPRAY NASAL 20 MG 6 {DOSE}"
+      ]
+    },
+    {
+      "generic_code": "53235",
+      "names": [
+        "APREMILAST TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "53236",
+      "names": [
+        "APREMILAST (10,20,30) TABLET ORAL 0 MG"
+      ]
+    },
+    {
+      "generic_code": "53240",
+      "names": [
+        "APREMILAST TABLET ORAL 30 MG"
+      ]
+    },
+    {
+      "generic_code": "53247",
+      "names": [
+        "VILANTEROL (AS TRIFENATATE) / FLUTICASONE FUROATE CAPSULE RESPIRATORY 0.1 MG/0.025 MG"
+      ]
+    },
+    {
+      "generic_code": "53248",
+      "names": [
+        "VILANTEROL (AS TRIFENATATE) / FLUTICASONE FUROATE CAPSULE RESPIRATORY 0.2 MG/0.025 MG"
+      ]
+    },
+    {
+      "generic_code": "53256",
+      "names": [
+        "OZANIMOD (AS HYDROCHLORIDE) CAPSULE ORAL 0.46 MG"
+      ]
+    },
+    {
+      "generic_code": "53257",
+      "names": [
+        "OZANIMOD (AS HYDROCHLORIDE) CAPSULE ORAL 0.92 MG"
+      ]
+    },
+    {
+      "generic_code": "53258",
+      "names": [
+        "PALIVIZUMAB INJECTION, SOLUTION PARENTERAL 50 MG/0.5ML"
+      ]
+    },
+    {
+      "generic_code": "53259",
+      "names": [
+        "PALIVIZUMAB INJECTION, SOLUTION PARENTERAL 100 MG/1ML"
+      ]
+    },
+    {
+      "generic_code": "53260",
+      "names": [
+        "BUPROPION / NALTREXONE TABLET, EXTENDED RELEASE ORAL 90 MG/8 MG"
+      ]
+    },
+    {
+      "generic_code": "53263",
+      "names": [
+        "LINACLOTIDE CAPSULE ORAL 72 UG"
+      ]
+    },
+    {
+      "generic_code": "53290",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / TELMISARTAN TABLET ORAL 5 MG/40 MG"
+      ]
+    },
+    {
+      "generic_code": "53291",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / TELMISARTAN TABLET ORAL 10 MG/40 MG"
+      ]
+    },
+    {
+      "generic_code": "53292",
+      "names": [
+        "ACETYLSALICYLIC ACID / CLOPIDOGREL (AS BISULFATE) TABLET ORAL 75 MG/75 MG"
+      ]
+    },
+    {
+      "generic_code": "53293",
+      "names": [
+        "ACETYLSALICYLIC ACID / CLOPIDOGREL (AS BISULFATE) TABLET ORAL 100 MG/75 MG"
+      ]
+    },
+    {
+      "generic_code": "53294",
+      "names": [
+        "ESOMEPRAZOLE (AS MAGNESIUM) / NAPROXEN TABLET, DELAYED RELEASE ORAL 20 MG/375 MG"
+      ]
+    },
+    {
+      "generic_code": "53295",
+      "names": [
+        "ESOMEPRAZOLE (AS MAGNESIUM) / NAPROXEN TABLET, DELAYED RELEASE ORAL 20 MG/500 MG"
+      ]
+    },
+    {
+      "generic_code": "53297",
+      "names": [
+        "EZETIMIBE / ROSUVASTATIN (AS CALCIUM) TABLET ORAL 10 MG/5 MG"
+      ]
+    },
+    {
+      "generic_code": "53298",
+      "names": [
+        "EZETIMIBE / ROSUVASTATIN (AS CALCIUM) TABLET ORAL 10 MG/10 MG"
+      ]
+    },
+    {
+      "generic_code": "53299",
+      "names": [
+        "EZETIMIBE / ROSUVASTATIN (AS CALCIUM) TABLET ORAL 10 MG/20 MG"
+      ]
+    },
+    {
+      "generic_code": "53300",
+      "names": [
+        "EZETIMIBE / ROSUVASTATIN (AS CALCIUM) TABLET ORAL 10 MG/40 MG"
+      ]
+    },
+    {
+      "generic_code": "53301",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / TELMISARTAN TABLET ORAL 10 MG/80 MG"
+      ]
+    },
+    {
+      "generic_code": "53302",
+      "names": [
+        "AMLODIPINE (AS BESILATE) / TELMISARTAN TABLET ORAL 5 MG/80 MG"
+      ]
+    },
+    {
+      "generic_code": "53335",
+      "names": [
+        "BUPRENORPHINE INJECTION, SOLUTION, EXTENDED RELEASE PARENTERAL 100 MG/0.5ML"
+      ]
+    },
+    {
+      "generic_code": "53340",
+      "names": [
+        "ISOPROTERENOL HYDROCHLORIDE INJECTION PARENTERAL 2 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "53341",
+      "names": [
+        "BEMPEDOIC ACID TABLET ORAL 180 MG"
+      ]
+    },
+    {
+      "generic_code": "53358",
+      "names": [
+        "CYCLOPHOSPHAMIDE INJECTION, SOLUTION PARENTERAL 200 MG/1ML 2.5 ML"
+      ]
+    },
+    {
+      "generic_code": "53359",
+      "names": [
+        "CYCLOPHOSPHAMIDE INJECTION, SOLUTION PARENTERAL 200 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "53360",
+      "names": [
+        "UMECLIDINIUM (AS BROMIDE) / VILANTEROL (AS TRIFENATATE) CAPSULE RESPIRATORY 62.5 UG/25 UG"
+      ]
+    },
+    {
+      "generic_code": "53367",
+      "names": [
+        "PALONOSETRON (AS HYDROCHLORIDE) INJECTION, SOLUTION PARENTERAL 0.05 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "53370",
+      "names": [
+        "UPADACITINIB TABLET, EXTENDED RELEASE ORAL 15 MG"
+      ]
+    },
+    {
+      "generic_code": "53371",
+      "names": [
+        "UPADACITINIB TABLET, EXTENDED RELEASE ORAL 30 MG"
+      ]
+    },
+    {
+      "generic_code": "53374",
+      "names": [
+        "AMOROLFINE (AS HYDROCHLORIDE) NAIL LACQUER TOPICAL 50 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "53384",
+      "names": [
+        "VONOPRAZAN (AS FUMARATE) TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "53385",
+      "names": [
+        "VONOPRAZAN (AS FUMARATE) TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "53386",
+      "names": [
+        "ARTIFICIAL SALIVA SPRAY ORAL 50 ML"
+      ]
+    },
+    {
+      "generic_code": "53389",
+      "names": [
+        "TORSEMIDE TABLET ORAL 5 MG"
+      ]
+    },
+    {
+      "generic_code": "53390",
+      "names": [
+        "TORSEMIDE TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "53391",
+      "names": [
+        "TORSEMIDE TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "53392",
+      "names": [
+        "TORSEMIDE TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53402",
+      "names": [
+        "ACETAMINOPHEN / TRAMADOL HYDROCHLORIDE TABLET ORAL 325 MG/37.5 MG"
+      ]
+    },
+    {
+      "generic_code": "53408",
+      "names": [
+        "SILODOSIN CAPSULE ORAL 4 MG"
+      ]
+    },
+    {
+      "generic_code": "53409",
+      "names": [
+        "SILODOSIN CAPSULE ORAL 8 MG"
+      ]
+    },
+    {
+      "generic_code": "53413",
+      "names": [
+        "VENETOCLAX TABLET ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "53414",
+      "names": [
+        "VENETOCLAX TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "53423",
+      "names": [
+        "FUSIDIC ACID / HYDROCORTISONE ACETATE CREAM TOPICAL 2 %/1 % 15 G"
+      ]
+    },
+    {
+      "generic_code": "53442",
+      "names": [
+        "BILASTINE TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "53444",
+      "names": [
+        "BILASTINE SOLUTION ORAL 2.5 MG/1ML 120 ML"
+      ]
+    },
+    {
+      "generic_code": "53446",
+      "names": [
+        "DEXLANSOPRAZOLE CAPSULE, DELAYED RELEASE ORAL 30 MG"
+      ]
+    },
+    {
+      "generic_code": "53447",
+      "names": [
+        "DEXLANSOPRAZOLE CAPSULE, DELAYED RELEASE ORAL 60 MG"
+      ]
+    },
+    {
+      "generic_code": "53448",
+      "names": [
+        "DONEPEZIL HYDROCHLORIDE / MEMANTINE HYDROCHLORIDE CAPSULE, EXTENDED RELEASE ORAL 10 MG/7 MG"
+      ]
+    },
+    {
+      "generic_code": "53450",
+      "names": [
+        "DONEPEZIL HYDROCHLORIDE / MEMANTINE HYDROCHLORIDE CAPSULE, EXTENDED RELEASE ORAL 10 MG/14 MG"
+      ]
+    },
+    {
+      "generic_code": "53451",
+      "names": [
+        "DONEPEZIL HYDROCHLORIDE / MEMANTINE HYDROCHLORIDE CAPSULE, EXTENDED RELEASE ORAL 10 MG/21 MG"
+      ]
+    },
+    {
+      "generic_code": "53452",
+      "names": [
+        "DONEPEZIL HYDROCHLORIDE / MEMANTINE HYDROCHLORIDE CAPSULE, EXTENDED RELEASE ORAL 10 MG/28 MG"
+      ]
+    },
+    {
+      "generic_code": "53455",
+      "names": [
+        "ACETAMINOPHEN / CHLORPHENIRAMINE / DEXTROMETHORPHAN / PHENYLEPHRINE / ASCORBIC ACID TABLET ORAL 500 MG/2 MG/15 MG/5 MG/38 MG"
+      ]
+    },
+    {
+      "generic_code": "53459",
+      "names": [
+        "BRIVARACETAM TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53460",
+      "names": [
+        "BRIVARACETAM TABLET ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "53461",
+      "names": [
+        "BRIVARACETAM TABLET ORAL 75 MG"
+      ]
+    },
+    {
+      "generic_code": "53462",
+      "names": [
+        "BRIVARACETAM TABLET ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "53463",
+      "names": [
+        "BRIVARACETAM TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "53476",
+      "names": [
+        "DANTROLENE SODIUM INJECTION, POWDER PARENTERAL 120 MG"
+      ]
+    },
+    {
+      "generic_code": "53481",
+      "names": [
+        "SEMAGLUTIDE INJECTION, SOLUTION PARENTERAL 2 MG/3ML"
+      ]
+    },
+    {
+      "generic_code": "53482",
+      "names": [
+        "SEMAGLUTIDE INJECTION, SOLUTION PARENTERAL 4 MG/3 ML"
+      ]
+    },
+    {
+      "generic_code": "53483",
+      "names": [
+        "SEMAGLUTIDE INJECTION, SOLUTION SUBCUTANEOUS 2 MG/1.5 ML"
+      ]
+    },
+    {
+      "generic_code": "53491",
+      "names": [
+        "SEMAGLUTIDE INJECTION, SOLUTION PARENTERAL 8 MG/3 ML"
+      ]
+    },
+    {
+      "generic_code": "53503",
+      "names": [
+        "DUPILUMAB INJECTION, SOLUTION SUBCUTANEOUS 150 MG/1ML 2 ML"
+      ]
+    },
+    {
+      "generic_code": "53506",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION SUBCUTANEOUS 2.5 MG/0.5ML"
+      ]
+    },
+    {
+      "generic_code": "53507",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION SUBCUTANEOUS 5 MG/0.5ML"
+      ]
+    },
+    {
+      "generic_code": "53508",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION SUBCUTANEOUS 7.5 MG/0.5ML"
+      ]
+    },
+    {
+      "generic_code": "53509",
+      "names": [
+        "RAMELTEON TABLET ORAL 8 MG"
+      ]
+    },
+    {
+      "generic_code": "53510",
+      "names": [
+        "APREMILAST TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "53512",
+      "names": [
+        "VIGABATRIN POWDER, FOR SOLUTION ORAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "53526",
+      "names": [
+        "FLIBANSERIN TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53528",
+      "names": [
+        "TIMOLOL (AS MALEATE) / BRIMONIDINE TARTRATE SOLUTION, DROPS OPHTHALMIC 0.5 %/0.2 % 5 ML"
+      ]
+    },
+    {
+      "generic_code": "53560",
+      "names": [
+        "RESMETIROM TABLET ORAL 80 MG"
+      ]
+    },
+    {
+      "generic_code": "53561",
+      "names": [
+        "RESMETIROM TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "53563",
+      "names": [
+        "CHLORTHALIDONE TABLET ORAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "53565",
+      "names": [
+        "CHLORTHALIDONE TABLET ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "53566",
+      "names": [
+        "BEMPEDOIC ACID / EZETIMIBE TABLET ORAL 180 MG/10 MG"
+      ]
+    },
+    {
+      "generic_code": "53584",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION SUBCUTANEOUS 12.5 MG/0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "53585",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION SUBCUTANEOUS 10 MG/0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "53586",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION SUBCUTANEOUS 15 MG/0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "53587",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION PARENTERAL 2.5 MG/0.6 ML"
+      ]
+    },
+    {
+      "generic_code": "53588",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION PARENTERAL 5 MG/0.6 ML"
+      ]
+    },
+    {
+      "generic_code": "53589",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION PARENTERAL 7.5 MG/0.6 ML"
+      ]
+    },
+    {
+      "generic_code": "53590",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION PARENTERAL 10 MG/0.6 ML"
+      ]
+    },
+    {
+      "generic_code": "53591",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION PARENTERAL 12.5 MG/0.6 ML"
+      ]
+    },
+    {
+      "generic_code": "53592",
+      "names": [
+        "TIRZEPATIDE INJECTION, SOLUTION PARENTERAL 15 MG/0.6 ML"
+      ]
+    },
+    {
+      "generic_code": "53598",
+      "names": [
+        "NAPROXEN (AS SODIUM) TABLET, EXTENDED RELEASE ORAL 750 MG"
+      ]
+    },
+    {
+      "generic_code": "53600",
+      "names": [
+        "DARATUMUMAB INJECTION, SOLUTION PARENTERAL 120 MG/1 ML 15 ML"
+      ]
+    },
+    {
+      "generic_code": "53611",
+      "names": [
+        "VERICIGUAT TABLET ORAL 2.5 MG"
+      ]
+    },
+    {
+      "generic_code": "53636",
+      "names": [
+        "FINERENONE TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "53637",
+      "names": [
+        "FINERENONE TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "53652",
+      "names": [
+        "RIMEGEPANT (AS SULFATE) TABLET, ORALLY DISINTEGRATING ORAL 75 MG"
+      ]
+    },
+    {
+      "generic_code": "53656",
+      "names": [
+        "RESMETIROM TABLET ORAL 60 MG"
+      ]
+    },
+    {
+      "generic_code": "53666",
+      "names": [
+        "BLINATUMOMAB INJECTION, POWDER PARENTERAL 35 UG"
+      ]
+    },
+    {
+      "generic_code": "53677",
+      "names": [
+        "APREMILAST (10,20) TABLET ORAL"
+      ]
+    },
+    {
+      "generic_code": "53680",
+      "names": [
+        "PREDNISOLONE (AS SODIUM PHOSPHATE) SOLUTION ORAL 15 MG/5ML 120 ML"
+      ]
+    },
+    {
+      "generic_code": "53701",
+      "names": [
+        "PREDNISOLONE (AS SODIUM PHOSPHATE) SOLUTION ORAL 25 MG/5 ML 60 ML"
+      ]
+    },
+    {
+      "generic_code": "53806",
+      "names": [
+        "SODIUM PICOSULFATE SOLUTION, DROPS ORAL 7.5 MG/1ML 30 ML"
+      ]
+    },
+    {
+      "generic_code": "547",
+      "names": [
+        "FLUORESCEIN SODIUM INJECTION PARENTERAL 10 % 5 ML"
+      ]
+    },
+    {
+      "generic_code": "553",
+      "names": [
+        "FLUPHENAZINE TABLET ORAL 1 MG 1 ML"
+      ]
+    },
+    {
+      "generic_code": "554",
+      "names": [
+        "FLUPHENAZINE TABLET ORAL 2.5 MG"
+      ]
+    },
+    {
+      "generic_code": "5637",
+      "names": [
+        "INDAPAMIDE TABLET, EXTENDED RELEASE ORAL 1.5 MG"
+      ]
+    },
+    {
+      "generic_code": "5702",
+      "names": [
+        "PIPERACILLIN (AS SODIUM) / TAZOBACTAM (AS SODIUM) INJECTION, POWDER, FOR SOLUTION PARENTERAL 3 G/0.375 G"
+      ]
+    },
+    {
+      "generic_code": "5962",
+      "names": [
+        "IVERMECTIN TABLET ORAL 3 MG"
+      ]
+    },
+    {
+      "generic_code": "5966",
+      "names": [
+        "INFLUENZA VACCINE, INACTIVATED, TRIVALENT INJECTION PARENTERAL 1 {DOSE}"
+      ]
+    },
+    {
+      "generic_code": "5974",
+      "names": [
+        "LEFLUNOMIDE TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "5979",
+      "names": [
+        "METHYLENE BLUE INJECTION PARENTERAL 10 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "5997",
+      "names": [
+        "AZELAIC ACID CREAM TOPICAL 20 % 30 G"
+      ]
+    },
+    {
+      "generic_code": "6353",
+      "names": [
+        "LARONIDASE INJECTION PARENTERAL 0.58 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "6403",
+      "names": [
+        "SODIUM PHENYLBUTYRATE TABLET ORAL 500 MG"
+      ]
+    },
+    {
+      "generic_code": "6435",
+      "names": [
+        "TRIENTINE DIHYDROCHLORIDE CAPSULE ORAL 300 MG"
+      ]
+    },
+    {
+      "generic_code": "6453",
+      "names": [
+        "CILOSTAZOL TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "6459",
+      "names": [
+        "NICORANDIL TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "6461",
+      "names": [
+        "NICORANDIL TABLET ORAL 20 MG"
+      ]
+    },
+    {
+      "generic_code": "6507",
+      "names": [
+        "TOPOTECAN (AS HYDROCHLORIDE) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION PARENTERAL 4 MG"
+      ]
+    },
+    {
+      "generic_code": "6540",
+      "names": [
+        "VITAMIN B2 (RIBOFLAVIN) TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "6583",
+      "names": [
+        "IMIQUIMOD CREAM TOPICAL 5 % 250 MG"
+      ]
+    },
+    {
+      "generic_code": "6700",
+      "names": [
+        "BUSULFAN INJECTION PARENTERAL 6 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "6783",
+      "names": [
+        "GANIRELIX (AS ACETATE) INJECTION PARENTERAL 500 UG/1ML 0.5 ML"
+      ]
+    },
+    {
+      "generic_code": "682",
+      "names": [
+        "INTERFERON ALFA-2B INJECTION PARENTERAL 5000000 U"
+      ]
+    },
+    {
+      "generic_code": "6859",
+      "names": [
+        "VERTEPORFIN INJECTION, POWDER, FOR SOLUTION PARENTERAL 15 MG"
+      ]
+    },
+    {
+      "generic_code": "711",
+      "names": [
+        "ISOCARBOXAZID TABLET ORAL 10 MG"
+      ]
+    },
+    {
+      "generic_code": "7469",
+      "names": [
+        "EPTIFIBATIDE INJECTION, SOLUTION PARENTERAL 0.75 MG/1ML 100 ML"
+      ]
+    },
+    {
+      "generic_code": "7470",
+      "names": [
+        "EPTIFIBATIDE INJECTION, SOLUTION PARENTERAL 2 MG/1ML 10 ML"
+      ]
+    },
+    {
+      "generic_code": "7659",
+      "names": [
+        "ANAGRELIDE HYDROCHLORIDE CAPSULE ORAL 500 UG"
+      ]
+    },
+    {
+      "generic_code": "783",
+      "names": [
+        "MAPROTILINE HYDROCHLORIDE TABLET ORAL 25 MG"
+      ]
+    },
+    {
+      "generic_code": "784",
+      "names": [
+        "MAPROTILINE HYDROCHLORIDE TABLET ORAL 75 MG"
+      ]
+    },
+    {
+      "generic_code": "7913",
+      "names": [
+        "SUCCIMER CAPSULE ORAL 200 MG"
+      ]
+    },
+    {
+      "generic_code": "803",
+      "names": [
+        "MELPHALAN TABLET ORAL 2 MG"
+      ]
+    },
+    {
+      "generic_code": "8081",
+      "names": [
+        "DORNASE ALFA (DESOXYRIBONUCLEASE) SOLUTION RESPIRATORY 1 MG/1ML 2.5 ML"
+      ]
+    },
+    {
+      "generic_code": "8108",
+      "names": [
+        "GEFITINIB TABLET ORAL 250 MG"
+      ]
+    },
+    {
+      "generic_code": "814",
+      "names": [
+        "MESNA INJECTION PARENTERAL 100 MG/1ML 4 ML"
+      ]
+    },
+    {
+      "generic_code": "833",
+      "names": [
+        "METHYLERGONOVINE MALEATE TABLET ORAL 0.125 MG"
+      ]
+    },
+    {
+      "generic_code": "834",
+      "names": [
+        "METHYLERGONOVINE MALEATE INJECTION PARENTERAL 0.2 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "8390",
+      "names": [
+        "FULVESTRANT INJECTION, SOLUTION PARENTERAL 50 MG/1ML 5 ML"
+      ]
+    },
+    {
+      "generic_code": "8426",
+      "names": [
+        "TETRACOSACTIDE INJECTION PARENTERAL 250 UG/1ML"
+      ]
+    },
+    {
+      "generic_code": "8667",
+      "names": [
+        "METOLAZONE TABLET ORAL 5 MG"
+      ]
+    },
+    {
+      "generic_code": "88",
+      "names": [
+        "ANTHOCYANOSIDE A TABLET ORAL 100 MG/5 MG"
+      ]
+    },
+    {
+      "generic_code": "9037",
+      "names": [
+        "PEGASPARGASE INJECTION, POWDER, FOR SOLUTION PARENTERAL 3750 [IU]"
+      ]
+    },
+    {
+      "generic_code": "909",
+      "names": [
+        "NITROFURAZONE CREAM TOPICAL 0.2 % 30 G"
+      ]
+    },
+    {
+      "generic_code": "916",
+      "names": [
+        "NITROPRUSSIDE SODIUM INJECTION, POWDER, FOR SOLUTION PARENTERAL 50 MG"
+      ]
+    },
+    {
+      "generic_code": "9391",
+      "names": [
+        "CYCLOPHOSPHAMIDE INJECTION, POWDER, FOR SOLUTION PARENTERAL 1 G"
+      ]
+    },
+    {
+      "generic_code": "948",
+      "names": [
+        "PAPAVERINE HYDROCHLORIDE INJECTION PARENTERAL 40 MG/1ML 1 ML"
+      ]
+    },
+    {
+      "generic_code": "954",
+      "names": [
+        "PAROMOMYCIN CAPSULE ORAL 250 MG"
+      ]
+    },
+    {
+      "generic_code": "9576",
+      "names": [
+        "PROTHROMBIN COMPLEX (CONCENTRATED) INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION PARENTERAL 500 [IU]"
+      ]
+    },
+    {
+      "generic_code": "9606",
+      "names": [
+        "DESMOPRESSIN (AS ACETATE) TABLET SUBLINGUAL 60 UG"
+      ]
+    },
+    {
+      "generic_code": "9607",
+      "names": [
+        "DESMOPRESSIN (AS ACETATE) TABLET SUBLINGUAL 120 UG"
+      ]
+    },
+    {
+      "generic_code": "976",
+      "names": [
+        "PHENAZOPYRIDINE HYDROCHLORIDE TABLET ORAL 100 MG"
+      ]
+    },
+    {
+      "generic_code": "984",
+      "names": [
+        "PHENOXYBENZAMINE CAPSULE ORAL 10 MG"
+      ]
+    }
+  ]
+}

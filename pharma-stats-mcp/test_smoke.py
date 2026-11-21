@@ -19,7 +19,7 @@ Runs the server over a REAL MCP stdio session (initialize -> list_tools
      top-generics list is slightly stale: it lists clopidogrel first
      with 37,876,272,925,000 Rial, while the aggregates/raw give
      clopidogrel 38,110,726,375,000 Rial)
-  9. atc_breakdown(1404): blank-ATC value share is ~16.5% (after the ATC fix)
+  9. atc_breakdown(1404): blank-ATC value share is ~14.9% (after the ATC fix, round 2)
  10. province_breakdown(1404, 6): 31 provinces, total 4,890,314,208 units
  11. province_breakdown(1404, 2) is refused with a clear message
  12. market_totals(year=1405, month=9) is refused (1405 has months 1-6 only)
@@ -156,8 +156,8 @@ async def main_async() -> list[bool]:
                 "atc_breakdown", {"year": 1404}))
             blank = at.get("blank_atc", {})
             results.append(_check(
-                "atc_breakdown 1404: blank-ATC value share ~16.5% (post-fix)",
-                blank and abs(blank.get("share_of_value_pct", 0) - 16.48) < 0.5,
+                "atc_breakdown 1404: blank-ATC value share ~14.9% (post-fix)",
+                blank and abs(blank.get("share_of_value_pct", 0) - 14.89) < 0.5,
                 f"blank share value={blank.get('share_of_value_pct')}% "
                 f"units={blank.get('share_of_units_pct')}%"))
 

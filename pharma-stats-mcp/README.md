@@ -94,10 +94,13 @@ call_tool) and checks the results against the verified market totals.
   Toman, ~1.0% of annual value and 2.1% of units) are in the yearly total
   but in no month — monthly sums for 1404 are below the yearly total.
 - **Blank ATC:** raw files had 46.2% of 1404 rows / 51.7% of 1405 rows blank;
-  aggregates were completed via a generic_code -> ATC map (scripts/fix_atc.py,
-  zero conflicts) to 18.9% / 19.9% of rows (16.5% / 20.5% of consumer value).
-  743 generics still have no ATC anywhere. ATC totals understate the market;
-  use generic codes for market totals.
+  aggregates were completed first via a generic_code -> ATC map
+  (scripts/fix_atc.py, zero conflicts) to 18.9% / 19.9% of rows, then via
+  an exact ingredient-name lookup across the other files
+  (scripts/fix_atc_round2.py, 270 generics) to 12.0% / 13.0% of rows
+  (14.9% / 19.0% of consumer value). 473 generics still have no ATC
+  anywhere. ATC totals understate the market; use generic codes for
+  market totals.
 - **Province files do not reconcile** with national monthly totals
   (month 1: −20.2% units, month 6: +5.6%, month 12: −18.5%). Different
   cuts — never sum province figures into national totals.
