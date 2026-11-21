@@ -100,9 +100,10 @@ call_tool) and checks the results against the verified market totals.
   (scripts/fix_atc_round2.py, 270 generics) to 12.0% / 13.0% of rows,
   then via route/form disambiguation (36 generics) and ChEMBL/KEGG
   lookups (337 generics, scripts/fix_atc_round3.py) to 2.6% / 2.7% of
-  rows (1.2% / 0.9% of consumer value). 100 generics still have no ATC
-  anywhere. ATC totals understate the market; use generic codes for
-  market totals.
+  rows, then via WHO ATC/DDD Index lookups (71 generics,
+  scripts/fix_atc_round4.py) to 0.78% / 0.79% of rows (0.08% / 0.07% of
+  consumer value). 29 generics still have no ATC anywhere. ATC totals
+  understate the market; use generic codes for market totals.
 - **Province files do not reconcile** with national monthly totals
   (month 1: −20.2% units, month 6: +5.6%, month 12: −18.5%). Different
   cuts — never sum province figures into national totals.

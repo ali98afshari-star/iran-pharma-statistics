@@ -284,7 +284,7 @@ function renderAtcFixNote() {
     return;
   }
   el.textContent = 'در فایل خام ۴۶٫۲٪ ردیف‌های ۱۴۰۴ و ۵۱٫۷٪ ردیف‌های ۱۴۰۵ کد ATC نداشتند. ' +
-    'پس از سه دور تکمیل (نگاشت کد ژنریک، جست‌وجوی نام مادهٔ مؤثره، رفع ابهام بر اساس شکل/مسیر و جست‌وجو در ChEMBL و KEGG) سهم ردیف‌های بدون ATC به ' +
+    'پس از چهار دور تکمیل (نگاشت کد ژنریک، جست‌وجوی نام مادهٔ مؤثره، رفع ابهام بر اساس شکل/مسیر و جست‌وجو در ChEMBL و KEGG، و جست‌وجو در شاخص ATC/DDD سازمان جهانی بهداشت) سهم ردیف‌های بدون ATC به ' +
     pct(fix.after['1404'].blank_rows_pct) + ' در ۱۴۰۴ و ' + pct(fix.after['1405'].blank_rows_pct) +
     ' در نیمهٔ اول ۱۴۰۵ رسید (سهم ارزشی: ' + pct(fix.after['1404'].blank_value_pct) + ' و ' +
     pct(fix.after['1405'].blank_value_pct) + '). ' + fmt(fix.rows_filled) +
@@ -441,7 +441,7 @@ function renderCavAtc() {
     return;
   }
   el.textContent = 'در فایل خام ۴۶٫۲٪ ردیف‌های ۱۴۰۴ و ۵۱٫۷٪ ردیف‌های نیمهٔ اول ۱۴۰۵ کد ATC نداشتند؛ ' +
-    'پس از سه دور تکمیل سهم ردیف‌های بدون ATC به ' +
+    'پس از چهار دور تکمیل سهم ردیف‌های بدون ATC به ' +
     pct(fix.after['1404'].blank_rows_pct) + ' (۱۴۰۴) و ' + pct(fix.after['1405'].blank_rows_pct) +
     ' (۱۴۰۵) رسید، ولی سهم ارزشی بدون ATC هنوز ' + pct(fix.after['1404'].blank_value_pct) +
     ' (۱۴۰۴) و ' + pct(fix.after['1405'].blank_value_pct) + ' (۱۴۰۵) است؛ تحلیل ATC همچنان ناقص است.';
