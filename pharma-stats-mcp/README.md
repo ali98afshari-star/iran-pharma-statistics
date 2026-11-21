@@ -101,8 +101,10 @@ call_tool) and checks the results against the verified market totals.
   then via route/form disambiguation (36 generics) and ChEMBL/KEGG
   lookups (337 generics, scripts/fix_atc_round3.py) to 2.6% / 2.7% of
   rows, then via WHO ATC/DDD Index lookups (71 generics,
-  scripts/fix_atc_round4.py) to 0.78% / 0.79% of rows (0.08% / 0.07% of
-  consumer value). 29 generics still have no ATC anywhere. ATC totals
+  scripts/fix_atc_round4.py) to 0.78% / 0.79% of rows, then via WHO
+  ATC/DDD Index mapping from brand-confirmed ingredients (6 generics,
+  scripts/fix_atc_round5.py) to 0.64% / 0.61% of rows (0.07% / 0.05% of
+  consumer value). 23 generics still have no ATC anywhere. ATC totals
   understate the market; use generic codes for market totals.
 - **Province files do not reconcile** with national monthly totals
   (month 1: −20.2% units, month 6: +5.6%, month 12: −18.5%). Different

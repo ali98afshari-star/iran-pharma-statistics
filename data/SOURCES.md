@@ -54,11 +54,14 @@ Food and Drug Administration (IFDA), as kept in the user's Google Drive folder
    در فایل‌های دیگر (۲۷۰ ژنریک دیگر؛ ۳۹ ماده چند ATC داشتند) تکمیل شد و در دور سوم ۳۷۳ ژنریک
    دیگر (۳۶ مورد رفع ابهام بر اساس شکل/مسیر مصرف؛ ۳۳۷ مورد جست‌وجو در ChEMBL و KEGG، منابع
    اولیهٔ عمومی) اضافه شد و در دور چهارم ۷۱ ژنریک دیگر با جست‌وجو در شاخص ATC/DDD سازمان
-   جهانی بهداشت (atcddd.fhi.no) اضافه شد: سهم ردیف‌های بدون ATC به ۰٫۸٪ (۱۴۰۴) و ۰٫۸٪ (۱۴۰۵) رسید و سهم
-   ارزشی بدون ATC اکنون ۰٫۰۸٪ (۱۴۰۴) و ۰٫۰۷٪ (۱۴۰۵) است. ۲۹ ژنریک در هیچ ردیفی ATC ندارند و
-   همچنان بدون ATC مانده‌اند (روش کار در `scripts/fix_atc.py` و `scripts/fix_atc_round2.py` و
-   `scripts/fix_atc_round3.py` و `scripts/fix_atc_round4.py` و جزئیات در `data/atc_fix_report.json` و
-   `data/atc_fix_report_round2.json` و `data/atc_fix_report_round3.json` و `data/atc_fix_report_round4.json`). هر تحلیلی که بر اساس ATC باشد این ردیف‌ها را از دست
+   جهانی بهداشت (atcddd.fhi.no) اضافه شد و در دور پنجم ۶ ژنریک دیگر با نگاشت از همان شاخص
+   با هویت تأییدشده از پیام داروساز اضافه شد: سهم ردیف‌های بدون ATC به ۰٫۶٪ (۱۴۰۴) و ۰٫۶٪
+   (۱۴۰۵) رسید و سهم ارزشی بدون ATC اکنون ۰٫۰۷٪ (۱۴۰۴) و ۰٫۰۵٪ (۱۴۰۵) است. ۲۳ ژنریک در
+   هیچ ردیفی ATC ندارند و همچنان بدون ATC مانده‌اند (روش کار در `scripts/fix_atc.py` و
+   `scripts/fix_atc_round2.py` و `scripts/fix_atc_round3.py` و `scripts/fix_atc_round4.py` و
+   `scripts/fix_atc_round5.py` و جزئیات در `data/atc_fix_report.json` و
+   `data/atc_fix_report_round2.json` و `data/atc_fix_report_round3.json` و
+   `data/atc_fix_report_round4.json` و `data/atc_fix_report_round5.json`). هر تحلیلی که بر اساس ATC باشد این ردیف‌ها را از دست
    می‌دهد؛ برای جمع‌های کل بازار از «کد ژنریک» استفاده کنید.
 4. **فایل‌های استانی با فایل کشوری ماهانه جور درنمی‌آیند.** برای همان ماه، جمع
    استانی با جمع کشوری فرق دارد (ماه ۱: ‎−۲۰٫۲٪ واحد؛ ماه ۶: ‎+۵٫۶٪؛ ماه ۱۲:

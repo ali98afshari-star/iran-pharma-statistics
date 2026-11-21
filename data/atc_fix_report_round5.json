@@ -1,0 +1,95 @@
+{
+  "method": "round 5: WHO ATC/DDD Index (atcddd.fhi.no) mapping from the brand-confirmed ingredient identities in hidden_files/payamdaroosaz_brand_lookups_29.md (28/29 found on پیام داروساز; 52360 not found). Accepted only with exact WHO evidence: an exact ingredient entry, a route/form entry, an exact combination entry, a WHO combination bucket naming the (main) ingredient, or a WHO guideline text deciding the code. 6 resolved, 23 left blank. R05X was NOT used for the 7 cold preparations: the WHO R05 guideline routes therapeutic-analgesic cold preparations to N02/M01 and only minimal-analgesic ones to R05X, and the analgesic's identity is unconfirmed for those codes. «پیام داروساز» NOT used for ATC (it shows none anywhere).",
+  "before": {
+    "1404": {
+      "rows": 36164,
+      "blank_rows": 281,
+      "blank_rows_pct": 0.0078,
+      "blank_units_pct": 0.0006,
+      "blank_value_pct": 0.0008
+    },
+    "1405": {
+      "rows": 17685,
+      "blank_rows": 139,
+      "blank_rows_pct": 0.0079,
+      "blank_units_pct": 0.0007,
+      "blank_value_pct": 0.0007
+    }
+  },
+  "after": {
+    "1404": {
+      "rows": 36164,
+      "blank_rows": 232,
+      "blank_rows_pct": 0.0064,
+      "blank_units_pct": 0.0006,
+      "blank_value_pct": 0.0007
+    },
+    "1405": {
+      "rows": 17685,
+      "blank_rows": 107,
+      "blank_rows_pct": 0.0061,
+      "blank_units_pct": 0.0005,
+      "blank_value_pct": 0.0005
+    }
+  },
+  "rows_filled": 81,
+  "generics_filled": 6,
+  "generics_filled_by_source": {
+    "WHO ATC/DDD Index": 6
+  },
+  "generics_still_blank": [
+    "11756",
+    "13710",
+    "21373",
+    "2256",
+    "22891",
+    "2397",
+    "50003",
+    "50342",
+    "50348",
+    "51421",
+    "52014",
+    "52360",
+    "52378",
+    "52416",
+    "52417",
+    "52419",
+    "53020",
+    "53152",
+    "53292",
+    "53293",
+    "53386",
+    "7913",
+    "88"
+  ],
+  "generics_still_blank_count": 23,
+  "still_blank_reasons": {
+    "88": "anthocyanoside A: WHO index has no entry ('anthocyanoside' search: no match)",
+    "11756": "acetylcysteine/ascorbic acid combination: WHO has no code for it; R05CB10 is a bare 'combinations' bucket with no ingredient named",
+    "13710": "ADULT COLD PREPARATIONS (4-11): ingredients unknown (site does not break them out); WHO R05 guideline forks therapeutic-analgesic cold preparations to N02/M01 and minimal-analgesic ones to R05X, and the analgesic's identity is unconfirmed, so no exact WHO entry can be matched; guessing from strengths is forbidden",
+    "21373": "ADULT COLD PREPARATIONS (3-7): ingredients unknown (same as 13710)",
+    "2256": "diphtheria/tetanus/pertussis vaccine: WHO J07CA has no plain-DTP code; J07CA03 is diphtheria-rubella-tetanus (verified from round-4 lookup data), all others include polio, hepatitis B, Hib or meningococcus",
+    "22891": "amphotericin B nanoliposomal gel topical: WHO 'amphotericin b' search returns no topical code (A01AB04 oral, A07AA07 intestinal, G01AA03 vaginal, J02AA01 systemic)",
+    "2397": "sodium acid phosphate effervescent tablet oral: A06AD17 (laxative, DDD 50 g O) vs V03AG05 (hypercalcaemia, DDD 8 g O) — both oral; indication not determinable from form/dose; no new evidence in round 5",
+    "50003": "daclatasvir/sofosbuvir: WHO has no code for this combination (J05AP07 daclatasvir, J05AP08 sofosbuvir, and other sofosbuvir combinations exist, but not daclatasvir+sofosbuvir)",
+    "50342": "ADULT COLD PREPARATIONS (1-2): ingredients unknown (same as 13710)",
+    "50348": "ADULT COLD PREPARATIONS (4-2): ingredients unknown (same as 13710)",
+    "51421": "trace metal combination (ADDAVEN): WHO has no code for trace elements alone (A11AA04 is multivitamins and trace elements, not this product)",
+    "52014": "fluocinolone/hydroquinone/tretinoin cream: D07AC has only plain codes (01-19, 21), no combinations bucket; no WHO code for this combination",
+    "52360": "ALIBOUR WATER (copper sulfate/zinc sulfate lotion): not found on پیام داروساز (nearest record is a different generic code, 01813); WHO has no code for this combination",
+    "52378": "sodium chloride 7% respiratory solution: WHO 'sodium chloride' search returns A12CA01 oral, B05CB01 irrigating, B05XA03 parenteral, S01XA03 ophthalmic — no respiratory/nebulizer code",
+    "52416": "ADULT COLD PREPARATIONS (4-12): ingredients unknown (same as 13710)",
+    "52417": "ADULT COLD PREPARATIONS (1-4): ingredients unknown (same as 13710)",
+    "52419": "ADULT COLD PREPARATIONS (5-4): ingredients unknown (same as 13710)",
+    "53020": "influenza vaccine, recombinant, tetravalent: WHO J07BB lists only J07BB01 whole virus, J07BB02 split/surface antigen, J07BB03 live attenuated, J07BB04 virus like particles — no recombinant entry; brand record says only 'INFLUENZA VACCINE'",
+    "53152": "lidocaine injection parenteral: C01BB01 (IV antiarrhythmic) and N01BB02 (local anaesthetic) both fit parenteral; form does not decide; no new evidence in round 5",
+    "53292": "acetylsalicylic acid/clopidogrel tablet: WHO has no entry for this combination; B01AC30 is a bare 'combinations' bucket with no ingredient named",
+    "53293": "acetylsalicylic acid/clopidogrel tablet: WHO has no entry for this combination; B01AC30 is a bare 'combinations' bucket with no ingredient named",
+    "53386": "artificial saliva: WHO index has no entry ('artificial saliva' search: no match)",
+    "7913": "succimer (dimercaptosuccinic acid) chelator: WHO index has no entry ('succimer' search returns only technetium radiopharmaceuticals V09IA03/V09CA02; 'dimercaptosuccinic' search: no match)"
+  },
+  "still_blank_units": 47808569,
+  "still_blank_value_consumer_rial": 4604572593700,
+  "catalog_entries_filled": 6,
+  "totals_unchanged": true
+}

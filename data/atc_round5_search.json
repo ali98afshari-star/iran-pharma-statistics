@@ -1,0 +1,182 @@
+{
+  "mapping": [
+    {
+      "generic_code": "19051",
+      "atc": "B05DA",
+      "evidence": "WHO B05D page: B05DA 'Isotonic solutions' / B05DB 'Hypertonic solutions', no 5th-level codes under either. Extraneal 7.5% icodextrin is isosmotic (282-286 mOsm/L; FDA label: 'EXTRANEAL is an isosmotic peritoneal dialysis solution'; SmPC: 'approximately iso-osmolar to serum') -> B05DA, not B05DB"
+    },
+    {
+      "generic_code": "51673",
+      "atc": "D06BA51",
+      "evidence": "WHO D06BA page: D06BA51 'silver sulfadiazine, combinations' — names the main ingredient (same rule as round 4's M01AE51/A02BC51 accepts); EGF 0.001% is a minor component; cream topical"
+    },
+    {
+      "generic_code": "51991",
+      "atc": "N01BB52",
+      "evidence": "WHO N01BB guideline: 'Creams, plasters and sprays containing e.g. lidocaine... used as anesthetics/analgesics... are classified in N01BB' (vs D04AB for dermatological pruritus/burns/insect stings). Gel is a urethral local anaesthetic (CATHEJELL, catheterization). N01BB52 = 'lidocaine, combinations'; D04AB has no combinations bucket (plain 01-07 only)"
+    },
+    {
+      "generic_code": "52662",
+      "atc": "N02BE51",
+      "evidence": "WHO N02BE page: 'Combinations of paracetamol and e.g. ibuprofen are classified in N02BE51.' N02BE51 = 'paracetamol, combinations excl. psycholeptics'; acetaminophen 500 mg + ibuprofen 200 mg tablet oral, no psycholeptics. Corrects round 4's rejection"
+    },
+    {
+      "generic_code": "52877",
+      "atc": "R05FB02",
+      "evidence": "WHO R05FB02 = 'cough suppressants and expectorants' (dextromethorphan = cough suppressant, guaifenesin = expectorant WHO R05CA03). R05F guideline allows additional agents ('bronchodilating agents, antihistamines etc.') — phenylephrine is an additional decongestant. No analgesic; R05FB02 is the specific preceding group, which excludes R05X ('cannot be classified in the preceding groups')"
+    },
+    {
+      "generic_code": "53455",
+      "atc": "N02BE51",
+      "evidence": "WHO N02B guideline: 'Cold preparations with therapeutic levels of analgesics are classified in this group at separate 5th levels by using the 50-series.' Acetaminophen 500 mg/tablet is therapeutic (N02BE01 DDD 3 g/day). N02BE51 = 'paracetamol, combinations excl. psycholeptics'; no psycholeptics; ascorbic acid 38 mg < 50 mg is moot (combination on other grounds)"
+    }
+  ],
+  "not_resolved": [
+    {
+      "generic_code": "11756",
+      "reason": "acetylcysteine/ascorbic acid combination: WHO has no code for it; R05CB10 is a bare 'combinations' bucket with no ingredient named"
+    },
+    {
+      "generic_code": "13710",
+      "reason": "ADULT COLD PREPARATIONS (4-11): ingredients unknown (site does not break them out); WHO R05 guideline forks therapeutic-analgesic cold preparations to N02/M01 and minimal-analgesic ones to R05X, and the analgesic's identity is unconfirmed, so no exact WHO entry can be matched; guessing from strengths is forbidden"
+    },
+    {
+      "generic_code": "21373",
+      "reason": "ADULT COLD PREPARATIONS (3-7): ingredients unknown (same as 13710)"
+    },
+    {
+      "generic_code": "2256",
+      "reason": "diphtheria/tetanus/pertussis vaccine: WHO J07CA has no plain-DTP code; J07CA03 is diphtheria-rubella-tetanus (verified from round-4 lookup data), all others include polio, hepatitis B, Hib or meningococcus"
+    },
+    {
+      "generic_code": "22891",
+      "reason": "amphotericin B nanoliposomal gel topical: WHO 'amphotericin b' search returns no topical code (A01AB04 oral, A07AA07 intestinal, G01AA03 vaginal, J02AA01 systemic)"
+    },
+    {
+      "generic_code": "2397",
+      "reason": "sodium acid phosphate effervescent tablet oral: A06AD17 (laxative, DDD 50 g O) vs V03AG05 (hypercalcaemia, DDD 8 g O) — both oral; indication not determinable from form/dose; no new evidence in round 5"
+    },
+    {
+      "generic_code": "50003",
+      "reason": "daclatasvir/sofosbuvir: WHO has no code for this combination (J05AP07 daclatasvir, J05AP08 sofosbuvir, and other sofosbuvir combinations exist, but not daclatasvir+sofosbuvir)"
+    },
+    {
+      "generic_code": "50342",
+      "reason": "ADULT COLD PREPARATIONS (1-2): ingredients unknown (same as 13710)"
+    },
+    {
+      "generic_code": "50348",
+      "reason": "ADULT COLD PREPARATIONS (4-2): ingredients unknown (same as 13710)"
+    },
+    {
+      "generic_code": "51421",
+      "reason": "trace metal combination (ADDAVEN): WHO has no code for trace elements alone (A11AA04 is multivitamins and trace elements, not this product)"
+    },
+    {
+      "generic_code": "52014",
+      "reason": "fluocinolone/hydroquinone/tretinoin cream: D07AC has only plain codes (01-19, 21), no combinations bucket; no WHO code for this combination"
+    },
+    {
+      "generic_code": "52360",
+      "reason": "ALIBOUR WATER (copper sulfate/zinc sulfate lotion): not found on پیام داروساز (nearest record is a different generic code, 01813); WHO has no code for this combination"
+    },
+    {
+      "generic_code": "52378",
+      "reason": "sodium chloride 7% respiratory solution: WHO 'sodium chloride' search returns A12CA01 oral, B05CB01 irrigating, B05XA03 parenteral, S01XA03 ophthalmic — no respiratory/nebulizer code"
+    },
+    {
+      "generic_code": "52416",
+      "reason": "ADULT COLD PREPARATIONS (4-12): ingredients unknown (same as 13710)"
+    },
+    {
+      "generic_code": "52417",
+      "reason": "ADULT COLD PREPARATIONS (1-4): ingredients unknown (same as 13710)"
+    },
+    {
+      "generic_code": "52419",
+      "reason": "ADULT COLD PREPARATIONS (5-4): ingredients unknown (same as 13710)"
+    },
+    {
+      "generic_code": "53020",
+      "reason": "influenza vaccine, recombinant, tetravalent: WHO J07BB lists only J07BB01 whole virus, J07BB02 split/surface antigen, J07BB03 live attenuated, J07BB04 virus like particles — no recombinant entry; brand record says only 'INFLUENZA VACCINE'"
+    },
+    {
+      "generic_code": "53152",
+      "reason": "lidocaine injection parenteral: C01BB01 (IV antiarrhythmic) and N01BB02 (local anaesthetic) both fit parenteral; form does not decide; no new evidence in round 5"
+    },
+    {
+      "generic_code": "53292",
+      "reason": "acetylsalicylic acid/clopidogrel tablet: WHO has no entry for this combination; B01AC30 is a bare 'combinations' bucket with no ingredient named"
+    },
+    {
+      "generic_code": "53293",
+      "reason": "acetylsalicylic acid/clopidogrel tablet: WHO has no entry for this combination; B01AC30 is a bare 'combinations' bucket with no ingredient named"
+    },
+    {
+      "generic_code": "53386",
+      "reason": "artificial saliva: WHO index has no entry ('artificial saliva' search: no match)"
+    },
+    {
+      "generic_code": "7913",
+      "reason": "succimer (dimercaptosuccinic acid) chelator: WHO index has no entry ('succimer' search returns only technetium radiopharmaceuticals V09IA03/V09CA02; 'dimercaptosuccinic' search: no match)"
+    },
+    {
+      "generic_code": "88",
+      "reason": "anthocyanoside A: WHO index has no entry ('anthocyanoside' search: no match)"
+    }
+  ],
+  "who_base_url": "https://atcddd.fhi.no/atc_ddd_index/",
+  "lookups": {
+    "19051": {
+      "accepted": "B05DA",
+      "evidence": "WHO B05D page: B05DA 'Isotonic solutions' / B05DB 'Hypertonic solutions', no 5th-level codes under either. Extraneal 7.5% icodextrin is isosmotic (282-286 mOsm/L; FDA label: 'EXTRANEAL is an isosmotic peritoneal dialysis solution'; SmPC: 'approximately iso-osmolar to serum') -> B05DA, not B05DB.",
+      "generic_name": "PERITONEAL DIALYSIS IV ICODEXTRINE BASED SOLUTION INTRAPERITONEAL 7.5 g/100mL",
+      "urls": [
+        "https://atcddd.fhi.no/atc_ddd_index/?code=B05D&showdescription=yes",
+        "https://www.drugs.com/pro/extraneal.html"
+      ]
+    },
+    "51673": {
+      "accepted": "D06BA51",
+      "evidence": "WHO D06BA page: D06BA51 'silver sulfadiazine, combinations' — names the main ingredient (same rule as round 4's M01AE51/A02BC51 accepts). EGF 0.001% is a minor component.",
+      "generic_name": "SILVER SULFADIAZINE / EGF CREAM TOPICAL 1 %/0.001 % 15 g",
+      "urls": [
+        "https://atcddd.fhi.no/atc_ddd_index/?code=D06BA&showdescription=yes"
+      ]
+    },
+    "51991": {
+      "accepted": "N01BB52",
+      "evidence": "WHO N01BB guideline: 'Creams, plasters and sprays containing e.g. lidocaine... used as anesthetics/analgesics... are classified in N01BB' (vs D04AB for dermatological pruritus/burns/insect stings). Gel is a urethral local anaesthetic (CATHEJELL, catheterization). N01BB52 = 'lidocaine, combinations'. D04AB has no combinations bucket (plain 01-07 only).",
+      "generic_name": "LIDOCAINE / CHLORHEXIDINE GEL TOPICAL 2 %/0.05 % 12.5 g",
+      "urls": [
+        "https://atcddd.fhi.no/atc_ddd_index/?code=N01BB&showdescription=yes",
+        "https://atcddd.fhi.no/atc_ddd_index/?code=D04AB&showdescription=yes"
+      ]
+    },
+    "52662": {
+      "accepted": "N02BE51",
+      "evidence": "WHO N02BE page: 'Combinations of paracetamol and e.g. ibuprofen are classified in N02BE51.' N02BE51 = 'paracetamol, combinations excl. psycholeptics'; no psycholeptics. Corrects round 4's rejection (it had looked only for a combination entry naming both ingredients).",
+      "generic_name": "ACETAMINOPHEN / IBUPROFEN TABLET ORAL 500 mg/200 mg",
+      "urls": [
+        "https://atcddd.fhi.no/atc_ddd_index/?code=N02BE51&showdescription=yes"
+      ]
+    },
+    "52877": {
+      "accepted": "R05FB02",
+      "evidence": "WHO R05FB02 = 'cough suppressants and expectorants' (dextromethorphan = cough suppressant, guaifenesin = expectorant WHO R05CA03). R05F guideline allows additional agents ('bronchodilating agents, antihistamines etc.') — phenylephrine is an additional decongestant. No analgesic, so R05X's minimal-analgesic clause is not the deciding factor; R05FB02 is the specific preceding group, which excludes R05X ('cannot be classified in the preceding groups').",
+      "generic_name": "DEXTROMETHORPHAN / GUAIFENESIN / PHENYLEPHRINE SYRUP ORAL 10 mg/100 mg/5 mg/5mL 200 mL",
+      "urls": [
+        "https://atcddd.fhi.no/atc_ddd_index/?code=R05FB&showdescription=yes",
+        "https://atcddd.fhi.no/atc_ddd_index/?code=R05&showdescription=yes"
+      ]
+    },
+    "53455": {
+      "accepted": "N02BE51",
+      "evidence": "WHO N02B guideline: 'Cold preparations with therapeutic levels of analgesics are classified in this group at separate 5th levels by using the 50-series.' Acetaminophen 500 mg/tablet is therapeutic (N02BE01 DDD 3 g/day). N02BE51 = 'paracetamol, combinations excl. psycholeptics'; no psycholeptics. Ascorbic acid 38 mg < 50 mg is moot (combination on other grounds).",
+      "generic_name": "ACETAMINOPHEN / CHLORPHENIRAMINE / DEXTROMETHORPHAN / PHENYLEPHRINE / ASCORBIC ACID TABLET ORAL 500 mg/2 mg/15 mg/5 mg/38 mg",
+      "urls": [
+        "https://atcddd.fhi.no/atc_ddd_index/?code=N02BE51&showdescription=yes"
+      ]
+    }
+  }
+}

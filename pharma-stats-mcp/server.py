@@ -19,8 +19,10 @@ Data & caveats (enforced by every tool below; see data/SOURCES.md):
     then via route/form disambiguation (36 generics) and ChEMBL/KEGG
     lookups (337 generics, scripts/fix_atc_round3.py) to 2.6% / 2.7%
     of rows, then via WHO ATC/DDD Index lookups (71 generics,
-    scripts/fix_atc_round4.py) to 0.78% / 0.79% of rows (0.08% / 0.07%
-    of consumer value). 29 generics still have no ATC anywhere. ATC breakdowns never sum to the market total.
+    scripts/fix_atc_round4.py) to 0.78% / 0.79% of rows, then via WHO
+    ATC/DDD Index mapping from brand-confirmed ingredients (6 generics,
+    scripts/fix_atc_round5.py) to 0.64% / 0.61% of rows (0.07% / 0.05%
+    of consumer value). 23 generics still have no ATC anywhere. ATC breakdowns never sum to the market total.
   * Province files (1404, months 1/6/12 only) do NOT reconcile with the
     national monthly totals (m01 -20.2% units, m06 +5.6%, m12 -18.5%).
     Different cuts — never sum or compare them with national totals.
@@ -54,6 +56,7 @@ REPORT_PATH = REPO_ROOT / "data" / "atc_fix_report.json"
 REPORT2_PATH = REPO_ROOT / "data" / "atc_fix_report_round2.json"
 REPORT3_PATH = REPO_ROOT / "data" / "atc_fix_report_round3.json"
 REPORT4_PATH = REPO_ROOT / "data" / "atc_fix_report_round4.json"
+REPORT5_PATH = REPO_ROOT / "data" / "atc_fix_report_round5.json"
 
 CURRENCY_NOTE = "All money values are in Rial. Toman = Rial / 10."
 H1_WARNING = (
@@ -68,14 +71,16 @@ MONTH_BLANK_NOTE = (
     "are below the yearly total."
 )
 ATC_WARNING = (
-    "ATC code is blank for 0.78% of 1404 aggregate rows / 0.79% of 1405 "
-    "rows (0.08% / 0.07% of consumer value) after completion: generic_code "
+    "ATC code is blank for 0.64% of 1404 aggregate rows / 0.61% of 1405 "
+    "rows (0.07% / 0.05% of consumer value) after completion: generic_code "
     "-> ATC map (scripts/fix_atc.py, zero conflicts), exact "
     "ingredient-name lookup (scripts/fix_atc_round2.py, 270 generics), "
     "then route/form disambiguation + ChEMBL/KEGG lookups "
     "(scripts/fix_atc_round3.py, 373 generics), then WHO ATC/DDD Index "
-    "lookups (scripts/fix_atc_round4.py, 71 generics); the raw files were "
-    "46.2% / 51.7% blank. 29 generics still have no ATC anywhere. "
+    "lookups (scripts/fix_atc_round4.py, 71 generics), then WHO ATC/DDD "
+    "Index mapping from brand-confirmed ingredients "
+    "(scripts/fix_atc_round5.py, 6 generics); the raw files were "
+    "46.2% / 51.7% blank. 23 generics still have no ATC anywhere. "
     "ATC-based totals UNDERSTATE the market; use generic_code for market "
     "totals."
 )
@@ -659,6 +664,11 @@ def data_coverage() -> str:
             rows_filled += rep["rows_filled"]
             method += (" + WHO ATC/DDD Index lookups, "
                        "scripts/fix_atc_round4.py")
+        if REPORT5_PATH.exists():
+            rep = json.loads(REPORT5_PATH.read_text(encoding="utf-8"))
+            rows_filled += rep["rows_filled"]
+            method += (" + WHO ATC/DDD Index mapping from brand-confirmed "
+                       "ingredients, scripts/fix_atc_round5.py")
         coverage["blank_atc_after_fix"] = {
             "1404": f"{rep['after']['1404']['blank_rows_pct']:.1%} of aggregate rows "
                     f"({rep['after']['1404']['blank_value_pct']:.1%} of consumer value)",
