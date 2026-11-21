@@ -1,0 +1,4537 @@
+{
+  "disambiguated": [
+    {
+      "generic_code": "12928",
+      "atc": "N02BE01",
+      "reason": "acetaminophen tablet effervescent oral, single ingredient; N02BE71 is combo with psycholeptics"
+    },
+    {
+      "generic_code": "13957",
+      "atc": "R05CB01",
+      "reason": "acetylcysteine powder oral; V03AB23 is parenteral antidote"
+    },
+    {
+      "generic_code": "17679",
+      "atc": "N02BE01",
+      "reason": "acetaminophen tablet orally disintegrating oral, single ingredient"
+    },
+    {
+      "generic_code": "18133",
+      "atc": "N02BE01",
+      "reason": "acetaminophen tablet orally disintegrating oral, single ingredient"
+    },
+    {
+      "generic_code": "19899",
+      "atc": "M01AE01",
+      "reason": "ibuprofen tablet extended release oral"
+    },
+    {
+      "generic_code": "19930",
+      "atc": "M01AB05",
+      "reason": "diclofenac tablet extended release oral"
+    },
+    {
+      "generic_code": "51335",
+      "atc": "J01GB03",
+      "reason": "gentamicin injection parenteral"
+    },
+    {
+      "generic_code": "52149",
+      "atc": "R01AD08",
+      "reason": "fluticasone spray nasal"
+    },
+    {
+      "generic_code": "52196",
+      "atc": "N02BE01",
+      "reason": "acetaminophen suppository rectal, single ingredient"
+    },
+    {
+      "generic_code": "52299",
+      "atc": "R06AX17",
+      "reason": "ketotifen syrup oral"
+    },
+    {
+      "generic_code": "52435",
+      "atc": "J01MA02",
+      "reason": "ciprofloxacin tablet oral"
+    },
+    {
+      "generic_code": "52480",
+      "atc": "M01AE01",
+      "reason": "ibuprofen suspension oral"
+    },
+    {
+      "generic_code": "52755",
+      "atc": "M01AE01",
+      "reason": "ibuprofen tablet oral"
+    },
+    {
+      "generic_code": "52756",
+      "atc": "M01AE01",
+      "reason": "ibuprofen tablet extended release oral"
+    },
+    {
+      "generic_code": "52792",
+      "atc": "N02BE01",
+      "reason": "acetaminophen suspension oral, single ingredient"
+    },
+    {
+      "generic_code": "52793",
+      "atc": "B05XA03",
+      "reason": "sodium chloride injection solution intravenous"
+    },
+    {
+      "generic_code": "52797",
+      "atc": "R05CB01",
+      "reason": "acetylcysteine granule oral; V03AB23 is parenteral antidote"
+    },
+    {
+      "generic_code": "52798",
+      "atc": "R05CB01",
+      "reason": "acetylcysteine granule oral; V03AB23 is parenteral antidote"
+    },
+    {
+      "generic_code": "52816",
+      "atc": "N02BE01",
+      "reason": "acetaminophen capsule liquid filled oral, single ingredient"
+    },
+    {
+      "generic_code": "52889",
+      "atc": "G04BE08",
+      "reason": "tadalafil tablet oral"
+    },
+    {
+      "generic_code": "52985",
+      "atc": "M01AE01",
+      "reason": "ibuprofen suppository rectal"
+    },
+    {
+      "generic_code": "52986",
+      "atc": "M01AE01",
+      "reason": "ibuprofen suppository rectal"
+    },
+    {
+      "generic_code": "53031",
+      "atc": "D10BA01",
+      "reason": "isotretinoin capsule liquid filled oral"
+    },
+    {
+      "generic_code": "53050",
+      "atc": "M01AB05",
+      "reason": "diclofenac tablet extended release oral"
+    },
+    {
+      "generic_code": "53061",
+      "atc": "R03BA02",
+      "reason": "budesonide capsule respiratory"
+    },
+    {
+      "generic_code": "53098",
+      "atc": "J05AB01",
+      "reason": "aciclovir suspension oral"
+    },
+    {
+      "generic_code": "53200",
+      "atc": "J05AB01",
+      "reason": "aciclovir powder for suspension oral"
+    },
+    {
+      "generic_code": "53229",
+      "atc": "R01AX",
+      "reason": "sodium chloride spray nasal"
+    },
+    {
+      "generic_code": "53238",
+      "atc": "N02BE01",
+      "reason": "acetaminophen tablet extended release oral, single ingredient"
+    },
+    {
+      "generic_code": "53246",
+      "atc": "R01AX",
+      "reason": "sodium chloride solution drops nasal"
+    },
+    {
+      "generic_code": "53379",
+      "atc": "D01AE15",
+      "reason": "terbinafine cream topical"
+    },
+    {
+      "generic_code": "53380",
+      "atc": "M02AA15",
+      "reason": "diclofenac gel topical"
+    },
+    {
+      "generic_code": "53406",
+      "atc": "S01AE03",
+      "reason": "ciprofloxacin solution drops ophthalmic"
+    },
+    {
+      "generic_code": "53457",
+      "atc": "N03AG01",
+      "reason": "valproate sodium injection solution parenteral"
+    },
+    {
+      "generic_code": "53593",
+      "atc": "G01AA10",
+      "reason": "clindamycin cream vaginal"
+    },
+    {
+      "generic_code": "8601",
+      "atc": "N03AG01",
+      "reason": "valproate sodium syrup oral"
+    }
+  ],
+  "not_resolved_ambiguous": [
+    {
+      "generic_code": "1635",
+      "reason": "phenylephrine injection parenteral: candidates R01AA04 (nasal) and S01GA55 (ophthalmic) both do not fit parenteral; correct code per WHO ATC is C01CA06 but it was not among the candidates found in local files, so left blank rather than forced"
+    },
+    {
+      "generic_code": "52378",
+      "reason": "sodium chloride solution respiratory 7%: no candidate (B05CB01/B05XA03/R01AX/S01XA03) fits the respiratory/nebulizer route"
+    },
+    {
+      "generic_code": "53152",
+      "reason": "lidocaine injection parenteral: D04AB01 is topical; C01BB01 is IV antiarrhythmic but the injection could equally be local anaesthetic (N01BB02, not a candidate); form does not decide"
+    }
+  ],
+  "lookups": {
+    "10058": {
+      "generic_code": "10058",
+      "accepted": "L04AK01",
+      "source": "ChEMBL pref_name=LEFLUNOMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='LEFLUNOMIDE' -> ['CHEMBL960'] -> ['L04AK01']"
+      ],
+      "route": "systemic"
+    },
+    "101": {
+      "generic_code": "101",
+      "accepted": "N04BC07",
+      "source": "route filter (parenteral)",
+      "evidence": [
+        "chembl pref_name__iexact='APOMORPHINE HYDROCHLORIDE' -> ['CHEMBL3187985'] -> []",
+        "chembl pref_name__iexact='APOMORPHINE' -> ['CHEMBL53'] -> ['G04BE07', 'N04BC07']",
+        "kegg find 'APOMORPHINE HYDROCHLORIDE' -> ['D02004']",
+        "kegg D02004 codes=['G04BE07', 'N04BC07'] l5={'G04BE07': 'Apomorphine', 'N04BC07': 'Apomorphine'} l4={'G04BE': 'Drugs used in erectile dysfunction', 'N04BC': 'Dopamine agonists'}",
+        "route parenteral: ['G04BE07', 'N04BC07'] -> ['N04BC07']"
+      ],
+      "route": "parenteral"
+    },
+    "1023": {
+      "generic_code": "1023",
+      "accepted": "J01XB02",
+      "source": "route filter (parenteral)",
+      "evidence": [
+        "chembl pref_name__iexact='POLYMYXIN B' -> ['CHEMBL5314354'] -> ['A07AA05', 'J01XB02', 'S01AA18', 'S02AA11', 'S03AA03']",
+        "kegg find 'POLYMYXIN B' -> ['D01066', 'D08401', 'D11086', 'D11096', 'D11097', 'D11177', 'D11855', 'D12134', 'D12135']",
+        "kegg D01066 codes=['A07AA05', 'J01XB02', 'S01AA18', 'S02AA11', 'S03AA03'] l5={'A07AA05': 'Polymyxin B', 'J01XB02': 'Polymyxin B', 'S01AA18': 'Polymyxin B', 'S02AA11': 'Polymyxin B', 'S03AA03': 'Polymyxin B'} l4={'A07AA': 'Antibiotics', 'J01XB': 'Polymyxins', 'S01AA': 'Antibiotics', 'S02AA': 'Antiinfectives', 'S03AA': 'Antiinfectives'}",
+        "kegg D08401 codes=['A07AA05', 'J01XB02', 'S01AA18', 'S02AA11', 'S03AA03'] l5={'A07AA05': 'Polymyxin B', 'J01XB02': 'Polymyxin B', 'S01AA18': 'Polymyxin B', 'S02AA11': 'Polymyxin B', 'S03AA03': 'Polymyxin B'} l4={'A07AA': 'Antibiotics', 'J01XB': 'Polymyxins', 'S01AA': 'Antibiotics', 'S02AA': 'Antiinfectives', 'S03AA': 'Antiinfectives'}",
+        "kegg D11086 name 'Polymyxin B and trimethoprim' set ['polymyxin b', 'trimethoprim'] != own ['polymyxin b']: skipped",
+        "kegg D11096 name 'Neomycin and polymyxin B sulfate' set ['neomycin', 'polymyxin b'] != own ['polymyxin b']: skipped",
+        "kegg D11097 name 'Polymyxin B sulfate and bacitracin zinc' set ['bacitracin zinc', 'polymyxin b'] != own ['polymyxin b']: skipped",
+        "kegg D11177 name 'Dexamethasone, neomycin sulfate and polymyxin B sulfate' set ['dexamethasone', 'neomycin', 'polymyxin b'] != own ['polymyxin b']: skipped",
+        "route parenteral: ['A07AA05', 'J01XB02', 'S01AA18', 'S02AA11', 'S03AA03'] -> ['J01XB02']"
+      ],
+      "route": "parenteral"
+    },
+    "1054": {
+      "generic_code": "1054",
+      "accepted": "C01BA02",
+      "source": "ChEMBL pref_name=PROCAINAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='PROCAINAMIDE HYDROCHLORIDE' -> ['CHEMBL605'] -> []",
+        "chembl pref_name__iexact='PROCAINAMIDE' -> ['CHEMBL640'] -> ['C01BA02']"
+      ],
+      "route": "parenteral"
+    },
+    "1055": {
+      "generic_code": "1055",
+      "accepted": "L01XB01",
+      "source": "ChEMBL pref_name=PROCARBAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='PROCARBAZINE (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='PROCARBAZINE' -> ['CHEMBL1321'] -> ['L01XB01']"
+      ],
+      "route": "systemic"
+    },
+    "50575": {
+      "generic_code": "50575",
+      "accepted": "A10AB05",
+      "source": "combination-group rule",
+      "evidence": [
+        "chembl pref_name__iexact='INSULIN ASPART' -> ['CHEMBL1201496'] -> ['A10AB05', 'A10AD05']",
+        "kegg find 'INSULIN ASPART' -> ['D04475', 'D10570']",
+        "kegg D04475 codes=['A10AB05', 'A10AD05'] l5={'A10AB05': 'Insulin aspart', 'A10AD05': 'Insulin aspart'} l4={'A10AB': 'Insulins and analogues for injection, fast-acting', 'A10AD': 'Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting'}",
+        "kegg D10570 name 'Insulin degludec (genetical recombination) and insulin aspart (genetical recombination)' set ['insulin aspart', 'insulin degludec'] != own ['insulin aspart']: skipped",
+        "combo-group rule: ['A10AB05', 'A10AD05'] -> ['A10AB05'] (l4 groups {'A10AB05': 'Insulins and analogues for injection, fast-acting', 'A10AD05': 'Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting'})"
+      ],
+      "route": "parenteral"
+    },
+    "53175": {
+      "generic_code": "53175",
+      "accepted": "C09DA07",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'TELMISARTAN and HYDROCHLOROTHIAZIDE' -> ['D09219', 'D10805']",
+        "kegg D09219 codes=['C09DA07'] l5={'C09DA07': 'Telmisartan and diuretics'} l4={'C09DA': 'Angiotensin II receptor blockers (ARBs) and diuretics'}",
+        "kegg D10805 name 'Telmisartan, amlodipine and hydrochlorothiazide' set ['amlodipine', 'hydrochlorothiazide', 'telmisartan'] != own ['hydrochlorothiazide', 'telmisartan']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "2081": {
+      "generic_code": "2081",
+      "accepted": "J01CR05",
+      "source": "level-5-name specificity",
+      "evidence": [
+        "kegg find 'PIPERACILLIN and TAZOBACTAM' -> ['D02505']",
+        "kegg D02505 codes=['J01CR05', 'J01RA01'] l5={'J01CR05': 'Piperacillin and beta-lactamase inhibitor', 'J01RA01': 'Penicillins, combinations with other antibacterials'} l4={'J01CR': 'Combinations of penicillins, incl. beta-lactamase inhibitors', 'J01RA': 'Combinations of antibacterials'}",
+        "specificity: ['J01CR05', 'J01RA01'] -> ['J01CR05'] (l5 names {'J01CR05': 'Piperacillin and beta-lactamase inhibitor', 'J01RA01': 'Penicillins, combinations with other antibacterials'})"
+      ],
+      "route": "parenteral"
+    },
+    "53247": {
+      "generic_code": "53247",
+      "accepted": "R03AK10",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'VILANTEROL and FLUTICASONE FUROATE' -> ['D10501', 'D11035']",
+        "kegg D10501 codes=['R03AK10'] l5={'R03AK10': 'Vilanterol and fluticasone furoate'} l4={'R03AK': 'Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics'}",
+        "kegg D11035 name 'Fluticasone furoate, umeclidinium bromide and vilanterol' set ['fluticasone furoate', 'umeclidinium', 'vilanterol'] != own ['fluticasone furoate', 'vilanterol']: skipped"
+      ],
+      "route": "respiratory"
+    },
+    "2372": {
+      "generic_code": "2372",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='BERACTANT' -> ['CHEMBL1201624'] -> []",
+        "kegg find 'BERACTANT' -> ['D03096']",
+        "kegg D03096 codes=[] l5={} l4={}"
+      ],
+      "route": "parenteral"
+    },
+    "12102": {
+      "generic_code": "12102",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['V03AF07', 'M04AX01']",
+      "evidence": [
+        "chembl pref_name__iexact='RASBURICASE' -> ['CHEMBL1201594'] -> ['M04AX01', 'V03AF07']",
+        "kegg find 'RASBURICASE' -> ['D05704']",
+        "kegg D05704 codes=['V03AF07'] l5={'V03AF07': 'Rasburicase'} l4={'V03AF': 'Detoxifying agents for antineoplastic treatment'}",
+        "specificity: ['M04AX01', 'V03AF07'] -> ['V03AF07'] (l5 names {'V03AF07': 'Rasburicase'})",
+        "unresolved: pool=['V03AF07', 'M04AX01'] route_filter(parenteral)=['V03AF07', 'M04AX01']"
+      ],
+      "route": "parenteral"
+    },
+    "13710": {
+      "generic_code": "13710",
+      "accepted": null,
+      "reason": "latin list is a category name, not an ingredient",
+      "evidence": [],
+      "route": "systemic"
+    },
+    "1083": {
+      "generic_code": "1083",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['P01BD01', 'P01BD51']",
+      "evidence": [
+        "chembl pref_name__iexact='PYRIMETHAMINE' -> ['CHEMBL36'] -> ['P01BD01', 'P01BD51']",
+        "kegg find 'PYRIMETHAMINE' -> ['D00488', 'D02448']",
+        "kegg D00488 codes=['P01BD01'] l5={'P01BD01': 'Pyrimethamine'} l4={'P01BD': 'Diaminopyrimidines'}",
+        "kegg D02448 name 'Pyrimethamine and sulfadoxine' set ['pyrimethamine', 'sulfadoxine'] != own ['pyrimethamine']: skipped",
+        "specificity: ['P01BD01', 'P01BD51'] -> ['P01BD01'] (l5 names {'P01BD01': 'Pyrimethamine'})",
+        "unresolved: pool=['P01BD01', 'P01BD51'] route_filter(systemic)=['P01BD01', 'P01BD51']"
+      ],
+      "route": "systemic"
+    },
+    "1088": {
+      "generic_code": "1088",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['C01BA01', 'C01BA51', 'C01BA71']",
+      "evidence": [
+        "chembl pref_name__iexact='QUINIDINE SULFATE' -> ['CHEMBL3707183'] -> []",
+        "chembl pref_name__iexact='QUINIDINE' -> ['CHEMBL1294'] -> ['C01BA01', 'C01BA51', 'C01BA71']",
+        "kegg find 'QUINIDINE SULFATE' -> ['D02272', 'D10208']",
+        "kegg D02272 codes=['C01BA01'] l5={'C01BA01': 'Quinidine'} l4={'C01BA': 'Antiarrhythmics, class Ia'}",
+        "kegg D10208 name 'Dextromethorphan hydrobromide and quinidine sulfate' set ['dextromethorphan', 'quinidine'] != own ['quinidine']: skipped",
+        "specificity: ['C01BA01', 'C01BA51', 'C01BA71'] -> ['C01BA01'] (l5 names {'C01BA01': 'Quinidine'})",
+        "unresolved: pool=['C01BA01', 'C01BA51', 'C01BA71'] route_filter(systemic)=['C01BA01', 'C01BA51', 'C01BA71']"
+      ],
+      "route": "systemic"
+    },
+    "11416": {
+      "generic_code": "11416",
+      "accepted": "S01LA04",
+      "source": "ChEMBL pref_name=RANIBIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='RANIBIZUMAB' -> ['CHEMBL1201825'] -> ['S01LA04']"
+      ],
+      "route": "parenteral"
+    },
+    "11506": {
+      "generic_code": "11506",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='DIGOXIN SPECIFIC ANTIBODY' -> [] -> []",
+        "kegg find 'DIGOXIN SPECIFIC ANTIBODY' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "1158": {
+      "generic_code": "1158",
+      "accepted": "V03AB06",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM THIOSULFATE' -> ['CHEMBL2096650'] -> []",
+        "kegg find 'SODIUM THIOSULFATE' -> ['D01091', 'D04744', 'D08521']",
+        "kegg D01091 codes=['V03AB06'] l5={'V03AB06': 'Thiosulfate'} l4={'V03AB': 'Antidotes'}",
+        "kegg D04744 name 'Sodium thiosulfate and ethanol' set ['ethanol', 'sodium thiosulfate'] != own ['sodium thiosulfate']: skipped",
+        "kegg D08521 name 'Sodium aurothiosulfate (INN)' set ['sodium aurothiosulfate'] != own ['sodium thiosulfate']: skipped"
+      ],
+      "route": "parenteral"
+    },
+    "11607": {
+      "generic_code": "11607",
+      "accepted": "L04AA06",
+      "source": "ChEMBL pref_name=MYCOPHENOLIC ACID",
+      "evidence": [
+        "chembl pref_name__iexact='MYCOPHENOLIC ACID' -> ['CHEMBL866'] -> ['L04AA06']"
+      ],
+      "route": "systemic"
+    },
+    "1166": {
+      "generic_code": "1166",
+      "accepted": "J01XX04",
+      "source": "ChEMBL pref_name=SPECTINOMYCIN",
+      "evidence": [
+        "chembl pref_name__iexact='SPECTINOMYCIN' -> ['CHEMBL1167'] -> ['J01XX04']"
+      ],
+      "route": "parenteral"
+    },
+    "11756": {
+      "generic_code": "11756",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'ACETYLCYSTEINE and ASCORBIC ACID' -> []"
+      ],
+      "route": "systemic"
+    },
+    "1183": {
+      "generic_code": "1183",
+      "accepted": "J01EC02",
+      "source": "ChEMBL pref_name=SULFADIAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='SULFADIAZINE' -> ['CHEMBL439'] -> ['J01EC02']"
+      ],
+      "route": "systemic"
+    },
+    "11908": {
+      "generic_code": "11908",
+      "accepted": "V03AB34",
+      "source": "ChEMBL pref_name=FOMEPIZOLE",
+      "evidence": [
+        "chembl pref_name__iexact='FOMEPIZOLE' -> ['CHEMBL1308'] -> ['V03AB34']"
+      ],
+      "route": "parenteral"
+    },
+    "1220": {
+      "generic_code": "1220",
+      "accepted": "N05AC02",
+      "source": "ChEMBL pref_name=THIORIDAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='THIORIDAZINE HYDROCHLORIDE' -> ['CHEMBL1200916'] -> []",
+        "chembl pref_name__iexact='THIORIDAZINE' -> ['CHEMBL479'] -> ['N05AC02']"
+      ],
+      "route": "systemic"
+    },
+    "1221": {
+      "generic_code": "1221",
+      "accepted": "N05AC02",
+      "source": "ChEMBL pref_name=THIORIDAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='THIORIDAZINE HYDROCHLORIDE' -> ['CHEMBL1200916'] -> []",
+        "chembl pref_name__iexact='THIORIDAZINE' -> ['CHEMBL479'] -> ['N05AC02']"
+      ],
+      "route": "systemic"
+    },
+    "1222": {
+      "generic_code": "1222",
+      "accepted": "N05AC02",
+      "source": "ChEMBL pref_name=THIORIDAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='THIORIDAZINE HYDROCHLORIDE' -> ['CHEMBL1200916'] -> []",
+        "chembl pref_name__iexact='THIORIDAZINE' -> ['CHEMBL479'] -> ['N05AC02']"
+      ],
+      "route": "systemic"
+    },
+    "12280": {
+      "generic_code": "12280",
+      "accepted": "S01AE05",
+      "source": "route filter (ophthalmic)",
+      "evidence": [
+        "chembl pref_name__iexact='LEVOFLOXACIN HEMIHYDRATE' -> [] -> []",
+        "chembl pref_name__iexact='LEVOFLOXACIN' -> ['CHEMBL5315124'] -> ['J01MA12', 'S01AE05']",
+        "kegg find 'LEVOFLOXACIN HEMIHYDRATE' -> ['D00588']",
+        "kegg D00588 codes=['J01MA12', 'S01AE05'] l5={'J01MA12': 'Levofloxacin', 'S01AE05': 'Levofloxacin'} l4={'J01MA': 'Fluoroquinolones', 'S01AE': 'Fluoroquinolones'}",
+        "route ophthalmic: ['J01MA12', 'S01AE05'] -> ['S01AE05']"
+      ],
+      "route": "ophthalmic"
+    },
+    "12292": {
+      "generic_code": "12292",
+      "accepted": "A16AB07",
+      "source": "ChEMBL pref_name=ALGLUCOSIDASE ALFA",
+      "evidence": [
+        "chembl pref_name__iexact='ALGLUCOSIDASE ALFA' -> ['CHEMBL1201824'] -> ['A16AB07']"
+      ],
+      "route": "parenteral"
+    },
+    "1241": {
+      "generic_code": "1241",
+      "accepted": "N06AF04",
+      "source": "ChEMBL pref_name=TRANYLCYPROMINE",
+      "evidence": [
+        "chembl pref_name__iexact='TRANYLCYPROMINE' -> ['CHEMBL3989843'] -> ['N06AF04']"
+      ],
+      "route": "systemic"
+    },
+    "12534": {
+      "generic_code": "12534",
+      "accepted": "L04AG03",
+      "source": "ChEMBL pref_name=NATALIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='NATALIZUMAB' -> ['CHEMBL1201607'] -> ['L04AG03']"
+      ],
+      "route": "parenteral"
+    },
+    "12550": {
+      "generic_code": "12550",
+      "accepted": "A16AB08",
+      "source": "ChEMBL pref_name=GALSULFASE",
+      "evidence": [
+        "chembl pref_name__iexact='GALSULFASE' -> ['CHEMBL1201822'] -> ['A16AB08']"
+      ],
+      "route": "parenteral"
+    },
+    "1257": {
+      "generic_code": "1257",
+      "accepted": "S01AD02",
+      "source": "route filter (ophthalmic)",
+      "evidence": [
+        "chembl pref_name__iexact='TRIFLURIDINE' -> ['CHEMBL1129'] -> ['L01BC59', 'S01AD02']",
+        "kegg find 'TRIFLURIDINE' -> ['D00391', 'D10526']",
+        "kegg D00391 codes=['S01AD02'] l5={'S01AD02': 'Trifluridine'} l4={'S01AD': 'Antivirals'}",
+        "kegg D10526 name 'Trifluridine and tipiracil hydrochloride' set ['tipiracil', 'trifluridine'] != own ['trifluridine']: skipped",
+        "specificity: ['L01BC59', 'S01AD02'] -> ['S01AD02'] (l5 names {'S01AD02': 'Trifluridine'})",
+        "route ophthalmic: ['S01AD02', 'L01BC59'] -> ['S01AD02']"
+      ],
+      "route": "ophthalmic"
+    },
+    "1270": {
+      "generic_code": "1270",
+      "accepted": "G03GA04",
+      "source": "ChEMBL pref_name=UROFOLLITROPIN",
+      "evidence": [
+        "chembl pref_name__iexact='UROFOLLITROPIN' -> ['CHEMBL1201520'] -> ['G03GA04']"
+      ],
+      "route": "parenteral"
+    },
+    "1282": {
+      "generic_code": "1282",
+      "accepted": "N03AG04",
+      "source": "ChEMBL pref_name=VIGABATRIN",
+      "evidence": [
+        "chembl pref_name__iexact='VIGABATRIN' -> ['CHEMBL89598'] -> ['N03AG04']"
+      ],
+      "route": "systemic"
+    },
+    "1283": {
+      "generic_code": "1283",
+      "accepted": "L01CA01",
+      "source": "ChEMBL pref_name=VINBLASTINE",
+      "evidence": [
+        "chembl pref_name__iexact='VINBLASTINE SULFATE' -> ['CHEMBL378544'] -> []",
+        "chembl pref_name__iexact='VINBLASTINE' -> ['CHEMBL159'] -> ['L01CA01']"
+      ],
+      "route": "parenteral"
+    },
+    "12837": {
+      "generic_code": "12837",
+      "accepted": "A10AE05",
+      "source": "ChEMBL pref_name=INSULIN DETEMIR",
+      "evidence": [
+        "chembl pref_name__iexact='INSULIN DETEMIR' -> ['CHEMBL2104391'] -> ['A10AE05']"
+      ],
+      "route": "parenteral"
+    },
+    "1329": {
+      "generic_code": "1329",
+      "accepted": "R07AB01",
+      "source": "ChEMBL pref_name=DOXAPRAM",
+      "evidence": [
+        "chembl pref_name__iexact='DOXAPRAM HYDROCHLORIDE' -> ['CHEMBL3989519'] -> []",
+        "chembl pref_name__iexact='DOXAPRAM' -> ['CHEMBL1754'] -> ['R07AB01']"
+      ],
+      "route": "parenteral"
+    },
+    "1338": {
+      "generic_code": "1338",
+      "accepted": "H01BA02",
+      "source": "ChEMBL pref_name=DESMOPRESSIN",
+      "evidence": [
+        "chembl pref_name__iexact='DESMOPRESSIN (AS ACETATE)' -> [] -> []",
+        "chembl pref_name__iexact='DESMOPRESSIN' -> ['CHEMBL1429'] -> ['H01BA02']"
+      ],
+      "route": "parenteral"
+    },
+    "13583": {
+      "generic_code": "13583",
+      "accepted": "B01AE07",
+      "source": "ChEMBL pref_name=DABIGATRAN ETEXILATE",
+      "evidence": [
+        "chembl pref_name__iexact='DABIGATRAN ETEXILATE (AS MESYLATE)' -> [] -> []",
+        "chembl pref_name__iexact='DABIGATRAN ETEXILATE' -> ['CHEMBL539697'] -> ['B01AE07']"
+      ],
+      "route": "systemic"
+    },
+    "13879": {
+      "generic_code": "13879",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='PACLITAXEL (ALBUMIN BAND) NANO' -> [] -> []",
+        "chembl pref_name__iexact='PACLITAXEL NANO' -> [] -> []",
+        "kegg find 'PACLITAXEL NANO' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "1388": {
+      "generic_code": "1388",
+      "accepted": "V03AB22",
+      "source": "ChEMBL pref_name=AMYL NITRITE",
+      "evidence": [
+        "chembl pref_name__iexact='AMYL NITRITE' -> ['CHEMBL6195748'] -> ['V03AB22']"
+      ],
+      "route": "respiratory"
+    },
+    "13980": {
+      "generic_code": "13980",
+      "accepted": "C01EB18",
+      "source": "ChEMBL pref_name=RANOLAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='RANOLAZINE' -> ['CHEMBL1404'] -> ['C01EB18']"
+      ],
+      "route": "systemic"
+    },
+    "14202": {
+      "generic_code": "14202",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='MULTIVITAMIN' -> [] -> []",
+        "kegg find 'MULTIVITAMIN' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "1453": {
+      "generic_code": "1453",
+      "accepted": "A16AA04",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='CYSTEAMINE (AS BITARTRATE)' -> [] -> []",
+        "chembl pref_name__iexact='CYSTEAMINE' -> ['CHEMBL602'] -> ['A16AA04', 'S01XA21']",
+        "kegg find 'CYSTEAMINE' -> ['D03634', 'D03635', 'D10468']",
+        "kegg D03634 codes=['A16AA04', 'S01XA21'] l5={'A16AA04': 'Mercaptamine', 'S01XA21': 'Mercaptamine'} l4={'A16AA': 'Amino acids and derivatives', 'S01XA': 'Other ophthalmologicals'}",
+        "kegg D03635 codes=['S01XA21'] l5={'S01XA21': 'Mercaptamine'} l4={'S01XA': 'Other ophthalmologicals'}",
+        "kegg D10468 name 'Cysteamine bitartrate (JAN)' set ['cysteamine bitartrate'] != own ['cysteamine']: skipped",
+        "route systemic: ['A16AA04', 'S01XA21'] -> ['A16AA04']"
+      ],
+      "route": "systemic"
+    },
+    "1485": {
+      "generic_code": "1485",
+      "accepted": "V03AB03",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='EDETATE CALCIUM DISODIUM' -> [] -> []",
+        "kegg find 'EDETATE CALCIUM DISODIUM' -> ['D00571', 'D03943', 'D07934']",
+        "kegg D00571 codes=['V03AB03'] l5={'V03AB03': 'Edetates'} l4={'V03AB': 'Antidotes'}",
+        "kegg D03943 codes=['V03AB03'] l5={'V03AB03': 'Edetates'} l4={'V03AB': 'Antidotes'}",
+        "kegg D07934 codes=['V03AB03'] l5={'V03AB03': 'Edetates'} l4={'V03AB': 'Antidotes'}"
+      ],
+      "route": "parenteral"
+    },
+    "15281": {
+      "generic_code": "15281",
+      "accepted": "V04CX01",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='INDOCYANINE GREEN' -> ['CHEMBL1646'] -> []",
+        "kegg find 'INDOCYANINE GREEN' -> ['D01342']",
+        "kegg D01342 codes=['V04CX01'] l5={'V04CX01': 'Indocyanine green'} l4={'V04CX': 'Other diagnostic agents'}"
+      ],
+      "route": "parenteral"
+    },
+    "1545": {
+      "generic_code": "1545",
+      "accepted": "L03AB05",
+      "source": "ChEMBL pref_name=INTERFERON ALFA-2B",
+      "evidence": [
+        "chembl pref_name__iexact='INTERFERON ALFA-2B' -> ['CHEMBL1201558'] -> ['L03AB05']"
+      ],
+      "route": "parenteral"
+    },
+    "1558": {
+      "generic_code": "1558",
+      "accepted": "C01CA02",
+      "source": "route filter (parenteral)",
+      "evidence": [
+        "chembl pref_name__iexact='ISOPROTERENOL HYDROCHLORIDE' -> ['CHEMBL1711'] -> []",
+        "chembl pref_name__iexact='ISOPROTERENOL' -> ['CHEMBL434'] -> ['C01CA02', 'R03AB02', 'R03CB01', 'R03CB51']",
+        "kegg find 'ISOPROTERENOL HYDROCHLORIDE' -> ['D01390']",
+        "kegg D01390 codes=['C01CA02', 'R03AB02', 'R03CB01'] l5={'C01CA02': 'Isoprenaline', 'R03AB02': 'Isoprenaline', 'R03CB01': 'Isoprenaline'} l4={'C01CA': 'Adrenergic and dopaminergic agents', 'R03AB': 'Non-selective beta-adrenoreceptor agonists', 'R03CB': 'Non-selective beta-adrenoreceptor agonists'}",
+        "route parenteral: ['C01CA02', 'R03AB02', 'R03CB01', 'R03CB51'] -> ['C01CA02']"
+      ],
+      "route": "parenteral"
+    },
+    "15691": {
+      "generic_code": "15691",
+      "accepted": "L01FE01",
+      "source": "ChEMBL pref_name=CETUXIMAB",
+      "evidence": [
+        "chembl pref_name__iexact='CETUXIMAB' -> ['CHEMBL1201577'] -> ['L01FE01']"
+      ],
+      "route": "parenteral"
+    },
+    "15893": {
+      "generic_code": "15893",
+      "accepted": "J01AA08",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='MINOCYCLINE (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='MINOCYCLINE' -> ['CHEMBL1434'] -> ['A01AB23', 'D10AF07', 'J01AA08']",
+        "kegg find 'MINOCYCLINE' -> ['D00850', 'D05045']",
+        "kegg D00850 codes=['A01AB23', 'D10AF07', 'J01AA08'] l5={'A01AB23': 'Minocycline', 'D10AF07': 'Minocycline', 'J01AA08': 'Minocycline'} l4={'A01AB': 'Antiinfectives and antiseptics for local oral treatment', 'D10AF': 'Antiinfectives for treatment of acne', 'J01AA': 'Tetracyclines'}",
+        "kegg D05045 codes=['A01AB23', 'D10AF07', 'J01AA08'] l5={'A01AB23': 'Minocycline', 'D10AF07': 'Minocycline', 'J01AA08': 'Minocycline'} l4={'A01AB': 'Antiinfectives and antiseptics for local oral treatment', 'D10AF': 'Antiinfectives for treatment of acne', 'J01AA': 'Tetracyclines'}",
+        "route systemic: ['A01AB23', 'D10AF07', 'J01AA08'] -> ['J01AA08']"
+      ],
+      "route": "systemic"
+    },
+    "16153": {
+      "generic_code": "16153",
+      "accepted": "H01AB01",
+      "source": "ChEMBL pref_name=THYROTROPIN ALFA",
+      "evidence": [
+        "chembl pref_name__iexact='THYROTROPIN ALFA' -> ['CHEMBL1201533'] -> ['H01AB01']"
+      ],
+      "route": "parenteral"
+    },
+    "1620": {
+      "generic_code": "1620",
+      "accepted": "C01CA03",
+      "source": "ChEMBL pref_name=NOREPINEPHRINE",
+      "evidence": [
+        "chembl pref_name__iexact='NOREPINEPHRINE (AS BITARTRATE)' -> [] -> []",
+        "chembl pref_name__iexact='NOREPINEPHRINE' -> ['CHEMBL1437'] -> ['C01CA03']"
+      ],
+      "route": "parenteral"
+    },
+    "1679": {
+      "generic_code": "1679",
+      "accepted": "V03AB08",
+      "source": "ChEMBL pref_name=SODIUM NITRITE",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM NITRITE' -> ['CHEMBL93268'] -> ['V03AB08']"
+      ],
+      "route": "parenteral"
+    },
+    "16870": {
+      "generic_code": "16870",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['G03AC03', 'G03AD01']",
+      "evidence": [
+        "chembl pref_name__iexact='LEVONORGESTREL' -> ['CHEMBL1389'] -> ['G03AC03', 'G03AD01']",
+        "kegg find 'LEVONORGESTREL' -> ['D00950', 'D04482', 'D09187']",
+        "kegg D00950 codes=['G03AC03', 'G03AD01'] l5={'G03AC03': 'Levonorgestrel', 'G03AD01': 'Levonorgestrel'} l4={'G03AC': 'Progestogens', 'G03AD': 'Emergency contraceptives'}",
+        "kegg D04482 name 'Ethinylestradiol and levonorgestrel' set ['ethinylestradiol', 'levonorgestrel'] != own ['levonorgestrel']: skipped",
+        "kegg D09187 name 'Estradiol and levonorgestrel' set ['estradiol', 'levonorgestrel'] != own ['levonorgestrel']: skipped",
+        "unresolved: pool=['G03AC03', 'G03AD01'] route_filter(systemic)=['G03AC03', 'G03AD01']"
+      ],
+      "route": "systemic"
+    },
+    "16889": {
+      "generic_code": "16889",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='BERACTANT' -> ['CHEMBL1201624'] -> []",
+        "kegg find 'BERACTANT' -> ['D03096']",
+        "kegg D03096 codes=[] l5={} l4={}"
+      ],
+      "route": "parenteral"
+    },
+    "17011": {
+      "generic_code": "17011",
+      "accepted": "C01EB17",
+      "source": "ChEMBL pref_name=IVABRADINE",
+      "evidence": [
+        "chembl pref_name__iexact='IVABRADINE (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='IVABRADINE' -> ['CHEMBL471737'] -> ['C01EB17']"
+      ],
+      "route": "systemic"
+    },
+    "17672": {
+      "generic_code": "17672",
+      "accepted": "J01MA15",
+      "source": "ChEMBL pref_name=GEMIFLOXACIN",
+      "evidence": [
+        "chembl pref_name__iexact='GEMIFLOXACIN (AS MESILATE)' -> [] -> []",
+        "chembl pref_name__iexact='GEMIFLOXACIN' -> ['CHEMBL430'] -> ['J01MA15']"
+      ],
+      "route": "systemic"
+    },
+    "1777": {
+      "generic_code": "1777",
+      "accepted": "C01BC03",
+      "source": "ChEMBL pref_name=PROPAFENONE",
+      "evidence": [
+        "chembl pref_name__iexact='PROPAFENONE HYDROCHLORIDE' -> ['CHEMBL1201063'] -> []",
+        "chembl pref_name__iexact='PROPAFENONE' -> ['CHEMBL631'] -> ['C01BC03']"
+      ],
+      "route": "systemic"
+    },
+    "1778": {
+      "generic_code": "1778",
+      "accepted": "C01BC03",
+      "source": "ChEMBL pref_name=PROPAFENONE",
+      "evidence": [
+        "chembl pref_name__iexact='PROPAFENONE HYDROCHLORIDE' -> ['CHEMBL1201063'] -> []",
+        "chembl pref_name__iexact='PROPAFENONE' -> ['CHEMBL631'] -> ['C01BC03']"
+      ],
+      "route": "systemic"
+    },
+    "17803": {
+      "generic_code": "17803",
+      "accepted": "S01AA26",
+      "source": "route filter (ophthalmic)",
+      "evidence": [
+        "chembl pref_name__iexact='AZITHROMYCIN DIHYDRATE' -> [] -> []",
+        "chembl pref_name__iexact='AZITHROMYCIN' -> ['CHEMBL529'] -> ['J01FA10', 'S01AA26']",
+        "kegg find 'AZITHROMYCIN DIHYDRATE' -> ['D02134']",
+        "kegg D02134 name 'Azithromycin hydrate (JP19)' set ['azithromycin hydrate'] != own ['azithromycin']: skipped",
+        "route ophthalmic: ['J01FA10', 'S01AA26'] -> ['S01AA26']"
+      ],
+      "route": "ophthalmic"
+    },
+    "18006": {
+      "generic_code": "18006",
+      "accepted": "L04AC03",
+      "source": "ChEMBL pref_name=ANAKINRA",
+      "evidence": [
+        "chembl pref_name__iexact='ANAKINRA' -> ['CHEMBL1201570'] -> ['L04AC03']"
+      ],
+      "route": "parenteral"
+    },
+    "18233": {
+      "generic_code": "18233",
+      "accepted": "A02BA53",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'FAMOTIDINE and CALCIUM CARBONATE and MAGNESIUM HYDROXIDE' -> ['D10259']",
+        "kegg D10259 codes=['A02BA53'] l5={'A02BA53': 'Famotidine, combinations'} l4={'A02BA': 'H2-receptor antagonists'}"
+      ],
+      "route": "systemic"
+    },
+    "1836": {
+      "generic_code": "1836",
+      "accepted": "C01EB10",
+      "source": "ChEMBL pref_name=ADENOSINE",
+      "evidence": [
+        "chembl pref_name__iexact='ADENOSINE' -> ['CHEMBL477'] -> ['C01EB10']"
+      ],
+      "route": "parenteral"
+    },
+    "18626": {
+      "generic_code": "18626",
+      "accepted": "S01AE05",
+      "source": "route filter (ophthalmic)",
+      "evidence": [
+        "chembl pref_name__iexact='LEVOFLOXACIN HEMIHYDRATE' -> [] -> []",
+        "chembl pref_name__iexact='LEVOFLOXACIN' -> ['CHEMBL5315124'] -> ['J01MA12', 'S01AE05']",
+        "kegg find 'LEVOFLOXACIN HEMIHYDRATE' -> ['D00588']",
+        "kegg D00588 codes=['J01MA12', 'S01AE05'] l5={'J01MA12': 'Levofloxacin', 'S01AE05': 'Levofloxacin'} l4={'J01MA': 'Fluoroquinolones', 'S01AE': 'Fluoroquinolones'}",
+        "route ophthalmic: ['J01MA12', 'S01AE05'] -> ['S01AE05']"
+      ],
+      "route": "ophthalmic"
+    },
+    "1894": {
+      "generic_code": "1894",
+      "accepted": "R03DC01",
+      "source": "ChEMBL pref_name=ZAFIRLUKAST",
+      "evidence": [
+        "chembl pref_name__iexact='ZAFIRLUKAST' -> ['CHEMBL603'] -> ['R03DC01']"
+      ],
+      "route": "systemic"
+    },
+    "19051": {
+      "generic_code": "19051",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='PERITONEAL DIALYSIS IV ICODEXTRINE BASED' -> [] -> []",
+        "kegg find 'PERITONEAL DIALYSIS IV ICODEXTRINE BASED' -> []"
+      ],
+      "route": "systemic"
+    },
+    "1934": {
+      "generic_code": "1934",
+      "accepted": "A16AX11",
+      "source": "ChEMBL pref_name=SODIUM BENZOATE",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM BENZOATE' -> ['CHEMBL1356'] -> ['A16AX11']"
+      ],
+      "route": "parenteral"
+    },
+    "19438": {
+      "generic_code": "19438",
+      "accepted": "B01AE07",
+      "source": "ChEMBL pref_name=DABIGATRAN ETEXILATE",
+      "evidence": [
+        "chembl pref_name__iexact='DABIGATRAN ETEXILATE (AS MESYLATE)' -> [] -> []",
+        "chembl pref_name__iexact='DABIGATRAN ETEXILATE' -> ['CHEMBL539697'] -> ['B01AE07']"
+      ],
+      "route": "systemic"
+    },
+    "2002": {
+      "generic_code": "2002",
+      "accepted": "N04BC04",
+      "source": "ChEMBL pref_name=ROPINIROLE",
+      "evidence": [
+        "chembl pref_name__iexact='ROPINIROLE (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='ROPINIROLE' -> ['CHEMBL589'] -> ['N04BC04']"
+      ],
+      "route": "systemic"
+    },
+    "20306": {
+      "generic_code": "20306",
+      "accepted": "A10AB05",
+      "source": "combination-group rule",
+      "evidence": [
+        "chembl pref_name__iexact='INSULIN ASPART' -> ['CHEMBL1201496'] -> ['A10AB05', 'A10AD05']",
+        "kegg find 'INSULIN ASPART' -> ['D04475', 'D10570']",
+        "kegg D04475 codes=['A10AB05', 'A10AD05'] l5={'A10AB05': 'Insulin aspart', 'A10AD05': 'Insulin aspart'} l4={'A10AB': 'Insulins and analogues for injection, fast-acting', 'A10AD': 'Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting'}",
+        "kegg D10570 name 'Insulin degludec (genetical recombination) and insulin aspart (genetical recombination)' set ['insulin aspart', 'insulin degludec'] != own ['insulin aspart']: skipped",
+        "combo-group rule: ['A10AB05', 'A10AD05'] -> ['A10AB05'] (l4 groups {'A10AB05': 'Insulins and analogues for injection, fast-acting', 'A10AD05': 'Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting'})"
+      ],
+      "route": "parenteral"
+    },
+    "21373": {
+      "generic_code": "21373",
+      "accepted": null,
+      "reason": "latin list is a category name, not an ingredient",
+      "evidence": [],
+      "route": "systemic"
+    },
+    "2153": {
+      "generic_code": "2153",
+      "accepted": "L01AA03",
+      "source": "ChEMBL pref_name=MELPHALAN",
+      "evidence": [
+        "chembl pref_name__iexact='MELPHALAN (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='MELPHALAN' -> ['CHEMBL852'] -> ['L01AA03']"
+      ],
+      "route": "parenteral"
+    },
+    "219": {
+      "generic_code": "219",
+      "accepted": "L01AD01",
+      "source": "ChEMBL pref_name=CARMUSTINE",
+      "evidence": [
+        "chembl pref_name__iexact='CARMUSTINE' -> ['CHEMBL513'] -> ['L01AD01']"
+      ],
+      "route": "parenteral"
+    },
+    "2194": {
+      "generic_code": "2194",
+      "accepted": "L01CA02",
+      "source": "ChEMBL pref_name=VINCRISTINE",
+      "evidence": [
+        "chembl pref_name__iexact='VINCRISTINE SULFATE' -> ['CHEMBL501867'] -> []",
+        "chembl pref_name__iexact='VINCRISTINE' -> ['CHEMBL90555'] -> ['L01CA02']"
+      ],
+      "route": "parenteral"
+    },
+    "2236": {
+      "generic_code": "2236",
+      "accepted": "N06BA02",
+      "source": "ChEMBL pref_name=DEXTROAMPHETAMINE",
+      "evidence": [
+        "chembl pref_name__iexact='DEXTROAMPHETAMINE SULFATE' -> ['CHEMBL3544971'] -> []",
+        "chembl pref_name__iexact='DEXTROAMPHETAMINE' -> ['CHEMBL612'] -> ['N06BA02']"
+      ],
+      "route": "systemic"
+    },
+    "22412": {
+      "generic_code": "22412",
+      "accepted": "L03AX16",
+      "source": "ChEMBL pref_name=PLERIXAFOR",
+      "evidence": [
+        "chembl pref_name__iexact='PLERIXAFOR' -> ['CHEMBL18442'] -> ['L03AX16']"
+      ],
+      "route": "parenteral"
+    },
+    "2248": {
+      "generic_code": "2248",
+      "accepted": "A16AX11",
+      "source": "ChEMBL pref_name=SODIUM BENZOATE",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM BENZOATE' -> ['CHEMBL1356'] -> ['A16AX11']"
+      ],
+      "route": "systemic"
+    },
+    "22558": {
+      "generic_code": "22558",
+      "accepted": "L02BB04",
+      "source": "ChEMBL pref_name=ENZALUTAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='ENZALUTAMIDE' -> ['CHEMBL1082407'] -> ['L02BB04']"
+      ],
+      "route": "systemic"
+    },
+    "2256": {
+      "generic_code": "2256",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DIPHTHERIA TOXOID and TETANUS TOXOID and PERTUSSIS VACCINE' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "22698": {
+      "generic_code": "22698",
+      "accepted": "L04AK02",
+      "source": "ChEMBL pref_name=TERIFLUNOMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TERIFLUNOMIDE' -> ['CHEMBL973'] -> ['L04AK02']"
+      ],
+      "route": "systemic"
+    },
+    "2280": {
+      "generic_code": "2280",
+      "accepted": "N03AF02",
+      "source": "ChEMBL pref_name=OXCARBAZEPINE",
+      "evidence": [
+        "chembl pref_name__iexact='OXCARBAZEPINE' -> ['CHEMBL1068'] -> ['N03AF02']"
+      ],
+      "route": "systemic"
+    },
+    "22858": {
+      "generic_code": "22858",
+      "accepted": "L01EX03",
+      "source": "ChEMBL pref_name=PAZOPANIB",
+      "evidence": [
+        "chembl pref_name__iexact='PAZOPANIB (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='PAZOPANIB' -> ['CHEMBL477772'] -> ['L01EX03']"
+      ],
+      "route": "systemic"
+    },
+    "22891": {
+      "generic_code": "22891",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='AMPHOTERICIN B NANOLIPOSOMAL' -> [] -> []",
+        "kegg find 'AMPHOTERICIN B NANOLIPOSOMAL' -> []"
+      ],
+      "route": "topical"
+    },
+    "23161": {
+      "generic_code": "23161",
+      "accepted": "L01EX05",
+      "source": "ChEMBL pref_name=REGORAFENIB",
+      "evidence": [
+        "chembl pref_name__iexact='REGORAFENIB' -> ['CHEMBL1946170'] -> ['L01EX05']"
+      ],
+      "route": "systemic"
+    },
+    "23169": {
+      "generic_code": "23169",
+      "accepted": "J01AA12",
+      "source": "ChEMBL pref_name=TIGECYCLINE",
+      "evidence": [
+        "chembl pref_name__iexact='TIGECYCLINE' -> ['CHEMBL376140'] -> ['J01AA12']"
+      ],
+      "route": "parenteral"
+    },
+    "23470": {
+      "generic_code": "23470",
+      "accepted": "J05AP51",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'LEDIPASVIR and SOFOSBUVIR' -> ['D10578']",
+        "kegg D10578 codes=['J05AP51'] l5={'J05AP51': 'Sofosbuvir and ledipasvir'} l4={'J05AP': 'Antivirals for treatment of HCV infections'}"
+      ],
+      "route": "systemic"
+    },
+    "2397": {
+      "generic_code": "2397",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM ACID PHOSPHATE (PHOSPHATE SODIUM)' -> [] -> []",
+        "chembl pref_name__iexact='SODIUM ACID PHOSPHATE' -> [] -> []",
+        "chembl pref_name__iexact='SODIUM ACID' -> [] -> []",
+        "kegg find 'SODIUM ACID PHOSPHATE' -> ['D02955', 'D04899', 'D06389', 'D07703', 'D07851', 'D08741', 'D08743']",
+        "kegg D02955 name 'Anticoagulant citrate phosphate dextrose (USP)' set ['anticoagulant citrate phosphate dextrose'] != own ['sodium acid']: skipped",
+        "kegg D04899 name 'Thiamine chloride hydrochloride, riboflavin sodium phosphate and ascorbic acid' set ['ascorbic acid', 'riboflavin', 'thiamine'] != own ['sodium acid']: skipped",
+        "kegg D06389 name 'Dibasic sodium phosphate hydrate (JP19)' set ['dibasic sodium phosphate hydrate'] != own ['sodium acid']: skipped",
+        "kegg D07703 name 'Hydroxyethyl cellulose, boric acid, dibasic sodium phosphate, potassium chloride, sodium chloride and dried sodium carbonate' set ['boric acid', 'dibasic', 'dried', 'hydroxyethyl cellulose', 'potassium', 'sodium'] != own ['sodium acid']: skipped",
+        "kegg D07851 name 'Ascorbic acid, thiamine chloride hydrochloride, pyridoxine hydrochloride, riboflavin sodium phosphate, nicotinamide and panthenol' set ['ascorbic acid', 'nicotinamide', 'panthenol', 'pyridoxine', 'riboflavin', 'thiamine'] != own ['sodium acid']: skipped",
+        "kegg D08741 name 'Adenine, sodium citrate hydrate, citric acid hydrate, glucose and sodium phosphate, monobasic' set ['adenine', 'citric acid hydrate', 'glucose', 'monobasic', 'sodium', 'sodium citrate hydrate'] != own ['sodium acid']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "23986": {
+      "generic_code": "23986",
+      "accepted": "L01FD02",
+      "source": "ChEMBL pref_name=PERTUZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='PERTUZUMAB' -> ['CHEMBL2007641'] -> ['L01FD02']"
+      ],
+      "route": "parenteral"
+    },
+    "24097": {
+      "generic_code": "24097",
+      "accepted": "L04AX05",
+      "source": "ChEMBL pref_name=PIRFENIDONE",
+      "evidence": [
+        "chembl pref_name__iexact='PIRFENIDONE' -> ['CHEMBL1256391'] -> ['L04AX05']"
+      ],
+      "route": "systemic"
+    },
+    "2414": {
+      "generic_code": "2414",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['C05BX01', 'C05BX51']",
+      "evidence": [
+        "chembl pref_name__iexact='CALCIUM DOBESILATE' -> ['CHEMBL2106191'] -> ['C05BX01', 'C05BX51']",
+        "kegg find 'CALCIUM DOBESILATE' -> ['D07427']",
+        "kegg D07427 codes=['C05BX01'] l5={'C05BX01': 'Calcium dobesilate'} l4={'C05BX': 'Other sclerosing agents'}",
+        "specificity: ['C05BX01', 'C05BX51'] -> ['C05BX01'] (l5 names {'C05BX01': 'Calcium dobesilate'})",
+        "unresolved: pool=['C05BX01', 'C05BX51'] route_filter(systemic)=['C05BX01', 'C05BX51']"
+      ],
+      "route": "systemic"
+    },
+    "2441": {
+      "generic_code": "2441",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['G03AC03', 'G03AD01']",
+      "evidence": [
+        "chembl pref_name__iexact='LEVONORGESTREL' -> ['CHEMBL1389'] -> ['G03AC03', 'G03AD01']",
+        "kegg find 'LEVONORGESTREL' -> ['D00950', 'D04482', 'D09187']",
+        "kegg D00950 codes=['G03AC03', 'G03AD01'] l5={'G03AC03': 'Levonorgestrel', 'G03AD01': 'Levonorgestrel'} l4={'G03AC': 'Progestogens', 'G03AD': 'Emergency contraceptives'}",
+        "kegg D04482 name 'Ethinylestradiol and levonorgestrel' set ['ethinylestradiol', 'levonorgestrel'] != own ['levonorgestrel']: skipped",
+        "kegg D09187 name 'Estradiol and levonorgestrel' set ['estradiol', 'levonorgestrel'] != own ['levonorgestrel']: skipped",
+        "unresolved: pool=['G03AC03', 'G03AD01'] route_filter(systemic)=['G03AC03', 'G03AD01']"
+      ],
+      "route": "systemic"
+    },
+    "2447": {
+      "generic_code": "2447",
+      "accepted": "N03AF02",
+      "source": "ChEMBL pref_name=OXCARBAZEPINE",
+      "evidence": [
+        "chembl pref_name__iexact='OXCARBAZEPINE' -> ['CHEMBL1068'] -> ['N03AF02']"
+      ],
+      "route": "systemic"
+    },
+    "24484": {
+      "generic_code": "24484",
+      "accepted": "L01EX03",
+      "source": "ChEMBL pref_name=PAZOPANIB",
+      "evidence": [
+        "chembl pref_name__iexact='PAZOPANIB (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='PAZOPANIB' -> ['CHEMBL477772'] -> ['L01EX03']"
+      ],
+      "route": "systemic"
+    },
+    "25268": {
+      "generic_code": "25268",
+      "accepted": "L01FF02",
+      "source": "ChEMBL pref_name=PEMBROLIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='PEMBROLIZUMAB' -> ['CHEMBL3137343'] -> ['L01FF02']"
+      ],
+      "route": "parenteral"
+    },
+    "25308": {
+      "generic_code": "25308",
+      "accepted": "A16AB12",
+      "source": "ChEMBL pref_name=ELOSULFASE ALFA",
+      "evidence": [
+        "chembl pref_name__iexact='ELOSULFASE ALFA' -> ['CHEMBL2108676'] -> ['A16AB12']"
+      ],
+      "route": "parenteral"
+    },
+    "271": {
+      "generic_code": "271",
+      "accepted": "P01BA01",
+      "source": "ChEMBL pref_name=CHLOROQUINE",
+      "evidence": [
+        "chembl pref_name__iexact='CHLOROQUINE (AS PHOSPHATE)' -> [] -> []",
+        "chembl pref_name__iexact='CHLOROQUINE' -> ['CHEMBL76'] -> ['P01BA01']"
+      ],
+      "route": "systemic"
+    },
+    "280": {
+      "generic_code": "280",
+      "accepted": "C03BA04",
+      "source": "ChEMBL pref_name=CHLORTHALIDONE",
+      "evidence": [
+        "chembl pref_name__iexact='CHLORTHALIDONE' -> ['CHEMBL1055'] -> ['C03BA04']"
+      ],
+      "route": "systemic"
+    },
+    "3005": {
+      "generic_code": "3005",
+      "accepted": "G03CA03",
+      "source": "ChEMBL pref_name=ESTRADIOL",
+      "evidence": [
+        "chembl pref_name__iexact='ESTRADIOL (AS HEMIHYDRATE)' -> [] -> []",
+        "chembl pref_name__iexact='ESTRADIOL' -> ['CHEMBL135'] -> ['G03CA03']"
+      ],
+      "route": "vaginal"
+    },
+    "368": {
+      "generic_code": "368",
+      "accepted": "L01AA01",
+      "source": "ChEMBL pref_name=CYCLOPHOSPHAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='CYCLOPHOSPHAMIDE' -> ['CHEMBL1200796'] -> ['L01AA01']"
+      ],
+      "route": "parenteral"
+    },
+    "369": {
+      "generic_code": "369",
+      "accepted": "L01AA01",
+      "source": "ChEMBL pref_name=CYCLOPHOSPHAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='CYCLOPHOSPHAMIDE' -> ['CHEMBL1200796'] -> ['L01AA01']"
+      ],
+      "route": "systemic"
+    },
+    "370": {
+      "generic_code": "370",
+      "accepted": "L01AA01",
+      "source": "ChEMBL pref_name=CYCLOPHOSPHAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='CYCLOPHOSPHAMIDE' -> ['CHEMBL1200796'] -> ['L01AA01']"
+      ],
+      "route": "parenteral"
+    },
+    "379": {
+      "generic_code": "379",
+      "accepted": "G03XA01",
+      "source": "ChEMBL pref_name=DANAZOL",
+      "evidence": [
+        "chembl pref_name__iexact='DANAZOL' -> ['CHEMBL1479'] -> ['G03XA01']"
+      ],
+      "route": "systemic"
+    },
+    "380": {
+      "generic_code": "380",
+      "accepted": "G03XA01",
+      "source": "ChEMBL pref_name=DANAZOL",
+      "evidence": [
+        "chembl pref_name__iexact='DANAZOL' -> ['CHEMBL1479'] -> ['G03XA01']"
+      ],
+      "route": "systemic"
+    },
+    "382": {
+      "generic_code": "382",
+      "accepted": "M03CA01",
+      "source": "ChEMBL pref_name=DANTROLENE",
+      "evidence": [
+        "chembl pref_name__iexact='DANTROLENE SODIUM' -> ['CHEMBL928'] -> []",
+        "chembl pref_name__iexact='DANTROLENE' -> ['CHEMBL1201288'] -> ['M03CA01']"
+      ],
+      "route": "parenteral"
+    },
+    "383": {
+      "generic_code": "383",
+      "accepted": "J04BA02",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='DAPSONE' -> ['CHEMBL1043'] -> ['D10AX05', 'J04BA02']",
+        "kegg find 'DAPSONE' -> ['D00592', 'D02751', 'D02900']",
+        "kegg D00592 codes=['D10AX05', 'J04BA02'] l5={'D10AX05': 'Dapsone', 'J04BA02': 'Dapsone'} l4={'D10AX': 'Other anti-acne preparations for topical use', 'J04BA': 'Drugs for treatment of lepra'}",
+        "kegg D02751 name 'Acedapsone (USAN/INN)' set ['acedapsone'] != own ['dapsone']: skipped",
+        "kegg D02900 name 'Amidapsone (USAN/INN)' set ['amidapsone'] != own ['dapsone']: skipped",
+        "route systemic: ['D10AX05', 'J04BA02'] -> ['J04BA02']"
+      ],
+      "route": "systemic"
+    },
+    "388": {
+      "generic_code": "388",
+      "accepted": "N06AA01",
+      "source": "ChEMBL pref_name=DESIPRAMINE",
+      "evidence": [
+        "chembl pref_name__iexact='DESIPRAMINE HYDROCHLORIDE' -> ['CHEMBL1696'] -> []",
+        "chembl pref_name__iexact='DESIPRAMINE' -> ['CHEMBL72'] -> ['N06AA01']"
+      ],
+      "route": "systemic"
+    },
+    "3894": {
+      "generic_code": "3894",
+      "accepted": "J01CR05",
+      "source": "level-5-name specificity",
+      "evidence": [
+        "kegg find 'PIPERACILLIN and TAZOBACTAM' -> ['D02505']",
+        "kegg D02505 codes=['J01CR05', 'J01RA01'] l5={'J01CR05': 'Piperacillin and beta-lactamase inhibitor', 'J01RA01': 'Penicillins, combinations with other antibacterials'} l4={'J01CR': 'Combinations of penicillins, incl. beta-lactamase inhibitors', 'J01RA': 'Combinations of antibacterials'}",
+        "specificity: ['J01CR05', 'J01RA01'] -> ['J01CR05'] (l5 names {'J01CR05': 'Piperacillin and beta-lactamase inhibitor', 'J01RA01': 'Penicillins, combinations with other antibacterials'})"
+      ],
+      "route": "parenteral"
+    },
+    "4000": {
+      "generic_code": "4000",
+      "accepted": "V03AE02",
+      "source": "ChEMBL pref_name=SEVELAMER",
+      "evidence": [
+        "chembl pref_name__iexact='SEVELAMER HYDROCHLORIDE' -> ['CHEMBL1201492'] -> []",
+        "chembl pref_name__iexact='SEVELAMER' -> ['CHEMBL5314349'] -> ['V03AE02']"
+      ],
+      "route": "systemic"
+    },
+    "450": {
+      "generic_code": "450",
+      "accepted": "G04BX13",
+      "source": "route filter (parenteral)",
+      "evidence": [
+        "chembl pref_name__iexact='DIMETHYL SULFOXIDE' -> ['CHEMBL504'] -> ['G04BX13', 'M02AX03']",
+        "kegg find 'DIMETHYL SULFOXIDE' -> ['D01043', 'D10176']",
+        "kegg D01043 codes=['G04BX13', 'M02AX03'] l5={'G04BX13': 'Dimethyl sulfoxide', 'M02AX03': 'Dimethyl sulfoxide'} l4={'G04BX': 'Other urologicals', 'M02AX': 'Other topical products for joint and muscular pain'}",
+        "kegg D10176 name 'Trametinib dimethyl sulfoxide (JAN/USAN)' set ['trametinib dimethyl sulfoxide'] != own ['dimethyl sulfoxide']: skipped",
+        "route parenteral: ['G04BX13', 'M02AX03'] -> ['G04BX13']"
+      ],
+      "route": "parenteral"
+    },
+    "4768": {
+      "generic_code": "4768",
+      "accepted": "J05AB14",
+      "source": "ChEMBL pref_name=VALGANCICLOVIR",
+      "evidence": [
+        "chembl pref_name__iexact='VALGANCICLOVIR (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='VALGANCICLOVIR' -> ['CHEMBL1201314'] -> ['J05AB14']"
+      ],
+      "route": "systemic"
+    },
+    "50003": {
+      "generic_code": "50003",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DACLATASVIR and SOFOSBUVIR' -> []"
+      ],
+      "route": "systemic"
+    },
+    "50047": {
+      "generic_code": "50047",
+      "accepted": "C01CA03",
+      "source": "ChEMBL pref_name=NOREPINEPHRINE",
+      "evidence": [
+        "chembl pref_name__iexact='NOREPINEPHRINE (AS BITARTRATE)' -> [] -> []",
+        "chembl pref_name__iexact='NOREPINEPHRINE' -> ['CHEMBL1437'] -> ['C01CA03']"
+      ],
+      "route": "parenteral"
+    },
+    "50061": {
+      "generic_code": "50061",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='FLUPENTHIXOL DECANOATE' -> [] -> []",
+        "kegg find 'FLUPENTHIXOL DECANOATE' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "50075": {
+      "generic_code": "50075",
+      "accepted": "V03AB03",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='EDETATE CALCIUM DISODIUM' -> [] -> []",
+        "kegg find 'EDETATE CALCIUM DISODIUM' -> ['D00571', 'D03943', 'D07934']",
+        "kegg D00571 codes=['V03AB03'] l5={'V03AB03': 'Edetates'} l4={'V03AB': 'Antidotes'}",
+        "kegg D03943 codes=['V03AB03'] l5={'V03AB03': 'Edetates'} l4={'V03AB': 'Antidotes'}",
+        "kegg D07934 codes=['V03AB03'] l5={'V03AB03': 'Edetates'} l4={'V03AB': 'Antidotes'}"
+      ],
+      "route": "parenteral"
+    },
+    "50079": {
+      "generic_code": "50079",
+      "accepted": "V03AB09",
+      "source": "ChEMBL pref_name=DIMERCAPROL",
+      "evidence": [
+        "chembl pref_name__iexact='DIMERCAPROL' -> ['CHEMBL1597'] -> ['V03AB09']"
+      ],
+      "route": "parenteral"
+    },
+    "50202": {
+      "generic_code": "50202",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['L03AB11', 'L03AB61']",
+      "evidence": [
+        "chembl pref_name__iexact='PEGINTERFERON ALFA-2A' -> ['CHEMBL1201560'] -> ['L03AB11', 'L03AB61']",
+        "kegg find 'PEGINTERFERON ALFA-2A' -> ['D02747']",
+        "kegg D02747 codes=['L03AB11'] l5={'L03AB11': 'Peginterferon alfa-2a'} l4={'L03AB': 'Interferons'}",
+        "specificity: ['L03AB11', 'L03AB61'] -> ['L03AB11'] (l5 names {'L03AB11': 'Peginterferon alfa-2a'})",
+        "unresolved: pool=['L03AB11', 'L03AB61'] route_filter(parenteral)=['L03AB11', 'L03AB61']"
+      ],
+      "route": "parenteral"
+    },
+    "50244": {
+      "generic_code": "50244",
+      "accepted": "C01BA03",
+      "source": "ChEMBL pref_name=DISOPYRAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='DISOPYRAMIDE' -> ['CHEMBL517'] -> ['C01BA03']"
+      ],
+      "route": "systemic"
+    },
+    "50342": {
+      "generic_code": "50342",
+      "accepted": null,
+      "reason": "latin list is a category name, not an ingredient",
+      "evidence": [],
+      "route": "systemic"
+    },
+    "50348": {
+      "generic_code": "50348",
+      "accepted": null,
+      "reason": "latin list is a category name, not an ingredient",
+      "evidence": [],
+      "route": "systemic"
+    },
+    "50702": {
+      "generic_code": "50702",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'SACUBITRIL and VALSARTAN' -> []"
+      ],
+      "route": "systemic"
+    },
+    "50712": {
+      "generic_code": "50712",
+      "accepted": "L01EF01",
+      "source": "ChEMBL pref_name=PALBOCICLIB",
+      "evidence": [
+        "chembl pref_name__iexact='PALBOCICLIB' -> ['CHEMBL189963'] -> ['L01EF01']"
+      ],
+      "route": "systemic"
+    },
+    "50720": {
+      "generic_code": "50720",
+      "accepted": "G03GA09",
+      "source": "ChEMBL pref_name=CORIFOLLITROPIN ALFA",
+      "evidence": [
+        "chembl pref_name__iexact='CORIFOLLITROPIN ALFA' -> ['CHEMBL2108185'] -> ['G03GA09']"
+      ],
+      "route": "parenteral"
+    },
+    "50751": {
+      "generic_code": "50751",
+      "accepted": "L04AX05",
+      "source": "ChEMBL pref_name=PIRFENIDONE",
+      "evidence": [
+        "chembl pref_name__iexact='PIRFENIDONE' -> ['CHEMBL1256391'] -> ['L04AX05']"
+      ],
+      "route": "systemic"
+    },
+    "50758": {
+      "generic_code": "50758",
+      "accepted": "L01EX08",
+      "source": "ChEMBL pref_name=LENVATINIB",
+      "evidence": [
+        "chembl pref_name__iexact='LENVATINIB (AS MESILATE)' -> [] -> []",
+        "chembl pref_name__iexact='LENVATINIB' -> ['CHEMBL1289601'] -> ['L01EX08']"
+      ],
+      "route": "systemic"
+    },
+    "50769": {
+      "generic_code": "50769",
+      "accepted": "L01EL01",
+      "source": "ChEMBL pref_name=IBRUTINIB",
+      "evidence": [
+        "chembl pref_name__iexact='IBRUTINIB' -> ['CHEMBL1873475'] -> ['L01EL01']"
+      ],
+      "route": "systemic"
+    },
+    "50776": {
+      "generic_code": "50776",
+      "accepted": "J05AB14",
+      "source": "ChEMBL pref_name=VALGANCICLOVIR",
+      "evidence": [
+        "chembl pref_name__iexact='VALGANCICLOVIR (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='VALGANCICLOVIR' -> ['CHEMBL1201314'] -> ['J05AB14']"
+      ],
+      "route": "systemic"
+    },
+    "508": {
+      "generic_code": "508",
+      "accepted": "J04AK02",
+      "source": "ChEMBL pref_name=ETHAMBUTOL",
+      "evidence": [
+        "chembl pref_name__iexact='ETHAMBUTOL HYDROCHLORIDE' -> ['CHEMBL3140361'] -> []",
+        "chembl pref_name__iexact='ETHAMBUTOL' -> ['CHEMBL44884'] -> ['J04AK02']"
+      ],
+      "route": "systemic"
+    },
+    "50822": {
+      "generic_code": "50822",
+      "accepted": "G03GA06",
+      "source": "ChEMBL pref_name=FOLLITROPIN BETA",
+      "evidence": [
+        "chembl pref_name__iexact='FOLLITROPIN BETA' -> ['CHEMBL5315126'] -> ['G03GA06']"
+      ],
+      "route": "parenteral"
+    },
+    "50823": {
+      "generic_code": "50823",
+      "accepted": "G03GA06",
+      "source": "ChEMBL pref_name=FOLLITROPIN BETA",
+      "evidence": [
+        "chembl pref_name__iexact='FOLLITROPIN BETA' -> ['CHEMBL5315126'] -> ['G03GA06']"
+      ],
+      "route": "parenteral"
+    },
+    "50833": {
+      "generic_code": "50833",
+      "accepted": "A06AX04",
+      "source": "ChEMBL pref_name=LINACLOTIDE",
+      "evidence": [
+        "chembl pref_name__iexact='LINACLOTIDE' -> ['CHEMBL3301675'] -> ['A06AX04']"
+      ],
+      "route": "systemic"
+    },
+    "50837": {
+      "generic_code": "50837",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='C1-ESTRASE INHIBITOR' -> [] -> []",
+        "kegg find 'C1-ESTRASE INHIBITOR' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "50838": {
+      "generic_code": "50838",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['S01FA04', 'S01FA54']",
+      "evidence": [
+        "chembl pref_name__iexact='CYCLOPENTOLATE HYDROCHLORIDE' -> ['CHEMBL1200473'] -> []",
+        "chembl pref_name__iexact='CYCLOPENTOLATE' -> ['CHEMBL1201338'] -> ['S01FA04', 'S01FA54']",
+        "kegg find 'CYCLOPENTOLATE HYDROCHLORIDE' -> ['D01002', 'D11698']",
+        "kegg D01002 codes=['S01FA04'] l5={'S01FA04': 'Cyclopentolate'} l4={'S01FA': 'Anticholinergics'}",
+        "kegg D11698 name 'Cyclopentolate hydrochloride and phenylephrine hydrochloride' set ['cyclopentolate', 'phenylephrine'] != own ['cyclopentolate']: skipped",
+        "specificity: ['S01FA04', 'S01FA54'] -> ['S01FA04'] (l5 names {'S01FA04': 'Cyclopentolate'})",
+        "unresolved: pool=['S01FA04', 'S01FA54'] route_filter(ophthalmic)=['S01FA04', 'S01FA54']"
+      ],
+      "route": "ophthalmic"
+    },
+    "50841": {
+      "generic_code": "50841",
+      "accepted": "L01FX05",
+      "source": "ChEMBL pref_name=BRENTUXIMAB VEDOTIN",
+      "evidence": [
+        "chembl pref_name__iexact='BRENTUXIMAB VEDOTIN' -> ['CHEMBL1742994'] -> ['L01FX05']"
+      ],
+      "route": "parenteral"
+    },
+    "50882": {
+      "generic_code": "50882",
+      "accepted": "L01FD03",
+      "source": "ChEMBL pref_name=TRASTUZUMAB EMTANSINE",
+      "evidence": [
+        "chembl pref_name__iexact='TRASTUZUMAB EMTANSINE' -> ['CHEMBL1743082'] -> ['L01FD03']"
+      ],
+      "route": "parenteral"
+    },
+    "50884": {
+      "generic_code": "50884",
+      "accepted": "L01FF01",
+      "source": "ChEMBL pref_name=NIVOLUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='NIVOLUMAB' -> ['CHEMBL2108738'] -> ['L01FF01']"
+      ],
+      "route": "parenteral"
+    },
+    "50891": {
+      "generic_code": "50891",
+      "accepted": "L01EX08",
+      "source": "ChEMBL pref_name=LENVATINIB",
+      "evidence": [
+        "chembl pref_name__iexact='LENVATINIB (AS MESILATE)' -> [] -> []",
+        "chembl pref_name__iexact='LENVATINIB' -> ['CHEMBL1289601'] -> ['L01EX08']"
+      ],
+      "route": "systemic"
+    },
+    "50902": {
+      "generic_code": "50902",
+      "accepted": "D11AX22",
+      "source": "route filter (topical)",
+      "evidence": [
+        "chembl pref_name__iexact='IVERMECTIN' -> ['CHEMBL6067487'] -> ['D11AX22', 'P02CF01']",
+        "kegg find 'IVERMECTIN' -> ['D00804']",
+        "kegg D00804 codes=['D11AX22', 'P02CF01'] l5={'D11AX22': 'Ivermectin', 'P02CF01': 'Ivermectin'} l4={'D11AX': 'Other dermatologicals', 'P02CF': 'Avermectines'}",
+        "route topical: ['D11AX22', 'P02CF01'] -> ['D11AX22']"
+      ],
+      "route": "topical"
+    },
+    "50910": {
+      "generic_code": "50910",
+      "accepted": "L01EB04",
+      "source": "ChEMBL pref_name=OSIMERTINIB",
+      "evidence": [
+        "chembl pref_name__iexact='OSIMERTINIB (AS MESYLATE)' -> [] -> []",
+        "chembl pref_name__iexact='OSIMERTINIB' -> ['CHEMBL3353410'] -> ['L01EB04']"
+      ],
+      "route": "systemic"
+    },
+    "50911": {
+      "generic_code": "50911",
+      "accepted": "L01EB04",
+      "source": "ChEMBL pref_name=OSIMERTINIB",
+      "evidence": [
+        "chembl pref_name__iexact='OSIMERTINIB (AS MESYLATE)' -> [] -> []",
+        "chembl pref_name__iexact='OSIMERTINIB' -> ['CHEMBL3353410'] -> ['L01EB04']"
+      ],
+      "route": "systemic"
+    },
+    "50964": {
+      "generic_code": "50964",
+      "accepted": "C09DX01",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and VALSARTAN and HYDROCHLOROTHIAZIDE' -> ['D10286']",
+        "kegg D10286 codes=['C09DX01'] l5={'C09DX01': 'Valsartan, amlodipine and hydrochlorothiazide'} l4={'C09DX': 'Angiotensin II receptor blockers (ARBs), other combinations'}"
+      ],
+      "route": "systemic"
+    },
+    "50966": {
+      "generic_code": "50966",
+      "accepted": "C09DX01",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and VALSARTAN and HYDROCHLOROTHIAZIDE' -> ['D10286']",
+        "kegg D10286 codes=['C09DX01'] l5={'C09DX01': 'Valsartan, amlodipine and hydrochlorothiazide'} l4={'C09DX': 'Angiotensin II receptor blockers (ARBs), other combinations'}"
+      ],
+      "route": "systemic"
+    },
+    "50986": {
+      "generic_code": "50986",
+      "accepted": "L01FD03",
+      "source": "ChEMBL pref_name=TRASTUZUMAB EMTANSINE",
+      "evidence": [
+        "chembl pref_name__iexact='TRASTUZUMAB EMTANSINE' -> ['CHEMBL1743082'] -> ['L01FD03']"
+      ],
+      "route": "parenteral"
+    },
+    "51000": {
+      "generic_code": "51000",
+      "accepted": "B02BX05",
+      "source": "ChEMBL pref_name=ELTROMBOPAG",
+      "evidence": [
+        "chembl pref_name__iexact='ELTROMBOPAG (AS OLAMINE)' -> [] -> []",
+        "chembl pref_name__iexact='ELTROMBOPAG' -> ['CHEMBL461101'] -> ['B02BX05']"
+      ],
+      "route": "systemic"
+    },
+    "51001": {
+      "generic_code": "51001",
+      "accepted": "B02BX05",
+      "source": "ChEMBL pref_name=ELTROMBOPAG",
+      "evidence": [
+        "chembl pref_name__iexact='ELTROMBOPAG (AS OLAMINE)' -> [] -> []",
+        "chembl pref_name__iexact='ELTROMBOPAG' -> ['CHEMBL461101'] -> ['B02BX05']"
+      ],
+      "route": "systemic"
+    },
+    "51005": {
+      "generic_code": "51005",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'SACUBITRIL and VALSARTAN' -> []"
+      ],
+      "route": "systemic"
+    },
+    "51204": {
+      "generic_code": "51204",
+      "accepted": "G04BD12",
+      "source": "ChEMBL pref_name=MIRABEGRON",
+      "evidence": [
+        "chembl pref_name__iexact='MIRABEGRON' -> ['CHEMBL2095212'] -> ['G04BD12']"
+      ],
+      "route": "systemic"
+    },
+    "51252": {
+      "generic_code": "51252",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='CHARCOAL ACTIVATED' -> [] -> []",
+        "kegg find 'CHARCOAL ACTIVATED' -> ['D03251']",
+        "kegg D03251 name 'Charcoal, activated (USP)' set ['activated', 'charcoal'] != own ['charcoal activated']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "51370": {
+      "generic_code": "51370",
+      "accepted": "M03CA01",
+      "source": "ChEMBL pref_name=DANTROLENE",
+      "evidence": [
+        "chembl pref_name__iexact='DANTROLENE SODIUM' -> ['CHEMBL928'] -> []",
+        "chembl pref_name__iexact='DANTROLENE' -> ['CHEMBL1201288'] -> ['M03CA01']"
+      ],
+      "route": "systemic"
+    },
+    "51371": {
+      "generic_code": "51371",
+      "accepted": "D10AX05",
+      "source": "route filter (topical)",
+      "evidence": [
+        "chembl pref_name__iexact='DAPSONE' -> ['CHEMBL1043'] -> ['D10AX05', 'J04BA02']",
+        "kegg find 'DAPSONE' -> ['D00592', 'D02751', 'D02900']",
+        "kegg D00592 codes=['D10AX05', 'J04BA02'] l5={'D10AX05': 'Dapsone', 'J04BA02': 'Dapsone'} l4={'D10AX': 'Other anti-acne preparations for topical use', 'J04BA': 'Drugs for treatment of lepra'}",
+        "kegg D02751 name 'Acedapsone (USAN/INN)' set ['acedapsone'] != own ['dapsone']: skipped",
+        "kegg D02900 name 'Amidapsone (USAN/INN)' set ['amidapsone'] != own ['dapsone']: skipped",
+        "route topical: ['D10AX05', 'J04BA02'] -> ['D10AX05']"
+      ],
+      "route": "topical"
+    },
+    "514": {
+      "generic_code": "514",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['N03AD01', 'N03AD51']",
+      "evidence": [
+        "chembl pref_name__iexact='ETHOSUXIMIDE' -> ['CHEMBL696'] -> ['N03AD01', 'N03AD51']",
+        "kegg find 'ETHOSUXIMIDE' -> ['D00539']",
+        "kegg D00539 codes=['N03AD01'] l5={'N03AD01': 'Ethosuximide'} l4={'N03AD': 'Succinimide derivatives'}",
+        "specificity: ['N03AD01', 'N03AD51'] -> ['N03AD01'] (l5 names {'N03AD01': 'Ethosuximide'})",
+        "unresolved: pool=['N03AD01', 'N03AD51'] route_filter(systemic)=['N03AD01', 'N03AD51']"
+      ],
+      "route": "systemic"
+    },
+    "51421": {
+      "generic_code": "51421",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='TRACE METAL COMBINATION (2-3)' -> [] -> []",
+        "chembl pref_name__iexact='TRACE METAL COMBINATION' -> [] -> []",
+        "kegg find 'TRACE METAL COMBINATION' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "51459": {
+      "generic_code": "51459",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='NINTEDANIB ESILATE' -> [] -> []",
+        "kegg find 'NINTEDANIB ESILATE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "51473": {
+      "generic_code": "51473",
+      "accepted": "P02CF01",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='IVERMECTIN' -> ['CHEMBL6067487'] -> ['D11AX22', 'P02CF01']",
+        "kegg find 'IVERMECTIN' -> ['D00804']",
+        "kegg D00804 codes=['D11AX22', 'P02CF01'] l5={'D11AX22': 'Ivermectin', 'P02CF01': 'Ivermectin'} l4={'D11AX': 'Other dermatologicals', 'P02CF': 'Avermectines'}",
+        "route systemic: ['D11AX22', 'P02CF01'] -> ['P02CF01']"
+      ],
+      "route": "systemic"
+    },
+    "51492": {
+      "generic_code": "51492",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['A06AB08', 'A06AB58']",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM PICOSULFATE' -> ['CHEMBL1697768'] -> ['A06AB08', 'A06AB58']",
+        "kegg find 'SODIUM PICOSULFATE' -> ['D01612', 'D10793']",
+        "kegg D01612 name 'Sodium picosulfate hydrate (JP19)' set ['sodium picosulfate hydrate'] != own ['sodium picosulfate']: skipped",
+        "kegg D10793 name 'Sodium picosulfate hydrate, magnesium oxide and citric acid, anhydrous' set ['anhydrous', 'citric acid', 'magnesium oxide', 'sodium picosulfate hydrate'] != own ['sodium picosulfate']: skipped",
+        "unresolved: pool=['A06AB08', 'A06AB58'] route_filter(systemic)=['A06AB08', 'A06AB58']"
+      ],
+      "route": "systemic"
+    },
+    "51673": {
+      "generic_code": "51673",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'SILVER SULFADIAZINE and EGF' -> []"
+      ],
+      "route": "topical"
+    },
+    "51777": {
+      "generic_code": "51777",
+      "accepted": "N07BB04",
+      "source": "ChEMBL pref_name=NALTREXONE",
+      "evidence": [
+        "chembl pref_name__iexact='NALTREXONE' -> ['CHEMBL19019'] -> ['N07BB04']"
+      ],
+      "route": "parenteral"
+    },
+    "51899": {
+      "generic_code": "51899",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['B03BA03', 'V03AB33', 'B03BA53']",
+      "evidence": [
+        "chembl pref_name__iexact='HYDROXOCOBALAMIN' -> ['CHEMBL2103737'] -> ['B03BA03', 'B03BA53', 'V03AB33']",
+        "kegg find 'HYDROXOCOBALAMIN' -> ['D01027', 'D02707', 'D04904', 'D04916', 'D04919', 'D04922', 'D04929', 'D04930', 'D08749', 'D08829']",
+        "kegg D01027 codes=['B03BA03', 'V03AB33'] l5={'B03BA03': 'Hydroxocobalamin', 'V03AB33': 'Hydroxocobalamin'} l4={'B03BA': 'Vitamin B12 (cyanocobalamin and analogues)', 'V03AB': 'Antidotes'}",
+        "kegg D02707 codes=['B03BA03', 'V03AB33'] l5={'B03BA03': 'Hydroxocobalamin', 'V03AB33': 'Hydroxocobalamin'} l4={'B03BA': 'Vitamin B12 (cyanocobalamin and analogues)', 'V03AB': 'Antidotes'}",
+        "kegg D04904 name 'Thiamine disulfide, pyridoxine hydrochloride and hydroxocobalamin acetate' set ['hydroxocobalamin', 'pyridoxine', 'thiamine disulfide'] != own ['hydroxocobalamin']: skipped",
+        "kegg D04916 name 'Thiamine nitrate, pyridoxine hydrochloride and hydroxocobalamin acetate' set ['hydroxocobalamin', 'pyridoxine', 'thiamine'] != own ['hydroxocobalamin']: skipped",
+        "kegg D04919 name 'Pyridoxal phosphate, fursultiamine hydrochloride, riboflavin and hydroxocobalamin acetate' set ['fursultiamine', 'hydroxocobalamin', 'pyridoxal', 'riboflavin'] != own ['hydroxocobalamin']: skipped",
+        "kegg D04922 name 'Fursultiamine, pyridoxal phosphate and hydroxocobalamin acetate' set ['fursultiamine', 'hydroxocobalamin', 'pyridoxal'] != own ['hydroxocobalamin']: skipped",
+        "specificity: ['B03BA03', 'B03BA53', 'V03AB33'] -> ['B03BA03', 'V03AB33'] (l5 names {'B03BA03': 'Hydroxocobalamin', 'V03AB33': 'Hydroxocobalamin'})",
+        "unresolved: pool=['B03BA03', 'V03AB33', 'B03BA53'] route_filter(parenteral)=['B03BA03', 'V03AB33', 'B03BA53']"
+      ],
+      "route": "parenteral"
+    },
+    "51925": {
+      "generic_code": "51925",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['D06AX01', 'D09AA02', 'J01XC01', 'S01AA13']",
+      "evidence": [
+        "chembl pref_name__iexact='FUSIDIC ACID' -> ['CHEMBL374975'] -> ['D06AX01', 'D09AA02', 'J01XC01', 'S01AA13']",
+        "kegg find 'FUSIDIC ACID' -> ['D04281', 'D08000', 'D08003']",
+        "kegg D04281 codes=['D06AX01', 'D09AA02', 'J01XC01', 'S01AA13'] l5={'D06AX01': 'Fusidic acid', 'D09AA02': 'Fusidic acid', 'J01XC01': 'Fusidic acid', 'S01AA13': 'Fusidic acid'} l4={'D06AX': 'Other antibiotics for topical use', 'D09AA': 'Medicated dressings with antiinfectives', 'J01XC': 'Steroid antibacterials', 'S01AA': 'Antibiotics'}",
+        "kegg D08000 name 'Diethanolamine fusidate' set ['diethanolamine fusidate'] != own ['fusidic acid']: skipped",
+        "kegg D08003 codes=['D06AX01', 'D09AA02', 'J01XC01', 'S01AA13'] l5={'D06AX01': 'Fusidic acid', 'D09AA02': 'Fusidic acid', 'J01XC01': 'Fusidic acid', 'S01AA13': 'Fusidic acid'} l4={'D06AX': 'Other antibiotics for topical use', 'D09AA': 'Medicated dressings with antiinfectives', 'J01XC': 'Steroid antibacterials', 'S01AA': 'Antibiotics'}",
+        "unresolved: pool=['D06AX01', 'D09AA02', 'J01XC01', 'S01AA13'] route_filter(topical)=['D06AX01', 'D09AA02']"
+      ],
+      "route": "topical"
+    },
+    "51973": {
+      "generic_code": "51973",
+      "accepted": "N04BC07",
+      "source": "route filter (parenteral)",
+      "evidence": [
+        "chembl pref_name__iexact='APOMORPHINE HYDROCHLORIDE' -> ['CHEMBL3187985'] -> []",
+        "chembl pref_name__iexact='APOMORPHINE' -> ['CHEMBL53'] -> ['G04BE07', 'N04BC07']",
+        "kegg find 'APOMORPHINE HYDROCHLORIDE' -> ['D02004']",
+        "kegg D02004 codes=['G04BE07', 'N04BC07'] l5={'G04BE07': 'Apomorphine', 'N04BC07': 'Apomorphine'} l4={'G04BE': 'Drugs used in erectile dysfunction', 'N04BC': 'Dopamine agonists'}",
+        "route parenteral: ['G04BE07', 'N04BC07'] -> ['N04BC07']"
+      ],
+      "route": "parenteral"
+    },
+    "51986": {
+      "generic_code": "51986",
+      "accepted": "C09CA04",
+      "source": "ChEMBL pref_name=IRBESARTAN",
+      "evidence": [
+        "chembl pref_name__iexact='IRBESARTAN' -> ['CHEMBL1513'] -> ['C09CA04']"
+      ],
+      "route": "systemic"
+    },
+    "51991": {
+      "generic_code": "51991",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'LIDOCAINE and CHLORHEXIDINE' -> []"
+      ],
+      "route": "topical"
+    },
+    "52014": {
+      "generic_code": "52014",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'FLUOCINOLONE and HYDROQUINONE and TRETINOIN' -> ['D12499']",
+        "kegg D12499 name 'Fluocinolone acetonide, hydroquinone and tretinoin' set ['fluocinolone acetonide', 'hydroquinone', 'tretinoin'] != own ['fluocinolone', 'hydroquinone', 'tretinoin']: skipped"
+      ],
+      "route": "topical"
+    },
+    "52020": {
+      "generic_code": "52020",
+      "accepted": "L01AC01",
+      "source": "ChEMBL pref_name=THIOTEPA",
+      "evidence": [
+        "chembl pref_name__iexact='THIOTEPA' -> ['CHEMBL671'] -> ['L01AC01']"
+      ],
+      "route": "parenteral"
+    },
+    "52031": {
+      "generic_code": "52031",
+      "accepted": "C03BA11",
+      "source": "ChEMBL pref_name=INDAPAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='INDAPAMIDE' -> ['CHEMBL406'] -> ['C03BA11']"
+      ],
+      "route": "systemic"
+    },
+    "52096": {
+      "generic_code": "52096",
+      "accepted": "D11AX22",
+      "source": "route filter (topical)",
+      "evidence": [
+        "chembl pref_name__iexact='IVERMECTIN' -> ['CHEMBL6067487'] -> ['D11AX22', 'P02CF01']",
+        "kegg find 'IVERMECTIN' -> ['D00804']",
+        "kegg D00804 codes=['D11AX22', 'P02CF01'] l5={'D11AX22': 'Ivermectin', 'P02CF01': 'Ivermectin'} l4={'D11AX': 'Other dermatologicals', 'P02CF': 'Avermectines'}",
+        "route topical: ['D11AX22', 'P02CF01'] -> ['D11AX22']"
+      ],
+      "route": "topical"
+    },
+    "52154": {
+      "generic_code": "52154",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'SALBUTAMOL and BECLOMETHASONE DIPROPIONATE' -> []"
+      ],
+      "route": "respiratory"
+    },
+    "52167": {
+      "generic_code": "52167",
+      "accepted": "A10BK01",
+      "source": "ChEMBL pref_name=DAPAGLIFLOZIN",
+      "evidence": [
+        "chembl pref_name__iexact='DAPAGLIFLOZIN (AS PROPANEDIOL)' -> [] -> []",
+        "chembl pref_name__iexact='DAPAGLIFLOZIN' -> ['CHEMBL429910'] -> ['A10BK01']"
+      ],
+      "route": "systemic"
+    },
+    "52172": {
+      "generic_code": "52172",
+      "accepted": "L04AG08",
+      "source": "ChEMBL pref_name=OCRELIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='OCRELIZUMAB' -> ['CHEMBL2108041'] -> ['L04AG08']"
+      ],
+      "route": "parenteral"
+    },
+    "52186": {
+      "generic_code": "52186",
+      "accepted": "L01XX52",
+      "source": "ChEMBL pref_name=VENETOCLAX",
+      "evidence": [
+        "chembl pref_name__iexact='VENETOCLAX' -> ['CHEMBL3137309'] -> ['L01XX52']"
+      ],
+      "route": "systemic"
+    },
+    "52201": {
+      "generic_code": "52201",
+      "accepted": "A10BK01",
+      "source": "ChEMBL pref_name=DAPAGLIFLOZIN",
+      "evidence": [
+        "chembl pref_name__iexact='DAPAGLIFLOZIN (AS PROPANEDIOL)' -> [] -> []",
+        "chembl pref_name__iexact='DAPAGLIFLOZIN' -> ['CHEMBL429910'] -> ['A10BK01']"
+      ],
+      "route": "systemic"
+    },
+    "52204": {
+      "generic_code": "52204",
+      "accepted": "A02BC01",
+      "source": "ChEMBL pref_name=OMEPRAZOLE",
+      "evidence": [
+        "chembl pref_name__iexact='OMEPRAZOLE (AS SODIUM)' -> [] -> []",
+        "chembl pref_name__iexact='OMEPRAZOLE' -> ['CHEMBL1503'] -> ['A02BC01']"
+      ],
+      "route": "parenteral"
+    },
+    "52234": {
+      "generic_code": "52234",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'SACUBITRIL and VALSARTAN' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52259": {
+      "generic_code": "52259",
+      "accepted": "V03AB06",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM THIOSULFATE' -> ['CHEMBL2096650'] -> []",
+        "kegg find 'SODIUM THIOSULFATE' -> ['D01091', 'D04744', 'D08521']",
+        "kegg D01091 codes=['V03AB06'] l5={'V03AB06': 'Thiosulfate'} l4={'V03AB': 'Antidotes'}",
+        "kegg D04744 name 'Sodium thiosulfate and ethanol' set ['ethanol', 'sodium thiosulfate'] != own ['sodium thiosulfate']: skipped",
+        "kegg D08521 name 'Sodium aurothiosulfate (INN)' set ['sodium aurothiosulfate'] != own ['sodium thiosulfate']: skipped"
+      ],
+      "route": "parenteral"
+    },
+    "52317": {
+      "generic_code": "52317",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'TOBRAMYCIN and LOTEPREDNOL' -> ['D12133']",
+        "kegg D12133 name 'Loteprednol etabonate and tobramycin' set ['loteprednol etabonate', 'tobramycin'] != own ['loteprednol', 'tobramycin']: skipped"
+      ],
+      "route": "ophthalmic"
+    },
+    "52319": {
+      "generic_code": "52319",
+      "accepted": "A16AX12",
+      "source": "ChEMBL pref_name=TRIENTINE",
+      "evidence": [
+        "chembl pref_name__iexact='TRIENTINE HYDROCHLORIDE' -> ['CHEMBL3989777'] -> []",
+        "chembl pref_name__iexact='TRIENTINE' -> ['CHEMBL609'] -> ['A16AX12']"
+      ],
+      "route": "systemic"
+    },
+    "52328": {
+      "generic_code": "52328",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'AZELASTINE HYDROCHLORIDE and FLUTICASONE PROPIONATE' -> ['D11656']",
+        "kegg D11656 codes=[] l5={} l4={}"
+      ],
+      "route": "nasal"
+    },
+    "52360": {
+      "generic_code": "52360",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'COPPER SULFATE and ZINC SULFATE' -> []"
+      ],
+      "route": "topical"
+    },
+    "52363": {
+      "generic_code": "52363",
+      "accepted": "L01FF01",
+      "source": "ChEMBL pref_name=NIVOLUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='NIVOLUMAB' -> ['CHEMBL2108738'] -> ['L01FF01']"
+      ],
+      "route": "parenteral"
+    },
+    "52416": {
+      "generic_code": "52416",
+      "accepted": null,
+      "reason": "latin list is a category name, not an ingredient",
+      "evidence": [],
+      "route": "systemic"
+    },
+    "52417": {
+      "generic_code": "52417",
+      "accepted": null,
+      "reason": "latin list is a category name, not an ingredient",
+      "evidence": [],
+      "route": "systemic"
+    },
+    "52419": {
+      "generic_code": "52419",
+      "accepted": null,
+      "reason": "latin list is a category name, not an ingredient",
+      "evidence": [],
+      "route": "systemic"
+    },
+    "52426": {
+      "generic_code": "52426",
+      "accepted": "J05AD01",
+      "source": "ChEMBL pref_name=FOSCARNET",
+      "evidence": [
+        "chembl pref_name__iexact='FOSCARNET SODIUM' -> ['CHEMBL754'] -> []",
+        "chembl pref_name__iexact='FOSCARNET' -> ['CHEMBL666'] -> ['J05AD01']"
+      ],
+      "route": "parenteral"
+    },
+    "52504": {
+      "generic_code": "52504",
+      "accepted": "L01XX24",
+      "source": "ChEMBL pref_name=PEGASPARGASE",
+      "evidence": [
+        "chembl pref_name__iexact='PEGASPARGASE' -> ['CHEMBL2108546'] -> ['L01XX24']"
+      ],
+      "route": "parenteral"
+    },
+    "52508": {
+      "generic_code": "52508",
+      "accepted": "A06AX04",
+      "source": "ChEMBL pref_name=LINACLOTIDE",
+      "evidence": [
+        "chembl pref_name__iexact='LINACLOTIDE' -> ['CHEMBL3301675'] -> ['A06AX04']"
+      ],
+      "route": "systemic"
+    },
+    "52547": {
+      "generic_code": "52547",
+      "accepted": "J01DD52",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'CEFTAZIDIME and AVIBACTAM' -> ['D10779']",
+        "kegg D10779 codes=['J01DD52'] l5={'J01DD52': 'Ceftazidime and beta-lactamase inhibitor'} l4={'J01DD': 'Third-generation cephalosporins'}"
+      ],
+      "route": "parenteral"
+    },
+    "52620": {
+      "generic_code": "52620",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['N03AD01', 'N03AD51']",
+      "evidence": [
+        "chembl pref_name__iexact='ETHOSUXIMIDE' -> ['CHEMBL696'] -> ['N03AD01', 'N03AD51']",
+        "kegg find 'ETHOSUXIMIDE' -> ['D00539']",
+        "kegg D00539 codes=['N03AD01'] l5={'N03AD01': 'Ethosuximide'} l4={'N03AD': 'Succinimide derivatives'}",
+        "specificity: ['N03AD01', 'N03AD51'] -> ['N03AD01'] (l5 names {'N03AD01': 'Ethosuximide'})",
+        "unresolved: pool=['N03AD01', 'N03AD51'] route_filter(systemic)=['N03AD01', 'N03AD51']"
+      ],
+      "route": "systemic"
+    },
+    "52628": {
+      "generic_code": "52628",
+      "accepted": "L01FC01",
+      "source": "ChEMBL pref_name=DARATUMUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='DARATUMUMAB' -> ['CHEMBL1743007'] -> ['L01FC01']"
+      ],
+      "route": "parenteral"
+    },
+    "52631": {
+      "generic_code": "52631",
+      "accepted": "L01CA01",
+      "source": "ChEMBL pref_name=VINBLASTINE",
+      "evidence": [
+        "chembl pref_name__iexact='VINBLASTINE SULFATE' -> ['CHEMBL378544'] -> []",
+        "chembl pref_name__iexact='VINBLASTINE' -> ['CHEMBL159'] -> ['L01CA01']"
+      ],
+      "route": "parenteral"
+    },
+    "52662": {
+      "generic_code": "52662",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'ACETAMINOPHEN and IBUPROFEN' -> ['D11897']",
+        "kegg D11897 codes=[] l5={} l4={}"
+      ],
+      "route": "systemic"
+    },
+    "52700": {
+      "generic_code": "52700",
+      "accepted": "L01EL01",
+      "source": "ChEMBL pref_name=IBRUTINIB",
+      "evidence": [
+        "chembl pref_name__iexact='IBRUTINIB' -> ['CHEMBL1873475'] -> ['L01EL01']"
+      ],
+      "route": "systemic"
+    },
+    "52709": {
+      "generic_code": "52709",
+      "accepted": "L01EH02",
+      "source": "ChEMBL pref_name=NERATINIB",
+      "evidence": [
+        "chembl pref_name__iexact='NERATINIB (AS MALEATE)' -> [] -> []",
+        "chembl pref_name__iexact='NERATINIB' -> ['CHEMBL180022'] -> ['L01EH02']"
+      ],
+      "route": "systemic"
+    },
+    "52711": {
+      "generic_code": "52711",
+      "accepted": "L01FX07",
+      "source": "ChEMBL pref_name=BLINATUMOMAB",
+      "evidence": [
+        "chembl pref_name__iexact='BLINATUMOMAB' -> ['CHEMBL1742992'] -> ['L01FX07']"
+      ],
+      "route": "parenteral"
+    },
+    "52722": {
+      "generic_code": "52722",
+      "accepted": "L01EF01",
+      "source": "ChEMBL pref_name=PALBOCICLIB",
+      "evidence": [
+        "chembl pref_name__iexact='PALBOCICLIB' -> ['CHEMBL189963'] -> ['L01EF01']"
+      ],
+      "route": "systemic"
+    },
+    "52723": {
+      "generic_code": "52723",
+      "accepted": "L01EF01",
+      "source": "ChEMBL pref_name=PALBOCICLIB",
+      "evidence": [
+        "chembl pref_name__iexact='PALBOCICLIB' -> ['CHEMBL189963'] -> ['L01EF01']"
+      ],
+      "route": "systemic"
+    },
+    "52728": {
+      "generic_code": "52728",
+      "accepted": "L01XK01",
+      "source": "ChEMBL pref_name=OLAPARIB",
+      "evidence": [
+        "chembl pref_name__iexact='OLAPARIB' -> ['CHEMBL521686'] -> ['L01XK01']"
+      ],
+      "route": "systemic"
+    },
+    "52730": {
+      "generic_code": "52730",
+      "accepted": "C07BB07",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'BISOPROLOL FUMARATE and HYDROCHLOROTHIAZIDE' -> ['D10275']",
+        "kegg D10275 codes=['C07BB07'] l5={'C07BB07': 'Bisoprolol and thiazides'} l4={'C07BB': 'Beta blocking agents, selective, and thiazides'}"
+      ],
+      "route": "systemic"
+    },
+    "52731": {
+      "generic_code": "52731",
+      "accepted": "C07BB07",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'BISOPROLOL FUMARATE and HYDROCHLOROTHIAZIDE' -> ['D10275']",
+        "kegg D10275 codes=['C07BB07'] l5={'C07BB07': 'Bisoprolol and thiazides'} l4={'C07BB': 'Beta blocking agents, selective, and thiazides'}"
+      ],
+      "route": "systemic"
+    },
+    "52732": {
+      "generic_code": "52732",
+      "accepted": "C07BB07",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'BISOPROLOL FUMARATE and HYDROCHLOROTHIAZIDE' -> ['D10275']",
+        "kegg D10275 codes=['C07BB07'] l5={'C07BB07': 'Bisoprolol and thiazides'} l4={'C07BB': 'Beta blocking agents, selective, and thiazides'}"
+      ],
+      "route": "systemic"
+    },
+    "52733": {
+      "generic_code": "52733",
+      "accepted": "C07BB07",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'BISOPROLOL FUMARATE and HYDROCHLOROTHIAZIDE' -> ['D10275']",
+        "kegg D10275 codes=['C07BB07'] l5={'C07BB07': 'Bisoprolol and thiazides'} l4={'C07BB': 'Beta blocking agents, selective, and thiazides'}"
+      ],
+      "route": "systemic"
+    },
+    "52734": {
+      "generic_code": "52734",
+      "accepted": "C07BB07",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'BISOPROLOL FUMARATE and HYDROCHLOROTHIAZIDE' -> ['D10275']",
+        "kegg D10275 codes=['C07BB07'] l5={'C07BB07': 'Bisoprolol and thiazides'} l4={'C07BB': 'Beta blocking agents, selective, and thiazides'}"
+      ],
+      "route": "systemic"
+    },
+    "52735": {
+      "generic_code": "52735",
+      "accepted": "L01ED03",
+      "source": "ChEMBL pref_name=ALECTINIB",
+      "evidence": [
+        "chembl pref_name__iexact='ALECTINIB (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='ALECTINIB' -> ['CHEMBL1738797'] -> ['L01ED03']"
+      ],
+      "route": "systemic"
+    },
+    "52765": {
+      "generic_code": "52765",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='GELATIN MODIFIED (2)' -> [] -> []",
+        "chembl pref_name__iexact='GELATIN MODIFIED' -> [] -> []",
+        "kegg find 'GELATIN MODIFIED' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "52815": {
+      "generic_code": "52815",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'CLOTRIMAZOLE and HYDROCORTISONE' -> []"
+      ],
+      "route": "topical"
+    },
+    "52829": {
+      "generic_code": "52829",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and BISOPROLOL FUMARATE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52830": {
+      "generic_code": "52830",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and BISOPROLOL FUMARATE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52831": {
+      "generic_code": "52831",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and BISOPROLOL FUMARATE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52832": {
+      "generic_code": "52832",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and BISOPROLOL FUMARATE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52835": {
+      "generic_code": "52835",
+      "accepted": "L01FF05",
+      "source": "ChEMBL pref_name=ATEZOLIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='ATEZOLIZUMAB' -> ['CHEMBL3707227'] -> ['L01FF05']"
+      ],
+      "route": "parenteral"
+    },
+    "52839": {
+      "generic_code": "52839",
+      "accepted": "A10BD27",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'EMPAGLIFLOZIN and LINAGLIPTIN and METFORMIN HYDROCHLORIDE' -> ['D11856']",
+        "kegg D11856 codes=['A10BD27'] l5={'A10BD27': 'Metformin, linagliptin and empagliflozin'} l4={'A10BD': 'Combinations of oral blood glucose lowering drugs'}"
+      ],
+      "route": "systemic"
+    },
+    "52840": {
+      "generic_code": "52840",
+      "accepted": "A10BD27",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'EMPAGLIFLOZIN and LINAGLIPTIN and METFORMIN HYDROCHLORIDE' -> ['D11856']",
+        "kegg D11856 codes=['A10BD27'] l5={'A10BD27': 'Metformin, linagliptin and empagliflozin'} l4={'A10BD': 'Combinations of oral blood glucose lowering drugs'}"
+      ],
+      "route": "systemic"
+    },
+    "52841": {
+      "generic_code": "52841",
+      "accepted": "A10BD27",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'EMPAGLIFLOZIN and LINAGLIPTIN and METFORMIN HYDROCHLORIDE' -> ['D11856']",
+        "kegg D11856 codes=['A10BD27'] l5={'A10BD27': 'Metformin, linagliptin and empagliflozin'} l4={'A10BD': 'Combinations of oral blood glucose lowering drugs'}"
+      ],
+      "route": "systemic"
+    },
+    "52842": {
+      "generic_code": "52842",
+      "accepted": "A10BD27",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'EMPAGLIFLOZIN and LINAGLIPTIN and METFORMIN HYDROCHLORIDE' -> ['D11856']",
+        "kegg D11856 codes=['A10BD27'] l5={'A10BD27': 'Metformin, linagliptin and empagliflozin'} l4={'A10BD': 'Combinations of oral blood glucose lowering drugs'}"
+      ],
+      "route": "systemic"
+    },
+    "52844": {
+      "generic_code": "52844",
+      "accepted": "L04AF02",
+      "source": "ChEMBL pref_name=BARICITINIB",
+      "evidence": [
+        "chembl pref_name__iexact='BARICITINIB' -> ['CHEMBL2105759'] -> ['L04AF02']"
+      ],
+      "route": "systemic"
+    },
+    "52845": {
+      "generic_code": "52845",
+      "accepted": "L04AF02",
+      "source": "ChEMBL pref_name=BARICITINIB",
+      "evidence": [
+        "chembl pref_name__iexact='BARICITINIB' -> ['CHEMBL2105759'] -> ['L04AF02']"
+      ],
+      "route": "systemic"
+    },
+    "52851": {
+      "generic_code": "52851",
+      "accepted": "L04AX05",
+      "source": "ChEMBL pref_name=PIRFENIDONE",
+      "evidence": [
+        "chembl pref_name__iexact='PIRFENIDONE' -> ['CHEMBL1256391'] -> ['L04AX05']"
+      ],
+      "route": "systemic"
+    },
+    "52855": {
+      "generic_code": "52855",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'SOLIFENACIN SUCCINATE and TAMSULOSIN HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52862": {
+      "generic_code": "52862",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DAPAGLIFLOZIN and METFORMIN HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52863": {
+      "generic_code": "52863",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DAPAGLIFLOZIN and METFORMIN HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52864": {
+      "generic_code": "52864",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DAPAGLIFLOZIN and METFORMIN HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52865": {
+      "generic_code": "52865",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DAPAGLIFLOZIN and METFORMIN HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52866": {
+      "generic_code": "52866",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DAPAGLIFLOZIN and METFORMIN HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52877": {
+      "generic_code": "52877",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DEXTROMETHORPHAN and GUAIFENESIN and PHENYLEPHRINE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52899": {
+      "generic_code": "52899",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'SODIUM PICOSULFATE and MAGNESIUM OXIDE and CITRIC ACID' -> ['D10793']",
+        "kegg D10793 name 'Sodium picosulfate hydrate, magnesium oxide and citric acid, anhydrous' set ['anhydrous', 'citric acid', 'magnesium oxide', 'sodium picosulfate hydrate'] != own ['citric acid', 'magnesium oxide', 'sodium picosulfate']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "52902": {
+      "generic_code": "52902",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'IBUPROFEN and OXYCODONE HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52917": {
+      "generic_code": "52917",
+      "accepted": "A10AE06",
+      "source": "ChEMBL pref_name=INSULIN DEGLUDEC",
+      "evidence": [
+        "chembl pref_name__iexact='INSULIN DEGLUDEC' -> ['CHEMBL2107869'] -> ['A10AE06']"
+      ],
+      "route": "parenteral"
+    },
+    "52918": {
+      "generic_code": "52918",
+      "accepted": "A10AD06",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'INSULIN DEGLUDEC and INSULIN ASPART' -> ['D10570']",
+        "kegg D10570 codes=['A10AD06'] l5={'A10AD06': 'Insulin degludec and insulin aspart'} l4={'A10AD': 'Insulins and analogues for injection, intermediate- or long-acting combined with fast-acting'}"
+      ],
+      "route": "parenteral"
+    },
+    "52919": {
+      "generic_code": "52919",
+      "accepted": "L01EF03",
+      "source": "ChEMBL pref_name=ABEMACICLIB",
+      "evidence": [
+        "chembl pref_name__iexact='ABEMACICLIB' -> ['CHEMBL3301610'] -> ['L01EF03']"
+      ],
+      "route": "systemic"
+    },
+    "52920": {
+      "generic_code": "52920",
+      "accepted": "M09AX10",
+      "source": "ChEMBL pref_name=RISDIPLAM",
+      "evidence": [
+        "chembl pref_name__iexact='RISDIPLAM' -> ['CHEMBL4297528'] -> ['M09AX10']"
+      ],
+      "route": "systemic"
+    },
+    "52925": {
+      "generic_code": "52925",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='POLYETHYLENE GLYCOL - ELECTROLYTE' -> [] -> []",
+        "kegg find 'POLYETHYLENE GLYCOL - ELECTROLYTE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "52945": {
+      "generic_code": "52945",
+      "accepted": "C09CA04",
+      "source": "ChEMBL pref_name=IRBESARTAN",
+      "evidence": [
+        "chembl pref_name__iexact='IRBESARTAN' -> ['CHEMBL1513'] -> ['C09CA04']"
+      ],
+      "route": "systemic"
+    },
+    "52947": {
+      "generic_code": "52947",
+      "accepted": "B02BX06",
+      "source": "ChEMBL pref_name=EMICIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='EMICIZUMAB' -> ['CHEMBL3833393'] -> ['B02BX06']"
+      ],
+      "route": "parenteral"
+    },
+    "52948": {
+      "generic_code": "52948",
+      "accepted": "B02BX06",
+      "source": "ChEMBL pref_name=EMICIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='EMICIZUMAB' -> ['CHEMBL3833393'] -> ['B02BX06']"
+      ],
+      "route": "parenteral"
+    },
+    "52949": {
+      "generic_code": "52949",
+      "accepted": "B02BX06",
+      "source": "ChEMBL pref_name=EMICIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='EMICIZUMAB' -> ['CHEMBL3833393'] -> ['B02BX06']"
+      ],
+      "route": "parenteral"
+    },
+    "52950": {
+      "generic_code": "52950",
+      "accepted": "B02BX06",
+      "source": "ChEMBL pref_name=EMICIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='EMICIZUMAB' -> ['CHEMBL3833393'] -> ['B02BX06']"
+      ],
+      "route": "parenteral"
+    },
+    "52952": {
+      "generic_code": "52952",
+      "accepted": "L04AX05",
+      "source": "ChEMBL pref_name=PIRFENIDONE",
+      "evidence": [
+        "chembl pref_name__iexact='PIRFENIDONE' -> ['CHEMBL1256391'] -> ['L04AX05']"
+      ],
+      "route": "systemic"
+    },
+    "52954": {
+      "generic_code": "52954",
+      "accepted": "L04AG05",
+      "source": "ChEMBL pref_name=VEDOLIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='VEDOLIZUMAB' -> ['CHEMBL1743087'] -> ['L04AG05']"
+      ],
+      "route": "parenteral"
+    },
+    "52991": {
+      "generic_code": "52991",
+      "accepted": "L01EL01",
+      "source": "ChEMBL pref_name=IBRUTINIB",
+      "evidence": [
+        "chembl pref_name__iexact='IBRUTINIB' -> ['CHEMBL1873475'] -> ['L01EL01']"
+      ],
+      "route": "systemic"
+    },
+    "52992": {
+      "generic_code": "52992",
+      "accepted": "L01EL01",
+      "source": "ChEMBL pref_name=IBRUTINIB",
+      "evidence": [
+        "chembl pref_name__iexact='IBRUTINIB' -> ['CHEMBL1873475'] -> ['L01EL01']"
+      ],
+      "route": "systemic"
+    },
+    "52993": {
+      "generic_code": "52993",
+      "accepted": "L01EL01",
+      "source": "ChEMBL pref_name=IBRUTINIB",
+      "evidence": [
+        "chembl pref_name__iexact='IBRUTINIB' -> ['CHEMBL1873475'] -> ['L01EL01']"
+      ],
+      "route": "systemic"
+    },
+    "52998": {
+      "generic_code": "52998",
+      "accepted": "M09AX07",
+      "source": "ChEMBL pref_name=NUSINERSEN",
+      "evidence": [
+        "chembl pref_name__iexact='NUSINERSEN (AS SODIUM)' -> [] -> []",
+        "chembl pref_name__iexact='NUSINERSEN' -> ['CHEMBL3301572'] -> ['M09AX07']"
+      ],
+      "route": "parenteral"
+    },
+    "53006": {
+      "generic_code": "53006",
+      "accepted": "C09CA07",
+      "source": "ChEMBL pref_name=TELMISARTAN",
+      "evidence": [
+        "chembl pref_name__iexact='TELMISARTAN' -> ['CHEMBL1017'] -> ['C09CA07']"
+      ],
+      "route": "systemic"
+    },
+    "53007": {
+      "generic_code": "53007",
+      "accepted": "C09CA07",
+      "source": "ChEMBL pref_name=TELMISARTAN",
+      "evidence": [
+        "chembl pref_name__iexact='TELMISARTAN' -> ['CHEMBL1017'] -> ['C09CA07']"
+      ],
+      "route": "systemic"
+    },
+    "53008": {
+      "generic_code": "53008",
+      "accepted": "C09CA07",
+      "source": "ChEMBL pref_name=TELMISARTAN",
+      "evidence": [
+        "chembl pref_name__iexact='TELMISARTAN' -> ['CHEMBL1017'] -> ['C09CA07']"
+      ],
+      "route": "systemic"
+    },
+    "53012": {
+      "generic_code": "53012",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DAPAGLIFLOZIN and METFORMIN HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53013": {
+      "generic_code": "53013",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DAPAGLIFLOZIN and METFORMIN HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53016": {
+      "generic_code": "53016",
+      "accepted": "C01EB18",
+      "source": "ChEMBL pref_name=RANOLAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='RANOLAZINE' -> ['CHEMBL1404'] -> ['C01EB18']"
+      ],
+      "route": "systemic"
+    },
+    "53018": {
+      "generic_code": "53018",
+      "accepted": "J01AA08",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='MINOCYCLINE (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='MINOCYCLINE' -> ['CHEMBL1434'] -> ['A01AB23', 'D10AF07', 'J01AA08']",
+        "kegg find 'MINOCYCLINE' -> ['D00850', 'D05045']",
+        "kegg D00850 codes=['A01AB23', 'D10AF07', 'J01AA08'] l5={'A01AB23': 'Minocycline', 'D10AF07': 'Minocycline', 'J01AA08': 'Minocycline'} l4={'A01AB': 'Antiinfectives and antiseptics for local oral treatment', 'D10AF': 'Antiinfectives for treatment of acne', 'J01AA': 'Tetracyclines'}",
+        "kegg D05045 codes=['A01AB23', 'D10AF07', 'J01AA08'] l5={'A01AB23': 'Minocycline', 'D10AF07': 'Minocycline', 'J01AA08': 'Minocycline'} l4={'A01AB': 'Antiinfectives and antiseptics for local oral treatment', 'D10AF': 'Antiinfectives for treatment of acne', 'J01AA': 'Tetracyclines'}",
+        "route systemic: ['A01AB23', 'D10AF07', 'J01AA08'] -> ['J01AA08']"
+      ],
+      "route": "systemic"
+    },
+    "53020": {
+      "generic_code": "53020",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='INFLUENZA VACCINE, RECOMBINANT, TETRAVALENT' -> [] -> []",
+        "kegg find 'INFLUENZA VACCINE, RECOMBINANT, TETRAVALENT' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "53038": {
+      "generic_code": "53038",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'IBUPROFEN and METHOCARBAMOL' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53051": {
+      "generic_code": "53051",
+      "accepted": "V03AB04",
+      "source": "ChEMBL pref_name=PRALIDOXIME",
+      "evidence": [
+        "chembl pref_name__iexact='PRALIDOXIME IODIDE' -> ['CHEMBL14577'] -> []",
+        "chembl pref_name__iexact='PRALIDOXIME' -> ['CHEMBL1420'] -> ['V03AB04']"
+      ],
+      "route": "parenteral"
+    },
+    "53067": {
+      "generic_code": "53067",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='LIPID INFUSION 10% (2)' -> [] -> []",
+        "chembl pref_name__iexact='LIPID INFUSION 10%' -> [] -> []",
+        "kegg find 'LIPID INFUSION 10%' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "53090": {
+      "generic_code": "53090",
+      "accepted": "L01FD04",
+      "source": "ChEMBL pref_name=TRASTUZUMAB DERUXTECAN",
+      "evidence": [
+        "chembl pref_name__iexact='TRASTUZUMAB DERUXTECAN' -> ['CHEMBL4297844'] -> ['L01FD04']"
+      ],
+      "route": "parenteral"
+    },
+    "53096": {
+      "generic_code": "53096",
+      "accepted": "R03DX05",
+      "source": "ChEMBL pref_name=OMALIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='OMALIZUMAB' -> ['CHEMBL1201589'] -> ['R03DX05']"
+      ],
+      "route": "parenteral"
+    },
+    "53111": {
+      "generic_code": "53111",
+      "accepted": "D06BB10",
+      "source": "ChEMBL pref_name=IMIQUIMOD",
+      "evidence": [
+        "chembl pref_name__iexact='IMIQUIMOD' -> ['CHEMBL1282'] -> ['D06BB10']"
+      ],
+      "route": "topical"
+    },
+    "53115": {
+      "generic_code": "53115",
+      "accepted": "L01FF01",
+      "source": "ChEMBL pref_name=NIVOLUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='NIVOLUMAB' -> ['CHEMBL2108738'] -> ['L01FF01']"
+      ],
+      "route": "parenteral"
+    },
+    "53117": {
+      "generic_code": "53117",
+      "accepted": "L02BB04",
+      "source": "ChEMBL pref_name=ENZALUTAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='ENZALUTAMIDE' -> ['CHEMBL1082407'] -> ['L02BB04']"
+      ],
+      "route": "systemic"
+    },
+    "53118": {
+      "generic_code": "53118",
+      "accepted": "L02BB04",
+      "source": "ChEMBL pref_name=ENZALUTAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='ENZALUTAMIDE' -> ['CHEMBL1082407'] -> ['L02BB04']"
+      ],
+      "route": "systemic"
+    },
+    "53120": {
+      "generic_code": "53120",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'OMEPRAZOLE and SODIUM BICARBONATE' -> ['D11706']",
+        "kegg D11706 codes=[] l5={} l4={}"
+      ],
+      "route": "systemic"
+    },
+    "53121": {
+      "generic_code": "53121",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'OMEPRAZOLE and SODIUM BICARBONATE' -> ['D11706']",
+        "kegg D11706 codes=[] l5={} l4={}"
+      ],
+      "route": "systemic"
+    },
+    "53132": {
+      "generic_code": "53132",
+      "accepted": "A10AE54",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'INSULIN GLARGINE and LIXISENATIDE' -> ['D11034']",
+        "kegg D11034 codes=['A10AE54'] l5={'A10AE54': 'Insulin glargine and lixisenatide'} l4={'A10AE': 'Insulins and analogues for injection, long-acting'}"
+      ],
+      "route": "parenteral"
+    },
+    "53133": {
+      "generic_code": "53133",
+      "accepted": "A10AE54",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'INSULIN GLARGINE and LIXISENATIDE' -> ['D11034']",
+        "kegg D11034 codes=['A10AE54'] l5={'A10AE54': 'Insulin glargine and lixisenatide'} l4={'A10AE': 'Insulins and analogues for injection, long-acting'}"
+      ],
+      "route": "parenteral"
+    },
+    "53134": {
+      "generic_code": "53134",
+      "accepted": "L01FF03",
+      "source": "ChEMBL pref_name=DURVALUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='DURVALUMAB' -> ['CHEMBL3301587'] -> ['L01FF03']"
+      ],
+      "route": "parenteral"
+    },
+    "53136": {
+      "generic_code": "53136",
+      "accepted": "L04AC05",
+      "source": "ChEMBL pref_name=USTEKINUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='USTEKINUMAB' -> ['CHEMBL1201835'] -> ['L04AC05']"
+      ],
+      "route": "parenteral"
+    },
+    "53236": {
+      "generic_code": "53236",
+      "accepted": "L04AA32",
+      "source": "ChEMBL pref_name=APREMILAST",
+      "evidence": [
+        "chembl pref_name__iexact='APREMILAST (10,20,30)' -> [] -> []",
+        "chembl pref_name__iexact='APREMILAST' -> ['CHEMBL514800'] -> ['L04AA32']"
+      ],
+      "route": "systemic"
+    },
+    "53240": {
+      "generic_code": "53240",
+      "accepted": "L04AA32",
+      "source": "ChEMBL pref_name=APREMILAST",
+      "evidence": [
+        "chembl pref_name__iexact='APREMILAST' -> ['CHEMBL514800'] -> ['L04AA32']"
+      ],
+      "route": "systemic"
+    },
+    "53248": {
+      "generic_code": "53248",
+      "accepted": "R03AK10",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'VILANTEROL and FLUTICASONE FUROATE' -> ['D10501', 'D11035']",
+        "kegg D10501 codes=['R03AK10'] l5={'R03AK10': 'Vilanterol and fluticasone furoate'} l4={'R03AK': 'Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics'}",
+        "kegg D11035 name 'Fluticasone furoate, umeclidinium bromide and vilanterol' set ['fluticasone furoate', 'umeclidinium', 'vilanterol'] != own ['fluticasone furoate', 'vilanterol']: skipped"
+      ],
+      "route": "respiratory"
+    },
+    "53256": {
+      "generic_code": "53256",
+      "accepted": "L04AE02",
+      "source": "ChEMBL pref_name=OZANIMOD",
+      "evidence": [
+        "chembl pref_name__iexact='OZANIMOD (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='OZANIMOD' -> ['CHEMBL3707247'] -> ['L04AE02']"
+      ],
+      "route": "systemic"
+    },
+    "53257": {
+      "generic_code": "53257",
+      "accepted": "L04AE02",
+      "source": "ChEMBL pref_name=OZANIMOD",
+      "evidence": [
+        "chembl pref_name__iexact='OZANIMOD (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='OZANIMOD' -> ['CHEMBL3707247'] -> ['L04AE02']"
+      ],
+      "route": "systemic"
+    },
+    "53258": {
+      "generic_code": "53258",
+      "accepted": "J06BD01",
+      "source": "ChEMBL pref_name=PALIVIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='PALIVIZUMAB' -> ['CHEMBL1201586'] -> ['J06BD01']"
+      ],
+      "route": "parenteral"
+    },
+    "53259": {
+      "generic_code": "53259",
+      "accepted": "J06BD01",
+      "source": "ChEMBL pref_name=PALIVIZUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='PALIVIZUMAB' -> ['CHEMBL1201586'] -> ['J06BD01']"
+      ],
+      "route": "parenteral"
+    },
+    "53260": {
+      "generic_code": "53260",
+      "accepted": "A08AA62",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'BUPROPION and NALTREXONE' -> ['D10751']",
+        "kegg D10751 codes=['A08AA62'] l5={'A08AA62': 'Bupropion and naltrexone'} l4={'A08AA': 'Centrally acting antiobesity products'}"
+      ],
+      "route": "systemic"
+    },
+    "53263": {
+      "generic_code": "53263",
+      "accepted": "A06AX04",
+      "source": "ChEMBL pref_name=LINACLOTIDE",
+      "evidence": [
+        "chembl pref_name__iexact='LINACLOTIDE' -> ['CHEMBL3301675'] -> ['A06AX04']"
+      ],
+      "route": "systemic"
+    },
+    "53290": {
+      "generic_code": "53290",
+      "accepted": "C09DB04",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and TELMISARTAN' -> ['D09743', 'D10805']",
+        "kegg D09743 codes=['C09DB04'] l5={'C09DB04': 'Telmisartan and amlodipine'} l4={'C09DB': 'Angiotensin II receptor blockers (ARBs) and calcium channel blockers'}",
+        "kegg D10805 name 'Telmisartan, amlodipine and hydrochlorothiazide' set ['amlodipine', 'hydrochlorothiazide', 'telmisartan'] != own ['amlodipine', 'telmisartan']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "53291": {
+      "generic_code": "53291",
+      "accepted": "C09DB04",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and TELMISARTAN' -> ['D09743', 'D10805']",
+        "kegg D09743 codes=['C09DB04'] l5={'C09DB04': 'Telmisartan and amlodipine'} l4={'C09DB': 'Angiotensin II receptor blockers (ARBs) and calcium channel blockers'}",
+        "kegg D10805 name 'Telmisartan, amlodipine and hydrochlorothiazide' set ['amlodipine', 'hydrochlorothiazide', 'telmisartan'] != own ['amlodipine', 'telmisartan']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "53292": {
+      "generic_code": "53292",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'ACETYLSALICYLIC ACID and CLOPIDOGREL' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53293": {
+      "generic_code": "53293",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'ACETYLSALICYLIC ACID and CLOPIDOGREL' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53294": {
+      "generic_code": "53294",
+      "accepted": "M01AE52",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'ESOMEPRAZOLE and NAPROXEN' -> ['D11576']",
+        "kegg D11576 codes=['M01AE52'] l5={'M01AE52': 'Naproxen and esomeprazole'} l4={'M01AE': 'Propionic acid derivatives'}"
+      ],
+      "route": "systemic"
+    },
+    "53295": {
+      "generic_code": "53295",
+      "accepted": "M01AE52",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'ESOMEPRAZOLE and NAPROXEN' -> ['D11576']",
+        "kegg D11576 codes=['M01AE52'] l5={'M01AE52': 'Naproxen and esomeprazole'} l4={'M01AE': 'Propionic acid derivatives'}"
+      ],
+      "route": "systemic"
+    },
+    "53297": {
+      "generic_code": "53297",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'EZETIMIBE and ROSUVASTATIN' -> ['D11520']",
+        "kegg D11520 codes=[] l5={} l4={}"
+      ],
+      "route": "systemic"
+    },
+    "53298": {
+      "generic_code": "53298",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'EZETIMIBE and ROSUVASTATIN' -> ['D11520']",
+        "kegg D11520 codes=[] l5={} l4={}"
+      ],
+      "route": "systemic"
+    },
+    "53299": {
+      "generic_code": "53299",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'EZETIMIBE and ROSUVASTATIN' -> ['D11520']",
+        "kegg D11520 codes=[] l5={} l4={}"
+      ],
+      "route": "systemic"
+    },
+    "53300": {
+      "generic_code": "53300",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'EZETIMIBE and ROSUVASTATIN' -> ['D11520']",
+        "kegg D11520 codes=[] l5={} l4={}"
+      ],
+      "route": "systemic"
+    },
+    "53301": {
+      "generic_code": "53301",
+      "accepted": "C09DB04",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and TELMISARTAN' -> ['D09743', 'D10805']",
+        "kegg D09743 codes=['C09DB04'] l5={'C09DB04': 'Telmisartan and amlodipine'} l4={'C09DB': 'Angiotensin II receptor blockers (ARBs) and calcium channel blockers'}",
+        "kegg D10805 name 'Telmisartan, amlodipine and hydrochlorothiazide' set ['amlodipine', 'hydrochlorothiazide', 'telmisartan'] != own ['amlodipine', 'telmisartan']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "53302": {
+      "generic_code": "53302",
+      "accepted": "C09DB04",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'AMLODIPINE and TELMISARTAN' -> ['D09743', 'D10805']",
+        "kegg D09743 codes=['C09DB04'] l5={'C09DB04': 'Telmisartan and amlodipine'} l4={'C09DB': 'Angiotensin II receptor blockers (ARBs) and calcium channel blockers'}",
+        "kegg D10805 name 'Telmisartan, amlodipine and hydrochlorothiazide' set ['amlodipine', 'hydrochlorothiazide', 'telmisartan'] != own ['amlodipine', 'telmisartan']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "53335": {
+      "generic_code": "53335",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['N02AE01', 'N07BC01', 'N07BC51']",
+      "evidence": [
+        "chembl pref_name__iexact='BUPRENORPHINE' -> ['CHEMBL511142'] -> ['N02AE01', 'N07BC01', 'N07BC51']",
+        "kegg find 'BUPRENORPHINE' -> ['D00836', 'D07132', 'D10250']",
+        "kegg D00836 codes=['N02AE01', 'N07BC01'] l5={'N02AE01': 'Buprenorphine', 'N07BC01': 'Buprenorphine'} l4={'N02AE': 'Oripavine derivatives', 'N07BC': 'Drugs used in opioid dependence'}",
+        "kegg D07132 codes=['N02AE01', 'N07BC01'] l5={'N02AE01': 'Buprenorphine', 'N07BC01': 'Buprenorphine'} l4={'N02AE': 'Oripavine derivatives', 'N07BC': 'Drugs used in opioid dependence'}",
+        "kegg D10250 name 'Buprenorphine and naloxone' set ['buprenorphine', 'naloxone'] != own ['buprenorphine']: skipped",
+        "specificity: ['N02AE01', 'N07BC01', 'N07BC51'] -> ['N02AE01', 'N07BC01'] (l5 names {'N02AE01': 'Buprenorphine', 'N07BC01': 'Buprenorphine'})",
+        "unresolved: pool=['N02AE01', 'N07BC01', 'N07BC51'] route_filter(parenteral)=['N02AE01', 'N07BC01', 'N07BC51']"
+      ],
+      "route": "parenteral"
+    },
+    "53340": {
+      "generic_code": "53340",
+      "accepted": "C01CA02",
+      "source": "route filter (parenteral)",
+      "evidence": [
+        "chembl pref_name__iexact='ISOPROTERENOL HYDROCHLORIDE' -> ['CHEMBL1711'] -> []",
+        "chembl pref_name__iexact='ISOPROTERENOL' -> ['CHEMBL434'] -> ['C01CA02', 'R03AB02', 'R03CB01', 'R03CB51']",
+        "kegg find 'ISOPROTERENOL HYDROCHLORIDE' -> ['D01390']",
+        "kegg D01390 codes=['C01CA02', 'R03AB02', 'R03CB01'] l5={'C01CA02': 'Isoprenaline', 'R03AB02': 'Isoprenaline', 'R03CB01': 'Isoprenaline'} l4={'C01CA': 'Adrenergic and dopaminergic agents', 'R03AB': 'Non-selective beta-adrenoreceptor agonists', 'R03CB': 'Non-selective beta-adrenoreceptor agonists'}",
+        "route parenteral: ['C01CA02', 'R03AB02', 'R03CB01', 'R03CB51'] -> ['C01CA02']"
+      ],
+      "route": "parenteral"
+    },
+    "53341": {
+      "generic_code": "53341",
+      "accepted": "C10AX15",
+      "source": "ChEMBL pref_name=BEMPEDOIC ACID",
+      "evidence": [
+        "chembl pref_name__iexact='BEMPEDOIC ACID' -> ['CHEMBL3545313'] -> ['C10AX15']"
+      ],
+      "route": "systemic"
+    },
+    "53358": {
+      "generic_code": "53358",
+      "accepted": "L01AA01",
+      "source": "ChEMBL pref_name=CYCLOPHOSPHAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='CYCLOPHOSPHAMIDE' -> ['CHEMBL1200796'] -> ['L01AA01']"
+      ],
+      "route": "parenteral"
+    },
+    "53359": {
+      "generic_code": "53359",
+      "accepted": "L01AA01",
+      "source": "ChEMBL pref_name=CYCLOPHOSPHAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='CYCLOPHOSPHAMIDE' -> ['CHEMBL1200796'] -> ['L01AA01']"
+      ],
+      "route": "parenteral"
+    },
+    "53360": {
+      "generic_code": "53360",
+      "accepted": "R03AL03",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'UMECLIDINIUM and VILANTEROL' -> ['D10533', 'D11035']",
+        "kegg D10533 codes=['R03AL03'] l5={'R03AL03': 'Vilanterol and umeclidinium bromide'} l4={'R03AL': 'Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids'}",
+        "kegg D11035 name 'Fluticasone furoate, umeclidinium bromide and vilanterol' set ['fluticasone furoate', 'umeclidinium', 'vilanterol'] != own ['umeclidinium', 'vilanterol']: skipped"
+      ],
+      "route": "respiratory"
+    },
+    "53367": {
+      "generic_code": "53367",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['A04AA05', 'A04AA55']",
+      "evidence": [
+        "chembl pref_name__iexact='PALONOSETRON (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='PALONOSETRON' -> ['CHEMBL1189679'] -> ['A04AA05', 'A04AA55']",
+        "kegg find 'PALONOSETRON' -> ['D05343', 'D07175', 'D10572']",
+        "kegg D05343 codes=['A04AA05'] l5={'A04AA05': 'Palonosetron'} l4={'A04AA': 'Serotonin (5HT3) antagonists'}",
+        "kegg D07175 codes=['A04AA05'] l5={'A04AA05': 'Palonosetron'} l4={'A04AA': 'Serotonin (5HT3) antagonists'}",
+        "kegg D10572 name 'Fosnetupitant and palonosetron hydrochloride' set ['fosnetupitant', 'palonosetron'] != own ['palonosetron']: skipped",
+        "specificity: ['A04AA05', 'A04AA55'] -> ['A04AA05'] (l5 names {'A04AA05': 'Palonosetron'})",
+        "unresolved: pool=['A04AA05', 'A04AA55'] route_filter(parenteral)=['A04AA05', 'A04AA55']"
+      ],
+      "route": "parenteral"
+    },
+    "53370": {
+      "generic_code": "53370",
+      "accepted": "L04AF03",
+      "source": "ChEMBL pref_name=UPADACITINIB",
+      "evidence": [
+        "chembl pref_name__iexact='UPADACITINIB' -> ['CHEMBL3622821'] -> ['L04AF03']"
+      ],
+      "route": "systemic"
+    },
+    "53371": {
+      "generic_code": "53371",
+      "accepted": "L04AF03",
+      "source": "ChEMBL pref_name=UPADACITINIB",
+      "evidence": [
+        "chembl pref_name__iexact='UPADACITINIB' -> ['CHEMBL3622821'] -> ['L04AF03']"
+      ],
+      "route": "systemic"
+    },
+    "53374": {
+      "generic_code": "53374",
+      "accepted": "D01AE16",
+      "source": "ChEMBL pref_name=AMOROLFINE",
+      "evidence": [
+        "chembl pref_name__iexact='AMOROLFINE (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='AMOROLFINE' -> ['CHEMBL489411'] -> ['D01AE16']"
+      ],
+      "route": "topical"
+    },
+    "53384": {
+      "generic_code": "53384",
+      "accepted": "A02BC08",
+      "source": "ChEMBL pref_name=VONOPRAZAN",
+      "evidence": [
+        "chembl pref_name__iexact='VONOPRAZAN (AS FUMARATE)' -> [] -> []",
+        "chembl pref_name__iexact='VONOPRAZAN' -> ['CHEMBL2079130'] -> ['A02BC08']"
+      ],
+      "route": "systemic"
+    },
+    "53385": {
+      "generic_code": "53385",
+      "accepted": "A02BC08",
+      "source": "ChEMBL pref_name=VONOPRAZAN",
+      "evidence": [
+        "chembl pref_name__iexact='VONOPRAZAN (AS FUMARATE)' -> [] -> []",
+        "chembl pref_name__iexact='VONOPRAZAN' -> ['CHEMBL2079130'] -> ['A02BC08']"
+      ],
+      "route": "systemic"
+    },
+    "53386": {
+      "generic_code": "53386",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='ARTIFICIAL SALIVA' -> [] -> []",
+        "kegg find 'ARTIFICIAL SALIVA' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53389": {
+      "generic_code": "53389",
+      "accepted": "C03CA04",
+      "source": "ChEMBL pref_name=TORSEMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TORSEMIDE' -> ['CHEMBL1148'] -> ['C03CA04']"
+      ],
+      "route": "systemic"
+    },
+    "53390": {
+      "generic_code": "53390",
+      "accepted": "C03CA04",
+      "source": "ChEMBL pref_name=TORSEMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TORSEMIDE' -> ['CHEMBL1148'] -> ['C03CA04']"
+      ],
+      "route": "systemic"
+    },
+    "53391": {
+      "generic_code": "53391",
+      "accepted": "C03CA04",
+      "source": "ChEMBL pref_name=TORSEMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TORSEMIDE' -> ['CHEMBL1148'] -> ['C03CA04']"
+      ],
+      "route": "systemic"
+    },
+    "53392": {
+      "generic_code": "53392",
+      "accepted": "C03CA04",
+      "source": "ChEMBL pref_name=TORSEMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TORSEMIDE' -> ['CHEMBL1148'] -> ['C03CA04']"
+      ],
+      "route": "systemic"
+    },
+    "53402": {
+      "generic_code": "53402",
+      "accepted": "N02AJ13",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'ACETAMINOPHEN and TRAMADOL HYDROCHLORIDE' -> ['D09999']",
+        "kegg D09999 codes=['N02AJ13'] l5={'N02AJ13': 'Tramadol and paracetamol'} l4={'N02AJ': 'Opioids in combination with non-opioid analgesics'}"
+      ],
+      "route": "systemic"
+    },
+    "53408": {
+      "generic_code": "53408",
+      "accepted": "G04CA04",
+      "source": "ChEMBL pref_name=SILODOSIN",
+      "evidence": [
+        "chembl pref_name__iexact='SILODOSIN' -> ['CHEMBL24778'] -> ['G04CA04']"
+      ],
+      "route": "systemic"
+    },
+    "53409": {
+      "generic_code": "53409",
+      "accepted": "G04CA04",
+      "source": "ChEMBL pref_name=SILODOSIN",
+      "evidence": [
+        "chembl pref_name__iexact='SILODOSIN' -> ['CHEMBL24778'] -> ['G04CA04']"
+      ],
+      "route": "systemic"
+    },
+    "53413": {
+      "generic_code": "53413",
+      "accepted": "L01XX52",
+      "source": "ChEMBL pref_name=VENETOCLAX",
+      "evidence": [
+        "chembl pref_name__iexact='VENETOCLAX' -> ['CHEMBL3137309'] -> ['L01XX52']"
+      ],
+      "route": "systemic"
+    },
+    "53414": {
+      "generic_code": "53414",
+      "accepted": "L01XX52",
+      "source": "ChEMBL pref_name=VENETOCLAX",
+      "evidence": [
+        "chembl pref_name__iexact='VENETOCLAX' -> ['CHEMBL3137309'] -> ['L01XX52']"
+      ],
+      "route": "systemic"
+    },
+    "53423": {
+      "generic_code": "53423",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'FUSIDIC ACID and HYDROCORTISONE ACETATE' -> []"
+      ],
+      "route": "topical"
+    },
+    "53442": {
+      "generic_code": "53442",
+      "accepted": "R06AX29",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='BILASTINE' -> ['CHEMBL1742423'] -> ['R06AX29', 'S01GX13']",
+        "kegg find 'BILASTINE' -> ['D09570']",
+        "kegg D09570 codes=['R06AX29', 'S01GX13'] l5={'R06AX29': 'Bilastine', 'S01GX13': 'Bilastine'} l4={'R06AX': 'Other antihistamines for systemic use', 'S01GX': 'Other antiallergics'}",
+        "route systemic: ['R06AX29', 'S01GX13'] -> ['R06AX29']"
+      ],
+      "route": "systemic"
+    },
+    "53444": {
+      "generic_code": "53444",
+      "accepted": "R06AX29",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='BILASTINE' -> ['CHEMBL1742423'] -> ['R06AX29', 'S01GX13']",
+        "kegg find 'BILASTINE' -> ['D09570']",
+        "kegg D09570 codes=['R06AX29', 'S01GX13'] l5={'R06AX29': 'Bilastine', 'S01GX13': 'Bilastine'} l4={'R06AX': 'Other antihistamines for systemic use', 'S01GX': 'Other antiallergics'}",
+        "route systemic: ['R06AX29', 'S01GX13'] -> ['R06AX29']"
+      ],
+      "route": "systemic"
+    },
+    "53446": {
+      "generic_code": "53446",
+      "accepted": "A02BC06",
+      "source": "ChEMBL pref_name=DEXLANSOPRAZOLE",
+      "evidence": [
+        "chembl pref_name__iexact='DEXLANSOPRAZOLE' -> ['CHEMBL1201863'] -> ['A02BC06']"
+      ],
+      "route": "systemic"
+    },
+    "53447": {
+      "generic_code": "53447",
+      "accepted": "A02BC06",
+      "source": "ChEMBL pref_name=DEXLANSOPRAZOLE",
+      "evidence": [
+        "chembl pref_name__iexact='DEXLANSOPRAZOLE' -> ['CHEMBL1201863'] -> ['A02BC06']"
+      ],
+      "route": "systemic"
+    },
+    "53448": {
+      "generic_code": "53448",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DONEPEZIL HYDROCHLORIDE and MEMANTINE HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53450": {
+      "generic_code": "53450",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DONEPEZIL HYDROCHLORIDE and MEMANTINE HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53451": {
+      "generic_code": "53451",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DONEPEZIL HYDROCHLORIDE and MEMANTINE HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53452": {
+      "generic_code": "53452",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'DONEPEZIL HYDROCHLORIDE and MEMANTINE HYDROCHLORIDE' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53455": {
+      "generic_code": "53455",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "kegg find 'ACETAMINOPHEN and CHLORPHENIRAMINE and DEXTROMETHORPHAN and PHENYLEPHRINE and ASCORBIC ACID' -> []"
+      ],
+      "route": "systemic"
+    },
+    "53459": {
+      "generic_code": "53459",
+      "accepted": "N03AX23",
+      "source": "ChEMBL pref_name=BRIVARACETAM",
+      "evidence": [
+        "chembl pref_name__iexact='BRIVARACETAM' -> ['CHEMBL607400'] -> ['N03AX23']"
+      ],
+      "route": "systemic"
+    },
+    "53460": {
+      "generic_code": "53460",
+      "accepted": "N03AX23",
+      "source": "ChEMBL pref_name=BRIVARACETAM",
+      "evidence": [
+        "chembl pref_name__iexact='BRIVARACETAM' -> ['CHEMBL607400'] -> ['N03AX23']"
+      ],
+      "route": "systemic"
+    },
+    "53461": {
+      "generic_code": "53461",
+      "accepted": "N03AX23",
+      "source": "ChEMBL pref_name=BRIVARACETAM",
+      "evidence": [
+        "chembl pref_name__iexact='BRIVARACETAM' -> ['CHEMBL607400'] -> ['N03AX23']"
+      ],
+      "route": "systemic"
+    },
+    "53462": {
+      "generic_code": "53462",
+      "accepted": "N03AX23",
+      "source": "ChEMBL pref_name=BRIVARACETAM",
+      "evidence": [
+        "chembl pref_name__iexact='BRIVARACETAM' -> ['CHEMBL607400'] -> ['N03AX23']"
+      ],
+      "route": "systemic"
+    },
+    "53463": {
+      "generic_code": "53463",
+      "accepted": "N03AX23",
+      "source": "ChEMBL pref_name=BRIVARACETAM",
+      "evidence": [
+        "chembl pref_name__iexact='BRIVARACETAM' -> ['CHEMBL607400'] -> ['N03AX23']"
+      ],
+      "route": "systemic"
+    },
+    "53476": {
+      "generic_code": "53476",
+      "accepted": "M03CA01",
+      "source": "ChEMBL pref_name=DANTROLENE",
+      "evidence": [
+        "chembl pref_name__iexact='DANTROLENE SODIUM' -> ['CHEMBL928'] -> []",
+        "chembl pref_name__iexact='DANTROLENE' -> ['CHEMBL1201288'] -> ['M03CA01']"
+      ],
+      "route": "parenteral"
+    },
+    "53481": {
+      "generic_code": "53481",
+      "accepted": "A10BJ06",
+      "source": "ChEMBL pref_name=SEMAGLUTIDE",
+      "evidence": [
+        "chembl pref_name__iexact='SEMAGLUTIDE' -> ['CHEMBL2108724'] -> ['A10BJ06']"
+      ],
+      "route": "parenteral"
+    },
+    "53482": {
+      "generic_code": "53482",
+      "accepted": "A10BJ06",
+      "source": "ChEMBL pref_name=SEMAGLUTIDE",
+      "evidence": [
+        "chembl pref_name__iexact='SEMAGLUTIDE' -> ['CHEMBL2108724'] -> ['A10BJ06']"
+      ],
+      "route": "parenteral"
+    },
+    "53483": {
+      "generic_code": "53483",
+      "accepted": "A10BJ06",
+      "source": "ChEMBL pref_name=SEMAGLUTIDE",
+      "evidence": [
+        "chembl pref_name__iexact='SEMAGLUTIDE' -> ['CHEMBL2108724'] -> ['A10BJ06']"
+      ],
+      "route": "parenteral"
+    },
+    "53491": {
+      "generic_code": "53491",
+      "accepted": "A10BJ06",
+      "source": "ChEMBL pref_name=SEMAGLUTIDE",
+      "evidence": [
+        "chembl pref_name__iexact='SEMAGLUTIDE' -> ['CHEMBL2108724'] -> ['A10BJ06']"
+      ],
+      "route": "parenteral"
+    },
+    "53503": {
+      "generic_code": "53503",
+      "accepted": "D11AH05",
+      "source": "ChEMBL pref_name=DUPILUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='DUPILUMAB' -> ['CHEMBL2108675'] -> ['D11AH05']"
+      ],
+      "route": "parenteral"
+    },
+    "53506": {
+      "generic_code": "53506",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53507": {
+      "generic_code": "53507",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53508": {
+      "generic_code": "53508",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53509": {
+      "generic_code": "53509",
+      "accepted": "N05CH02",
+      "source": "ChEMBL pref_name=RAMELTEON",
+      "evidence": [
+        "chembl pref_name__iexact='RAMELTEON' -> ['CHEMBL1218'] -> ['N05CH02']"
+      ],
+      "route": "systemic"
+    },
+    "53510": {
+      "generic_code": "53510",
+      "accepted": "L04AA32",
+      "source": "ChEMBL pref_name=APREMILAST",
+      "evidence": [
+        "chembl pref_name__iexact='APREMILAST' -> ['CHEMBL514800'] -> ['L04AA32']"
+      ],
+      "route": "systemic"
+    },
+    "53512": {
+      "generic_code": "53512",
+      "accepted": "N03AG04",
+      "source": "ChEMBL pref_name=VIGABATRIN",
+      "evidence": [
+        "chembl pref_name__iexact='VIGABATRIN' -> ['CHEMBL89598'] -> ['N03AG04']"
+      ],
+      "route": "systemic"
+    },
+    "53526": {
+      "generic_code": "53526",
+      "accepted": "G02CX02",
+      "source": "ChEMBL pref_name=FLIBANSERIN",
+      "evidence": [
+        "chembl pref_name__iexact='FLIBANSERIN' -> ['CHEMBL231068'] -> ['G02CX02']"
+      ],
+      "route": "systemic"
+    },
+    "53528": {
+      "generic_code": "53528",
+      "accepted": "S01ED51",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'TIMOLOL and BRIMONIDINE TARTRATE' -> ['D10298']",
+        "kegg D10298 codes=['S01ED51'] l5={'S01ED51': 'Timolol, combinations'} l4={'S01ED': 'Beta blocking agents'}"
+      ],
+      "route": "ophthalmic"
+    },
+    "53560": {
+      "generic_code": "53560",
+      "accepted": "A05BA11",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='RESMETIROM' -> ['CHEMBL3261331'] -> []",
+        "kegg find 'RESMETIROM' -> ['D11602']",
+        "kegg D11602 codes=['A05BA11'] l5={'A05BA11': 'Resmetirom'} l4={'A05BA': 'Liver therapy'}"
+      ],
+      "route": "systemic"
+    },
+    "53561": {
+      "generic_code": "53561",
+      "accepted": "A05BA11",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='RESMETIROM' -> ['CHEMBL3261331'] -> []",
+        "kegg find 'RESMETIROM' -> ['D11602']",
+        "kegg D11602 codes=['A05BA11'] l5={'A05BA11': 'Resmetirom'} l4={'A05BA': 'Liver therapy'}"
+      ],
+      "route": "systemic"
+    },
+    "53563": {
+      "generic_code": "53563",
+      "accepted": "C03BA04",
+      "source": "ChEMBL pref_name=CHLORTHALIDONE",
+      "evidence": [
+        "chembl pref_name__iexact='CHLORTHALIDONE' -> ['CHEMBL1055'] -> ['C03BA04']"
+      ],
+      "route": "systemic"
+    },
+    "53565": {
+      "generic_code": "53565",
+      "accepted": "C03BA04",
+      "source": "ChEMBL pref_name=CHLORTHALIDONE",
+      "evidence": [
+        "chembl pref_name__iexact='CHLORTHALIDONE' -> ['CHEMBL1055'] -> ['C03BA04']"
+      ],
+      "route": "systemic"
+    },
+    "53566": {
+      "generic_code": "53566",
+      "accepted": "C10BA10",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'BEMPEDOIC ACID and EZETIMIBE' -> ['D11794']",
+        "kegg D11794 codes=['C10BA10'] l5={'C10BA10': 'Bempedoic acid and ezetimibe'} l4={'C10BA': 'Combinations of various lipid modifying agents'}"
+      ],
+      "route": "systemic"
+    },
+    "53584": {
+      "generic_code": "53584",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53585": {
+      "generic_code": "53585",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53586": {
+      "generic_code": "53586",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53587": {
+      "generic_code": "53587",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53588": {
+      "generic_code": "53588",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53589": {
+      "generic_code": "53589",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53590": {
+      "generic_code": "53590",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53591": {
+      "generic_code": "53591",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53592": {
+      "generic_code": "53592",
+      "accepted": "A10BX16",
+      "source": "ChEMBL pref_name=TIRZEPATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='TIRZEPATIDE' -> ['CHEMBL4297839'] -> ['A10BX16']"
+      ],
+      "route": "parenteral"
+    },
+    "53598": {
+      "generic_code": "53598",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['G02CC02', 'M01AE02', 'M02AA12']",
+      "evidence": [
+        "chembl pref_name__iexact='NAPROXEN (AS SODIUM)' -> [] -> []",
+        "chembl pref_name__iexact='NAPROXEN' -> ['CHEMBL154'] -> ['G02CC02', 'M01AE02', 'M02AA12']",
+        "kegg find 'NAPROXEN' -> ['D00118', 'D00970', 'D10017', 'D11576', 'D11577']",
+        "kegg D00118 codes=['G02CC02', 'M01AE02', 'M02AA12'] l5={'G02CC02': 'Naproxen', 'M01AE02': 'Naproxen', 'M02AA12': 'Naproxen'} l4={'G02CC': 'Antiinflammatory products for vaginal administration', 'M01AE': 'Propionic acid derivatives', 'M02AA': 'Antiinflammatory preparations, non-steroids for topical use'}",
+        "kegg D00970 codes=['G02CC02', 'M01AE02', 'M02AA12'] l5={'G02CC02': 'Naproxen', 'M01AE02': 'Naproxen', 'M02AA12': 'Naproxen'} l4={'G02CC': 'Antiinflammatory products for vaginal administration', 'M01AE': 'Propionic acid derivatives', 'M02AA': 'Antiinflammatory preparations, non-steroids for topical use'}",
+        "kegg D10017 name 'Naproxen etemesil (USAN)' set ['naproxen etemesil'] != own ['naproxen']: skipped",
+        "kegg D11576 name 'Naproxen and esomeprazole magnesium' set ['esomeprazole', 'naproxen'] != own ['naproxen']: skipped",
+        "kegg D11577 name 'Sumatriptan and naproxen sodium' set ['naproxen', 'sumatriptan'] != own ['naproxen']: skipped",
+        "unresolved: pool=['G02CC02', 'M01AE02', 'M02AA12'] route_filter(systemic)=['G02CC02', 'M01AE02']"
+      ],
+      "route": "systemic"
+    },
+    "53600": {
+      "generic_code": "53600",
+      "accepted": "L01FC01",
+      "source": "ChEMBL pref_name=DARATUMUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='DARATUMUMAB' -> ['CHEMBL1743007'] -> ['L01FC01']"
+      ],
+      "route": "parenteral"
+    },
+    "53611": {
+      "generic_code": "53611",
+      "accepted": "C01DX22",
+      "source": "ChEMBL pref_name=VERICIGUAT",
+      "evidence": [
+        "chembl pref_name__iexact='VERICIGUAT' -> ['CHEMBL4066936'] -> ['C01DX22']"
+      ],
+      "route": "systemic"
+    },
+    "53636": {
+      "generic_code": "53636",
+      "accepted": "C03DA05",
+      "source": "ChEMBL pref_name=FINERENONE",
+      "evidence": [
+        "chembl pref_name__iexact='FINERENONE' -> ['CHEMBL2181927'] -> ['C03DA05']"
+      ],
+      "route": "systemic"
+    },
+    "53637": {
+      "generic_code": "53637",
+      "accepted": "C03DA05",
+      "source": "ChEMBL pref_name=FINERENONE",
+      "evidence": [
+        "chembl pref_name__iexact='FINERENONE' -> ['CHEMBL2181927'] -> ['C03DA05']"
+      ],
+      "route": "systemic"
+    },
+    "53652": {
+      "generic_code": "53652",
+      "accepted": "N02CD06",
+      "source": "ChEMBL pref_name=RIMEGEPANT",
+      "evidence": [
+        "chembl pref_name__iexact='RIMEGEPANT (AS SULFATE)' -> [] -> []",
+        "chembl pref_name__iexact='RIMEGEPANT' -> ['CHEMBL2178422'] -> ['N02CD06']"
+      ],
+      "route": "systemic"
+    },
+    "53656": {
+      "generic_code": "53656",
+      "accepted": "A05BA11",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='RESMETIROM' -> ['CHEMBL3261331'] -> []",
+        "kegg find 'RESMETIROM' -> ['D11602']",
+        "kegg D11602 codes=['A05BA11'] l5={'A05BA11': 'Resmetirom'} l4={'A05BA': 'Liver therapy'}"
+      ],
+      "route": "systemic"
+    },
+    "53666": {
+      "generic_code": "53666",
+      "accepted": "L01FX07",
+      "source": "ChEMBL pref_name=BLINATUMOMAB",
+      "evidence": [
+        "chembl pref_name__iexact='BLINATUMOMAB' -> ['CHEMBL1742992'] -> ['L01FX07']"
+      ],
+      "route": "parenteral"
+    },
+    "53677": {
+      "generic_code": "53677",
+      "accepted": "L04AA32",
+      "source": "ChEMBL pref_name=APREMILAST",
+      "evidence": [
+        "chembl pref_name__iexact='APREMILAST (10,20)' -> [] -> []",
+        "chembl pref_name__iexact='APREMILAST' -> ['CHEMBL514800'] -> ['L04AA32']"
+      ],
+      "route": "systemic"
+    },
+    "53680": {
+      "generic_code": "53680",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'H02AB06', 'R01AD02', 'S01BA04', 'S02BA03', 'S03BA02', 'A01AC54', 'R01AD52']",
+      "evidence": [
+        "chembl pref_name__iexact='PREDNISOLONE (AS SODIUM PHOSPHATE)' -> [] -> []",
+        "chembl pref_name__iexact='PREDNISOLONE' -> ['CHEMBL131'] -> ['A01AC04', 'A01AC54', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'R01AD52', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02']",
+        "kegg find 'PREDNISOLONE' -> ['D00407', 'D00472', 'D00751', 'D00979', 'D00980', 'D00981', 'D00982', 'D01239', 'D01998', 'D02156', 'D03301', 'D04227', 'D04228', 'D04250', 'D04251', 'D04753', 'D04769', 'D05000', 'D05001', 'D05002', 'D07203', 'D08412', 'D08413', 'D08414', 'D08415', 'D10302', 'D11699']",
+        "kegg D00407 name 'Methylprednisolone (JP19/USP/INN)' set ['methylprednisolone'] != own ['prednisolone']: skipped",
+        "kegg D00472 codes=['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] l5={'A01AC04': 'Prednisolone', 'A07EA01': 'Prednisolone', 'C05AA04': 'Prednisolone', 'D07AA03': 'Prednisolone', 'D07XA02': 'Prednisolone', 'H02AB06': 'Prednisolone', 'R01AD02': 'Prednisolone', 'S01BA04': 'Prednisolone', 'S01CB02': 'Prednisolone', 'S02BA03': 'Prednisolone', 'S03BA02': 'Prednisolone'} l4={'A01AC': 'Corticosteroids for local oral treatment', 'A07EA': 'Corticosteroids acting locally', 'C05AA': 'Corticosteroids', 'D07AA': 'Corticosteroids, weak (group I)', 'D07XA': 'Corticosteroids, weak, other combinations', 'H02AB': 'Glucocorticoids', 'R01AD': 'Corticosteroids', 'S01BA': 'Corticosteroids, plain', 'S01CB': 'Corticosteroids/antiinfectives/mydriatics in combination', 'S02BA': 'Corticosteroids', 'S03BA': 'Corticosteroids'}",
+        "kegg D00751 name 'Methylprednisolone sodium succinate (JAN/USP)' set ['methylprednisolone'] != own ['prednisolone']: skipped",
+        "kegg D00979 name 'Methylprednisolone acetate (JAN/USP)' set ['methylprednisolone'] != own ['prednisolone']: skipped",
+        "kegg D00980 codes=['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] l5={'A01AC04': 'Prednisolone', 'A07EA01': 'Prednisolone', 'C05AA04': 'Prednisolone', 'D07AA03': 'Prednisolone', 'D07XA02': 'Prednisolone', 'H02AB06': 'Prednisolone', 'R01AD02': 'Prednisolone', 'S01BA04': 'Prednisolone', 'S01CB02': 'Prednisolone', 'S02BA03': 'Prednisolone', 'S03BA02': 'Prednisolone'} l4={'A01AC': 'Corticosteroids for local oral treatment', 'A07EA': 'Corticosteroids acting locally', 'C05AA': 'Corticosteroids', 'D07AA': 'Corticosteroids, weak (group I)', 'D07XA': 'Corticosteroids, weak, other combinations', 'H02AB': 'Glucocorticoids', 'R01AD': 'Corticosteroids', 'S01BA': 'Corticosteroids, plain', 'S01CB': 'Corticosteroids/antiinfectives/mydriatics in combination', 'S02BA': 'Corticosteroids', 'S03BA': 'Corticosteroids'}",
+        "kegg D00981 codes=['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] l5={'A01AC04': 'Prednisolone', 'A07EA01': 'Prednisolone', 'C05AA04': 'Prednisolone', 'D07AA03': 'Prednisolone', 'D07XA02': 'Prednisolone', 'H02AB06': 'Prednisolone', 'R01AD02': 'Prednisolone', 'S01BA04': 'Prednisolone', 'S01CB02': 'Prednisolone', 'S02BA03': 'Prednisolone', 'S03BA02': 'Prednisolone'} l4={'A01AC': 'Corticosteroids for local oral treatment', 'A07EA': 'Corticosteroids acting locally', 'C05AA': 'Corticosteroids', 'D07AA': 'Corticosteroids, weak (group I)', 'D07XA': 'Corticosteroids, weak, other combinations', 'H02AB': 'Glucocorticoids', 'R01AD': 'Corticosteroids', 'S01BA': 'Corticosteroids, plain', 'S01CB': 'Corticosteroids/antiinfectives/mydriatics in combination', 'S02BA': 'Corticosteroids', 'S03BA': 'Corticosteroids'}",
+        "specificity: ['A01AC04', 'A01AC54', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'R01AD52', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] -> ['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] (l5 names {'A01AC04': 'Prednisolone', 'A07EA01': 'Prednisolone', 'C05AA04': 'Prednisolone', 'D07AA03': 'Prednisolone', 'D07XA02': 'Prednisolone', 'H02AB06': 'Prednisolone', 'R01AD02': 'Prednisolone', 'S01BA04': 'Prednisolone', 'S01CB02': 'Prednisolone', 'S02BA03': 'Prednisolone', 'S03BA02': 'Prednisolone'})",
+        "combo-group rule: ['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02', 'A01AC54', 'R01AD52'] -> ['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'H02AB06', 'R01AD02', 'S01BA04', 'S02BA03', 'S03BA02', 'A01AC54', 'R01AD52'] (l4 groups {'A01AC04': 'Corticosteroids for local oral treatment', 'A07EA01': 'Corticosteroids acting locally', 'C05AA04': 'Corticosteroids', 'D07AA03': 'Corticosteroids, weak (group I)', 'D07XA02': 'Corticosteroids, weak, other combinations', 'H02AB06': 'Glucocorticoids', 'R01AD02': 'Corticosteroids', 'S01BA04': 'Corticosteroids, plain', 'S01CB02': 'Corticosteroids/antiinfectives/mydriatics in combination', 'S02BA03': 'Corticosteroids', 'S03BA02': 'Corticosteroids', 'A01AC54': 'Corticosteroids for local oral treatment', 'R01AD52': 'Corticosteroids'})",
+        "unresolved: pool=['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'H02AB06', 'R01AD02', 'S01BA04', 'S02BA03', 'S03BA02', 'A01AC54', 'R01AD52'] route_filter(systemic)=['A07EA01', 'C05AA04', 'H02AB06']"
+      ],
+      "route": "systemic"
+    },
+    "53701": {
+      "generic_code": "53701",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'H02AB06', 'R01AD02', 'S01BA04', 'S02BA03', 'S03BA02', 'A01AC54', 'R01AD52']",
+      "evidence": [
+        "chembl pref_name__iexact='PREDNISOLONE (AS SODIUM PHOSPHATE)' -> [] -> []",
+        "chembl pref_name__iexact='PREDNISOLONE' -> ['CHEMBL131'] -> ['A01AC04', 'A01AC54', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'R01AD52', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02']",
+        "kegg find 'PREDNISOLONE' -> ['D00407', 'D00472', 'D00751', 'D00979', 'D00980', 'D00981', 'D00982', 'D01239', 'D01998', 'D02156', 'D03301', 'D04227', 'D04228', 'D04250', 'D04251', 'D04753', 'D04769', 'D05000', 'D05001', 'D05002', 'D07203', 'D08412', 'D08413', 'D08414', 'D08415', 'D10302', 'D11699']",
+        "kegg D00407 name 'Methylprednisolone (JP19/USP/INN)' set ['methylprednisolone'] != own ['prednisolone']: skipped",
+        "kegg D00472 codes=['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] l5={'A01AC04': 'Prednisolone', 'A07EA01': 'Prednisolone', 'C05AA04': 'Prednisolone', 'D07AA03': 'Prednisolone', 'D07XA02': 'Prednisolone', 'H02AB06': 'Prednisolone', 'R01AD02': 'Prednisolone', 'S01BA04': 'Prednisolone', 'S01CB02': 'Prednisolone', 'S02BA03': 'Prednisolone', 'S03BA02': 'Prednisolone'} l4={'A01AC': 'Corticosteroids for local oral treatment', 'A07EA': 'Corticosteroids acting locally', 'C05AA': 'Corticosteroids', 'D07AA': 'Corticosteroids, weak (group I)', 'D07XA': 'Corticosteroids, weak, other combinations', 'H02AB': 'Glucocorticoids', 'R01AD': 'Corticosteroids', 'S01BA': 'Corticosteroids, plain', 'S01CB': 'Corticosteroids/antiinfectives/mydriatics in combination', 'S02BA': 'Corticosteroids', 'S03BA': 'Corticosteroids'}",
+        "kegg D00751 name 'Methylprednisolone sodium succinate (JAN/USP)' set ['methylprednisolone'] != own ['prednisolone']: skipped",
+        "kegg D00979 name 'Methylprednisolone acetate (JAN/USP)' set ['methylprednisolone'] != own ['prednisolone']: skipped",
+        "kegg D00980 codes=['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] l5={'A01AC04': 'Prednisolone', 'A07EA01': 'Prednisolone', 'C05AA04': 'Prednisolone', 'D07AA03': 'Prednisolone', 'D07XA02': 'Prednisolone', 'H02AB06': 'Prednisolone', 'R01AD02': 'Prednisolone', 'S01BA04': 'Prednisolone', 'S01CB02': 'Prednisolone', 'S02BA03': 'Prednisolone', 'S03BA02': 'Prednisolone'} l4={'A01AC': 'Corticosteroids for local oral treatment', 'A07EA': 'Corticosteroids acting locally', 'C05AA': 'Corticosteroids', 'D07AA': 'Corticosteroids, weak (group I)', 'D07XA': 'Corticosteroids, weak, other combinations', 'H02AB': 'Glucocorticoids', 'R01AD': 'Corticosteroids', 'S01BA': 'Corticosteroids, plain', 'S01CB': 'Corticosteroids/antiinfectives/mydriatics in combination', 'S02BA': 'Corticosteroids', 'S03BA': 'Corticosteroids'}",
+        "kegg D00981 codes=['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] l5={'A01AC04': 'Prednisolone', 'A07EA01': 'Prednisolone', 'C05AA04': 'Prednisolone', 'D07AA03': 'Prednisolone', 'D07XA02': 'Prednisolone', 'H02AB06': 'Prednisolone', 'R01AD02': 'Prednisolone', 'S01BA04': 'Prednisolone', 'S01CB02': 'Prednisolone', 'S02BA03': 'Prednisolone', 'S03BA02': 'Prednisolone'} l4={'A01AC': 'Corticosteroids for local oral treatment', 'A07EA': 'Corticosteroids acting locally', 'C05AA': 'Corticosteroids', 'D07AA': 'Corticosteroids, weak (group I)', 'D07XA': 'Corticosteroids, weak, other combinations', 'H02AB': 'Glucocorticoids', 'R01AD': 'Corticosteroids', 'S01BA': 'Corticosteroids, plain', 'S01CB': 'Corticosteroids/antiinfectives/mydriatics in combination', 'S02BA': 'Corticosteroids', 'S03BA': 'Corticosteroids'}",
+        "specificity: ['A01AC04', 'A01AC54', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'R01AD52', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] -> ['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02'] (l5 names {'A01AC04': 'Prednisolone', 'A07EA01': 'Prednisolone', 'C05AA04': 'Prednisolone', 'D07AA03': 'Prednisolone', 'D07XA02': 'Prednisolone', 'H02AB06': 'Prednisolone', 'R01AD02': 'Prednisolone', 'S01BA04': 'Prednisolone', 'S01CB02': 'Prednisolone', 'S02BA03': 'Prednisolone', 'S03BA02': 'Prednisolone'})",
+        "combo-group rule: ['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'D07XA02', 'H02AB06', 'R01AD02', 'S01BA04', 'S01CB02', 'S02BA03', 'S03BA02', 'A01AC54', 'R01AD52'] -> ['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'H02AB06', 'R01AD02', 'S01BA04', 'S02BA03', 'S03BA02', 'A01AC54', 'R01AD52'] (l4 groups {'A01AC04': 'Corticosteroids for local oral treatment', 'A07EA01': 'Corticosteroids acting locally', 'C05AA04': 'Corticosteroids', 'D07AA03': 'Corticosteroids, weak (group I)', 'D07XA02': 'Corticosteroids, weak, other combinations', 'H02AB06': 'Glucocorticoids', 'R01AD02': 'Corticosteroids', 'S01BA04': 'Corticosteroids, plain', 'S01CB02': 'Corticosteroids/antiinfectives/mydriatics in combination', 'S02BA03': 'Corticosteroids', 'S03BA02': 'Corticosteroids', 'A01AC54': 'Corticosteroids for local oral treatment', 'R01AD52': 'Corticosteroids'})",
+        "unresolved: pool=['A01AC04', 'A07EA01', 'C05AA04', 'D07AA03', 'H02AB06', 'R01AD02', 'S01BA04', 'S02BA03', 'S03BA02', 'A01AC54', 'R01AD52'] route_filter(systemic)=['A07EA01', 'C05AA04', 'H02AB06']"
+      ],
+      "route": "systemic"
+    },
+    "53806": {
+      "generic_code": "53806",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['A06AB08', 'A06AB58']",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM PICOSULFATE' -> ['CHEMBL1697768'] -> ['A06AB08', 'A06AB58']",
+        "kegg find 'SODIUM PICOSULFATE' -> ['D01612', 'D10793']",
+        "kegg D01612 name 'Sodium picosulfate hydrate (JP19)' set ['sodium picosulfate hydrate'] != own ['sodium picosulfate']: skipped",
+        "kegg D10793 name 'Sodium picosulfate hydrate, magnesium oxide and citric acid, anhydrous' set ['anhydrous', 'citric acid', 'magnesium oxide', 'sodium picosulfate hydrate'] != own ['sodium picosulfate']: skipped",
+        "unresolved: pool=['A06AB08', 'A06AB58'] route_filter(systemic)=['A06AB08', 'A06AB58']"
+      ],
+      "route": "systemic"
+    },
+    "547": {
+      "generic_code": "547",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['S01JA01', 'S01JA51']",
+      "evidence": [
+        "chembl pref_name__iexact='FLUORESCEIN SODIUM' -> ['CHEMBL1628233'] -> []",
+        "chembl pref_name__iexact='FLUORESCEIN' -> ['CHEMBL1057'] -> ['S01JA01', 'S01JA51']",
+        "kegg find 'FLUORESCEIN SODIUM' -> ['D02024', 'D11645']",
+        "kegg D02024 codes=['S01JA01'] l5={'S01JA01': 'Fluorescein'} l4={'S01JA': 'Colouring agents'}",
+        "kegg D11645 name 'Fluorescein sodium and benoxinate hydrochloride' set ['benoxinate', 'fluorescein'] != own ['fluorescein']: skipped",
+        "specificity: ['S01JA01', 'S01JA51'] -> ['S01JA01'] (l5 names {'S01JA01': 'Fluorescein'})",
+        "unresolved: pool=['S01JA01', 'S01JA51'] route_filter(parenteral)=[]"
+      ],
+      "route": "parenteral"
+    },
+    "553": {
+      "generic_code": "553",
+      "accepted": "N05AB02",
+      "source": "ChEMBL pref_name=FLUPHENAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='FLUPHENAZINE' -> ['CHEMBL726'] -> ['N05AB02']"
+      ],
+      "route": "systemic"
+    },
+    "554": {
+      "generic_code": "554",
+      "accepted": "N05AB02",
+      "source": "ChEMBL pref_name=FLUPHENAZINE",
+      "evidence": [
+        "chembl pref_name__iexact='FLUPHENAZINE' -> ['CHEMBL726'] -> ['N05AB02']"
+      ],
+      "route": "systemic"
+    },
+    "5637": {
+      "generic_code": "5637",
+      "accepted": "C03BA11",
+      "source": "ChEMBL pref_name=INDAPAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='INDAPAMIDE' -> ['CHEMBL406'] -> ['C03BA11']"
+      ],
+      "route": "systemic"
+    },
+    "5702": {
+      "generic_code": "5702",
+      "accepted": "J01CR05",
+      "source": "level-5-name specificity",
+      "evidence": [
+        "kegg find 'PIPERACILLIN and TAZOBACTAM' -> ['D02505']",
+        "kegg D02505 codes=['J01CR05', 'J01RA01'] l5={'J01CR05': 'Piperacillin and beta-lactamase inhibitor', 'J01RA01': 'Penicillins, combinations with other antibacterials'} l4={'J01CR': 'Combinations of penicillins, incl. beta-lactamase inhibitors', 'J01RA': 'Combinations of antibacterials'}",
+        "specificity: ['J01CR05', 'J01RA01'] -> ['J01CR05'] (l5 names {'J01CR05': 'Piperacillin and beta-lactamase inhibitor', 'J01RA01': 'Penicillins, combinations with other antibacterials'})"
+      ],
+      "route": "parenteral"
+    },
+    "5962": {
+      "generic_code": "5962",
+      "accepted": "P02CF01",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='IVERMECTIN' -> ['CHEMBL6067487'] -> ['D11AX22', 'P02CF01']",
+        "kegg find 'IVERMECTIN' -> ['D00804']",
+        "kegg D00804 codes=['D11AX22', 'P02CF01'] l5={'D11AX22': 'Ivermectin', 'P02CF01': 'Ivermectin'} l4={'D11AX': 'Other dermatologicals', 'P02CF': 'Avermectines'}",
+        "route systemic: ['D11AX22', 'P02CF01'] -> ['P02CF01']"
+      ],
+      "route": "systemic"
+    },
+    "5966": {
+      "generic_code": "5966",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='INFLUENZA VACCINE, INACTIVATED, TRIVALENT' -> [] -> []",
+        "kegg find 'INFLUENZA VACCINE, INACTIVATED, TRIVALENT' -> []"
+      ],
+      "route": "parenteral"
+    },
+    "5974": {
+      "generic_code": "5974",
+      "accepted": "L04AK01",
+      "source": "ChEMBL pref_name=LEFLUNOMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='LEFLUNOMIDE' -> ['CHEMBL960'] -> ['L04AK01']"
+      ],
+      "route": "systemic"
+    },
+    "5979": {
+      "generic_code": "5979",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['V03AB17', 'V04CG05']",
+      "evidence": [
+        "chembl pref_name__iexact='METHYLENE BLUE' -> ['CHEMBL550495'] -> []",
+        "kegg find 'METHYLENE BLUE' -> ['D02312', 'D10537']",
+        "kegg D02312 codes=['V03AB17', 'V04CG05'] l5={'V03AB17': 'Methylthioninium chloride', 'V04CG05': 'Methylthioninium chloride'} l4={'V03AB': 'Antidotes', 'V04CG': 'Tests for gastric secretion'}",
+        "kegg D10537 name 'Methylthioninium chloride hydrate (JAN)' set ['methylthioninium chloride hydrate'] != own ['methylene blue']: skipped",
+        "unresolved: pool=['V03AB17', 'V04CG05'] route_filter(parenteral)=['V03AB17', 'V04CG05']"
+      ],
+      "route": "parenteral"
+    },
+    "5997": {
+      "generic_code": "5997",
+      "accepted": "D10AX03",
+      "source": "ChEMBL pref_name=AZELAIC ACID",
+      "evidence": [
+        "chembl pref_name__iexact='AZELAIC ACID' -> ['CHEMBL1238'] -> ['D10AX03']"
+      ],
+      "route": "topical"
+    },
+    "6353": {
+      "generic_code": "6353",
+      "accepted": "A16AB05",
+      "source": "ChEMBL pref_name=LARONIDASE",
+      "evidence": [
+        "chembl pref_name__iexact='LARONIDASE' -> ['CHEMBL1201595'] -> ['A16AB05']"
+      ],
+      "route": "parenteral"
+    },
+    "6403": {
+      "generic_code": "6403",
+      "accepted": "A16AX03",
+      "source": "ChEMBL pref_name=SODIUM PHENYLBUTYRATE",
+      "evidence": [
+        "chembl pref_name__iexact='SODIUM PHENYLBUTYRATE' -> ['CHEMBL1746'] -> ['A16AX03']"
+      ],
+      "route": "systemic"
+    },
+    "6435": {
+      "generic_code": "6435",
+      "accepted": "A16AX12",
+      "source": "ChEMBL pref_name=TRIENTINE",
+      "evidence": [
+        "chembl pref_name__iexact='TRIENTINE DIHYDROCHLORIDE' -> [] -> []",
+        "chembl pref_name__iexact='TRIENTINE' -> ['CHEMBL609'] -> ['A16AX12']"
+      ],
+      "route": "systemic"
+    },
+    "6453": {
+      "generic_code": "6453",
+      "accepted": "B01AC23",
+      "source": "ChEMBL pref_name=CILOSTAZOL",
+      "evidence": [
+        "chembl pref_name__iexact='CILOSTAZOL' -> ['CHEMBL799'] -> ['B01AC23']"
+      ],
+      "route": "systemic"
+    },
+    "6459": {
+      "generic_code": "6459",
+      "accepted": "C01DX16",
+      "source": "ChEMBL pref_name=NICORANDIL",
+      "evidence": [
+        "chembl pref_name__iexact='NICORANDIL' -> ['CHEMBL284906'] -> ['C01DX16']"
+      ],
+      "route": "systemic"
+    },
+    "6461": {
+      "generic_code": "6461",
+      "accepted": "C01DX16",
+      "source": "ChEMBL pref_name=NICORANDIL",
+      "evidence": [
+        "chembl pref_name__iexact='NICORANDIL' -> ['CHEMBL284906'] -> ['C01DX16']"
+      ],
+      "route": "systemic"
+    },
+    "6507": {
+      "generic_code": "6507",
+      "accepted": "L01CE01",
+      "source": "ChEMBL pref_name=TOPOTECAN",
+      "evidence": [
+        "chembl pref_name__iexact='TOPOTECAN (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='TOPOTECAN' -> ['CHEMBL84'] -> ['L01CE01']"
+      ],
+      "route": "parenteral"
+    },
+    "6540": {
+      "generic_code": "6540",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='VITAMIN B2 (RIBOFLAVIN)' -> [] -> []",
+        "chembl pref_name__iexact='VITAMIN B2' -> [] -> []",
+        "kegg find 'VITAMIN B2' -> []"
+      ],
+      "route": "systemic"
+    },
+    "6583": {
+      "generic_code": "6583",
+      "accepted": "D06BB10",
+      "source": "ChEMBL pref_name=IMIQUIMOD",
+      "evidence": [
+        "chembl pref_name__iexact='IMIQUIMOD' -> ['CHEMBL1282'] -> ['D06BB10']"
+      ],
+      "route": "topical"
+    },
+    "6700": {
+      "generic_code": "6700",
+      "accepted": "L01AB01",
+      "source": "ChEMBL pref_name=BUSULFAN",
+      "evidence": [
+        "chembl pref_name__iexact='BUSULFAN' -> ['CHEMBL820'] -> ['L01AB01']"
+      ],
+      "route": "parenteral"
+    },
+    "6783": {
+      "generic_code": "6783",
+      "accepted": "H01CC01",
+      "source": "ChEMBL pref_name=GANIRELIX",
+      "evidence": [
+        "chembl pref_name__iexact='GANIRELIX (AS ACETATE)' -> [] -> []",
+        "chembl pref_name__iexact='GANIRELIX' -> ['CHEMBL1251'] -> ['H01CC01']"
+      ],
+      "route": "parenteral"
+    },
+    "682": {
+      "generic_code": "682",
+      "accepted": "L03AB05",
+      "source": "ChEMBL pref_name=INTERFERON ALFA-2B",
+      "evidence": [
+        "chembl pref_name__iexact='INTERFERON ALFA-2B' -> ['CHEMBL1201558'] -> ['L03AB05']"
+      ],
+      "route": "parenteral"
+    },
+    "6859": {
+      "generic_code": "6859",
+      "accepted": "S01LA01",
+      "source": "ChEMBL pref_name=VERTEPORFIN",
+      "evidence": [
+        "chembl pref_name__iexact='VERTEPORFIN' -> ['CHEMBL5314346'] -> ['S01LA01']"
+      ],
+      "route": "parenteral"
+    },
+    "711": {
+      "generic_code": "711",
+      "accepted": "N06AF01",
+      "source": "ChEMBL pref_name=ISOCARBOXAZID",
+      "evidence": [
+        "chembl pref_name__iexact='ISOCARBOXAZID' -> ['CHEMBL1201168'] -> ['N06AF01']"
+      ],
+      "route": "systemic"
+    },
+    "7469": {
+      "generic_code": "7469",
+      "accepted": "B01AC16",
+      "source": "ChEMBL pref_name=EPTIFIBATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='EPTIFIBATIDE' -> ['CHEMBL1174'] -> ['B01AC16']"
+      ],
+      "route": "parenteral"
+    },
+    "7470": {
+      "generic_code": "7470",
+      "accepted": "B01AC16",
+      "source": "ChEMBL pref_name=EPTIFIBATIDE",
+      "evidence": [
+        "chembl pref_name__iexact='EPTIFIBATIDE' -> ['CHEMBL1174'] -> ['B01AC16']"
+      ],
+      "route": "parenteral"
+    },
+    "7659": {
+      "generic_code": "7659",
+      "accepted": "L01XX35",
+      "source": "ChEMBL pref_name=ANAGRELIDE",
+      "evidence": [
+        "chembl pref_name__iexact='ANAGRELIDE HYDROCHLORIDE' -> ['CHEMBL1200759'] -> []",
+        "chembl pref_name__iexact='ANAGRELIDE' -> ['CHEMBL760'] -> ['L01XX35']"
+      ],
+      "route": "systemic"
+    },
+    "783": {
+      "generic_code": "783",
+      "accepted": "N06AA21",
+      "source": "ChEMBL pref_name=MAPROTILINE",
+      "evidence": [
+        "chembl pref_name__iexact='MAPROTILINE HYDROCHLORIDE' -> ['CHEMBL1237135'] -> []",
+        "chembl pref_name__iexact='MAPROTILINE' -> ['CHEMBL21731'] -> ['N06AA21']"
+      ],
+      "route": "systemic"
+    },
+    "784": {
+      "generic_code": "784",
+      "accepted": "N06AA21",
+      "source": "ChEMBL pref_name=MAPROTILINE",
+      "evidence": [
+        "chembl pref_name__iexact='MAPROTILINE HYDROCHLORIDE' -> ['CHEMBL1237135'] -> []",
+        "chembl pref_name__iexact='MAPROTILINE' -> ['CHEMBL21731'] -> ['N06AA21']"
+      ],
+      "route": "systemic"
+    },
+    "7913": {
+      "generic_code": "7913",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='SUCCIMER' -> ['CHEMBL1201073'] -> []",
+        "kegg find 'SUCCIMER' -> ['D00572', 'D02025']",
+        "kegg D00572 codes=[] l5={} l4={}",
+        "kegg D02025 name 'Technetium Tc 99m succimer (USP)' set ['technetium tc 99m succimer'] != own ['succimer']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "803": {
+      "generic_code": "803",
+      "accepted": "L01AA03",
+      "source": "ChEMBL pref_name=MELPHALAN",
+      "evidence": [
+        "chembl pref_name__iexact='MELPHALAN' -> ['CHEMBL852'] -> ['L01AA03']"
+      ],
+      "route": "systemic"
+    },
+    "8081": {
+      "generic_code": "8081",
+      "accepted": "R05CB13",
+      "source": "ChEMBL pref_name=DORNASE ALFA",
+      "evidence": [
+        "chembl pref_name__iexact='DORNASE ALFA (DESOXYRIBONUCLEASE)' -> [] -> []",
+        "chembl pref_name__iexact='DORNASE ALFA' -> ['CHEMBL1201431'] -> ['R05CB13']"
+      ],
+      "route": "respiratory"
+    },
+    "8108": {
+      "generic_code": "8108",
+      "accepted": "L01EB01",
+      "source": "ChEMBL pref_name=GEFITINIB",
+      "evidence": [
+        "chembl pref_name__iexact='GEFITINIB' -> ['CHEMBL939'] -> ['L01EB01']"
+      ],
+      "route": "systemic"
+    },
+    "814": {
+      "generic_code": "814",
+      "accepted": "V03AF01",
+      "source": "route filter (parenteral)",
+      "evidence": [
+        "chembl pref_name__iexact='MESNA' -> ['CHEMBL975'] -> ['R05CB05', 'V03AF01']",
+        "kegg find 'MESNA' -> ['D01459']",
+        "kegg D01459 codes=['R05CB05', 'V03AF01'] l5={'R05CB05': 'Mesna', 'V03AF01': 'Mesna'} l4={'R05CB': 'Mucolytics', 'V03AF': 'Detoxifying agents for antineoplastic treatment'}",
+        "route parenteral: ['R05CB05', 'V03AF01'] -> ['V03AF01']"
+      ],
+      "route": "parenteral"
+    },
+    "833": {
+      "generic_code": "833",
+      "accepted": "G02AB01",
+      "source": "ChEMBL pref_name=METHYLERGONOVINE",
+      "evidence": [
+        "chembl pref_name__iexact='METHYLERGONOVINE MALEATE' -> ['CHEMBL1200843'] -> []",
+        "chembl pref_name__iexact='METHYLERGONOVINE' -> ['CHEMBL1201356'] -> ['G02AB01']"
+      ],
+      "route": "systemic"
+    },
+    "834": {
+      "generic_code": "834",
+      "accepted": "G02AB01",
+      "source": "ChEMBL pref_name=METHYLERGONOVINE",
+      "evidence": [
+        "chembl pref_name__iexact='METHYLERGONOVINE MALEATE' -> ['CHEMBL1200843'] -> []",
+        "chembl pref_name__iexact='METHYLERGONOVINE' -> ['CHEMBL1201356'] -> ['G02AB01']"
+      ],
+      "route": "parenteral"
+    },
+    "8390": {
+      "generic_code": "8390",
+      "accepted": "L02BA03",
+      "source": "ChEMBL pref_name=FULVESTRANT",
+      "evidence": [
+        "chembl pref_name__iexact='FULVESTRANT' -> ['CHEMBL1358'] -> ['L02BA03']"
+      ],
+      "route": "parenteral"
+    },
+    "8426": {
+      "generic_code": "8426",
+      "accepted": "H01AA02",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='TETRACOSACTIDE' -> [] -> []",
+        "kegg find 'TETRACOSACTIDE' -> ['D00284', 'D02105']",
+        "kegg D00284 name 'Cosyntropin (USP)' set ['cosyntropin'] != own ['tetracosactide']: skipped",
+        "kegg D02105 codes=['H01AA02'] l5={'H01AA02': 'Tetracosactide'} l4={'H01AA': 'ACTH'}"
+      ],
+      "route": "parenteral"
+    },
+    "8667": {
+      "generic_code": "8667",
+      "accepted": "C03BA08",
+      "source": "ChEMBL pref_name=METOLAZONE",
+      "evidence": [
+        "chembl pref_name__iexact='METOLAZONE' -> ['CHEMBL878'] -> ['C03BA08']"
+      ],
+      "route": "systemic"
+    },
+    "88": {
+      "generic_code": "88",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='ANTHOCYANOSIDE A' -> [] -> []",
+        "kegg find 'ANTHOCYANOSIDE A' -> []"
+      ],
+      "route": "systemic"
+    },
+    "9037": {
+      "generic_code": "9037",
+      "accepted": "L01XX24",
+      "source": "ChEMBL pref_name=PEGASPARGASE",
+      "evidence": [
+        "chembl pref_name__iexact='PEGASPARGASE' -> ['CHEMBL2108546'] -> ['L01XX24']"
+      ],
+      "route": "parenteral"
+    },
+    "909": {
+      "generic_code": "909",
+      "accepted": null,
+      "reason": "multiple ATCs remain after all filters: ['B05CA03', 'D08AF01', 'D09AA03', 'P01CC02', 'S01AX04', 'S02AA02']",
+      "evidence": [
+        "chembl pref_name__iexact='NITROFURAZONE' -> ['CHEMBL869'] -> ['B05CA03', 'D08AF01', 'D09AA03', 'P01CC02', 'S01AX04', 'S02AA02']",
+        "kegg find 'NITROFURAZONE' -> ['D00862']",
+        "kegg D00862 codes=['B05CA03', 'D08AF01', 'D09AA03', 'P01CC02', 'S01AX04', 'S02AA02'] l5={'B05CA03': 'Nitrofural', 'D08AF01': 'Nitrofural', 'D09AA03': 'Nitrofural', 'P01CC02': 'Nitrofural', 'S01AX04': 'Nitrofural', 'S02AA02': 'Nitrofural'} l4={'B05CA': 'Antiinfectives', 'D08AF': 'Nitrofuran derivatives', 'D09AA': 'Medicated dressings with antiinfectives', 'P01CC': 'Nitrofuran derivatives', 'S01AX': 'Other antiinfectives', 'S02AA': 'Antiinfectives'}",
+        "unresolved: pool=['B05CA03', 'D08AF01', 'D09AA03', 'P01CC02', 'S01AX04', 'S02AA02'] route_filter(topical)=['D08AF01', 'D09AA03']"
+      ],
+      "route": "topical"
+    },
+    "916": {
+      "generic_code": "916",
+      "accepted": "C02DD01",
+      "source": "ChEMBL pref_name=NITROPRUSSIDE",
+      "evidence": [
+        "chembl pref_name__iexact='NITROPRUSSIDE SODIUM' -> [] -> []",
+        "chembl pref_name__iexact='NITROPRUSSIDE' -> ['CHEMBL2097081'] -> ['C02DD01']"
+      ],
+      "route": "parenteral"
+    },
+    "9391": {
+      "generic_code": "9391",
+      "accepted": "L01AA01",
+      "source": "ChEMBL pref_name=CYCLOPHOSPHAMIDE",
+      "evidence": [
+        "chembl pref_name__iexact='CYCLOPHOSPHAMIDE' -> ['CHEMBL1200796'] -> ['L01AA01']"
+      ],
+      "route": "parenteral"
+    },
+    "948": {
+      "generic_code": "948",
+      "accepted": "A03AD01",
+      "source": "route filter (parenteral)",
+      "evidence": [
+        "chembl pref_name__iexact='PAPAVERINE HYDROCHLORIDE' -> ['CHEMBL98123'] -> []",
+        "chembl pref_name__iexact='PAPAVERINE' -> ['CHEMBL19224'] -> ['A03AD01', 'G04BE02', 'G04BE52']",
+        "kegg find 'PAPAVERINE HYDROCHLORIDE' -> ['D02218', 'D04252', 'D04299']",
+        "kegg D02218 codes=['A03AD01', 'G04BE02'] l5={'A03AD01': 'Papaverine', 'G04BE02': 'Papaverine'} l4={'A03AD': 'Papaverine and derivatives', 'G04BE': 'Drugs used in erectile dysfunction'}",
+        "kegg D04252 name 'Nicotinamide and papaverine hydrochloride' set ['nicotinamide', 'papaverine'] != own ['papaverine']: skipped",
+        "kegg D04299 name 'Diprophylline, ephedrine hydrochloride, papaverine hydrochloride, noscapine and diphenhydramine hydrochloride' set ['diphenhydramine', 'diprophylline', 'ephedrine', 'noscapine', 'papaverine'] != own ['papaverine']: skipped",
+        "specificity: ['A03AD01', 'G04BE02', 'G04BE52'] -> ['A03AD01', 'G04BE02'] (l5 names {'A03AD01': 'Papaverine', 'G04BE02': 'Papaverine'})",
+        "route parenteral: ['A03AD01', 'G04BE02', 'G04BE52'] -> ['A03AD01']"
+      ],
+      "route": "parenteral"
+    },
+    "954": {
+      "generic_code": "954",
+      "accepted": "A07AA06",
+      "source": "ChEMBL pref_name=PAROMOMYCIN",
+      "evidence": [
+        "chembl pref_name__iexact='PAROMOMYCIN' -> ['CHEMBL370143'] -> ['A07AA06']"
+      ],
+      "route": "systemic"
+    },
+    "9576": {
+      "generic_code": "9576",
+      "accepted": null,
+      "reason": "no ATC found in ChEMBL/KEGG",
+      "evidence": [
+        "chembl pref_name__iexact='PROTHROMBIN COMPLEX (CONCENTRATED)' -> [] -> []",
+        "chembl pref_name__iexact='PROTHROMBIN COMPLEX' -> [] -> []",
+        "kegg find 'PROTHROMBIN COMPLEX' -> ['D10884']",
+        "kegg D10884 name 'Human prothrombin complex, freeze-dried concentrated' set ['freeze-dried concentrated', 'human prothrombin complex'] != own ['prothrombin complex']: skipped"
+      ],
+      "route": "parenteral"
+    },
+    "9606": {
+      "generic_code": "9606",
+      "accepted": "H01BA02",
+      "source": "ChEMBL pref_name=DESMOPRESSIN",
+      "evidence": [
+        "chembl pref_name__iexact='DESMOPRESSIN (AS ACETATE)' -> [] -> []",
+        "chembl pref_name__iexact='DESMOPRESSIN' -> ['CHEMBL1429'] -> ['H01BA02']"
+      ],
+      "route": "systemic"
+    },
+    "9607": {
+      "generic_code": "9607",
+      "accepted": "H01BA02",
+      "source": "ChEMBL pref_name=DESMOPRESSIN",
+      "evidence": [
+        "chembl pref_name__iexact='DESMOPRESSIN (AS ACETATE)' -> [] -> []",
+        "chembl pref_name__iexact='DESMOPRESSIN' -> ['CHEMBL1429'] -> ['H01BA02']"
+      ],
+      "route": "systemic"
+    },
+    "976": {
+      "generic_code": "976",
+      "accepted": "G04BX06",
+      "source": "ChEMBL pref_name=PHENAZOPYRIDINE",
+      "evidence": [
+        "chembl pref_name__iexact='PHENAZOPYRIDINE HYDROCHLORIDE' -> ['CHEMBL1201022'] -> []",
+        "chembl pref_name__iexact='PHENAZOPYRIDINE' -> ['CHEMBL1242'] -> ['G04BX06']"
+      ],
+      "route": "systemic"
+    },
+    "984": {
+      "generic_code": "984",
+      "accepted": "C04AX02",
+      "source": "ChEMBL pref_name=PHENOXYBENZAMINE",
+      "evidence": [
+        "chembl pref_name__iexact='PHENOXYBENZAMINE' -> ['CHEMBL753'] -> ['C04AX02']"
+      ],
+      "route": "systemic"
+    },
+    "53137": {
+      "generic_code": "53137",
+      "accepted": "L04AC05",
+      "source": "ChEMBL pref_name=USTEKINUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='USTEKINUMAB' -> ['CHEMBL1201835'] -> ['L04AC05']"
+      ],
+      "route": "parenteral"
+    },
+    "53138": {
+      "generic_code": "53138",
+      "accepted": "L04AC05",
+      "source": "ChEMBL pref_name=USTEKINUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='USTEKINUMAB' -> ['CHEMBL1201835'] -> ['L04AC05']"
+      ],
+      "route": "parenteral"
+    },
+    "53139": {
+      "generic_code": "53139",
+      "accepted": "M01AE51",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'IBUPROFEN and FAMOTIDINE' -> ['D11575']",
+        "kegg D11575 codes=['M01AE51'] l5={'M01AE51': 'Ibuprofen, combinations'} l4={'M01AE': 'Propionic acid derivatives'}"
+      ],
+      "route": "systemic"
+    },
+    "53140": {
+      "generic_code": "53140",
+      "accepted": "L04AC16",
+      "source": "ChEMBL pref_name=GUSELKUMAB",
+      "evidence": [
+        "chembl pref_name__iexact='GUSELKUMAB' -> ['CHEMBL2364648'] -> ['L04AC16']"
+      ],
+      "route": "parenteral"
+    },
+    "53157": {
+      "generic_code": "53157",
+      "accepted": "L04AE03",
+      "source": "ChEMBL pref_name=SIPONIMOD",
+      "evidence": [
+        "chembl pref_name__iexact='SIPONIMOD' -> ['CHEMBL2336071'] -> ['L04AE03']"
+      ],
+      "route": "systemic"
+    },
+    "53158": {
+      "generic_code": "53158",
+      "accepted": "L04AE03",
+      "source": "ChEMBL pref_name=SIPONIMOD",
+      "evidence": [
+        "chembl pref_name__iexact='SIPONIMOD' -> ['CHEMBL2336071'] -> ['L04AE03']"
+      ],
+      "route": "systemic"
+    },
+    "53159": {
+      "generic_code": "53159",
+      "accepted": "L04AE03",
+      "source": "ChEMBL pref_name=SIPONIMOD",
+      "evidence": [
+        "chembl pref_name__iexact='SIPONIMOD' -> ['CHEMBL2336071'] -> ['L04AE03']"
+      ],
+      "route": "systemic"
+    },
+    "53163": {
+      "generic_code": "53163",
+      "accepted": "G04BD12",
+      "source": "ChEMBL pref_name=MIRABEGRON",
+      "evidence": [
+        "chembl pref_name__iexact='MIRABEGRON' -> ['CHEMBL2095212'] -> ['G04BD12']"
+      ],
+      "route": "systemic"
+    },
+    "53167": {
+      "generic_code": "53167",
+      "accepted": "J01AA08",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='MINOCYCLINE (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='MINOCYCLINE' -> ['CHEMBL1434'] -> ['A01AB23', 'D10AF07', 'J01AA08']",
+        "kegg find 'MINOCYCLINE' -> ['D00850', 'D05045']",
+        "kegg D00850 codes=['A01AB23', 'D10AF07', 'J01AA08'] l5={'A01AB23': 'Minocycline', 'D10AF07': 'Minocycline', 'J01AA08': 'Minocycline'} l4={'A01AB': 'Antiinfectives and antiseptics for local oral treatment', 'D10AF': 'Antiinfectives for treatment of acne', 'J01AA': 'Tetracyclines'}",
+        "kegg D05045 codes=['A01AB23', 'D10AF07', 'J01AA08'] l5={'A01AB23': 'Minocycline', 'D10AF07': 'Minocycline', 'J01AA08': 'Minocycline'} l4={'A01AB': 'Antiinfectives and antiseptics for local oral treatment', 'D10AF': 'Antiinfectives for treatment of acne', 'J01AA': 'Tetracyclines'}",
+        "route systemic: ['A01AB23', 'D10AF07', 'J01AA08'] -> ['J01AA08']"
+      ],
+      "route": "systemic"
+    },
+    "53168": {
+      "generic_code": "53168",
+      "accepted": "J01AA08",
+      "source": "route filter (systemic)",
+      "evidence": [
+        "chembl pref_name__iexact='MINOCYCLINE (AS HYDROCHLORIDE)' -> [] -> []",
+        "chembl pref_name__iexact='MINOCYCLINE' -> ['CHEMBL1434'] -> ['A01AB23', 'D10AF07', 'J01AA08']",
+        "kegg find 'MINOCYCLINE' -> ['D00850', 'D05045']",
+        "kegg D00850 codes=['A01AB23', 'D10AF07', 'J01AA08'] l5={'A01AB23': 'Minocycline', 'D10AF07': 'Minocycline', 'J01AA08': 'Minocycline'} l4={'A01AB': 'Antiinfectives and antiseptics for local oral treatment', 'D10AF': 'Antiinfectives for treatment of acne', 'J01AA': 'Tetracyclines'}",
+        "kegg D05045 codes=['A01AB23', 'D10AF07', 'J01AA08'] l5={'A01AB23': 'Minocycline', 'D10AF07': 'Minocycline', 'J01AA08': 'Minocycline'} l4={'A01AB': 'Antiinfectives and antiseptics for local oral treatment', 'D10AF': 'Antiinfectives for treatment of acne', 'J01AA': 'Tetracyclines'}",
+        "route systemic: ['A01AB23', 'D10AF07', 'J01AA08'] -> ['J01AA08']"
+      ],
+      "route": "systemic"
+    },
+    "53173": {
+      "generic_code": "53173",
+      "accepted": "C09DA07",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'TELMISARTAN and HYDROCHLOROTHIAZIDE' -> ['D09219', 'D10805']",
+        "kegg D09219 codes=['C09DA07'] l5={'C09DA07': 'Telmisartan and diuretics'} l4={'C09DA': 'Angiotensin II receptor blockers (ARBs) and diuretics'}",
+        "kegg D10805 name 'Telmisartan, amlodipine and hydrochlorothiazide' set ['amlodipine', 'hydrochlorothiazide', 'telmisartan'] != own ['hydrochlorothiazide', 'telmisartan']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "53174": {
+      "generic_code": "53174",
+      "accepted": "C09DA07",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'TELMISARTAN and HYDROCHLOROTHIAZIDE' -> ['D09219', 'D10805']",
+        "kegg D09219 codes=['C09DA07'] l5={'C09DA07': 'Telmisartan and diuretics'} l4={'C09DA': 'Angiotensin II receptor blockers (ARBs) and diuretics'}",
+        "kegg D10805 name 'Telmisartan, amlodipine and hydrochlorothiazide' set ['amlodipine', 'hydrochlorothiazide', 'telmisartan'] != own ['hydrochlorothiazide', 'telmisartan']: skipped"
+      ],
+      "route": "systemic"
+    },
+    "53176": {
+      "generic_code": "53176",
+      "accepted": "L01XK01",
+      "source": "ChEMBL pref_name=OLAPARIB",
+      "evidence": [
+        "chembl pref_name__iexact='OLAPARIB' -> ['CHEMBL521686'] -> ['L01XK01']"
+      ],
+      "route": "systemic"
+    },
+    "53177": {
+      "generic_code": "53177",
+      "accepted": "R03AL11",
+      "source": "unique across ChEMBL+KEGG",
+      "evidence": [
+        "kegg find 'BUDESONIDE and FORMOTEROL FUMARATE and GLYCOPYRRONIUM BROMIDE' -> ['D11584']",
+        "kegg D11584 codes=['R03AL11'] l5={'R03AL11': 'Formoterol, glycopyrronium bromide and budesonide'} l4={'R03AL': 'Adrenergics in combination with anticholinergics incl. triple combinations with corticosteroids'}"
+      ],
+      "route": "respiratory"
+    },
+    "53205": {
+      "generic_code": "53205",
+      "accepted": "C09AA05",
+      "source": "ChEMBL pref_name=RAMIPRIL",
+      "evidence": [
+        "chembl pref_name__iexact='RAMIPRIL' -> ['CHEMBL1168'] -> ['C09AA05']"
+      ],
+      "route": "systemic"
+    },
+    "53206": {
+      "generic_code": "53206",
+      "accepted": "C09AA05",
+      "source": "ChEMBL pref_name=RAMIPRIL",
+      "evidence": [
+        "chembl pref_name__iexact='RAMIPRIL' -> ['CHEMBL1168'] -> ['C09AA05']"
+      ],
+      "route": "systemic"
+    },
+    "53212": {
+      "generic_code": "53212",
+      "accepted": "C01CA03",
+      "source": "ChEMBL pref_name=NOREPINEPHRINE",
+      "evidence": [
+        "chembl pref_name__iexact='NOREPINEPHRINE (AS BITARTRATE)' -> [] -> []",
+        "chembl pref_name__iexact='NOREPINEPHRINE' -> ['CHEMBL1437'] -> ['C01CA03']"
+      ],
+      "route": "parenteral"
+    },
+    "53213": {
+      "generic_code": "53213",
+      "accepted": "C01CA03",
+      "source": "ChEMBL pref_name=NOREPINEPHRINE",
+      "evidence": [
+        "chembl pref_name__iexact='NOREPINEPHRINE (AS BITARTRATE)' -> [] -> []",
+        "chembl pref_name__iexact='NOREPINEPHRINE' -> ['CHEMBL1437'] -> ['C01CA03']"
+      ],
+      "route": "parenteral"
+    },
+    "53218": {
+      "generic_code": "53218",
+      "accepted": "L01EF03",
+      "source": "ChEMBL pref_name=ABEMACICLIB",
+      "evidence": [
+        "chembl pref_name__iexact='ABEMACICLIB' -> ['CHEMBL3301610'] -> ['L01EF03']"
+      ],
+      "route": "systemic"
+    },
+    "53219": {
+      "generic_code": "53219",
+      "accepted": "L01EF03",
+      "source": "ChEMBL pref_name=ABEMACICLIB",
+      "evidence": [
+        "chembl pref_name__iexact='ABEMACICLIB' -> ['CHEMBL3301610'] -> ['L01EF03']"
+      ],
+      "route": "systemic"
+    },
+    "53220": {
+      "generic_code": "53220",
+      "accepted": "L01EF03",
+      "source": "ChEMBL pref_name=ABEMACICLIB",
+      "evidence": [
+        "chembl pref_name__iexact='ABEMACICLIB' -> ['CHEMBL3301610'] -> ['L01EF03']"
+      ],
+      "route": "systemic"
+    },
+    "53224": {
+      "generic_code": "53224",
+      "accepted": "N02CC01",
+      "source": "ChEMBL pref_name=SUMATRIPTAN",
+      "evidence": [
+        "chembl pref_name__iexact='SUMATRIPTAN' -> ['CHEMBL128'] -> ['N02CC01']"
+      ],
+      "route": "nasal"
+    },
+    "53235": {
+      "generic_code": "53235",
+      "accepted": "L04AA32",
+      "source": "ChEMBL pref_name=APREMILAST",
+      "evidence": [
+        "chembl pref_name__iexact='APREMILAST' -> ['CHEMBL514800'] -> ['L04AA32']"
+      ],
+      "route": "systemic"
+    }
+  }
+}

@@ -15,9 +15,11 @@ Data & caveats (enforced by every tool below; see data/SOURCES.md):
     files; in the aggregates it was completed first via a generic_code ->
     ATC map (scripts/fix_atc.py, zero conflicts) to 18.9% / 19.9% of rows,
     then via an exact ingredient-name lookup across the other files
-    (scripts/fix_atc_round2.py, 270 generics) to 12.0% / 13.0% of rows
-    (14.9% / 19.0% of consumer value). 473 generics still have no ATC
-    anywhere. ATC breakdowns never sum to the market total.
+    (scripts/fix_atc_round2.py, 270 generics) to 12.0% / 13.0% of rows,
+    then via route/form disambiguation (36 generics) and ChEMBL/KEGG
+    lookups (337 generics, scripts/fix_atc_round3.py) to 2.6% / 2.7%
+    of rows (1.2% / 0.9% of consumer value). 100 generics still have
+    no ATC anywhere. ATC breakdowns never sum to the market total.
   * Province files (1404, months 1/6/12 only) do NOT reconcile with the
     national monthly totals (m01 -20.2% units, m06 +5.6%, m12 -18.5%).
     Different cuts — never sum or compare them with national totals.
@@ -49,6 +51,7 @@ AGG_DIR = REPO_ROOT / "data" / "aggregates"
 STATS_PATH = REPO_ROOT / "data" / "stats.json"
 REPORT_PATH = REPO_ROOT / "data" / "atc_fix_report.json"
 REPORT2_PATH = REPO_ROOT / "data" / "atc_fix_report_round2.json"
+REPORT3_PATH = REPO_ROOT / "data" / "atc_fix_report_round3.json"
 
 CURRENCY_NOTE = "All money values are in Rial. Toman = Rial / 10."
 H1_WARNING = (
@@ -63,12 +66,13 @@ MONTH_BLANK_NOTE = (
     "are below the yearly total."
 )
 ATC_WARNING = (
-    "ATC code is blank for 12.0% of 1404 aggregate rows / 13.0% of 1405 "
-    "rows (14.9% / 19.0% of consumer value) after completion, first from "
-    "the generic_code -> ATC map (scripts/fix_atc.py, zero conflicts) and "
-    "then from an exact ingredient-name lookup across the other files "
-    "(scripts/fix_atc_round2.py, 270 generics); the raw files were 46.2% "
-    "/ 51.7% blank. 473 generics still have no ATC anywhere. ATC-based "
+    "ATC code is blank for 2.6% of 1404 aggregate rows / 2.7% of 1405 "
+    "rows (1.2% / 0.9% of consumer value) after completion: generic_code "
+    "-> ATC map (scripts/fix_atc.py, zero conflicts), exact "
+    "ingredient-name lookup (scripts/fix_atc_round2.py, 270 generics), "
+    "then route/form disambiguation + ChEMBL/KEGG lookups "
+    "(scripts/fix_atc_round3.py, 373 generics); the raw files were 46.2% "
+    "/ 51.7% blank. 100 generics still have no ATC anywhere. ATC-based "
     "totals UNDERSTATE the market; use generic_code for market totals."
 )
 PROVINCE_WARNING = (
@@ -610,7 +614,7 @@ def data_coverage() -> str:
         ],
         "catalog": "docs/data.json lists a catalog of 2,339 generic entries "
                    "(2,330 distinct generic_code values) across 1404 and "
-                   "1405-H1; 743 of them have no ATC code.",
+                   "1405-H1; 100 of them have no ATC code.",
         "files_used": [
             "data/aggregates/generic_monthly.parquet",
             "data/aggregates/brand_year.parquet",
@@ -632,7 +636,7 @@ def data_coverage() -> str:
         pass
     try:
         # Post-fix aggregate shares (raw-file shares above are unchanged).
-        # Round-2 report wins when present; rows_filled is cumulative.
+        # Round-3 report wins when present; rows_filled is cumulative.
         rep = json.loads(REPORT_PATH.read_text(encoding="utf-8"))
         rows_filled = rep["rows_filled"]
         method = "generic_code -> ATC map, scripts/fix_atc.py"
@@ -641,6 +645,11 @@ def data_coverage() -> str:
             rows_filled += rep["rows_filled"]
             method += (" + exact ingredient-name lookup across the other "
                        "files, scripts/fix_atc_round2.py")
+        if REPORT3_PATH.exists():
+            rep = json.loads(REPORT3_PATH.read_text(encoding="utf-8"))
+            rows_filled += rep["rows_filled"]
+            method += (" + route/form disambiguation and ChEMBL/KEGG "
+                       "lookups, scripts/fix_atc_round3.py")
         coverage["blank_atc_after_fix"] = {
             "1404": f"{rep['after']['1404']['blank_rows_pct']:.1%} of aggregate rows "
                     f"({rep['after']['1404']['blank_value_pct']:.1%} of consumer value)",

@@ -97,8 +97,10 @@ call_tool) and checks the results against the verified market totals.
   aggregates were completed first via a generic_code -> ATC map
   (scripts/fix_atc.py, zero conflicts) to 18.9% / 19.9% of rows, then via
   an exact ingredient-name lookup across the other files
-  (scripts/fix_atc_round2.py, 270 generics) to 12.0% / 13.0% of rows
-  (14.9% / 19.0% of consumer value). 473 generics still have no ATC
+  (scripts/fix_atc_round2.py, 270 generics) to 12.0% / 13.0% of rows,
+  then via route/form disambiguation (36 generics) and ChEMBL/KEGG
+  lookups (337 generics, scripts/fix_atc_round3.py) to 2.6% / 2.7% of
+  rows (1.2% / 0.9% of consumer value). 100 generics still have no ATC
   anywhere. ATC totals understate the market; use generic codes for
   market totals.
 - **Province files do not reconcile** with national monthly totals
