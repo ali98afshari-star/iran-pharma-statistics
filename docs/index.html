@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>آمار اقتصادی دارویی ایران — داشبورد</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>آمار اقتصادی دارویی ایران</h1>
+    <p class="subtitle">داشبورد آمار اقتصادی دارویی ایران بر پایهٔ سالنامه‌های رسمی سازمان غذا و دارو — سال ۱۴۰۴ (کامل) و نیمهٔ اول ۱۴۰۵</p>
+    <nav class="toc">
+      <a href="#overview">شاخص‌های کلیدی</a>
+      <a href="#monthly">روند ماهانه</a>
+      <a href="#top">پرفروش‌ترین‌ها</a>
+      <a href="#search">جست‌وجوی دارو</a>
+      <a href="#atc">گروه‌های ATC</a>
+      <a href="#provinces">استان‌ها</a>
+      <a href="#caveats">نکته‌های مهم</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="load-error" class="alert error" hidden></div>
+
+  <section id="overview" aria-labelledby="overview-h">
+    <h2 id="overview-h">شاخص‌های کلیدی</h2>
+    <div class="cards" id="key-cards"></div>
+    <p class="note" id="price-note"></p>
+  </section>
+
+  <section id="monthly" aria-labelledby="monthly-h">
+    <h2 id="monthly-h">روند ماهانهٔ بازار دارو</h2>
+    <p class="desc">واحد فروش (میلیارد عدد) و ارزش مصرف‌کننده (هزار میلیارد تومان) برای ماه‌های فروردین ۱۴۰۴ تا شهریور ۱۴۰۵.</p>
+    <div class="chart-box">
+      <svg id="monthly-chart" viewBox="0 0 960 380" role="img" aria-label="نمودار روند ماهانه"></svg>
+      <div class="legend">
+        <span><i class="swatch bar"></i> ارزش مصرف‌کننده (هزار میلیارد تومان)</span>
+        <span><i class="swatch line"></i> واحد فروش (میلیارد عدد)</span>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table id="monthly-table">
+        <thead><tr><th>سال</th><th>ماه</th><th>تعداد بسته</th><th>واحد فروش (عدد)</th><th>ارزش مصرف‌کننده (میلیارد تومان)</th><th>ارزش داروخانه (میلیارد تومان)</th><th>ارزش توزیع‌کننده (میلیارد تومان)</th><th>کد ژنریک یکتا</th><th>برند یکتا</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note" id="blank-month-note"></p>
+  </section>
+
+  <section id="top" aria-labelledby="top-h">
+    <h2 id="top-h">۲۰ ژنریک پرفروش از نظر ارزش</h2>
+    <div class="tabs" role="tablist">
+      <button type="button" class="tab active" data-top-year="1404">سال ۱۴۰۴</button>
+      <button type="button" class="tab" data-top-year="1405">نیمهٔ اول ۱۴۰۵</button>
+    </div>
+    <div class="table-wrap">
+      <table id="top-table">
+        <thead><tr><th>#</th><th>نام ژنریک</th><th>کد ژنریک</th><th>واحد فروش (عدد)</th><th>ارزش مصرف‌کننده (میلیارد تومان)</th><th>سهم از ارزش کل</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note" id="top-note"></p>
+  </section>
+
+  <section id="search" aria-labelledby="search-h">
+    <h2 id="search-h">جست‌وجوی دارو</h2>
+    <p class="desc">بر اساس نام ژنریک (لاتین)، کد ژنریک یا کد ATC جست‌وجو کنید. حداکثر ۵۰ نتیجه نمایش داده می‌شود.</p>
+    <div class="search-box">
+      <input type="search" id="drug-query" placeholder="مثلاً AMOXICILLIN یا 77 یا J01CA04" aria-label="جست‌وجوی دارو">
+      <span id="search-count" class="muted"></span>
+    </div>
+    <div class="table-wrap">
+      <table id="search-table">
+        <thead><tr><th>نام ژنریک</th><th>کد ژنریک</th><th>ATC</th><th>واحد ۱۴۰۴</th><th>ارزش ۱۴۰۴ (میلیارد تومان)</th><th>واحد ۱۴۰۵ (نیمهٔ اول)</th><th>ارزش ۱۴۰۵ (میلیارد تومان)</th></tr></thead>
+        <tbody><tr><td colspan="7" class="muted">برای دیدن نتایج، عبارتی را جست‌وجو کنید.</td></tr></tbody>
+      </table>
+    </div>
+    <div id="drug-detail" class="detail" hidden></div>
+  </section>
+
+  <section id="atc" aria-labelledby="atc-h">
+    <h2 id="atc-h">گروه‌های ATC</h2>
+    <div class="alert warn">
+      <strong>هشدار:</strong> در سال ۱۴۰۴، <span id="atc-blank-1404"></span> از ردیف‌های فایل ماهانه و در نیمهٔ اول ۱۴۰۵، <span id="atc-blank-1405"></span> از ردیف‌ها کد ATC خالی دارند؛ بنابراین گروه «(blank)» بسیار بزرگ است و تحلیل ATC ناقص است. سهم ارزشی گروه خالی در ۱۴۰۴ برابر <span id="atc-blank-value-1404"></span> و در ۱۴۰۵ برابر <span id="atc-blank-value-1405"></span> است.
+    </div>
+    <div class="tabs" role="tablist">
+      <button type="button" class="tab active" data-atc-year="1404">سال ۱۴۰۴</button>
+      <button type="button" class="tab" data-atc-year="1405">نیمهٔ اول ۱۴۰۵</button>
+    </div>
+    <div id="atc-bars" class="atc-bars"></div>
+    <div class="table-wrap">
+      <table id="atc-table">
+        <thead><tr><th>گروه ATC</th><th>واحد فروش (عدد)</th><th>ارزش مصرف‌کننده (میلیارد تومان)</th><th>سهم ارزشی</th><th>کد ژنریک یکتا</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="provinces" aria-labelledby="prov-h">
+    <h2 id="provinces-h">فروش استانی</h2>
+    <div class="alert warn">
+      <strong>هشدار:</strong> مجموع استانی با مجموع ملی ماه متناظر برابر نیست (برش‌های متفاوت‌اند؛ با هم ترکیب نکنید):
+      فروردین ۱۴۰۴: واحد <span id="prov-diff-m1"></span>؛ شهریور ۱۴۰۴: واحد <span id="prov-diff-m6"></span>؛ اسفند ۱۴۰۴: واحد <span id="prov-diff-m12"></span>.
+    </div>
+    <p class="desc">جزئیات استانی فقط برای سه ماه سال ۱۴۰۴ موجود است.</p>
+    <div class="tabs" role="tablist">
+      <button type="button" class="tab active" data-prov-month="1">فروردین ۱۴۰۴</button>
+      <button type="button" class="tab" data-prov-month="6">شهریور ۱۴۰۴</button>
+      <button type="button" class="tab" data-prov-month="12">اسفند ۱۴۰۴</button>
+    </div>
+    <div class="table-wrap">
+      <table id="prov-table">
+        <thead><tr><th>#</th><th>استان</th><th>واحد فروش (عدد)</th><th>ارزش مصرف‌کننده (میلیارد تومان)</th><th>سهم ارزشی استان</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note" id="prov-note"></p>
+  </section>
+
+  <section id="caveats" aria-labelledby="cav-h">
+    <h2 id="cav-h">نکته‌های مهم</h2>
+    <ul class="caveats">
+      <li>سال ۱۴۰۵ فقط نیمهٔ اول (ماه‌های ۱ تا ۶) را پوشش می‌دهد؛ فایل سالانهٔ ۱۴۰۵ نیز همان مجموع نیمهٔ اول است و با مجموع ماهانه دقیقاً برابر است.</li>
+      <li id="cav-blank-month">در فایل ماهانهٔ ۱۴۰۴، ۴٬۴۷۲ ردیف بدون ماه وجود دارد که ارزش آن‌ها در هیچ‌یک از ردیف‌های ماهانه نیست و فقط در مجموع سالانه آمده است.</li>
+      <li>بخش بزرگی از ردیف‌ها کد ATC خالی دارند (۴۶٫۲٪ ردیف‌ها در ۱۴۰۴ و ۵۱٫۷٪ در نیمهٔ اول ۱۴۰۵)؛ تحلیل ATC ناقص است.</li>
+      <li>مجموع استانی با مجموع ملی ماه متناظر برابر نیست (فروردین ‎−۲۰٫۲٪، شهریور ‎+۵٫۶٪، اسفند ‎−۱۸٫۵٪ از نظر واحد)؛ این دو برش متفاوت‌اند و نباید با هم ترکیب شوند.</li>
+      <li>«فروش عددی» یعنی تعداد واحد (عدد قرص/آمپول و…)، نه تعداد بسته؛ تعداد بسته ستون جداگانه‌ای است.</li>
+      <li>قیمت‌ها، قیمت زمان عرضه‌اند؛ «میانگین قیمت هر واحد» برابر است با ارزش تقسیم بر واحد فروش و میانگینی موزون با ترکیب فروش (mix-weighted) است، نه میانگین سادهٔ قیمت‌ها.</li>
+      <li>همهٔ ارزش‌ها در فایل داده به ریال‌اند؛ برای تبدیل به تومان بر ۱۰ تقسیم کنید (در این داشبورد ارزش‌ها به «میلیارد تومان» نمایش داده شده‌اند).</li>
+      <li>سری ماهانهٔ هر دارو به‌تنهایی در این داشبورد نیست؛ در مخزن، در فایل <code>data/aggregates/generic_monthly.parquet</code> موجود است.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>منبع داده: سالنامه‌های رسمی سازمان غذا و داروی ایران (Iran Food and Drug Administration) — فایل‌های Excel سالنامه در پوشهٔ amarnameh درایو. جزئیات منابع و روش استخراج: <a href="https://github.com/ali98afshari-star/iran-pharma-statistics/blob/main/data/SOURCES.md">data/SOURCES.md</a></p>
+    <p>داده‌های این داشبورد از فایل <code>data.json</code> همین پوشه خوانده می‌شوند. مجوز: MIT.</p>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
